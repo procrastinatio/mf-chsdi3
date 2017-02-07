@@ -9484,3 +9484,6 @@ msgstr ""
 
 msgid "ch.bfe.solarenergie-eignung-fassaden.klasse"
 msgstr ""
+
+msgid "ch.bafu.gefahren-aktuelle_erdbeben"
+msgstr ""
