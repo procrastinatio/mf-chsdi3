@@ -2,7 +2,7 @@
 
 import unittest
 
-from chsdi.models.vector import getFallbackLangMatch, esriRest2Shapely
+from chsdi.models.vector import get_fallback_lang_match, esri_rest_to_shapely
 
 
 class Test_AttributesTranslations(unittest.TestCase):
@@ -13,42 +13,42 @@ class Test_AttributesTranslations(unittest.TestCase):
         lang = 'de'
         availableLangs = 'de'
         attr = 'toto'
-        self.assertEqual('toto', getFallbackLangMatch(queryableAttrs, lang, attr, availableLangs))
+        self.assertEqual('toto', get_fallback_lang_match(queryableAttrs, lang, attr, availableLangs))
 
     def test_lang_specific_attribute(self):
         queryableAttrs = ['toto', 'toto_de', 'toto_fr']
         lang = 'fr'
         availableLangs = 'fr'
         attr = 'toto_fr'
-        self.assertEqual('toto_fr', getFallbackLangMatch(queryableAttrs, lang, attr, availableLangs))
+        self.assertEqual('toto_fr', get_fallback_lang_match(queryableAttrs, lang, attr, availableLangs))
 
     def test_attribute_fallback_to_de(self):
         queryableAttrs = ['toto', 'toto_de', 'toto_fr']
         lang = 'en'
         availableLangs = 'de'
         attr = 'toto_de'
-        self.assertEqual('toto_de', getFallbackLangMatch(queryableAttrs, lang, attr, availableLangs))
+        self.assertEqual('toto_de', get_fallback_lang_match(queryableAttrs, lang, attr, availableLangs))
 
     def test_attribute_fallback_to_fr(self):
         queryableAttrs = ['toto', 'toto_fr', 'toto_de']
         lang = 'it'
         availableLangs = 'fr'
         attr = 'toto_fr'
-        self.assertEqual('toto_fr', getFallbackLangMatch(queryableAttrs, lang, attr, availableLangs))
+        self.assertEqual('toto_fr', get_fallback_lang_match(queryableAttrs, lang, attr, availableLangs))
 
     def test_point_geometry(self):
         geometry = {'type': 'Point', 'coordinates': (0.0, 0.0)}
-        shape = esriRest2Shapely(geometry)
+        shape = esri_rest_to_shapely(geometry)
         self.assertEqual('Point', shape.geom_type)
         self.assertEqual([(0.0, 0.0)], list(shape.coords))
 
     def test_false_geometry(self):
         # it returns the initial geometry
         geometry = {'type': 'onepoint', 'coordinates': (0.0, 0.0)}
-        shape = esriRest2Shapely(geometry)
+        shape = esri_rest_to_shapely(geometry)
         self.assertEqual(shape, geometry)
 
     def test_none_geometry(self):
         geometry = None
-        shape = esriRest2Shapely(geometry)
+        shape = esri_rest_to_shapely(geometry)
         self.assertEqual(None, shape)

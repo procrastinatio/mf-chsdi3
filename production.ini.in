@@ -19,7 +19,8 @@ pyramid.includes = pyramid_tm
 
 # SQLAlchemy database URL
 sqlalchemy.are.url = postgresql://${dbhost}:${dbport}/are_${dbstaging}
-sqlalchemy.bafu.url = postgresql://${dbhost}:${dbport}/bafu_${dbstaging}
+# TODO back to dbstaging (bad integration...)
+sqlalchemy.bafu.url = postgresql://${dbhost}:${dbport}/bafu_prod
 sqlalchemy.bak.url = postgresql://${dbhost}:${dbport}/bak_${dbstaging}
 sqlalchemy.bod.url = postgresql://${dbhost}:${dbport}/bod_${dbstaging}
 sqlalchemy.dritte.url = postgresql://${dbhost}:${dbport}/dritte_${dbstaging}

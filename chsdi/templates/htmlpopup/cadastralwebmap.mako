@@ -6,7 +6,7 @@
 
 <%def name="table_body(c, lang)">
 <%
-  from chsdi.models.vector import getScale
+  from chsdi.models.vector import get_scale
   from chsdi.lib.validation.identify import IdentifyServiceValidation
   request = context.get('request')
   defaultExtent = '42000,30000,350000,900000'
@@ -19,7 +19,7 @@
   params = CadastralWebMapParams(request)
   c['bbox'] = params.mapExtent.bounds
   c['bboxlv95'] = [2000000 + c['bbox'][0], 1000000 + c['bbox'][1], 2000000 + c['bbox'][2], 1000000 + c['bbox'][3]]
-  c['scale']  = getScale(params.imageDisplay, params.mapExtent)
+  c['scale']  = get_scale(params.imageDisplay, params.mapExtent)
   defaultCoord = [(c['bbox'][0]+c['bbox'][2])/2, (c['bbox'][1]+c['bbox'][3])/2]
   clickCoord = request.params.get('coord').split(',') if request.params.get('coord') else defaultCoord
 %>

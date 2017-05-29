@@ -97,7 +97,7 @@ def feature_attributes(request):
     attributes of vector layers. '''
     params = BaseLayersValidation(request)
     layerId = request.matchdict.get('layerId')
-    models = models_from_bodid(layerId)
+    models = models_from_bodid(layerId, srid=params.srid)
     # Models for the same layer have the same attributes
     if models is None:
         raise exc.HTTPBadRequest('No Vector Table was found for %s' % layerId)
@@ -122,7 +122,7 @@ def feature_attributes(request):
         for rowIndex, row in enumerate(query):
             # attrName as defined in the model
             for attrIndex, attrName in enumerate(attributes):
-                featureAttrs = row.getAttributes(excludePkey=False)
+                featureAttrs = row.get_attributes(exclude_pkey=False)
                 if attrName not in trackAttributesNames and \
                    attrName in featureAttrs:
                     fieldType = _find_type(model(), attrName)

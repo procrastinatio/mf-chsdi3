@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import re
 import decimal
 import datetime
 import functools
@@ -18,22 +19,17 @@ from chsdi.lib.helpers import float_raise_nan
 
 class EsriGeoJSONEncoder(GeoJSONEncoder):
 
-    srs = 21781
-
-    def _cleanup(self, ret):
+    def _cleanup(self, ret, wkid):
         ret.pop('coordinates', None)  # works like `del ret[key]` with no KeyErrors
         ret.pop('type', None)
+        ret.pop('crs', None)
         props = ret.pop('properties', None)
         if props:
             if 'attributes' not in ret:
                 ret['attributes'] = {}
             ret['attributes'].update(props)
-        if 'crs' in ret:
-            crs = ret['crs']
-            if crs['type'] == 'name':  # these two lines confuse me!!
-                pass
-        else:
-            ret['spatialReference'] = {'wkid': self.srs}
+        if wkid:
+            ret['spatialReference'] = {'wkid': wkid}
         return ret
 
     def _hasZ(self, coord, ret):
@@ -43,6 +39,10 @@ class EsriGeoJSONEncoder(GeoJSONEncoder):
 
     def default(self, obj):
         geom_type = None
+        wkid = None
+        if hasattr(obj, 'extra') and obj.extra is not None and 'crs' in obj.extra:
+            wkid = wkid_from_crs_name(obj.extra['crs']['properties']['name'])
+
         if hasattr(obj, '__geo_interface__'):
             geom_type = dict(obj.__geo_interface__)['type']
 
@@ -70,13 +70,13 @@ class EsriGeoJSONEncoder(GeoJSONEncoder):
                     esriType = 'esriGeometryPolyline'
                 ret['geometryType'] = esriType
 
-                return self._cleanup(ret)
+                return self._cleanup(ret, wkid)
 
             if isinstance(obj, (geojson.FeatureCollection)):
                 features = [self.default(feature) for feature in obj.features]
                 ret = dict(obj)
                 ret['features'] = features
-                return self._cleanup(ret)
+                return self._cleanup(ret, wkid)
 
             if isinstance(obj, (geojson.Point)):
                 ret = dict(obj)
@@ -87,7 +87,7 @@ class EsriGeoJSONEncoder(GeoJSONEncoder):
                     ret['x'], ret['y'] = coordinates
                 ret['type'] = 'esriGeometryPoint'
 
-                return self._cleanup(ret)
+                return self._cleanup(ret, wkid)
 
             if isinstance(obj, geojson.geometry.LineString):
                 ret = dict(obj)
@@ -97,7 +97,7 @@ class EsriGeoJSONEncoder(GeoJSONEncoder):
                 ret['type'] = 'esriGeometryPolyline'
                 ret = self._hasZ(xy, ret)
 
-                return self._cleanup(ret)
+                return self._cleanup(ret, wkid)
 
             if isinstance(obj, (geojson.MultiPoint)):
                 ret = dict(obj)
@@ -106,7 +106,7 @@ class EsriGeoJSONEncoder(GeoJSONEncoder):
                 ret['type'] = 'esriGeometryMultipoint'
                 ret = self._hasZ(xy, ret)
 
-                return self._cleanup(ret)
+                return self._cleanup(ret, wkid)
 
             if isinstance(obj, geojson.MultiLineString):
                 ret = dict(obj)
@@ -116,7 +116,7 @@ class EsriGeoJSONEncoder(GeoJSONEncoder):
                 ret['type'] = 'esriGeometryPolyline'
                 ret = self._hasZ(xy, ret)
 
-                return self._cleanup(ret)
+                return self._cleanup(ret, wkid)
 
             if isinstance(obj, (geojson.Polygon, geojson.geometry.Polygon)) or geom_type == 'Polygon':
                 ret = dict(obj)
@@ -126,7 +126,7 @@ class EsriGeoJSONEncoder(GeoJSONEncoder):
                 ret['type'] = 'esriGeometryPolygon'
                 ret = self._hasZ(xy, ret)
 
-                return self._cleanup(ret)
+                return self._cleanup(ret, wkid)
 
             if isinstance(obj, geojson.MultiPolygon):
                 ret = dict(obj)
@@ -136,7 +136,7 @@ class EsriGeoJSONEncoder(GeoJSONEncoder):
                 ret['type'] = 'esriGeometryPolygon'
                 ret = self._hasZ(xy, ret)
 
-                return self._cleanup(ret)
+                return self._cleanup(ret, wkid)
 
         return GeoJSONEncoder.default(self, obj)
 
@@ -146,13 +146,9 @@ class EsriSimple():
     @classmethod
     def to_instance(cls, ob, default=None, strict=False):
         coords = ob if isinstance(ob, list) else [float_raise_nan(x.strip()) for x in ob.split(',')]
+        wkid = wkid_from_crs_name(ob.extra['crs']['type']['properties']['name']) if hasattr(ob, 'extra') and 'crs' in ob.extra else 21781
 
-        wkid = 21781
         if len(coords) == 2:
-            x, y = coords
-            if x <= 180 and y <= 180:
-                wkid = 4326
-
             crs = Named(properties=dict(name="urn:ogc:def:crs:EPSG:%d" % wkid))
 
             return geojson.geometry.Point(coords, crs=crs)
@@ -166,15 +162,14 @@ class EsriSimple():
             raise ValueError("%r is not a simplified esri geometry", coords)
 
 
+# From geojson instance to esrijson dict
 class EsriGeoJSON(dict):
 
     @classmethod
     def to_instance(cls, ob, default=None, strict=False):
-
         mapping = geojson.mapping.to_mapping(ob)
 
         d = dict((str(k), mapping[k]) for k in mapping)
-
         wkid = 21781
         if 'spatialReference' in d:
             ref = d['spatialReference']
@@ -209,6 +204,7 @@ class EsriGeoJSON(dict):
 dumps = functools.partial(json.dumps, cls=EsriGeoJSONEncoder, use_decimal=True)
 
 
+# From esrijson string or object to geojson instance
 def loads(obj):
 
     try:
@@ -223,3 +219,10 @@ def loads(obj):
         raise ValueError("%r is not a recognized esri geometry type", obj)
 
     return obj
+
+
+def wkid_from_crs_name(crs_name):
+    r = re.match('^.*:([0-9]*)$', crs_name)
+    g = r.groups()
+    if len(g):
+        return int(r.groups()[0])

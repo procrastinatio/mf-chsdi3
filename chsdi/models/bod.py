@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from gatilegrid import GeoadminTileGrid
+from gatilegrid import getTileGrid
 from sqlalchemy import Column, Text, Integer, Boolean, DateTime, Float
 from sqlalchemy.dialects import postgresql
 
@@ -148,7 +148,7 @@ class LayersConfig(Base):
         return self.__dict__['geojsonUrl%s' % lang]
 
     def _getResolutionsFromMatrixSet(self, matrixSet):
-        gagrid = GeoadminTileGrid()
+        gagrid = getTileGrid(21781)()
         matrixSet = int(matrixSet.split('_')[1])
         return gagrid.RESOLUTIONS[0:matrixSet + 1]
 
@@ -308,7 +308,7 @@ class ServiceMetadataEn(Base, ServiceMetadata):
 
 
 def computeHeader(mapName):
-    gagrid = GeoadminTileGrid()
+    gagrid = getTileGrid(21781)()
     minZoom = 0
     maxZoom = 28
     dpi = 90.7
