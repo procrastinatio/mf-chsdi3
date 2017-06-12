@@ -88,41 +88,24 @@ class Vector(GeoInterface):
         if self.__add_properties__:
             for k in self.__add_properties__:
                 properties[k] = getattr(self, k)
-
         properties = self.insert_label(properties)
-        return geojson.Feature(id=id, geometry=geom, properties=properties)
+        bbox = None
+        try:
+            bbox = geom.bounds
+        except:
+            pass
+        return geojson.Feature(id=id,
+                               featureId=id,  # Duplicate id for backward compat...
+                               geometry=geom,
+                               crs=create_geojson_crs_extension(self.geometry_column().type.srid_out),
+                               properties=properties,
+                               bbox=bbox,
+                               layerBodId=self.__bodId__,
+                               layerName='')
 
     @property
     def srid(self):
         return self.geometry_column().type.srid
-
-    # Overrides GeoInterface
-    @property
-    def __geo_interface__(self):
-        feature = self.__read__()
-        extents = []
-        try:
-            shape = asShape(feature.geometry)
-            extents.append(shape.bounds)
-        except:
-            pass
-        try:
-            for geom in feature.geometry.geometries:
-                extents.append(asShape(geom).bounds)
-        except:
-            pass
-        return geojson.Feature(
-            id=self.id,
-            geometry=feature.geometry,
-            bbox=max(extents, key=extent_area) if extents else None,
-            properties=feature.properties,
-            crs=create_geojson_crs_extension(self.geometry_column().type.srid_out),
-            # For ESRI
-            layerBodId=self.__bodId__,
-            layerName='',
-            featureId=self.id,  # Remove me?
-            geometryType=feature.type
-        )
 
     @property
     def __esrijson_interface__(self):

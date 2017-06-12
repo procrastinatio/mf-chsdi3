@@ -50,7 +50,6 @@ class EsriGeoJSONEncoder(GeoJSONEncoder):
             return str(obj)
 
         if isinstance(obj, GeoInterface):
-            self.srs = obj.geometry_column().type.srid
             obj = obj.__geo_interface__
 
         if isinstance(obj, (geojson.GeoJSON)):
@@ -81,7 +80,7 @@ class EsriGeoJSONEncoder(GeoJSONEncoder):
             if isinstance(obj, (geojson.Point)):
                 ret = dict(obj)
                 if len(coordinates) == 3:
-                    ret["hasZ"] = True
+                    ret['hasZ'] = True
                     ret['x'], ret['y'], ret['z'] = coordinates
                 else:
                     ret['x'], ret['y'] = coordinates
