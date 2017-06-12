@@ -596,7 +596,7 @@ def _attributes(request):
     ''' This service exposes preview values based on a layer Id
     and an attribute name (mapped in the model) '''
     MAX_ATTR_VALUES = 50
-    attributesValues = []
+    attributes_values = []
     params = AttributesServiceValidation(request)
 
     models = models_from_bodid(params.layerId, srid=params.srid)
@@ -605,28 +605,28 @@ def _attributes(request):
         raise exc.HTTPBadRequest('No Vector Table was found for %s' % params.layerId)
 
     # Check that the attribute provided is found at least in one model
-    modelToQuery = None
+    model_to_query = None
     for model in models:
         attributes = model().get_attributes_keys()
         if params.attribute in attributes:
-            modelToQuery = model
+            model_to_query = model
             break
-    if modelToQuery is None:
+    if model_to_query is None:
         raise exc.HTTPBadRequest('No attribute %s was found for %s' % (params.attribute, params.layerId))
 
-    col = modelToQuery.get_column_by_property_name(params.attribute)
-    colType = str(col.type)
-    if colType in ['DATE', 'INTEGER', 'NUMERIC']:
+    col = model_to_query.get_column_by_property_name(params.attribute)
+    col_type = str(col.type)
+    if col_type in ('DATE', 'INTEGER', 'NUMERIC'):
         query = request.db.query(func.max(col).label('max'), func.min(col).label('min'))
         res = query.one()
         return {'values': [res.min, res.max]}
-    else:
-        query = request.db.query(col).distinct().order_by(col)
-        query = query.limit(MAX_ATTR_VALUES)
-        for attr in query:
-            if len(attr):
-                attributesValues.append(attr[0])
-        return {'values': sorted(attributesValues)}
+    # Return a sample of values otherwise
+    query = request.db.query(col).distinct().order_by(col)
+    query = query.limit(MAX_ATTR_VALUES)
+    for attr in query:
+        if len(attr):
+            attributes_values.append(attr[0])
+    return {'values': sorted(attributes_values)}
 
 
 def _find(request):

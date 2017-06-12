@@ -318,6 +318,15 @@ def center_from_box2d(box2D):
         ]
 
 
+def shift_box2d_coordinates_to_lv95(box2D):
+    return [
+        box2D[0] + 2e6,
+        box2D[1] + 1e6,
+        box2D[2] + 2e6,
+        box2D[3] + 1e6,
+    ]
+
+
 def parse_date_string(dateStr, format_input='%Y-%m-%d', format_output='%d.%m.%Y'):
     try:
         return datetime.datetime.strptime(

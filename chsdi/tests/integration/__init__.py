@@ -42,7 +42,7 @@ class TestsBase(TestCase):
             self.assertIn('type', feature['geometry'])
             self.assertIn('bbox', feature)
             self.assertEqual(feature['crs']['properties']['name'], 'urn:ogc:def:crs:EPSG:%s' % srid)
-            self.assertSrid(feature, srid)
+            self.assertBBoxValidity(feature['bbox'], srid)
 
     def assertEsrijsonFeature(self, feature, srid, hasGeometry=True):
         self.assertIn('id', feature)
@@ -52,12 +52,12 @@ class TestsBase(TestCase):
             self.assertIn('geometry', feature)
             self.assertIn('bbox', feature)
             self.assertEqual(feature['spatialReference']['wkid'], srid)
-            self.assertSrid(feature, srid)
+            self.assertBBoxValidity(feature['bbox'], srid)
 
-    def assertSrid(self, feature, srid):
+    def assertBBoxValidity(self, bbox, srid):
         if srid == 21781:
-            self.assertLess(feature['bbox'][0], self.grids['2056'].MINX)
-            self.assertLess(feature['bbox'][1], self.grids['2056'].MINY)
+            self.assertLess(bbox[0], self.grids['2056'].MINX)
+            self.assertLess(bbox[1], self.grids['2056'].MINY)
         if srid == 2056:
-            self.assertGreater(feature['bbox'][0], self.grids['2056'].MINX)
-            self.assertGreater(feature['bbox'][1], self.grids['2056'].MINY)
+            self.assertGreater(bbox[0], self.grids['2056'].MINX)
+            self.assertGreater(bbox[1], self.grids['2056'].MINY)

@@ -225,7 +225,7 @@ class Vector(GeoInterface):
         geom_column_key = self.__mapper__.get_property_by_column(self.geometry_column()).key
         geom_column_to_return_key = self.__mapper__.get_property_by_column(self.geometry_column_to_return()).key
         keys_to_exclude = [geom_column_key, geom_column_to_return_key]
-        if not exclude_pkey:
+        if exclude_pkey:
             primary_key_column = self.__mapper__.get_property_by_column(self.primary_key_column()).key
             keys_to_exclude.append(primary_key_column)
 
