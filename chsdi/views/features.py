@@ -21,7 +21,6 @@ from chsdi.lib.validation.find import FindServiceValidation
 from chsdi.lib.validation.identify import IdentifyServiceValidation
 from chsdi.lib.validation.geometryservice import GeometryServiceValidation
 from chsdi.lib.helpers import format_query, decompress_gzipped_string, center_from_box2d, make_geoadmin_url
-from chsdi.lib.exceptions import HTTPBandwidthLimited
 from chsdi.lib.filters import full_text_search
 from chsdi.models.clientdata_dynamodb import get_bucket
 from chsdi.models import models_from_bodid, perimeter_models_from_bodid, queryable_models_from_bodid, oereb_models_from_bodid
@@ -31,7 +30,6 @@ from chsdi.models.grid import get_grid_spec, get_grid_layer_properties
 from chsdi.views.layers import get_layer, get_layers_metadata_for_params
 
 
-PROTECTED_GEOMETRY_LAYERS = ['ch.bfs.gebaeude_wohnungs_register']
 MAX_FEATURES = 201
 
 
@@ -246,7 +244,7 @@ def _identify_grid(params, layerBodIds):
 
     # For select by rectangle
     if params.geometryType == 'esriGeometryEnvelope':
-        coords = geometry.coordinates[0]
+        coords = list(geometry.exterior.coords)
         minx = miny = float('inf')
         maxx = maxy = float('-inf')
         for x, y in coords:
@@ -257,7 +255,7 @@ def _identify_grid(params, layerBodIds):
         bbox = [minx, miny, maxx, maxy]
         pointCoordinates = center_from_box2d(bbox)
     else:
-        pointCoordinates = geometry.coordinates
+        pointCoordinates = list(geometry.coords)[0]
     bucketName = params.request.registry.settings['vector_bucket']
     profileName = params.request.registry.settings['vector_profilename']
     bucket = get_bucket(profile_name=profileName, bucket_name=bucketName)
@@ -740,39 +738,14 @@ def _cut(request):
     return results
 
 
-def has_long_geometry(feature):
-    return bool(len(getattr(feature, feature.geometry_column_to_return().name).data) > 1000000)
-
-
 def _process_feature(feature, params):
-    def convert_no_geom(feature, geometryFormat):
-        if geometryFormat == 'geojson':
-            f = feature.__geojson_interface__
-        else:
-            f = feature.__esrijson_interface__
-        return f
-
-    if has_long_geometry(feature):
-        raise HTTPBandwidthLimited('Feature ID %s: is too large' % feature.id)
-
-    if params.returnGeometry:
-        # Filter out this layer individually, disregarding of the global returnGeometry
-        # setting
-        if not params.varnish_authorized and \
-                feature.__bodId__ in PROTECTED_GEOMETRY_LAYERS:
-            f = convert_no_geom(feature, params.geometryFormat)
-        else:
-            f = feature.__geo_interface__
+    if params.geometryFormat == 'geojson':
+        feature.__geojson_interface__(params.translate,
+                                      params.returnGeometry)
     else:
-        f = convert_no_geom(feature, params.geometryFormat)
-    # TODO find a way to use translate directly in the model
-    if hasattr(f, 'extra'):
-        layerBodId = f.extra['layerBodId']
-        f.extra['layerName'] = params.translate(layerBodId)
-    else:
-        layerBodId = f.get('layerBodId')
-        f['layerName'] = params.translate(layerBodId)
-    return f
+        feature.__esrijson_interface__(params.translate,
+                                       params.returnGeometry)
+    return feature.__geo_interface__
 
 
 def _get_features_releases(model, params):

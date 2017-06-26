@@ -41,7 +41,6 @@ class TestsBase(TestCase):
             self.assertIn('type', feature)
             self.assertIn('type', feature['geometry'])
             self.assertIn('bbox', feature)
-            self.assertEqual(feature['crs']['properties']['name'], 'urn:ogc:def:crs:EPSG:%s' % srid)
             self.assertBBoxValidity(feature['bbox'], srid)
 
     def assertEsrijsonFeature(self, feature, srid, hasGeometry=True):
@@ -51,7 +50,7 @@ class TestsBase(TestCase):
         if hasGeometry:
             self.assertIn('geometry', feature)
             self.assertIn('bbox', feature)
-            self.assertEqual(feature['spatialReference']['wkid'], srid)
+            self.assertEqual(feature['geometry']['spatialReference']['wkid'], srid)
             self.assertBBoxValidity(feature['bbox'], srid)
 
     def assertBBoxValidity(self, bbox, srid):

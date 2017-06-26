@@ -687,7 +687,7 @@ class TestIdentifyService(TestsBase):
         params = {'layers': 'all:ch.bav.haltestellen-oev',
                   'geometry': '643952.5,164121.24999999997',
                   'geometryFormat': 'geojson',
-                  'geometryType': 'esriGeometryEnvelope',
+                  'geometryType': 'esriGeometryPoint',
                   'imageDisplay': '1641,867,96',
                   'mapExtent': '533750,136249.99999999994,550250,174249.99999999997',
                   'tolerance': '5',
@@ -696,6 +696,8 @@ class TestIdentifyService(TestsBase):
         resp = self.testapp.get('/rest/services/all/MapServer/identify', params=params, headers=accept_headers, status=200)
         self.assertEqual(resp.content_type, 'application/json')
         self.assertEqual(len(resp.json['results']), 0)
+        params['geometryType'] = 'esriGeometryEnvelope'
+        resp = self.testapp.get('/rest/services/all/MapServer/identify', params=params, headers=accept_headers, status=400)
 
     def test_identify_order_by_distance(self):
         params = {'layers': 'all:ch.bfs.gebaeude_wohnungs_register',

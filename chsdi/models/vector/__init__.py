@@ -2,19 +2,18 @@
 
 import re
 import geojson
+import esrijson
 import datetime
 import decimal
 from pyramid.threadlocal import get_current_registry
 from chsdi.lib.exceptions import HTTPBandwidthLimited
 from chsdi.lib.sqlalchemy_customs import TransformedGeometry
-from shapely.geometry import asShape
 from shapely.geometry import box
 from sqlalchemy.sql import func
 from sqlalchemy.orm.util import class_mapper
 from sqlalchemy.orm.properties import ColumnProperty
 from geoalchemy2.elements import WKBElement
 from geoalchemy2.shape import to_shape
-from papyrus.geo_interface import GeoInterface
 
 
 Geometry2D = TransformedGeometry(geometry_type='GEOMETRY', dimension=2, srid=21781)
@@ -47,19 +46,19 @@ def get_tolerance_meters(imageDisplay, mapExtent, tolerance):
         map_meter_height = abs(bounds[1] - bounds[3])
         img_px_width = imageDisplay[0]
         img_px_height = imageDisplay[1]
-        tolerance_meters = max(map_meter_width / img_px_width, map_meter_height / img_px_height) * tolerance
+        tolerance_meters = max(map_meter_width / img_px_width,
+                               map_meter_height / img_px_height) * tolerance
         return tolerance_meters
     return 0.0
 
 
 def _wrap_wkb_geometry(geometry, srid):
     if not isinstance(geometry, WKBElement):
-        geom = esri_rest_to_shapely(geometry)
-        return WKBElement(buffer(geom.wkb), srid)
+        return WKBElement(buffer(geometry.wkb), srid)
     return geometry
 
 
-class Vector(GeoInterface):
+class Vector(object):
     attributes = {}
 
     # Overrides GeoInterface
@@ -84,35 +83,59 @@ class Vector(GeoInterface):
                         geom = to_shape(val)
                 elif not col.foreign_keys and not isinstance(col.type, TransformedGeometry):
                     properties[p.key] = val
-
-        if self.__add_properties__:
-            for k in self.__add_properties__:
-                properties[k] = getattr(self, k)
         properties = self.insert_label(properties)
         bbox = None
         try:
             bbox = geom.bounds
         except:
             pass
-        return geojson.Feature(id=id,
-                               featureId=id,  # Duplicate id for backward compat...
-                               geometry=geom,
-                               crs=create_geojson_crs_extension(self.geometry_column().type.srid_out),
-                               properties=properties,
-                               bbox=bbox,
-                               layerBodId=self.__bodId__,
-                               layerName='')
+
+        return id, geom, properties, bbox
 
     @property
     def srid(self):
         return self.geometry_column().type.srid
 
     @property
-    def __esrijson_interface__(self):
+    def __geo_interface__(self):
+        if self.geometryFormat == 'geojson':
+            return self.read_geojson()
+        else:
+            return self.read_esrijson()
+
+    def __esrijson_interface__(self, trans, returnGeometry):
+        self.geometryFormat = 'esrijson'
+        self.trans = trans
+        self.returnGeometry = returnGeometry
+
+    def __geojson_interface__(self, trans, returnGeometry):
+        self.geometryFormat = 'geojson'
+        self.trans = trans
+        self.returnGeometry = returnGeometry
+
+    def read_esrijson(self):
+        if self.returnGeometry:
+            id, geom, properties, bbox = self.__read__()
+            return esrijson.Feature(id=id,
+                                   featureId=id,  # Duplicate id for backward compat...
+                                   geometry=geom,
+                                   wkid=self.geometry_column().type.srid_out,
+                                   attributes=properties,
+                                   bbox=bbox,
+                                   layerBodId=self.__bodId__,
+                                   layerName=self.trans(self.__bodId__))
         return self._no_geom_template()
 
-    @property
-    def __geojson_interface__(self):
+    def read_geojson(self):
+        if self.returnGeometry:
+            id, geom, properties, bbox = self.__read__()
+            return geojson.Feature(id=id,
+                                   featureId=id,  # Duplicate id for backward compat...
+                                   geometry=geom,
+                                   properties=properties,
+                                   bbox=bbox,
+                                   layerBodId=self.__bodId__,
+                                   layerName=self.trans(self.__bodId__))
         return self._no_geom_template(attrs_name='properties')
 
     def _no_geom_template(self, attrs_name='attributes'):
@@ -148,8 +171,7 @@ class Vector(GeoInterface):
     def geom_filter(cls, geometry, imageDisplay, mapExtent, tolerance, srid):
         tolerance_meters = get_tolerance_meters(imageDisplay, mapExtent, tolerance)
         geom_column = cls.geometry_column()
-        geom = esri_rest_to_shapely(geometry)
-        wkb_geometry = WKBElement(buffer(geom.wkb), srid)
+        wkb_geometry = WKBElement(buffer(geometry.wkb), srid)
         return func.ST_DWITHIN(geom_column,
                                transform_geometry(geom_column, wkb_geometry, srid),
                                tolerance_meters)
@@ -184,8 +206,7 @@ class Vector(GeoInterface):
         tolerance_meters = get_tolerance_meters(imageDisplay, mapExtent, tolerance)
         # If limit is equal to 1 we have to be accurate
         if tolerance_meters <= 250.0 or limit == 1:
-            geom = esri_rest_to_shapely(geometry)
-            wkb_geometry = WKBElement(buffer(geom.wkb), srid)
+            wkb_geometry = WKBElement(buffer(geometry.wkb), srid)
             geom_column = cls.geometry_column()
             return func.ST_DISTANCE(geom_column, transform_geometry(geom_column, wkb_geometry, srid))
         return None
@@ -265,13 +286,6 @@ def format_attribute(attribute):
         return attribute
 
 
-def esri_rest_to_shapely(geometry):
-    try:
-        return asShape(geometry)
-    except ValueError:
-        return geometry
-
-
 def extent_area(i):
     geom = box(i[0], i[1], i[2], i[3])
     return geom.area
@@ -306,12 +320,3 @@ def get_fallback_lang_match(queryable_attrs, lang, attr, available_langs):
     else:
         # Not based on lang
         return attr
-
-
-def create_geojson_crs_extension(srid):
-    return {
-        'type': 'name',
-        'properties': {
-            'name': 'urn:ogc:def:crs:EPSG:%s' % srid
-        }
-    }
