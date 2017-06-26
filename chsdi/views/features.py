@@ -302,7 +302,10 @@ def _get_feature_service(request):
     params = GetFeatureServiceValidation(request)
     features = []
     for feature, vector_model in _get_features(params):
-        features.append(feature)
+        if hasattr(params, 'featureIds') and len(params.featureIds) > 1:
+            features.append(feature['feature'])
+        else:
+            features.append(feature)
     if len(features) == 1:
         return features[0]
     return features

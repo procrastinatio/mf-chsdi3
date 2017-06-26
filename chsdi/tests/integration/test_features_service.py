@@ -273,8 +273,8 @@ class TestFeaturesView(TestsBase):
     def test_several_features(self):
         resp = self.testapp.get('/rest/services/ech/MapServer/ch.bafu.bundesinventare-bln/1,2', status=200)
         features = resp.json['features']
-        feature1 = features[0]['feature']
-        feature2 = features[1]['feature']
+        feature1 = features[0]
+        feature2 = features[1]
         self.assertEqual(len(features), 2)
         self.assertEqual(feature1['id'], 1)
         self.assertEqual(feature2['id'], 2)
@@ -285,8 +285,8 @@ class TestFeaturesView(TestsBase):
         resp = self.testapp.get('/rest/services/ech/MapServer/ch.bafu.bundesinventare-bln/1,2', params={'geometryFormat': 'geojson'}, status=200)
         self.assertEqual(len(resp.json['features']), 2)
         features = resp.json['features']
-        feature1 = features[0]['feature']
-        feature2 = features[1]['feature']
+        feature1 = features[0]
+        feature2 = features[1]
         self.assertEqual(len(features), 2)
         self.assertEqual(feature1['id'], 1)
         self.assertEqual(feature2['id'], 2)
