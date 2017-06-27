@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import unittest
+from chsdi.models.vector import get_fallback_lang_match
 
-from chsdi.models.vector import get_fallback_lang_match, esri_rest_to_shapely
 
-
-class Test_AttributesTranslations(unittest.TestCase):
+class TestAttributesTranslations(unittest.TestCase):
 
     def test_no_lang_specific_attribute(self):
         # No match, so no based on lang - return attr
@@ -35,20 +34,3 @@ class Test_AttributesTranslations(unittest.TestCase):
         availableLangs = 'fr'
         attr = 'toto_fr'
         self.assertEqual('toto_fr', get_fallback_lang_match(queryableAttrs, lang, attr, availableLangs))
-
-    def test_point_geometry(self):
-        geometry = {'type': 'Point', 'coordinates': (0.0, 0.0)}
-        shape = esri_rest_to_shapely(geometry)
-        self.assertEqual('Point', shape.geom_type)
-        self.assertEqual([(0.0, 0.0)], list(shape.coords))
-
-    def test_false_geometry(self):
-        # it returns the initial geometry
-        geometry = {'type': 'onepoint', 'coordinates': (0.0, 0.0)}
-        shape = esri_rest_to_shapely(geometry)
-        self.assertEqual(shape, geometry)
-
-    def test_none_geometry(self):
-        geometry = None
-        shape = esri_rest_to_shapely(geometry)
-        self.assertEqual(None, shape)
