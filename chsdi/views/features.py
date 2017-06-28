@@ -743,12 +743,10 @@ def _cut(request):
 
 def _process_feature(feature, params):
     if params.geometryFormat == 'geojson':
-        feature.__geojson_interface__(params.translate,
-                                      params.returnGeometry)
-    else:
-        feature.__esrijson_interface__(params.translate,
-                                       params.returnGeometry)
-    return feature.__geo_interface__
+        return feature.to_geojson(params.translate,
+                           params.returnGeometry)
+    return feature.to_esrijson(params.translate,
+                               params.returnGeometry)
 
 
 def _get_features_releases(model, params):

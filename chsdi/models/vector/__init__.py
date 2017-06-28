@@ -96,25 +96,8 @@ class Vector(object):
     def srid(self):
         return self.geometry_column().type.srid
 
-    @property
-    def __geo_interface__(self):
-        if self.geometryFormat == 'geojson':
-            return self.read_geojson()
-        else:
-            return self.read_esrijson()
-
-    def __esrijson_interface__(self, trans, returnGeometry):
-        self.geometryFormat = 'esrijson'
-        self.trans = trans
-        self.returnGeometry = returnGeometry
-
-    def __geojson_interface__(self, trans, returnGeometry):
-        self.geometryFormat = 'geojson'
-        self.trans = trans
-        self.returnGeometry = returnGeometry
-
-    def read_esrijson(self):
-        if self.returnGeometry:
+    def to_esrijson(self, trans, returnGeometry):
+        if returnGeometry:
             id, geom, properties, bbox = self.__read__()
             return esrijson.Feature(id=id,
                                    featureId=id,  # Duplicate id for backward compat...
@@ -123,11 +106,11 @@ class Vector(object):
                                    attributes=properties,
                                    bbox=bbox,
                                    layerBodId=self.__bodId__,
-                                   layerName=self.trans(self.__bodId__))
+                                   layerName=trans(self.__bodId__))
         return self._no_geom_template()
 
-    def read_geojson(self):
-        if self.returnGeometry:
+    def to_geojson(self, trans, returnGeometry):
+        if returnGeometry:
             id, geom, properties, bbox = self.__read__()
             return geojson.Feature(id=id,
                                    featureId=id,  # Duplicate id for backward compat...
@@ -135,7 +118,7 @@ class Vector(object):
                                    properties=properties,
                                    bbox=bbox,
                                    layerBodId=self.__bodId__,
-                                   layerName=self.trans(self.__bodId__))
+                                   layerName=trans(self.__bodId__))
         return self._no_geom_template(attrs_name='properties')
 
     def _no_geom_template(self, attrs_name='attributes'):
