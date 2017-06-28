@@ -7,7 +7,7 @@ import datetime
 import decimal
 from pyramid.threadlocal import get_current_registry
 from chsdi.lib.exceptions import HTTPBandwidthLimited
-from chsdi.lib.sqlalchemy_customs import TransformedGeometry
+from chsdi.models.types import GeometryChsdi
 from shapely.geometry import box
 from sqlalchemy.sql import func
 from sqlalchemy.orm.util import class_mapper
@@ -16,8 +16,8 @@ from geoalchemy2.elements import WKBElement
 from geoalchemy2.shape import to_shape
 
 
-Geometry2D = TransformedGeometry(geometry_type='GEOMETRY', dimension=2, srid=21781)
-Geometry3D = TransformedGeometry(geometry_type='GEOMETRY', dimension=3, srid=21781)
+Geometry2D = GeometryChsdi(geometry_type='GEOMETRY', dimension=2, srid=21781)
+Geometry3D = GeometryChsdi(geometry_type='GEOMETRY', dimension=3, srid=21781)
 
 
 def get_resolution(imageDisplay, mapExtent):
@@ -74,14 +74,17 @@ class Vector(object):
                 val = getattr(self, p.key)
                 if col.primary_key:
                     id = val
-                elif isinstance(col.type, TransformedGeometry) and col.name == self.geometry_column_to_return().name:
+                elif (isinstance(col.type, GeometryChsdi) and
+                      col.name == self.geometry_column_to_return().name):
                     if hasattr(self, '_shape'):
                         geom = self._shape
                     elif val is not None:
                         if len(val.data) > 1000000:
-                            raise HTTPBandwidthLimited('Feature ID %s: is too large' % self.id)
+                            raise HTTPBandwidthLimited(
+                                'Feature ID %s: is too large' % self.id)
                         geom = to_shape(val)
-                elif not col.foreign_keys and not isinstance(col.type, TransformedGeometry):
+                elif (not col.foreign_keys and
+                      not isinstance(col.type, GeometryChsdi)):
                     properties[p.key] = val
         properties = self.insert_label(properties)
         bbox = None
@@ -222,7 +225,7 @@ class Vector(object):
     @classmethod
     def set_geometry_srid_out(cls, srid_out):
         for col in cls.__mapper__.columns:
-            if isinstance(col.type, TransformedGeometry):
+            if isinstance(col.type, GeometryChsdi):
                 col.type.srid_out = srid_out
 
     def get_orm_columns_names(self, exclude_pkey=True):
@@ -300,6 +303,5 @@ def get_fallback_lang_match(queryable_attrs, lang, attr, available_langs):
                 attr_to_match = replace_last(attr, suffix_attr, suffix)
                 if attr_to_match in queryable_attrs:
                     return attr_to_match
-    else:
-        # Not based on lang
-        return attr
+    # Not based on lang
+    return attr
