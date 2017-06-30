@@ -279,7 +279,7 @@ def imagesize_from_metafile(tileUrlBasePath, bvnummer):
     return (width, height)
 
 
-def transformCoordinate(wkt, srid_from, srid_to):
+def transform_coordinate(wkt, srid_from, srid_to):
     srid_in = osr.SpatialReference()
     srid_in.ImportFromEPSG(srid_from)
     srid_out = osr.SpatialReference()

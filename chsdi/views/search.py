@@ -1,16 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import re
-
-from pyramid.view import view_config
 import pyramid.httpexceptions as exc
+from pyramid.view import view_config
 
 from shapely.geometry import box, Point
 
 from chsdi.lib.validation.search import SearchValidation
-from chsdi.lib.helpers import (
-    format_search_text, transformCoordinate, parse_box2d, center_from_box2d
-)
+from chsdi.lib.helpers import format_search_text, transform_coordinate, parse_box2d
+from chsdi.lib.helpers import shift_box2d_coordinates_to_lv95, center_from_box2d
 from chsdi.lib.sphinxapi import sphinxapi
 from chsdi.lib import mortonspacekey as msk
 
@@ -45,8 +43,11 @@ class Search(SearchValidation):
         self.results = {'results': []}
         self.request = request
 
+        morton_box = [420000, 30000, 900000, 510000]
+        if self.srid == 2056:
+            morton_box = shift_box2d_coordinates_to_lv95(morton_box)
         self.quadtree = msk.QuadTree(
-            msk.BBox(420000, 30000, 900000, 510000), 20)
+            msk.BBox(*morton_box), 20)
         self.sphinx = sphinxapi.SphinxClient()
         self.sphinx.SetServer(request.registry.settings['sphinxhost'], 9312)
         self.sphinx.SetMatchMode(sphinxapi.SPH_MATCH_EXTENDED)
@@ -268,7 +269,7 @@ class Search(SearchValidation):
     def _get_geoanchor_from_bbox(self):
         center = center_from_box2d(self.bbox)
         wkt = 'POINT(%s %s)' % (center[0], center[1])
-        return transformCoordinate(wkt, 21781, 4326)
+        return transform_coordinate(wkt, self.srid, 4326)
 
     def _query_fields(self, fields):
         # 10a, 10b needs to be interpreted as digit
@@ -471,10 +472,7 @@ class Search(SearchValidation):
 
     def _bbox_intersection(self, ref, result):
         def _is_point(bbox):
-            if bbox[0] == bbox[2] and bbox[1] == bbox[3]:
-                return True
-            else:
-                return False
+            return bbox[0] == bbox[2] and bbox[1] == bbox[3]
         try:
             refbox = box(ref[0], ref[1], ref[2], ref[3]) if not _is_point(ref) else Point(ref[0], ref[1])
             arr = parse_box2d(result)
