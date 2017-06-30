@@ -4,7 +4,7 @@ from gatilegrid import getTileGrid
 from sqlalchemy import Column, Unicode, Integer, Boolean, DateTime, Float
 from sqlalchemy.dialects import postgresql
 
-from chsdi.lib.helpers import make_agnostic, shift_box2d_coordinates_to_lv95
+from chsdi.lib.helpers import make_agnostic, shift_to
 from chsdi.models import bases, models_from_bodid, get_models_attributes_keys
 
 Base = bases['bod']
@@ -117,7 +117,7 @@ class LayersConfig(Base):
                             val, params.srid)
                 elif k == 'extent':  # Used for the shop, are still in lv03
                     if val and params.srid == 2056:
-                        config['extent'] = shift_box2d_coordinates_to_lv95(val)
+                        config['extent'] = shift_to(val, 2056)
                     else:
                         config['extent'] = val
                 else:

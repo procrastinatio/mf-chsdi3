@@ -318,13 +318,17 @@ def center_from_box2d(box2D):
         ]
 
 
-def shift_box2d_coordinates_to_lv95(box2D):
-    return [
-        box2D[0] + 2e6,
-        box2D[1] + 1e6,
-        box2D[2] + 2e6,
-        box2D[3] + 1e6,
-    ]
+def shift_to(coords, srid):
+    cds = []
+    x_offset = 2e6
+    y_offset = 1e6
+    while len(coords) > 0:
+        c = coords.pop(0)
+        if srid == 2056:
+            cds.append(c + y_offset if len(coords) % 2 else c + x_offset)
+        elif srid == 21781:
+            cds.append(c - y_offset if len(coords) % 2 else c - x_offset)
+    return cds
 
 
 def parse_date_string(dateStr, format_input='%Y-%m-%d', format_output='%d.%m.%Y'):

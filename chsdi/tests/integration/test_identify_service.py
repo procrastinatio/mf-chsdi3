@@ -176,6 +176,14 @@ class TestIdentifyService(TestsBase):
         self.assertEqual(resp.content_type, 'application/json')
         self.assertIn('results', resp.json)
         self.assertEqual(len(resp.json['results']), 1)
+        params['sr'] = '2056'
+        params['geometry'] = shift_to_lv95(params['geometry'])
+        params['mapExtent'] = shift_to_lv95(params['mapExtent'])
+        resp_2 = self.testapp.get('/rest/services/ech/MapServer/identify', params=params, headers=accept_headers, status=200)
+        self.assertEqual(resp_2.content_type, 'application/json')
+        self.assertGeojsonFeature(resp_2.json['results'][0], 2056)
+
+        self.assertEqual(resp.json['results'][0]['id'], resp_2.json['results'][0]['id'])
 
     def test_identify_valid_envelope_on_grid(self):
         params = {'geometry': '555000,171125,556000,172125',
@@ -614,7 +622,8 @@ class TestIdentifyService(TestsBase):
 
     def test_identify_bbox_offset(self):
         params = {'layers': 'all:ch.bazl.luftfahrthindernis',
-                  'timeInstant': '2015', 'geometryFormat': 'geojson',
+                  'timeInstant': '2015',
+                  'geometryFormat': 'geojson',
                   'geometryType': 'esriGeometryEnvelope',
                   'geometry': '573788,93220,750288,192720',
                   'imageDisplay': '1920,778,96',

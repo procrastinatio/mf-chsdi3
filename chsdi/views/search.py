@@ -8,7 +8,7 @@ from shapely.geometry import box, Point
 
 from chsdi.lib.validation.search import SearchValidation
 from chsdi.lib.helpers import format_search_text, transform_coordinate, parse_box2d
-from chsdi.lib.helpers import shift_box2d_coordinates_to_lv95, center_from_box2d
+from chsdi.lib.helpers import shift_to, center_from_box2d
 from chsdi.lib.sphinxapi import sphinxapi
 from chsdi.lib import mortonspacekey as msk
 
@@ -45,7 +45,7 @@ class Search(SearchValidation):
 
         morton_box = [420000, 30000, 900000, 510000]
         if self.srid == 2056:
-            morton_box = shift_box2d_coordinates_to_lv95(morton_box)
+            morton_box = shift_to(morton_box, 2056)
         self.quadtree = msk.QuadTree(
             msk.BBox(*morton_box), 20)
         self.sphinx = sphinxapi.SphinxClient()

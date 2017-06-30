@@ -16,11 +16,12 @@ from sqlalchemy import Text, Unicode, Integer, Boolean, Numeric, Date
 from sqlalchemy import text
 from geoalchemy2.types import Geometry
 
-from chsdi.lib.validation.features import HtmlPopupServiceValidation, ExtendedHtmlPopupServiceValidation, GetFeatureServiceValidation, AttributesServiceValidation
+from chsdi.lib.validation.features import HtmlPopupServiceValidation, ExtendedHtmlPopupServiceValidation
+from chsdi.lib.validation.features import GetFeatureServiceValidation, AttributesServiceValidation
 from chsdi.lib.validation.find import FindServiceValidation
 from chsdi.lib.validation.identify import IdentifyServiceValidation
 from chsdi.lib.validation.geometryservice import GeometryServiceValidation
-from chsdi.lib.helpers import format_query, decompress_gzipped_string, center_from_box2d, make_geoadmin_url
+from chsdi.lib.helpers import format_query, decompress_gzipped_string, center_from_box2d, make_geoadmin_url, shift_to
 from chsdi.lib.filters import full_text_search
 from chsdi.models.clientdata_dynamodb import get_bucket
 from chsdi.models import models_from_bodid, perimeter_models_from_bodid, queryable_models_from_bodid, oereb_models_from_bodid
@@ -255,7 +256,9 @@ def _identify_grid(params, layerBodIds):
         bbox = [minx, miny, maxx, maxy]
         pointCoordinates = center_from_box2d(bbox)
     else:
-        pointCoordinates = list(geometry.coords)[0]
+        pointCoordinates = list(list(geometry.coords)[0])
+    if params.srid == 2056:
+        pointCoordinates = shift_to(pointCoordinates, 21781)
     bucketName = params.request.registry.settings['vector_bucket']
     profileName = params.request.registry.settings['vector_profilename']
     bucket = get_bucket(profile_name=profileName, bucket_name=bucketName)
@@ -274,6 +277,10 @@ def _identify_grid(params, layerBodIds):
                 # For some reason we define the id twice..
                 feature['featureId'] = feature['id']
                 feature['properties']['label'] = feature['id']
+                if params.srid == 2056:
+                    coords = feature['geometry']['coordinates']
+                    coords = [shift_to(c, 2056) for c in coords[0]]
+                    feature['geometry']['coordinates'] = coords
                 features.append(feature)
 
     return features
