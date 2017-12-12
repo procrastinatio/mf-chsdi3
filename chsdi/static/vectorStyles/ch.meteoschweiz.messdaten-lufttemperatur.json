@@ -1064,7 +1064,6 @@
       "geomType": "point",
       "range": [15, 17.5],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1099,7 +1098,6 @@
       "geomType": "point",
       "range": [12.5, 15],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1134,7 +1132,6 @@
       "geomType": "point",
       "range": [10, 12.5],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1169,7 +1166,6 @@
       "geomType": "point",
       "range": [7.5, 10],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1204,7 +1200,6 @@
       "geomType": "point",
       "range": [5, 7.5],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1239,7 +1234,6 @@
       "geomType": "point",
       "range": [2.5, 5],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1274,7 +1268,6 @@
       "geomType": "point",
       "range": [0, 2.5],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1309,7 +1302,6 @@
       "geomType": "point",
       "range": [-2.5, 0],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1344,7 +1336,6 @@
       "geomType": "point",
       "range": [-5, -2.5],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1379,7 +1370,6 @@
       "geomType": "point",
       "range": [-7.5, -5],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1414,7 +1404,6 @@
       "geomType": "point",
       "range": [-10, -7.5],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1449,7 +1438,6 @@
       "geomType": "point",
       "range": [-12.5, -10],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1484,7 +1472,6 @@
       "geomType": "point",
       "range": [-15, -12.5],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1519,7 +1506,6 @@
       "geomType": "point",
       "range": [-17.5, -15],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1554,7 +1540,6 @@
       "geomType": "point",
       "range": [-20, -17.5],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1589,7 +1574,6 @@
       "geomType": "point",
       "range": [-22.5, -20],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1624,7 +1608,6 @@
       "geomType": "point",
       "range": [-25, -22.5],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1659,7 +1642,6 @@
       "geomType": "point",
       "range": [-273, -25],
       "minResolution": 50,
-      "maxResolution": 250,
       "vectorOptions": {
         "type": "circle",
         "radius": 5,
@@ -1688,381 +1670,6 @@
               "color": "rgb(0,0,0)"
             }
           }
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [100, 1000000],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(128,128,128)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [30, 100],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(215,25,28)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [27.5, 30],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(221,50,40)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [25, 27.5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(228,76,52)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [22.5, 25],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(234,102,64)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [20, 22.5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(241,128,76)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [17.5, 20],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(248,154,88)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [15, 17.5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(253,177,101)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [12.5, 15],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(253,191,117)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [10, 12.5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(253,205,133)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [7.5, 10],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(254,219,150)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [5, 7.5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(254,233,166)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [2.5, 5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(254,247,182)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [0, 2.5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(247,251,194)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [-2.5, 0],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(233,245,201)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [-5, -2.5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(218,238,209)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [-7.5, -5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(203,231,216)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [-10, -7.5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(189,225,223)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [-12.5, -10],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(174,218,231)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [-15, -12.5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(154,204,226)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [-17.5, -15],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(132,188,217)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [-20, -17.5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(110,172,208)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [-22.5, -20],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(88,155,199)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [-25, -22.5],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(66,139,190)"
-        }
-      }
-    }, {
-      "geomType": "point",
-      "range": [-273, -25],
-      "minResolution": 250,
-      "vectorOptions": {
-        "type": "circle",
-        "radius": 5,
-        "stroke": {
-          "color": "rgb(0,0,0)",
-          "width": 1
-        },
-        "fill": {
-          "color": "rgb(44,123,182)"
         }
       }
     }
