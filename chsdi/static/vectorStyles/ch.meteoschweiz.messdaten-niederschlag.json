@@ -291,7 +291,7 @@
       }
     }, {
       "geomType": "point",
-      "range": [0.05, 0.15],
+      "range": [0, 0.15],
       "maxResolution": 50,
       "vectorOptions": {
         "type": "circle",
@@ -587,7 +587,7 @@
       }
     }, {
       "geomType": "point",
-      "range": [0.05, 0.15],
+      "range": [0, 0.15],
       "minResolution": 50,
       "maxResolution": 250,
       "vectorOptions": {
@@ -740,7 +740,7 @@
       }
     }, {
       "geomType": "point",
-      "range": [0.05, 0.15],
+      "range": [0, 0.15],
       "minResolution": 250,
       "vectorOptions": {
         "type": "circle",
