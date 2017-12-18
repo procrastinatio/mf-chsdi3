@@ -4,7 +4,7 @@
   "ranges": [
     {
       "geomType": "point",
-      "range": [5000, 100000000],
+      "range": [1000, 100000000],
       "vectorOptions": {
         "type": "circle",
         "radius": 7,
@@ -35,7 +35,7 @@
       }
     }, {
       "geomType": "point",
-      "range": [10, 5000],
+      "range": [10, 1000],
       "maxResolution": 50,
       "vectorOptions": {
         "type": "circle",
