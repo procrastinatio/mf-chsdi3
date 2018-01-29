@@ -4193,6 +4193,9 @@ msgstr "Tip"
 msgid "ch.bak.url"
 msgstr "http://www.bak.admin.ch/index.html?lang=rm"
 
+msgid "ch.baspo.nationales-sportanlagenkonzept"
+msgstr "Sportanlagen NASAK"
+
 msgid "ch.bav"
 msgstr "BAV"
 
@@ -5459,8 +5462,38 @@ msgstr "Datendownload Gemeinde"
 msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1"
 msgstr "Cunfins administrativs G1, aglomeraziuns"
 
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1.acode"
+msgstr "Agglomerationscode"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1.aname"
+msgstr "Agglomerationsnamen"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1.area_ha"
+msgstr "Fläche in ha"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1.gmdname"
+msgstr "Gemeindename"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1.gmdnr"
+msgstr "Gemeindenummer"
+
 msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2"
 msgstr "Cunfins administrativs G2, aglomeraziuns"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2.acode"
+msgstr "Agglomerationscode"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2.aname"
+msgstr "Agglomerationsnamen"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2.area_ha"
+msgstr "Fläche in ha"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2.gmdname"
+msgstr "Gemeindename"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2.gmdnr"
+msgstr "Gemeindenummer"
 
 msgid "ch.bfs.url"
 msgstr "http://www.bfs.admin.ch/bfs/portal/de/index.html"
@@ -9454,6 +9487,2427 @@ msgstr "Charta da survista"
 
 msgid "Full map"
 msgstr "Charta pli gronda"
+
+msgid "fullname.ch.are.agglomerationen_isolierte_staedte"
+msgstr "Aglomeraziuns e citads isoladas"
+
+msgid "fullname.ch.are.alpenkonvention"
+msgstr "Convenziun da las Alps"
+
+msgid "fullname.ch.are.bauzonen"
+msgstr "Zonas da construcziun Svizra (armonisà)"
+
+msgid "fullname.ch.are.belastung-gueterverkehr-bahn"
+msgstr "Chargia annuala da las viafiers svizras (traffic da rauba)"
+
+msgid "fullname.ch.are.belastung-gueterverkehr-strasse"
+msgstr "Chargia annuala da la rait da vias svizra (traffic da rauba pesant)"
+
+msgid "fullname.ch.are.belastung-personenverkehr-bahn"
+msgstr "Chargia annuala da la rait dal traffic public (traffic da persunas)"
+
+msgid "fullname.ch.are.belastung-personenverkehr-strasse"
+msgstr "Chargia annuala da la rait da vias svizra (traffic da persunas)"
+
+msgid "fullname.ch.are.beschaeftigtendichte"
+msgstr "Spessezza da l'occupaziun – STATENT"
+
+msgid "fullname.ch.are.bevoelkerungsdichte"
+msgstr "Spessezza da la populaziun – Dumbraziun dal pievel"
+
+msgid "fullname.ch.are.gemeindetypen"
+msgstr "Tipologia da vischnancas ARE"
+
+msgid "fullname.ch.are.gueteklassen_oev"
+msgstr "Classas da qualitad dal traffic public ARE"
+
+msgid "fullname.ch.are.landschaftstypen"
+msgstr "Tipologia da cuntradas svizras"
+
+msgid "fullname.ch.are.reisezeit-miv"
+msgstr "Temp da viadi ad in center cun il TIM"
+
+msgid "fullname.ch.are.reisezeit-oev"
+msgstr "Temp da viadi ad in center cun il TP"
+
+msgid "fullname.ch.are.windenergie-bundesinteressen"
+msgstr "Concept energia da vent – Charta d'infurmaziun davart interess federals tar la planisaziun d'implants d'energia da vent"
+
+msgid "fullname.ch.are.wohnungsinventar-zweitwohnungsanteil"
+msgstr "Inventar d'abitaziunse e quota d'abitaziuns secundaras"
+
+msgid "fullname.ch.astra.ausnahmetransportrouten"
+msgstr "Rutas chantunalas per transports excepziunals"
+
+msgid "fullname.ch.astra.ivs-gelaendekarte"
+msgstr "Inventari federal da las vias da communicaziun istoricas da la Svizra, charta topografica"
+
+msgid "fullname.ch.astra.ivs-nat"
+msgstr "Inventari federal da las vias da communicaziun istoricas da la Svizra (IVS)"
+
+msgid "fullname.ch.astra.ivs-nat_abgrenzungen"
+msgstr "Inventari federal da las vias da communicaziun istoricas da la Svizra, cunfinaziuns"
+
+msgid "fullname.ch.astra.ivs-nat-verlaeufe"
+msgstr "Trassés istorics da las vias da communicaziun istoricas d'impurtanza naziunala senza substanza"
+
+msgid "fullname.ch.astra.ivs-nat_wegbegleiter"
+msgstr "Inventari federal da las vias da communicaziun istoricas da la Svizra, elements da la cuntrada stradala"
+
+msgid "fullname.ch.astra.ivs-reg_loc"
+msgstr "Inventari da las vias da communicaziun istoricas da la Svizra d'impurtanza regiunala e locala"
+
+msgid "fullname.ch.astra.mountainbikeland"
+msgstr "Traffic betg motorisà – La Svizra cun velo da muntogna"
+
+msgid "fullname.ch.astra.nationalstrassenachsen"
+msgstr "Axas da las vias naziunalas"
+
+msgid "fullname.ch.astra.projektierungszonen-nationalstrassen.oereb"
+msgstr "Zonas da projectaziun per vias naziunalas RPDP"
+
+msgid "fullname.ch.astra.schwerverunfallte-kanton_alkohol"
+msgstr "Accidents da traffic sin via cun persunas grevamain blessadas e cun alcohol sco motiv principal per 10'000 abitants tenor chantun"
+
+msgid "fullname.ch.astra.schwerverunfallte-kanton_geschwindigkeit"
+msgstr "Accidents da traffic sin via cun persunas grevamain blessadas e cun sveltezza sco motiv principal per 10'000 abitants tenor chantun"
+
+msgid "fullname.ch.astra.schwerverunfallte-kanton_jahresvergleich"
+msgstr "Accidents da traffic sin via cun persunas grevamain blessadas tenor chantun en la cumparegliaziun annuala"
+
+msgid "fullname.ch.astra.schwerverunfallte-kanton_pro_einwohner"
+msgstr "Accidents da traffic sin via cun persunas grevamain blessadas per 10'000 abitants tenor chantun"
+
+msgid "fullname.ch.astra.skatingland"
+msgstr "Traffic betg motorisà – La Svizra cun skates"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal"
+msgstr "Dumbraziun dal traffic sin via (posts da la rait regiunala e locala)"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal-status_netz"
+msgstr "Strassenverkehrszählung (Standorte regionales und lokals Netz: Status und Netzwerktyp)"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal-typ"
+msgstr "Strassenverkehrszählung (Standorte regionales und lokals Netz: Messstellentyp)"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet"
+msgstr "Dumbraziun dal traffic sin via (posts da la rait surordinada)"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet-status_netz"
+msgstr "Strassenverkehrszählung (Standorte übergeordnetes Netz: Status und Netzwerktyp)"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet-typ"
+msgstr "Strassenverkehrszählung (Standorte übergeordnetes Netz: Messstellentyp)"
+
+msgid "fullname.ch.astra.unfaelle-personenschaeden_alle"
+msgstr "Accidents da traffic sin via cun donns da persunas"
+
+msgid "fullname.ch.astra.unfaelle-personenschaeden_fahrraeder"
+msgstr "Accidents da traffic sin via cun donns da persunas e cun la participaziun d'almain in velo (incl. velos cun assistenza electrica per pedalar)"
+
+msgid "fullname.ch.astra.unfaelle-personenschaeden_fussgaenger"
+msgstr "Accidents da traffic sin via cun donns da persunas e cun la participaziun d'almain in pedun"
+
+msgid "fullname.ch.astra.unfaelle-personenschaeden_getoetete"
+msgstr "Accidents da traffic sin via cun almain ina persuna morta"
+
+msgid "fullname.ch.astra.unfaelle-personenschaeden_motorraeder"
+msgstr "Accidents da traffic sin via cun donns da persunas e cun la participaziun d'almain ina moto"
+
+msgid "fullname.ch.astra.veloland"
+msgstr "Traffic betg motorisà – La Svizra cun velo"
+
+msgid "fullname.ch.astra.wanderland"
+msgstr "Traffic betg motorisà – La Svizra a pe"
+
+msgid "fullname.ch.babs.kulturgueter"
+msgstr "Inventari dals bains culturals d'impurtanza naziunala"
+
+msgid "fullname.ch.bafu.alpweiden-herdenschutzhunde"
+msgstr "Alpweiden geschützt durch Herdenschutzhunde"
+
+msgid "fullname.ch.bafu.aquaprotect_050"
+msgstr "Territoris d'inundaziun Aquaprotect: frequenza 50 onns"
+
+msgid "fullname.ch.bafu.aquaprotect_100"
+msgstr "Territoris d'inundaziun Aquaprotect: frequenza 100 onns"
+
+msgid "fullname.ch.bafu.aquaprotect_250"
+msgstr "Territoris d'inundaziun Aquaprotect: frequenza 250 onns"
+
+msgid "fullname.ch.bafu.aquaprotect_500"
+msgstr "Territoris d'inundaziun Aquaprotect: frequenza 500 onns"
+
+msgid "fullname.ch.bafu.auen-vegetationskarten"
+msgstr "Cartaziun da las zonas umidas d'impurtanza naziunala"
+
+msgid "fullname.ch.bafu.biogeographische_regionen"
+msgstr "Regiuns biogeograficas da la Svizra (CH)"
+
+msgid "fullname.ch.bafu.bundesinventare-amphibien"
+msgstr "Inventari federal da las plazzas da fregar per amfibis d'impurtanza naziunala – objects fixs"
+
+msgid "fullname.ch.bafu.bundesinventare-amphibien_anhang4"
+msgstr "Inventari federal da las plazzas da fregar per amfibis d'impurtanza naziunala – agiunta 3"
+
+msgid "fullname.ch.bafu.bundesinventare-amphibien_wanderobjekte"
+msgstr "Inventari federal da las plazzas da fregar per amfibis d'impurtanza naziunala – objects movibels"
+
+msgid "fullname.ch.bafu.bundesinventare-auen"
+msgstr "Inventari federal da las zonas umidas d'impurtanza naziunala"
+
+msgid "fullname.ch.bafu.bundesinventare-auen_anhang2"
+msgstr "Inventari federal da las zonas umidas d'impurtanza naziunala - Allegato 2"
+
+msgid "fullname.ch.bafu.bundesinventare-bln"
+msgstr "Inventari federal da las cuntradas e dals monuments natirals (IFC)"
+
+msgid "fullname.ch.bafu.bundesinventare-flachmoore"
+msgstr "Inventari federal da las palids planivas d'impurtanza naziunala"
+
+msgid "fullname.ch.bafu.bundesinventare-flachmoore_regional"
+msgstr "Palids planivas d'impurtanza regiunala"
+
+msgid "fullname.ch.bafu.bundesinventare-hochmoore"
+msgstr "Inventari federal da las palids autas e transiziunalas d'impurtanza naziunala"
+
+msgid "fullname.ch.bafu.bundesinventare-jagdbanngebiete"
+msgstr "Inventari federal dals asils federals da selvaschina"
+
+msgid "fullname.ch.bafu.bundesinventare-moorlandschaften"
+msgstr "Inventari federal da las cuntradas da palì da bellezza particulara e d'impurtanza naziunala"
+
+msgid "fullname.ch.bafu.bundesinventare-trockenwiesen_trockenweiden"
+msgstr "Inventari federal da las pastgiras e dals prads sitgs (PPS) d'impurtanza naziunala"
+
+msgid "fullname.ch.bafu.bundesinventare-trockenwiesen_trockenweiden_anhang2"
+msgstr "Inventari federal da las pastgiras e dals prads sitgs d'impurtanza naziunala – agiunta 2"
+
+msgid "fullname.ch.bafu.bundesinventare-vogelreservate"
+msgstr "Inventari federal dals reservats d'utschels da l'aua e d'utschels migrants d'impurtanza internaziunala e naziunala"
+
+msgid "fullname.ch.bafu.fauna-steinbockkolonien"
+msgstr "Derasaziun da las colonias da capricorns"
+
+msgid "fullname.ch.bafu.fauna-vernetzungsachsen_national"
+msgstr "Sistem da colliaziun animals selvadis"
+
+msgid "fullname.ch.bafu.fauna-wildtierkorridor_national"
+msgstr "Corridors da selvaschina surregiunal"
+
+msgid "fullname.ch.bafu.feststoffe-geschiebemessnetz"
+msgstr "Banca da datas dals volumens da gera (Confederaziun)"
+
+msgid "fullname.ch.bafu.fischerei-aeschen_kernzonen"
+msgstr "Populaziuns da litschalas d'impurtanza naziunala: zonas centralas"
+
+msgid "fullname.ch.bafu.fischerei-aeschen_laichplaetze"
+msgstr "Populaziuns da litschalas d'impurtanza naziunala: plazzas da fregar"
+
+msgid "fullname.ch.bafu.fischerei-aeschen_larvenhabitate"
+msgstr "Populaziuns da litschalas d'impurtanza naziunala: habitats da larvas"
+
+msgid "fullname.ch.bafu.fischerei-aeschen_verbreitungsgebiet"
+msgstr "Populaziuns da litschalas d'impurtanza naziunala: territori da derasaziun"
+
+msgid "fullname.ch.bafu.fischerei-krebspest"
+msgstr "Pesta da giombers – cumprova en Svizra"
+
+msgid "fullname.ch.bafu.fischerei-nasenlaichplaetze"
+msgstr "Plazzas da fregar per nas 1995-2004"
+
+msgid "fullname.ch.bafu.fischerei-proliferative_nierenkrankheit"
+msgstr "Glista e charta da cas da la malsogna da peschs MRP (malsogna renala proliferativa)"
+
+msgid "fullname.ch.bafu.flora-schwingrasen"
+msgstr "Inventari dals pastgets flottants"
+
+msgid "fullname.ch.bafu.flora-verbreitungskarten"
+msgstr "Raster da las chartas da derasaziun"
+
+msgid "fullname.ch.bafu.flora-weltensutter_atlas"
+msgstr "Atlas Welten&Sutter"
+
+msgid "fullname.ch.bafu.flussordnungszahlen-strahler"
+msgstr "Numeraziun dals flums tenor Strahler"
+
+msgid "fullname.ch.bafu.gefahren-aktuelle_erdbeben"
+msgstr "Charta dals terratrembels actuals (ultims 90 dis) en Svizra ed a l'exteriur vischin"
+
+msgid "fullname.ch.bafu.gefahren-basiskarte"
+msgstr "Charta da basa da la plattafurma cuminaivla d'infurmaziuns davart privels da la natira"
+
+msgid "fullname.ch.bafu.gefahren-baugrundklassen"
+msgstr "Charta da las classas da sulom seismicas tenor la norma da construcziun SIA 261"
+
+msgid "fullname.ch.bafu.gefahren-gefaehrdungszonen"
+msgstr "Zonas da terratrembels tenor la norma da construcziun SIA 261"
+
+msgid "fullname.ch.bafu.gefahren-historische_erdbeben"
+msgstr "Charta dals terratrembels istorics en Svizra ed a l'exteriur vischin"
+
+msgid "fullname.ch.bafu.gefahren-spektral"
+msgstr "Perimeter dals studis disponibels davart la microzonaziun spectrala"
+
+msgid "fullname.ch.bafu.gewaesserschutz-badewasserqualitaet"
+msgstr "Qualitad da l'aua dals bogns"
+
+msgid "fullname.ch.bafu.gewaesserschutzbereiche"
+msgstr "Secturs da protecziun da las auas"
+
+msgid "fullname.ch.bafu.gewaesserschutz-biologischer_zustand_diatomeen"
+msgstr "Giudicament dal stadi biologic da las auas: diatom"
+
+msgid "fullname.ch.bafu.gewaesserschutz-biologischer_zustand_fische"
+msgstr "Giudicament dal stadi biologic da las auas: peschs"
+
+msgid "fullname.ch.bafu.gewaesserschutz-biologischer_zustand_makrophyten"
+msgstr "Giudicament dal stadi biologic da las auas: plantas da l'aua (macrofits)"
+
+msgid "fullname.ch.bafu.gewaesserschutz-biologischer_zustand_makrozoobenthos"
+msgstr "Giudicament dal stadi biologic da las auas: macrozoobentos"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_ammonium"
+msgstr "Giudicament dal stadi chemic da las auas: ammonium"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_doc"
+msgstr "Giudicament dal stadi chemic da las auas: carbon organic dissolvì (DOC)"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_nitrat"
+msgstr "Giudicament dal stadi chemic da las auas: nitrat"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_nitrit"
+msgstr "Giudicament dal stadi chemic da las auas: nitrit"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_phosphat"
+msgstr "Giudicament dal stadi chemic da las auas: fosfat"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt"
+msgstr "Giudicament dal stadi chemic da las auas: total da fosfor"
+
+msgid "fullname.ch.bafu.gewaesserschutz-diffuse_eintraege_phosphor"
+msgstr "Immissiuns diffusas da fosfor en las auas, valurs modeladas"
+
+msgid "fullname.ch.bafu.gewaesserschutz-diffuse_eintraege_stickstoff"
+msgstr "Immissiuns diffusas da nitrogen en las auas, valurs modeladas"
+
+msgid "fullname.ch.bafu.gewaesserschutz-klaeranlagen_anteilq347"
+msgstr "Banca da datas da las sereneras (ARA-DB) – procentuala d'aua persa en il prefluent en cas d'aua bassa"
+
+msgid "fullname.ch.bafu.gewaesserschutz-klaeranlagen_ausbaugroesse"
+msgstr "Banca da datas da las sereneras (ARA-DB) – capacitad (valur d'abitant)"
+
+msgid "fullname.ch.bafu.gewaesserschutz-klaeranlagen_reinigungstyp"
+msgstr "Banca da datas da las sereneras (ARA-DB) – tip da nettegiament"
+
+msgid "fullname.ch.bafu.grundwasserkoerper"
+msgstr "Corps d'auas sutterranas"
+
+msgid "fullname.ch.bafu.grundwasserschutzareale"
+msgstr "Areals da protecziun da l'aua sutterrana"
+
+msgid "fullname.ch.bafu.grundwasserschutzzonen"
+msgstr "Zonas da protecziun da l'aua sutterrana"
+
+msgid "fullname.ch.bafu.holznutzung"
+msgstr "Explotaziun e mortalitad annuala dal guaud (Inventari forestal naziunal)"
+
+msgid "fullname.ch.bafu.holzvorrat"
+msgstr "Reserva da laina (Inventari forestal naziunal)"
+
+msgid "fullname.ch.bafu.holzzuwachs"
+msgstr "Creschientscha annuala dal guaud (Inventari forestal naziunal)"
+
+msgid "fullname.ch.bafu.hydrogeologie-markierversuche"
+msgstr "Emprovas da marcar en l'aua sutterrana"
+
+msgid "fullname.ch.bafu.hydrogeologie-uebersichtskarte"
+msgstr "Charta da survista idrogeologica da la Svizra"
+
+msgid "fullname.ch.bafu.hydrogeologische-karte_100"
+msgstr "Charta idrogeologica da la Svizra 1:100000"
+
+msgid "fullname.ch.bafu.hydrologie-daueruntersuchung_fliessgewaesser"
+msgstr "Retschertga permanenta naziunala dals curs d'aua da la Svizra"
+
+msgid "fullname.ch.bafu.hydrologie-gewaesserzustandsmessstationen"
+msgstr "Lieus per mesirar il stadi da las auas CH"
+
+msgid "fullname.ch.bafu.hydrologie-hintergrundkarte"
+msgstr "Charta da fund generalisada per preschentar datas idrologicas"
+
+msgid "fullname.ch.bafu.hydrologie-hochwassergrenzwertpegel"
+msgstr "Idrometers da l'aua gronda maximala HWGWP"
+
+msgid "fullname.ch.bafu.hydrologie-hochwasserstatistik"
+msgstr "Statistica d'auas grondas HQStat"
+
+msgid "fullname.ch.bafu.hydrologie-hydromessstationen"
+msgstr "Rait da mesiraziun da basa da las auas da surfatscha"
+
+msgid "fullname.ch.bafu.hydrologie-messstationen_gefahren"
+msgstr "Cumparegliaziun da las datas da deflussiun e dals idrometers cun ils nivels da privel da las ultimas 24 uras"
+
+msgid "fullname.ch.bafu.hydrologie-niedrigwasserstatistik"
+msgstr "Statistica d'auas bassas NQStat"
+
+msgid "fullname.ch.bafu.hydrologie-q347"
+msgstr "Basas per determinar la quantitad da deflussiun Q347"
+
+msgid "fullname.ch.bafu.hydrologie-untersuchungsgebiete"
+msgstr "Territoris da retschertgas idrologicas"
+
+msgid "fullname.ch.bafu.hydrologie-untersuchungsgebiete_stationen"
+msgstr "Staziuns da mesiraziun dals territoris da retschertgas idrologicas"
+
+msgid "fullname.ch.bafu.hydrologie-wassertemperaturmessstationen"
+msgstr "Staziuns da mesiraziun da la temperatura da l'aua"
+
+msgid "fullname.ch.bafu.hydrologischer-atlas_basisgebiete"
+msgstr "Territoris da basa (intschess) HADES"
+
+msgid "fullname.ch.bafu.hydrologischer-atlas_bilanzgebiete"
+msgstr "Territoris da bilantscha (intschess) HADES"
+
+msgid "fullname.ch.bafu.hydrologischer-atlas_flussgebiete"
+msgstr "Territoris fluvials (intschess) HADES"
+
+msgid "fullname.ch.bafu.hydrologischer-atlas_kantonale-messstationen"
+msgstr "Staziuns chantunalas e privatas da mesiraziun (HADES 5.1.2)"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_gefahren"
+msgstr "Cumparegliaziun da las datas da deflussiun e dals idrometers cun ils nivels da privel"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_grundwasser"
+msgstr "Livels da l'aua sutterrana e volumens d'aua da las funtaunas (Observaziun naziunala da l'aua sutterrana NAQUA)"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_grundwasserzustand"
+msgstr "Livels da l'aua sutterrana e volumens d'aua da las funtaunas (Observaziun naziunala da l'aua sutterrana NAQUA)"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_temperatur"
+msgstr "Temperatura da l'aua dals flums"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_vorhersage"
+msgstr "Staziuns idrologicas cun prognosas"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_zustand"
+msgstr "Situaziun generala dals curs d'aua e dals lais"
+
+msgid "fullname.ch.bafu.hydroweb-warnkarte_national"
+msgstr "Charta d'avertiment d'auas grondas per auas d'interess naziunal"
+
+msgid "fullname.ch.bafu.hydroweb-warnkarte_regional"
+msgstr "Charta d'avertiment d'auas grondas per curs d'aua pitschens e mesauns"
+
+msgid "fullname.ch.bafu.karst-ausdehnung_grundwasservorkommen"
+msgstr "Extensiun da las resursas d'aua sutterrana en territoris da carst"
+
+msgid "fullname.ch.bafu.karst-einzugsgebiete"
+msgstr "Intschess en territoris da carst"
+
+msgid "fullname.ch.bafu.karst-einzugsgebietseinheiten"
+msgstr "Unitads d'intschess en territoris da carst"
+
+msgid "fullname.ch.bafu.karst-quellen_schwinden"
+msgstr "Funtaunas e perditas en territoris da carst"
+
+msgid "fullname.ch.bafu.karst-unterirdische_fliesswege"
+msgstr "Vias da deflussiun da l'aua sutterrana en territoris da carst"
+
+msgid "fullname.ch.bafu.laerm-bahnlaerm_nacht"
+msgstr "Grevezza da canera tras il traffic da viafier durant la notg"
+
+msgid "fullname.ch.bafu.laerm-bahnlaerm_tag"
+msgstr "Grevezza da canera tras il traffic da viafier durant il di"
+
+msgid "fullname.ch.bafu.laerm-strassenlaerm_nacht"
+msgstr "Grevezza da canera tras il traffic sin via durant la notg"
+
+msgid "fullname.ch.bafu.laerm-strassenlaerm_tag"
+msgstr "Grevezza da canera tras il traffic sin via durant il di"
+
+msgid "fullname.ch.bafu.landesforstinventar-baumarten"
+msgstr "Quota da laina da dascharina cumpareglià cun la reserva (Inventari forestal naziunal)"
+
+msgid "fullname.ch.bafu.landesforstinventar-totholz"
+msgstr "Volumen da laina morta (Inventari forestal naziunal)"
+
+msgid "fullname.ch.bafu.landesforstinventar-waldanteil"
+msgstr "Quota da guaud (Inventari forestal naziunal)"
+
+msgid "fullname.ch.bafu.luftreinhaltung-ammoniakkonzentration"
+msgstr "Ammoniakkonzentration"
+
+msgid "fullname.ch.bafu.luftreinhaltung-stickstoffdeposition"
+msgstr "Stickstoffdeposition"
+
+msgid "fullname.ch.bafu.luftreinhaltung-stickstoff_kritischer_eintrag"
+msgstr "Überschreitung der kritischen Eintragsgrenzen (Critical Loads) für Stickstoff"
+
+msgid "fullname.ch.bafu.mittlere-abfluesse"
+msgstr "Deflussiuns mesaunas e tip d'urden da deflussiun per la rait d'auas da la Svizra"
+
+msgid "fullname.ch.bafu.moose"
+msgstr "Glista cotschna dals mistgels (mistgels periclitads en Svizra)"
+
+msgid "fullname.ch.bafu.nabelstationen"
+msgstr "Rait naziunala per l'observaziun da substanzas estras en l'aria NABEL: staziuns"
+
+msgid "fullname.ch.bafu.naqua-grundwasser_nitrat"
+msgstr "Nitrat en l'aua sutterrana (Observaziun naziunala da l'aua sutterrana NAQUA)"
+
+msgid "fullname.ch.bafu.naqua-grundwasser_psm"
+msgstr "Meds per proteger las plantas en l'aua sutterrana (Observaziun naziunala da l'aua sutterrana NAQUA)"
+
+msgid "fullname.ch.bafu.naqua-grundwasser_voc"
+msgstr "Cumposiziuns organicas svapurantas COS en l'aua sutterrana (Observaziun naziunala da l'aua sutterrana NAQUA)"
+
+msgid "fullname.ch.bafu.neophyten-amerikanische_kermesbeere"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Amerikanische Kermesbeere"
+
+msgid "fullname.ch.bafu.neophyten-amerikanischer_stinktierkohl"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Amerikanischer Stinktierkohl"
+
+msgid "fullname.ch.bafu.neophyten-armenische_brombeere"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Armenische Brombeere"
+
+msgid "fullname.ch.bafu.neophyten-aufrechtes_traubenkraut"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Aufrechtes Traubenkraut"
+
+msgid "fullname.ch.bafu.neophyten-auslaeuferbildendes_fettkraut"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Ausläuferbildendes Fettkraut"
+
+msgid "fullname.ch.bafu.neophyten-balfours_springkraut"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Balfours Springkraut"
+
+msgid "fullname.ch.bafu.neophyten-bastardindigo"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Bastardindigo"
+
+msgid "fullname.ch.bafu.neophyten-bastard_staudenknoeterich"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Bastard-Staudenknöterich"
+
+msgid "fullname.ch.bafu.neophyten-besen_radmelde"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Besen-Radmelde"
+
+msgid "fullname.ch.bafu.neophyten-blauglockenbaum"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Blauglockenbaum"
+
+msgid "fullname.ch.bafu.neophyten-brasilianisches_tausendblatt"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Brasilianisches Tausendblatt"
+
+msgid "fullname.ch.bafu.neophyten-carolina_nachtschatten"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Carolina-Nachtschatten"
+
+msgid "fullname.ch.bafu.neophyten-chinesische_samtpappel"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Chinesische Samtpappel"
+
+msgid "fullname.ch.bafu.neophyten-druesiges_springkraut"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Drüsiges Springkraut"
+
+msgid "fullname.ch.bafu.neophyten-einjaehriges_berufkraut"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Einjähriges Berufkraut"
+
+msgid "fullname.ch.bafu.neophyten-essbare_kermesbeere"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Essbare Kermesbeere"
+
+msgid "fullname.ch.bafu.neophyten-essbares_zypergras"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Essbares Zypergras"
+
+msgid "fullname.ch.bafu.neophyten-essigbaum"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Essigbaum"
+
+msgid "fullname.ch.bafu.neophyten-felsen_greiskraut"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Felsen-Greiskraut"
+
+msgid "fullname.ch.bafu.neophyten-fortunes_hanfpalme"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Fortunes Hanfpalme"
+
+msgid "fullname.ch.bafu.neophyten-gestreiftes_suessgras"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Gestreiftes Süssgras"
+
+msgid "fullname.ch.bafu.neophyten-gewoehnliche_jungfernrebe"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Gewöhnliche Jungfernrebe"
+
+msgid "fullname.ch.bafu.neophyten-glattes_zackenschoetchen"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Glattes Zackenschötchen"
+
+msgid "fullname.ch.bafu.neophyten-goetterbaum"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Götterbaum"
+
+msgid "fullname.ch.bafu.neophyten-grossbluetiges_heusenkraut"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Grossblütiges Heusenkraut"
+
+msgid "fullname.ch.bafu.neophyten-grosser_wassernabel"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Grosser Wassernabel"
+
+msgid "fullname.ch.bafu.neophyten-haargurke"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Haargurke"
+
+msgid "fullname.ch.bafu.neophyten-henrys_geissblatt"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Henrys Geissblatt"
+
+msgid "fullname.ch.bafu.neophyten-herbst_traubenkirsche"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Herbst-Traubenkirsche"
+
+msgid "fullname.ch.bafu.neophyten-igelgurke"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Igelgurke"
+
+msgid "fullname.ch.bafu.neophyten-japanischer_staudenknoeterich"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Japanischer Staudenknöterich"
+
+msgid "fullname.ch.bafu.neophyten-japanisches_geissblatt"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala da la chagliamorta giapunaisa"
+
+msgid "fullname.ch.bafu.neophyten-kanadische_goldrute"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Kanadische Goldrute"
+
+msgid "fullname.ch.bafu.neophyten-kanadische_wasserpest"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Kanadische Wasserpest"
+
+msgid "fullname.ch.bafu.neophyten-karolina_haarnixe"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Karolina-Haarnixe"
+
+msgid "fullname.ch.bafu.neophyten-kaukasus_fettkraut"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Kaukasus-Fettkraut"
+
+msgid "fullname.ch.bafu.neophyten-kirschlorbeer"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Kirschlorbeer"
+
+msgid "fullname.ch.bafu.neophyten-kletternder_giftsumach"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Kletternder Giftsumach"
+
+msgid "fullname.ch.bafu.neophyten-kopoubohne"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Kopoubohne"
+
+msgid "fullname.ch.bafu.neophyten-mahonie"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Mahonie"
+
+msgid "fullname.ch.bafu.neophyten-nadelkraut"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Nadelkraut"
+
+msgid "fullname.ch.bafu.neophyten-nuttalls_wasserpest"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Nuttalls Wasserpest"
+
+msgid "fullname.ch.bafu.neophyten-portulak_heusenkraut"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Portulak-Heusenkraut"
+
+msgid "fullname.ch.bafu.neophyten-riesenbaerenklau"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala da la darsvenna giganta"
+
+msgid "fullname.ch.bafu.neophyten-robinie"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Robinie"
+
+msgid "fullname.ch.bafu.neophyten-runzelblaettriger_schneeball"
+msgstr "Invasive gebietsfremde Pflanzen - Potentialkarte Runzelblättriger Schneeball"
+
+msgid "fullname.ch.bafu.neophyten-sachalin_staudenknoeterich"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala dal badalestg da Sachalin (reynoutria sachalinensis)"
+
+msgid "fullname.ch.bafu.neophyten-schmetterlingsstrauch"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala da la budleja (buddleja davidii)"
+
+msgid "fullname.ch.bafu.neophyten-seidiger_hornstrauch"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala dal corniol da saida"
+
+msgid "fullname.ch.bafu.neophyten-spaetbluehende_goldrute"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala dal saldagen"
+
+msgid "fullname.ch.bafu.neophyten-suedafrikanisches_greiskraut"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala dal sanetsch sidafrican"
+
+msgid "fullname.ch.bafu.neophyten-syrische_seidenpflanze"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala da la asclepias siriaca"
+
+msgid "fullname.ch.bafu.neophyten-topinambur"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala dal topinambur"
+
+msgid "fullname.ch.bafu.neophyten-verlotscher_beifuss"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala dal assens dals frars Verlot"
+
+msgid "fullname.ch.bafu.neophyten-vielaehriger_knoeterich"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala dal badalestg cun spias numerusas"
+
+msgid "fullname.ch.bafu.neophyten-vielblaettrige_lupine"
+msgstr "Plantas exoticas invasivas – Charta da la derasaziun potenziala da la lupina cun feglia numerusa"
+
+msgid "fullname.ch.bafu.oekomorphologie-f_abschnitte"
+msgstr "Ecomorfologia livel F – trajects"
+
+msgid "fullname.ch.bafu.oekomorphologie-f_abstuerze"
+msgstr "Ecomorfologia livel F – crudadas"
+
+msgid "fullname.ch.bafu.oekomorphologie-f_bauwerke"
+msgstr "Ecomorfologia livel F – construcziuns"
+
+msgid "fullname.ch.bafu.permafrost"
+msgstr "Charta d'infurmaziun dals territoris potenzials da schelira permanenta"
+
+msgid "fullname.ch.bafu.ren-extensive_landwirtschaftsgebiete"
+msgstr "Rait ecologica naziunala REN, territori agricul extensiv"
+
+msgid "fullname.ch.bafu.ren-feuchtgebiete"
+msgstr "Rait ecologica naziunala REN, zona umida"
+
+msgid "fullname.ch.bafu.ren-fliessgewaesser_seen"
+msgstr "Rait ecologica naziunala REN, curs d'aua / lais"
+
+msgid "fullname.ch.bafu.ren-trockenstandorte"
+msgstr "Rait ecologica naziunala REN, lieu sitg"
+
+msgid "fullname.ch.bafu.ren-wald"
+msgstr "Rait ecologica naziunala REN, guaud"
+
+msgid "fullname.ch.bafu.schutzgebiete-aulav_auen"
+msgstr "Territoris protegids tenor la publicaziun civila d'obstachels da l'aviatica - zonas umidas"
+
+msgid "fullname.ch.bafu.schutzgebiete-aulav_jagdbanngebiete"
+msgstr "Territoris protegids tenor la publicaziun civila d'obstachels da l'aviatica - asils da selvaschina"
+
+msgid "fullname.ch.bafu.schutzgebiete-aulav_moorlandschaften"
+msgstr "Territoris protegids tenor la publicaziun civila d'obstachels da l'aviatica - cuntradas da palì"
+
+msgid "fullname.ch.bafu.schutzgebiete-aulav_uebrige"
+msgstr "Territoris protegids tenor la publicaziun civila d'obstachels da l'aviatica - auters territoris protegids"
+
+msgid "fullname.ch.bafu.schutzgebiete-biosphaerenreservate"
+msgstr "Reservats da biosfera"
+
+msgid "fullname.ch.bafu.schutzgebiete-luftfahrt"
+msgstr "Territoris protegids tenor la publicaziun militara d'obstachels da l'aviatica"
+
+msgid "fullname.ch.bafu.schutzgebiete-paerke_nationaler_bedeutung"
+msgstr "Parc naziunal svizzer e parcs d'impurtanza naziunala (Zones)"
+
+msgid "fullname.ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter"
+msgstr "Parc naziunal svizzer e parcs d'impurtanza naziunala (Perimeter)"
+
+msgid "fullname.ch.bafu.schutzgebiete-ramsar"
+msgstr "Convenziun davart las zonas umidas d'impurtanza internaziunala, surtut sco abitadi d'utschels da l'aua e da la palì (Convenziun da Ramsar)"
+
+msgid "fullname.ch.bafu.schutzgebiete-schweizerischer_nationalpark"
+msgstr "Parc naziunal svizzer"
+
+msgid "fullname.ch.bafu.schutzgebiete-smaragd"
+msgstr "Territoris Smaragd"
+
+msgid "fullname.ch.bafu.schutzgebiete-wildruhezonen"
+msgstr "Asils da selvaschina"
+
+msgid "fullname.ch.bafu.showme-gemeinden_hochwasser"
+msgstr "Stadi da la cartaziun dals privels da la natira en las vischnancas: aua gronda"
+
+msgid "fullname.ch.bafu.showme-gemeinden_lawinen"
+msgstr "Stadi da la cartaziun dals privels da la natira en las vischnancas: lavinas"
+
+msgid "fullname.ch.bafu.showme-gemeinden_rutschungen"
+msgstr "Stadi da la cartaziun dals privels da la natira en las vischnancas: bovas"
+
+msgid "fullname.ch.bafu.showme-gemeinden_sturzprozesse"
+msgstr "Stadi da la cartaziun dals privels da la natira en las vischnancas: crudadas"
+
+msgid "fullname.ch.bafu.showme-kantone_hochwasser"
+msgstr "Stadi da la cartaziun dals privels da la natira en ils chantuns: aua gronda"
+
+msgid "fullname.ch.bafu.showme-kantone_lawinen"
+msgstr "Stadi da la cartaziun dals privels da la natira en ils chantuns: lavinas"
+
+msgid "fullname.ch.bafu.showme-kantone_rutschungen"
+msgstr "Stadi da la cartaziun dals privels da la natira en ils chantuns: bovas"
+
+msgid "fullname.ch.bafu.showme-kantone_sturzprozesse"
+msgstr "Stadi da la cartaziun dals privels da la natira en ils chantuns: crudadas"
+
+msgid "fullname.ch.bafu.silvaprotect-hangmuren"
+msgstr "Charta d'infurmaziun da privels (SilvaProtect-CH): Sbuvadas"
+
+msgid "fullname.ch.bafu.silvaprotect-lawinen"
+msgstr "Charta d'infurmaziun da privels (SilvaProtect-CH): Lavinas"
+
+msgid "fullname.ch.bafu.silvaprotect-murgang"
+msgstr "Charta d'infurmaziun da privels (SilvaProtect-CH): Bovas"
+
+msgid "fullname.ch.bafu.silvaprotect-sturz"
+msgstr "Charta d'infurmaziun da privels (SilvaProtect-CH): Crudadas"
+
+msgid "fullname.ch.bafu.silvaprotect-uebersarung"
+msgstr "Charta d'infurmaziun da privels (SilvaProtect-CH): Sedimentaziuns alluvialas"
+
+msgid "fullname.ch.bafu.strukturguete-hochrhein_linkesufer"
+msgstr "Qualitad structurala dal Rain Aut (2020)"
+
+msgid "fullname.ch.bafu.strukturguete-hochrhein_linkesumfeld"
+msgstr "Qualitad structurala dal Rain Aut (2020)"
+
+msgid "fullname.ch.bafu.strukturguete-hochrhein_rechtesufer"
+msgstr "Qualitad structurala dal Rain Aut (2020)"
+
+msgid "fullname.ch.bafu.strukturguete-hochrhein_rechtesumfeld"
+msgstr "Qualitad structurala dal Rain Aut (2020)"
+
+msgid "fullname.ch.bafu.strukturguete-hochrhein_sohle"
+msgstr "Qualitad structurala dal Rain Aut (2020)"
+
+msgid "fullname.ch.bafu.sturm-boeenspitzen_100"
+msgstr "Periclitaziun tras stemprads: bufs cun ina frequenza da 100 onns"
+
+msgid "fullname.ch.bafu.sturm-boeenspitzen_30"
+msgstr "Periclitaziun tras stemprads: bufs cun ina frequenza da 30 onns"
+
+msgid "fullname.ch.bafu.sturm-boeenspitzen_300"
+msgstr "Periclitaziun tras stemprads: bufs cun ina frequenza da 300 onns"
+
+msgid "fullname.ch.bafu.sturm-boeenspitzen_50"
+msgstr "Periclitaziun tras stemprads: bufs cun ina frequenza da 50 onns"
+
+msgid "fullname.ch.bafu.sturm-staudruck_100"
+msgstr "Periclitaziun tras stemprads: pressiun dinamica cun ina frequenza da 100 onns"
+
+msgid "fullname.ch.bafu.sturm-staudruck_30"
+msgstr "Periclitaziun tras stemprads: pressiun dinamica cun ina frequenza da 30 onns"
+
+msgid "fullname.ch.bafu.sturm-staudruck_300"
+msgstr "Periclitaziun tras stemprads: pressiun dinamica cun ina frequenza da 300 onns"
+
+msgid "fullname.ch.bafu.sturm-staudruck_50"
+msgstr "Periclitaziun tras stemprads: pressiun dinamica cun ina frequenza da 50 onns"
+
+msgid "fullname.ch.bafu.swissprtr"
+msgstr "Register svizzer da las emissiuns e dals transfers da substanzas nuschaivlas (SwissPRTR)"
+
+msgid "fullname.ch.bafu.typisierung-fliessgewaesser"
+msgstr "Tipisaziun dals curs d'aua da la Svizra"
+
+msgid "fullname.ch.bafu.unesco-weltnaturerbe"
+msgstr "Patrimoni mundial da l'UNESCO, lieus natirals"
+
+msgid "fullname.ch.bafu.vec25-gewaessernetz_2000"
+msgstr "Auas da la charta da survista 1:2 milliuns"
+
+msgid "fullname.ch.bafu.vec25-seen"
+msgstr "Lais"
+
+msgid "fullname.ch.bafu.waldreservate"
+msgstr "Reservats da guaud"
+
+msgid "fullname.ch.bafu.waldschadenflaechen-lothar"
+msgstr "Inventari dals donns da stemprà Lothar 1999"
+
+msgid "fullname.ch.bafu.waldschadenflaechen-vivian"
+msgstr "Surfatschas dals donns da guaud Vivian 1990"
+
+msgid "fullname.ch.bafu.wasserbau-querprofilmarken"
+msgstr "Trajects da mesiraziun – marca dals profils traversals"
+
+msgid "fullname.ch.bafu.wasserbau-vermessungsstrecken"
+msgstr "Banca da datas dals profils traversals (PT) – trajects da mesiraziun"
+
+msgid "fullname.ch.bafu.wasser-entnahme"
+msgstr "Charta d'aua restanta da la Svizra: prelevaziun d'aua"
+
+msgid "fullname.ch.bafu.wasser-entnahme-andere_nutzung-bedeutend"
+msgstr "Restwasserkarte Schweiz: Wasserentnahme - Andere Nutzung - Bedeutende Entnahme aus Umweltsicht"
+
+msgid "fullname.ch.bafu.wasser-entnahme-andere_nutzung-weitere"
+msgstr "Restwasserkarte Schweiz: Wasserentnahme - Andere Nutzung - Weitere Entnahme"
+
+msgid "fullname.ch.bafu.wasser-entnahme-wasserkraft-bedeutend"
+msgstr "Restwasserkarte Schweiz: Wasserentnahme - Wasserkraftnutzung - Bedeutende Entnahme aus Umweltsicht"
+
+msgid "fullname.ch.bafu.wasser-entnahme-wasserkraft-weitere"
+msgstr "Restwasserkarte Schweiz: Wasserentnahmen - Wasserkraftnutzung - Weitere Entnahme"
+
+msgid "fullname.ch.bafu.wasser-gebietsauslaesse"
+msgstr "Intschess idrografics da las auas svizras: sbuccadas"
+
+msgid "fullname.ch.bafu.wasser-leitungen"
+msgstr "Charta d'aua restanta da la Svizra: conducts d'affluenza"
+
+msgid "fullname.ch.bafu.wasser-rueckgabe"
+msgstr "Charta d'aua restanta da la Svizra: restituziun d'aua"
+
+msgid "fullname.ch.bafu.wasser-teileinzugsgebiete_2"
+msgstr "Intschess topografic da las auas svizras: intschess parzials 2 km2"
+
+msgid "fullname.ch.bafu.wasser-teileinzugsgebiete_40"
+msgstr "Intschess topografic da las auas svizras: intschess parzials 40 km2"
+
+msgid "fullname.ch.bafu.wasser-vorfluter"
+msgstr "Intschess topografic da las auas svizras: Prefluents"
+
+msgid "fullname.ch.bafu.wrz-jagdbanngebiete_select"
+msgstr "Asils da selvaschina"
+
+msgid "fullname.ch.bafu.wrz-wildruhezonen-jagdbanngebiete-wege-routen"
+msgstr "Vias e rutas permessas"
+
+msgid "fullname.ch.bafu.wrz-wildruhezonen_portal"
+msgstr "Zonas da paus per la selvaschina"
+
+msgid "fullname.ch.bag.radonkarte"
+msgstr "Radonkarte"
+
+msgid "fullname.ch.bag.zecken-fsme-faelle"
+msgstr "Encefalitis da zeccas (FSME) – privel local"
+
+msgid "fullname.ch.bag.zecken-fsme-impfung"
+msgstr "Encefalitis da zeccas (FSME) – recumandaziun da vaccinaziun"
+
+msgid "fullname.ch.bag.zecken-lyme"
+msgstr "Borreliosa / malsogna da Lyme"
+
+msgid "fullname.ch.bak.bundesinventar-schuetzenswerte-ortsbilder"
+msgstr "Inventari federal dals lieus svizzers d'impurtanza naziunala degns da protecziun ISOS"
+
+msgid "fullname.ch.bakom.anbieter-eigenes_festnetz"
+msgstr "Dumber da societads da telecommunicaziun cun atgna rait fixa"
+
+msgid "fullname.ch.bakom.anschlussart-glasfaser"
+msgstr "Tips da colliaziun disponibels, fibras da vaider"
+
+msgid "fullname.ch.bakom.anschlussart-koaxialkabel"
+msgstr "Tips da colliaziun disponibels, cabel coaxial"
+
+msgid "fullname.ch.bakom.anschlussart-kupferdraht"
+msgstr "Tips da colliaziun disponibels, cabel d'arom"
+
+msgid "fullname.ch.bakom.downlink1"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza da download ≥ 1 Mbit/s"
+
+msgid "fullname.ch.bakom.downlink10"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza da download ≥ 10 Mbit/s"
+
+msgid "fullname.ch.bakom.downlink100"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza da download ≥ 100 Mbit/s"
+
+msgid "fullname.ch.bakom.downlink2"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza da download ≥ 2 Mbit/s"
+
+msgid "fullname.ch.bakom.downlink20"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza da download ≥ 20 Mbit/s"
+
+msgid "fullname.ch.bakom.downlink50"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza da download ≥ 50 Mbit/s"
+
+msgid "fullname.ch.bakom.mobil-antennenstandorte-gsm"
+msgstr "Raits da telefonia mobila GSM – lieus da las antennas"
+
+msgid "fullname.ch.bakom.mobil-antennenstandorte-lte"
+msgstr "Raits da telefonia mobila 4G (LTE) – lieus da las antennas"
+
+msgid "fullname.ch.bakom.mobil-antennenstandorte-umts"
+msgstr "Raits da telefonia mobila 3G (UMTS) – lieus da las antennas"
+
+msgid "fullname.ch.bakom.radio-fernsehsender"
+msgstr "Emetturs svizzers da radio e da televisiun"
+
+msgid "fullname.ch.bakom.richtfunkverbindungen"
+msgstr "Richtfunkverbindungen"
+
+msgid "fullname.ch.bakom.uplink1"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza dad upload ≥ 1 Mbit/s"
+
+msgid "fullname.ch.bakom.uplink10"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza dad upload ≥ 10 Mbit/s"
+
+msgid "fullname.ch.bakom.uplink100"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza dad upload ≥ 100 Mbit/s"
+
+msgid "fullname.ch.bakom.uplink2"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza dad upload ≥ 2 Mbit/s"
+
+msgid "fullname.ch.bakom.uplink20"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza dad upload ≥ 20 Mbit/s"
+
+msgid "fullname.ch.bakom.uplink50"
+msgstr "Disponibladad da l'internet sur la rait fixa: sveltezza dad upload ≥ 50 Mbit/s"
+
+msgid "fullname.ch.bakom.verfuegbarkeit-hdtv"
+msgstr "Disponibladad da HDTV sur la rait fixa"
+
+msgid "fullname.ch.bakom.verfuegbarkeit-tv"
+msgstr "Disponibladad da televisiun sur la rait fixa (almain SD)"
+
+msgid "fullname.ch.bakom.versorgungsgebiet-tv"
+msgstr "Territoris locals/regiunals da provediment da televisiun"
+
+msgid "fullname.ch.bakom.versorgungsgebiet-ukw"
+msgstr "Territoris locals/regiunals da provediment da radio"
+
+msgid "fullname.ch.bak.schutzgebiete-unesco_weltkulturerbe"
+msgstr "Patrimoni mundial cultural da l'UNESCO"
+
+msgid "fullname.ch.baspo.nationales-sportanlagenkonzept"
+msgstr "Konzept der Sportanlagen von nationaler Bedeutung NASAK"
+
+msgid "fullname.ch.bav.anlagen-schienengueterverkehr"
+msgstr "Bestand der Anlagen für den Schienengüterverkehr gemäss Konzept für den Gütertransport auf der Schiene"
+
+msgid "fullname.ch.bav.baulinien-eisenbahnanlagen.oereb"
+msgstr "Lingias da construcziun dals implants da viafier RPDP"
+
+msgid "fullname.ch.bav.haltestellen-oev"
+msgstr "Fermadas dal traffic public"
+
+msgid "fullname.ch.bav.kataster-belasteter-standorte-oev"
+msgstr "Cataster dals lieus contaminads en il sectur dal traffic public (CLC UFT)"
+
+msgid "fullname.ch.bav.kataster-belasteter-standorte-oev.oereb"
+msgstr "Cataster dals lieus contaminads en il sectur dal traffic public (CLC UFT) RPDP"
+
+msgid "fullname.ch.bav.laermbelastung-eisenbahn_festgelegte_emissionen_nacht"
+msgstr "Lärmbelastungskataster für Eisenbahnanlagen - Eisenbahnlärm Emissionen Nacht (festgelegt)"
+
+msgid "fullname.ch.bav.laermbelastung-eisenbahn_festgelegte_emissionen_tag"
+msgstr "Lärmbelastungskataster für Eisenbahnanlagen - Eisenbahnlärm Emissionen Tag (festgelegt)"
+
+msgid "fullname.ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_nacht"
+msgstr "Lärmbelastungskataster für Eisenbahnanlagen - Eisenbahnlärm Emissionen Nacht (tatsächlich)"
+
+msgid "fullname.ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_tag"
+msgstr "Lärmbelastungskataster für Eisenbahnanlagen - Eisenbahnlärm Emissionen Tag (tatsächlich)"
+
+msgid "fullname.ch.bav.projektierungszonen-eisenbahnanlagen.oereb"
+msgstr "Zonas da projectaziun per implants da viafier RPDP"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schiene_anhorung"
+msgstr "Plan secturial Traffic, part Infrastructura da la viafier (SIS): consultaziun"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schiene_ausgangslage"
+msgstr "Plan secturial Traffic, part Infrastructura da la viafier (SIS): situaziun da partenza"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schiene_kraft"
+msgstr "Plan secturial Traffic, part Infrastructura da la viafier (SIS)"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung"
+msgstr "Plan secturial Traffic, part Infrastructura da la navigaziun (SIF): consultaziun"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schifffahrt_ausgangslage"
+msgstr "Plan secturial Traffic, part Infrastructura da la navigaziun (SIF): situaziun da partenza"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schifffahrt_kraft"
+msgstr "Plan secturial Traffic, part Infrastructura da la navigaziun (SIF)"
+
+msgid "fullname.ch.bav.schienennetz"
+msgstr "Rait da viafier"
+
+msgid "fullname.ch.bav.schienennetz-kilometrierungslinien"
+msgstr "Lingias da kilometraziun per la rait da viafier"
+
+msgid "fullname.ch.bazl.baulinien-flughafenanlagen.oereb"
+msgstr "Lingias da construcziun dals implants d'eroports RPDP"
+
+msgid "fullname.ch.bazl.einschraenkungen-drohnen"
+msgstr "Zonas cun restricziuns per urdains sgulants da model e per dronas"
+
+msgid "fullname.ch.bazl.flugplaetze-heliports"
+msgstr "Plazzas aviaticas civilas e militaras"
+
+msgid "fullname.ch.bazl.gebirgslandeplaetze"
+msgstr "Plazzas d'atterrament da muntogna: plazzas d'atterrament marcadas spezialmain, situadas sin in'autezza sur 1100 m sur mar"
+
+msgid "fullname.ch.bazl.kataster-belasteter-standorte-zivilflugplaetze"
+msgstr "Cataster dals lieus contaminads en il sectur da las plazzas aviaticas civilas (CLC UFAC)"
+
+msgid "fullname.ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.oereb"
+msgstr "Cataster dals lieus contaminads en il sectur da las plazzas aviaticas civilas (CLC UFAC) RPDP"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_erste-nachtstunde"
+msgstr "Cataster da la grevezza da canera per plazzas aviaticas civilas - Grevezza da canera da l'emprima ura da notg Lrn (22.00 fin 23.00)"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_helikopter"
+msgstr "Cataster da la grevezza da canera per plazzas aviaticas civilas - Grevezza da canera da helicopters Lr"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_helikopter-maximalpegel"
+msgstr "Cataster da la grevezza da canera per plazzas aviaticas civilas - Grevezza da canera da helicopters Lmax"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_klein-grossflugzeuge"
+msgstr "Cataster da la grevezza da canera per plazzas aviaticas civilas - Grevezza da canera d'aviuns pitschens e gronds Lrt (06.00 fin 22.00)"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_kleinluftfahrzeuge"
+msgstr "Cataster da la grevezza da canera per plazzas aviaticas civilas - Grevezza da canera d'aviuns pitschens Lrk"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_letzte-nachtstunde"
+msgstr "Cataster da la grevezza da canera per plazzas aviaticas civilas - Grevezza da canera da l'ultima ura da notg Lrn (05.00 fin 06.00)"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_militaer-gesamt"
+msgstr "Cataster da la grevezza da canera per plazzas aviaticas civilas - Grevezza da canera da la plazza aviatica militara incl. traffic aviatic civil Lr"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_zweite-nachtstunde"
+msgstr "Cataster da la grevezza da canera per plazzas aviaticas civilas - Grevezza da canera da la segunda ura da notg Lrn (23.00 fin 24.00)"
+
+msgid "fullname.ch.bazl.landschaftsruhezonen"
+msgstr "Zonas da paus per la cuntrada en il context da l'aviatica"
+
+msgid "fullname.ch.bazl.luftfahrthindernis"
+msgstr "Datas d'obstachels da l'aviatica en Svizra"
+
+msgid "fullname.ch.bazl.luftfahrtkarten-icao"
+msgstr "Charta d'aviatica da la Svizra OACI 1:500'000"
+
+msgid "fullname.ch.bazl.luftraeume-fluginformationsgebiet"
+msgstr "Spazis d'aria: regiun d'infurmaziun da sgol (FIR)"
+
+msgid "fullname.ch.bazl.luftraeume-fluginformationszonen"
+msgstr "Spazis d'aria: zonas d'infurmaziun da sgol (FIZ)"
+
+msgid "fullname.ch.bazl.luftraeume-kontrollbezirke"
+msgstr "Spazis d'aria: regiuns da controlla (CTA)"
+
+msgid "fullname.ch.bazl.luftraeume-kontrollzonen"
+msgstr "Spazis d'aria: zonas da controlla (CTR)"
+
+msgid "fullname.ch.bazl.luftraeume-nahkontrollbezirke"
+msgstr "Spazis d'aria: regiuns da controlla terminala (TMA)"
+
+msgid "fullname.ch.bazl.projektierungszonen-flughafenanlagen"
+msgstr "Zonas da projectaziun per implants d'eroports"
+
+msgid "fullname.ch.bazl.projektierungszonen-flughafenanlagen.oereb"
+msgstr "Zonas da projectaziun per implants d'eroports RPDP"
+
+msgid "fullname.ch.bazl.sachplan-infrastruktur-luftfahrt_anhorung"
+msgstr "Plan secturial Infrastructura da l'aviatica (PSIA) - audiziuns"
+
+msgid "fullname.ch.bazl.sachplan-infrastruktur-luftfahrt_kraft"
+msgstr "Plan secturial Infrastructura da l'aviatica (PSIA)"
+
+msgid "fullname.ch.bazl.schutzgebiete-aulav_liechtenstein"
+msgstr "Schutzgebiete der zivilen Luftfahrthindernispublikation – Schutzgebiete Liechtenstein"
+
+msgid "fullname.ch.bazl.segelflugkarte"
+msgstr "Charta da sgol senza motor da la Svizra 1:300'000"
+
+msgid "fullname.ch.bazl.sicherheitszonenplan"
+msgstr "Plan da zonas da segirezza"
+
+msgid "fullname.ch.bazl.sicherheitszonenplan.oereb"
+msgstr "Plan da zonas da segirezza RPDP"
+
+msgid "fullname.ch.bazl.spitallandeplaetze"
+msgstr "Plazzas d'atterrament d'ospitals: plazzas d'atterrament per intents d'agid"
+
+msgid "fullname.ch.bfe.abgeltung-wasserkraftnutzung"
+msgstr "Indemnisaziun da perditas da l'utilisaziun da la forza idraulica (OIFI)"
+
+msgid "fullname.ch.bfe.bikesharing"
+msgstr "Sistems da parter e d'emprestar velos"
+
+msgid "fullname.ch.bfe.energieforschung"
+msgstr "Cleantech: projects da pilot e da demonstraziun e projects da turs da signal"
+
+msgid "fullname.ch.bfe.energiestaedte"
+msgstr "Citads d'energia"
+
+msgid "fullname.ch.bfe.energiestaedte-2000watt-areale"
+msgstr "Areals da 2000 watts"
+
+msgid "fullname.ch.bfe.energiestaedte-2000watt-aufdemweg"
+msgstr "Citads d'energia sin via vers la societad da 2000 watts"
+
+msgid "fullname.ch.bfe.energiestaedte-energieregionen"
+msgstr "Regiuns d'energia"
+
+msgid "fullname.ch.bfe.kernkraftwerke"
+msgstr "Ovras nuclearas"
+
+msgid "fullname.ch.bfe.kleinwasserkraftpotentiale"
+msgstr "Potenzials d'ovras idraulicas pitschnas da las auas svizras"
+
+msgid "fullname.ch.bfe.ladestellen-elektromobilitaet"
+msgstr "Ladestellen Elektromobilität"
+
+msgid "fullname.ch.bfe.meteorologische-vereisung"
+msgstr "Atlas dal vent da la Svizra: frequenza d'englatschaments meteorologics sin 100 m sur il terren"
+
+msgid "fullname.ch.bfe.minergiegebaeude"
+msgstr "Minergie"
+
+msgid "fullname.ch.bfe.sachplan-geologie-tiefenlager"
+msgstr "Plan secturial Deposits geologics profunds"
+
+msgid "fullname.ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung"
+msgstr "Plan secturial Deposits geologics profunds: preschentaziun tematica"
+
+msgid "fullname.ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung"
+msgstr "Sachplan geologische Tiefenlager - Vernehmlassung Etappe 2"
+
+msgid "fullname.ch.bfe.sachplan-uebertragungsleitungen_anhoerung"
+msgstr "Plan secturial Lingias da transmissiun (PSL) - audiziuns"
+
+msgid "fullname.ch.bfe.sachplan-uebertragungsleitungen_kraft"
+msgstr "Plan secturial Lingias da transmissiun (PSL)"
+
+msgid "fullname.ch.bfe.solarenergie-eignung-daecher"
+msgstr "Tetgs da chasas adattads per trair a niz l'energia solara"
+
+msgid "fullname.ch.bfe.solarenergie-eignung-fassaden"
+msgstr "Fatschadas da chasas adattadas per trair a niz l'energia solara"
+
+msgid "fullname.ch.bfe.statistik-wasserkraftanlagen"
+msgstr "Statistica dals implants idraulics (STII)"
+
+msgid "fullname.ch.bfe.stauanlagen-bundesaufsicht"
+msgstr "Stabiliments d'accumulaziun sut surveglianza federala"
+
+msgid "fullname.ch.bfe.windenergieanlagen"
+msgstr "Implants d'energia dal vent"
+
+msgid "fullname.ch.bfe.windenergie-geschwindigkeit_h100"
+msgstr "Atlas dal vent da la Svizra: media annuala da la sveltezza dal vent modellada e da la direcziun dal vent en 100 m sur il terren"
+
+msgid "fullname.ch.bfe.windenergie-geschwindigkeit_h125"
+msgstr "Atlas dal vent da la Svizra: media annuala da la sveltezza dal vent modellada e da la direcziun dal vent en 125 m sur il terren"
+
+msgid "fullname.ch.bfe.windenergie-geschwindigkeit_h150"
+msgstr "Atlas dal vent da la Svizra: media annuala da la sveltezza dal vent modellada e da la direcziun dal vent en 150 m sur il terren"
+
+msgid "fullname.ch.bfe.windenergie-geschwindigkeit_h50"
+msgstr "Atlas dal vent da la Svizra: media annuala da la sveltezza dal vent modellada e da la direcziun dal vent en 50 m sur il terren"
+
+msgid "fullname.ch.bfe.windenergie-geschwindigkeit_h75"
+msgstr "Atlas dal vent da la Svizra: media annuala da la sveltezza dal vent modellada e da la direcziun dal vent en 75 m sur il terren"
+
+msgid "fullname.ch.bfe.windenergie-potenzialgebiete"
+msgstr "Konzept Windenergie – Grundlagenkarte des Bundes betreffend die hauptsächlichen Windpotenzialgebiete"
+
+msgid "fullname.ch.bfs.arealstatistik"
+msgstr "Statistica d'areals 2004/09 tenor la nomenclatura standard NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-04"
+msgstr "Arealstatistik 2004/09 nach Standardnomenklatur NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-17"
+msgstr "Arealstatistik 2004/09 nach Standardnomenklatur NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-1985"
+msgstr "Statistica d'areals 1979/85 tenor la nomenclatura standard NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-1985-04"
+msgstr "Arealstatistik 1979/1985, 4 Hauptbereiche"
+
+msgid "fullname.ch.bfs.arealstatistik-1985-15"
+msgstr "Arealstatistik 1979/1985, 15 aggregierte Nutzungsarten"
+
+msgid "fullname.ch.bfs.arealstatistik-1985-25"
+msgstr "Arealstatistik 1979/1985, 25 aggregierte Nutzungsarten"
+
+msgid "fullname.ch.bfs.arealstatistik-1985-punkte"
+msgstr "Arealstatistik 1979/1985, 74 Grundkategorien"
+
+msgid "fullname.ch.bfs.arealstatistik-1997"
+msgstr "Statistica d'areals 1992/97 tenor la nomenclatura standard NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-1997-04"
+msgstr "Arealstatistik 1992/1997, 4 Hauptbereiche"
+
+msgid "fullname.ch.bfs.arealstatistik-1997-15"
+msgstr "Arealstatistik 1992/1997, 15 aggregierte Nutzungsarten"
+
+msgid "fullname.ch.bfs.arealstatistik-1997-25"
+msgstr "Arealstatistik 1992/1997, 25 aggregierte Nutzungsarten"
+
+msgid "fullname.ch.bfs.arealstatistik-1997-punkte"
+msgstr "Arealstatistik 1992/1997, 74 Grundkategorien"
+
+msgid "fullname.ch.bfs.arealstatistik-27"
+msgstr "Arealstatistik 2004/09 nach Standardnomenklatur NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodenbedeckung"
+msgstr "Statistica d'areals 2004/09 tenor la nomenclatura da la cuvrida dal terren NOLC04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodenbedeckung-1985"
+msgstr "Statistica d'areals 1979/85 tenor la nomenclatura da la cuvrida dal terren NOLC04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodenbedeckung-1997"
+msgstr "Statistica d'areals 1992/97 tenor la nomenclatura da la cuvrida dal terren NOLC04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung"
+msgstr "Statistica d'areals 2004/09 tenor la nomenclatura da l'utilisaziun dal terren NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung-04"
+msgstr "Arealstatistik 2004/09 nach Bodennutzungsnomenklatur NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung-10"
+msgstr "Arealstatistik 2004/09 nach Bodennutzungsnomenklatur NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung-1985"
+msgstr "Statistica d'areals 1979/85 tenor la nomenclatura da l'utilisaziun dal terren NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung-1997"
+msgstr "Statistica d'areals 1992/97 tenor la nomenclatura da l'utilisaziun dal terren NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung-punkte"
+msgstr "Arealstatistik 2004/09 nach Bodennutzungsnomenklatur NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-hintergrund"
+msgstr "Datas cumplementaras da la statistica d'areals"
+
+msgid "fullname.ch.bfs.arealstatistik-punkte"
+msgstr "Arealstatistik 2004/09 nach Standardnomenklatur NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-waldmischungsgrad"
+msgstr "Statistica d'areals da la maschaida dal guaud 1990"
+
+msgid "fullname.ch.bfs.betriebszaehlungen-arbeitsstaetten"
+msgstr "Dumbraziuns/statistica dals manaschis"
+
+msgid "fullname.ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente"
+msgstr "Dumbraziuns/statistica dals manaschis"
+
+msgid "fullname.ch.bfs.gebaeude_wohnungs_register"
+msgstr "Register federal dals edifizis e da las abitaziuns REA"
+
+msgid "fullname.ch.bfs.generalisierte-grenzen_agglomerationen_g1"
+msgstr "Cunfins generalisads G1 e territori da caracter urban"
+
+msgid "fullname.ch.bfs.generalisierte-grenzen_agglomerationen_g2"
+msgstr "Cunfins generalisads G2 e territori da caracter urban"
+
+msgid "fullname.ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner"
+msgstr "Bevölkerungsstatistik: Einwohner"
+
+msgid "fullname.ch.bfs.volkszaehlung-gebaeudestatistik_gebaeude"
+msgstr "Gebäude- und Wohnungsstatistik: Gebäude"
+
+msgid "fullname.ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen"
+msgstr "Gebäude- und Wohnungsstatistik: Wohnungen"
+
+msgid "fullname.ch.blw.alpprodukte"
+msgstr "Products d'alp"
+
+msgid "fullname.ch.blw.bergprodukte"
+msgstr "Products da muntogna"
+
+msgid "fullname.ch.blw.bewaesserungsbeduerftigkeit"
+msgstr "Basegn da sauaziun"
+
+msgid "fullname.ch.blw.bodeneignung-gruendigkeit"
+msgstr "Charta digitala da l'adattaziun dal terren da la Svizra – profunditad"
+
+msgid "fullname.ch.blw.bodeneignung-kulturland"
+msgstr "Charta digitala da l'adattaziun dal terren da la Svizra – terren cultivà"
+
+msgid "fullname.ch.blw.bodeneignung-kulturtyp"
+msgstr "Charta digitala da l'adattaziun dal terren da la Svizra – tip da cultura"
+
+msgid "fullname.ch.blw.bodeneignung-naehrstoffspeichervermoegen"
+msgstr "Charta digitala da l'adattaziun dal terren da la Svizra – abilitad da retegnair substanzas nutritivas"
+
+msgid "fullname.ch.blw.bodeneignung-skelettgehalt"
+msgstr "Charta digitala da l'adattaziun dal terren da la Svizra – pedrusitad"
+
+msgid "fullname.ch.blw.bodeneignung-vernaessung"
+msgstr "Charta digitala da l'adattaziun dal terren da la Svizra – saturaziun cun aua"
+
+msgid "fullname.ch.blw.bodeneignung-wasserdurchlaessigkeit"
+msgstr "Charta digitala da l'adattaziun dal terren da la Svizra – permeabilitad"
+
+msgid "fullname.ch.blw.bodeneignung-wasserspeichervermoegen"
+msgstr "Charta digitala da l'adattaziun dal terren da la Svizra – capacitad da retegnair l'aua"
+
+msgid "fullname.ch.blw.emapis-beizugsgebiet"
+msgstr "Meglieraziuns da la structura agricula - territori cumpiglià d'in regruppament dal terren"
+
+msgid "fullname.ch.blw.emapis-bewaesserung"
+msgstr "Meglieraziuns da la structura agricula - indrizs da sauar"
+
+msgid "fullname.ch.blw.emapis-elektrizitaetsversorgung"
+msgstr "Meglieraziuns da la structura agricula - provediment cun electricitad"
+
+msgid "fullname.ch.blw.emapis-entwaesserung"
+msgstr "Meglieraziuns da la structura agricula - bilantscha d'aua, structura dal terren"
+
+msgid "fullname.ch.blw.emapis-hochbau"
+msgstr "Meglieraziuns da la structura agricula - differentas mesiras concernent ils edifizis agriculs"
+
+msgid "fullname.ch.blw.emapis-milchleitung"
+msgstr "Meglieraziuns da la structura agricula - conduct da latg"
+
+msgid "fullname.ch.blw.emapis-oekologie"
+msgstr "Meglieraziuns da la structura agricula - mesiras ecologicas"
+
+msgid "fullname.ch.blw.emapis-projektschwerpunkt"
+msgstr "Meglieraziuns da la structura agricula - punct central da projects pli gronds"
+
+msgid "fullname.ch.blw.emapis-seilbahnen"
+msgstr "Meglieraziuns da la structura agricula - pendicularas da l'agricultura e da l'economia d'alp"
+
+msgid "fullname.ch.blw.emapis-wasserversorgung"
+msgstr "Meglieraziuns da la structura agricula - provediment d'aua da baiver"
+
+msgid "fullname.ch.blw.emapis-wegebau"
+msgstr "Meglieraziuns da la structura agricula - construcziun da vias champestras"
+
+msgid "fullname.ch.blw.emapis-zusammenfassung"
+msgstr "Meglieraziuns da la structura agricula - resumaziun"
+
+msgid "fullname.ch.blw.erosion"
+msgstr "Charta davart las ristgas d'erosiun da la Svizra, qualitativa 1 (regiun da planira)"
+
+msgid "fullname.ch.blw.erosion-mit_bergzonen"
+msgstr "Charta davart las ristgas d'erosiun da la Svizra, qualitativa 2 (regiun da planira e zonas da muntogna I+II)"
+
+msgid "fullname.ch.blw.erosion-quantitativ"
+msgstr "Charta davart las ristgas d'erosiun da la Svizra, perdita media da terren en tonnas /(ha*onn)"
+
+msgid "fullname.ch.blw.feldblockkarte"
+msgstr "Charta da blocs da parcellas per la ristga d'erosiun"
+
+msgid "fullname.ch.blw.gewaesseranschlusskarte"
+msgstr "Charta da las surfatschas colliadas cun auas da surfatscha, probabilitad da la colliaziun"
+
+msgid "fullname.ch.blw.gewaesseranschlusskarte-direkt"
+msgstr "Charta da las surfatschas colliadas directamain u indirectamain cun auas da surfatscha, probabilitad da la colliaziun"
+
+msgid "fullname.ch.blw.hang_steillagen"
+msgstr "Costas e spundas"
+
+msgid "fullname.ch.blw.klimaeignung-futterbau"
+msgstr "Charta da l'adattaziun climatica per l'agricultura – cultivaziun da pavel"
+
+msgid "fullname.ch.blw.klimaeignung-getreidebau"
+msgstr "Charta da l'adattaziun climatica per l'agricultura – cultivaziun da graun"
+
+msgid "fullname.ch.blw.klimaeignung-kartoffeln"
+msgstr "Charta da l'adattaziun climatica per l'agricultura – tartuffels"
+
+msgid "fullname.ch.blw.klimaeignung-koernermais"
+msgstr "Charta da l'adattaziun climatica per l'agricultura – tirc da moler"
+
+msgid "fullname.ch.blw.klimaeignung-kulturland"
+msgstr "Charta da l'adattaziun climatica per l'agricultura – terren cultivà"
+
+msgid "fullname.ch.blw.klimaeignung-spezialkulturen"
+msgstr "Charta da l'adattaziun climatica per l'agricultura – culturas spezialas"
+
+msgid "fullname.ch.blw.klimaeignung-typ"
+msgstr "Charta da l'adattaziun climatica per l'agricultura – survista"
+
+msgid "fullname.ch.blw.klimaeignung-zwischenfruchtbau"
+msgstr "Charta da l'adattaziun climatica per l'agricultura – culturas intermediaras da stad"
+
+msgid "fullname.ch.blw.landwirtschaftliche-zonengrenzen"
+msgstr "Cunfins da las zonas agriculas da la Svizra"
+
+msgid "fullname.ch.blw.niederschlagshaushalt"
+msgstr "Charta da l'adattaziun climatica per l'agricultura – precipitaziuns"
+
+msgid "fullname.ch.blw.steil_terrassenlagen_rebbau"
+msgstr "Surfatschas da vignas sin terren spundiv"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch"
+msgstr "Register da las denominaziuns d'origin protegidas (DOP) e da las indicaziuns geograficas protegidas (IGP) per products da charn"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-ap_wurst"
+msgstr "fullname.ch.blw.ursprungsbezeichnungen-fleisch-ap_wurst"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-buendnerfleisch"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Fleischware"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-gl_kaelberwurst"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Fleischware"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-longeole"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Fleischware"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-saucisse_ajoie"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Fleischware"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-saucisse_aux_choux_vd"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Fleischware"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-saucisse_ne"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Fleischware"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-saucisson_vd"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Fleischware"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-sg_wuerste"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Fleischware"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-vs_trockenfleisch"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Fleischware"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese"
+msgstr "Register da las denominaziuns d'origin protegidas (DOP) e da las indicaziuns geograficas protegidas (IGP) per chaschiel"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-be_alpkaese"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-emmentaler"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-etivaz"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-formaggio_d_alpe_ti"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-gruyere"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-sbrinz"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-tete_de_moine"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-vacherin_fr"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-vacherin_mont_d_or"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-vs_raclette"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-werdenberger"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-konditoreiwaren"
+msgstr "Register da las denominaziuns d'origin protegidas (DOP) e da las indicaziuns geograficas protegidas (IGP) per pastizarias"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen"
+msgstr "Register da las denominaziuns d'origin protegidas (DOP) e da las indicaziuns geograficas protegidas (IGP) per products da plantas"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen-cardon_epineux_ge"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Pflanzliche Produkte"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen-munder_safran"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Pflanzliche Produkte"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen-poire_botzi"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Pflanzliche Produkte"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen-rheintaler_ribel"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Pflanzliche Produkte"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen-vs_roggenbrot"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Pflanzliche Produkte"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-spirituosen"
+msgstr "Register da las denominaziuns d'origin protegidas (DOP) e da las indicaziuns geograficas protegidas (IGP) per spirituosas"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-spirituosen-abricotine"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Spirituosen"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-spirituosen-damassine"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Spirituosen"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-spirituosen-eau_vie_poire"
+msgstr "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Spirituosen"
+
+msgid "fullname.ch.ensi.zonenplan-notfallschutz-kernanlagen"
+msgstr "Plans da zonas per la planisaziun da cas d'urgenza en ils conturns da las ovras nuclearas"
+
+msgid "fullname.ch.ezv.lohnbrennereien"
+msgstr "Lohnbrennereien"
+
+msgid "fullname.ch.kantone.cadastralwebmap-farbe"
+msgstr "CadastralWebMap"
+
+msgid "fullname.ch.meteoschweiz.globalstrahlung-monatlich"
+msgstr "Globalstrahlung test"
+
+msgid "fullname.ch.meteoschweiz.messdaten-foehn"
+msgstr "Messdaten Föhn automatisches Bodenmessnetz"
+
+msgid "fullname.ch.meteoschweiz.messdaten-globalstrahlung"
+msgstr "Messdaten Globalstrahlung automatisches Bodenmessnetz"
+
+msgid "fullname.ch.meteoschweiz.messdaten-luftdruck-qfe"
+msgstr "Messdaten Lufdruck auf Stationshöhe (QFE) automatisches Bodenmessnetz"
+
+msgid "fullname.ch.meteoschweiz.messdaten-luftdruck-qff"
+msgstr "Messdaten Lufdruck reduziert auf Meereshöhe (QFF) automatisches Bodenmessnetz"
+
+msgid "fullname.ch.meteoschweiz.messdaten-luftdruck-qnh"
+msgstr "Messdaten Lufdruck reduziert auf Meereshöhe (QFF) automatisches Bodenmessnetz"
+
+msgid "fullname.ch.meteoschweiz.messdaten-luftfeuchtigkeit"
+msgstr "Messdaten Luftfeuchtigkeit automatisches Bodenmessnetz"
+
+msgid "fullname.ch.meteoschweiz.messdaten-lufttemperatur"
+msgstr "Messdaten Lufttemperatur des automatischen Bodenmessnetzes"
+
+msgid "fullname.ch.meteoschweiz.messdaten-niederschlag"
+msgstr "Messdaten Niederschlag automatisches Bodenmessnetz"
+
+msgid "fullname.ch.meteoschweiz.messdaten-niederschlag-tagessummen"
+msgstr "Messdaten Niederschlag Tagessummen automatisches und manuelles Bodenmessnetz"
+
+msgid "fullname.ch.meteoschweiz.messdaten-sonnenscheindauer"
+msgstr "Messdaten Sonnenscheindauer automatisches Bodenmessnetz"
+
+msgid "fullname.ch.meteoschweiz.messdaten-taupunkt"
+msgstr "Messdaten Taupunkt automatisches Bodenmessnetz"
+
+msgid "fullname.ch.meteoschweiz.messdaten-wind-boenspitze"
+msgstr "Messdaten Böenspitze automatisches Bodenmessnetz"
+
+msgid "fullname.ch.meteoschweiz.messdaten-windgeschwindigkeit"
+msgstr "Messdaten Windgeschwindigkeit automatisches Bodenmessnetz"
+
+msgid "fullname.ch.mobility.standorte"
+msgstr "Lieus da purschiders d'autos partibels (carsharing)"
+
+msgid "fullname.ch.nagra.aeromagnetische-karte_1100"
+msgstr "Charta eromagnetica 1:100'000 Argovia fin Schaffusa (1100 m)"
+
+msgid "fullname.ch.nagra.aeromagnetische-karte_1500"
+msgstr "Charta eromagnetica 1:100'000 Argovia fin Schaffusa (1500 m)"
+
+msgid "fullname.ch.pronatura.naturschutzgebiete"
+msgstr "Reservats da guaud da la Pro natura"
+
+msgid "fullname.ch.pronatura.waldreservate"
+msgstr "Reservats da guaud da la Pro natura"
+
+msgid "fullname.ch.sem.sachplan-asyl_anhoerung"
+msgstr "Sachplan Asyl (SPA) - Anhörungen"
+
+msgid "fullname.ch.sem.sachplan-asyl_kraft"
+msgstr "Sachplan Asyl (SPA)"
+
+msgid "fullname.ch.sgpk.maechtigkeit-lockergesteine"
+msgstr "Grossezza da la crappa lucca da la Svizra"
+
+msgid "fullname.ch.swisstopo.amtliches-strassenverzeichnis"
+msgstr "Amtliches Verzeichnis der Strassen"
+
+msgid "fullname.ch.swisstopo.burgenkarte200_papier.metadata"
+msgstr "Charta stampada: Charta dals chastels da la Svizra 1:200'000"
+
+msgid "fullname.ch.swisstopo.digitales-hoehenmodell_25.metadata"
+msgstr "Extensiun geografica DHM25"
+
+msgid "fullname.ch.swisstopo.digitales-hoehenmodell_25_reliefschattierung"
+msgstr "DHM25 sumbriva dal reliev"
+
+msgid "fullname.ch.swisstopo.dreiecksvermaschung"
+msgstr "Midada dal rom da referenza MN03 – MN95: rait triangulara (CHENyx06 e FINELTRA MN)"
+
+msgid "fullname.ch.swisstopo.fixpunkte-agnes"
+msgstr "Rait da referenza (permanent): Rait da GNSS automatica per la Svizra (AGNES)"
+
+msgid "fullname.ch.swisstopo.fixpunkte-hfp1"
+msgstr "Puncts fixs altimetrics PFA1 (mesiraziun naziunala)"
+
+msgid "fullname.ch.swisstopo.fixpunkte-hfp2"
+msgstr "Puncts fixs altimetrics PFA2, PFA3 (mesiraziun uffiziala)"
+
+msgid "fullname.ch.swisstopo.fixpunkte-lfp1"
+msgstr "Puncts fixs planimetrics PFP1 (mesiraziun naziunala)"
+
+msgid "fullname.ch.swisstopo.fixpunkte-lfp2"
+msgstr "Puncts fixs planimetrics PFP2, PFP3 (mesiraziun uffiziala)"
+
+msgid "fullname.ch.swisstopo.generalkarte300_papier.metadata"
+msgstr "Charta stampada: Charta generala 1:300'000"
+
+msgid "fullname.ch.swisstopo.geoidmodell-ch1903"
+msgstr "Model da geoid CHGeo2004 en CH1903"
+
+msgid "fullname.ch.swisstopo.geoidmodell-etrs89"
+msgstr "Model da geoid CHGeo2004 en ETRS89"
+
+msgid "fullname.ch.swisstopo.geologie-bodenunruhe"
+msgstr "Modell der menschengemachten seismischen Bodenunruhe der Schweiz"
+
+msgid "fullname.ch.swisstopo.geologie-bohrungen_tiefer_500"
+msgstr "Bohrungen tiefer als 500 m"
+
+msgid "fullname.ch.swisstopo.geologie-dosisleistung-terrestrisch"
+msgstr "Radiaziun terrestra"
+
+msgid "fullname.ch.swisstopo.geologie-eiszeit-lgm"
+msgstr "La Svizra durant il maximum da l'ultim temp da glatsch (LGM) 1:500000 (charta vectoriala)"
+
+msgid "fullname.ch.swisstopo.geologie-eiszeit-lgm-raster"
+msgstr "La Svizra durant il maximum da l'ultim temp da glatsch (LGM) 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-eiszeit-lgm-raster_papier.metadata"
+msgstr "Divisiun dal maximum da l'ultim temp da glatsch (LGM) 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-erlebnis_geologie"
+msgstr "Aventura geologia"
+
+msgid "fullname.ch.swisstopo.geologie-generalkarte-ggk200"
+msgstr "Charta geologica generala da la Svizra 1:200000"
+
+msgid "fullname.ch.swisstopo.geologie-generalkarte-ggk200.metadata"
+msgstr "Divisiun charta geologica generala 200 Raster"
+
+msgid "fullname.ch.swisstopo.geologie-generalkarte-ggk200_papier.metadata"
+msgstr "Divisiun charta geologica generala 200 Stampa"
+
+msgid "fullname.ch.swisstopo.geologie-geocover"
+msgstr "Unitads da datas geologicas vectorialas GeoCover"
+
+msgid "fullname.ch.swisstopo.geologie-geocover.metadata"
+msgstr "Divisiun da las unitads da datas geologicas vectorialas GeoCover"
+
+msgid "fullname.ch.swisstopo.geologie-geodaesie-bouguer_anomalien"
+msgstr "Charta gravimetrica da la Svizra (anomalias da Bouguer) 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geodaesie-bouguer_anomalien_papier.metadata"
+msgstr "Divisiun da la charta gravimetrica (anomalias da Bouguer) 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geodaesie-isostatische_anomalien"
+msgstr "Charta gravimetrica da la Svizra (anomalias isostaticas) 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geologische_einheiten-onegeology"
+msgstr "Geologische Einheiten - OneGeology"
+
+msgid "fullname.ch.swisstopo.geologie-geologische_einheiten-onegeologyeurope"
+msgstr "Geologische Einheiten - OneGeology Europe"
+
+msgid "fullname.ch.swisstopo.geologie-geologische_karte"
+msgstr "Charta geologica da la Svizra 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geologische_karte_papier.metadata"
+msgstr "Divisiun da la charta geologica 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geologischer_atlas"
+msgstr "Atlas geologic da la Svizra 1:25000"
+
+msgid "fullname.ch.swisstopo.geologie-geologischer_atlas.metadata"
+msgstr "Divisiun atlas geologic 25 Raster"
+
+msgid "fullname.ch.swisstopo.geologie-geologischer_atlas_papier.metadata"
+msgstr "Divisiun atlas geologic 25 Stampa"
+
+msgid "fullname.ch.swisstopo.geologie-geologischer_atlas_vector.metadata"
+msgstr "Divisiun atlas geologic 25 Vector"
+
+msgid "fullname.ch.swisstopo.geologie-geomorphologie"
+msgstr "Survista da la geomorfologia"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-aeromagnetische_karte_jura"
+msgstr "Charta eromagnetica da la Svizra Bassa e dal Giura"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-aeromagnetische_karte_schweiz"
+msgstr "Charta eromagnetica da la Svizra 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-deklination"
+msgstr "Charta da la declinaziun en Svizra 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-geothermie"
+msgstr "Charta geotermica da la Svizra 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-inklination"
+msgstr "Charta da l'inclinaziun en Svizra 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-totalintensitaet"
+msgstr "Charta da l'intensitad totala en Svizra 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-gk200"
+msgstr "Charta geotecnica da la Svizra 1:200000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-gk500-genese"
+msgstr "Charta litologica e petrografica da la Svizra – Genesa 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung"
+msgstr "Charta litologica e petrografica da la Svizra – Classificaziun da la crappa 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen"
+msgstr "Charta litologica e petrografica da la Svizra – Gruppas litologicas principalas 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-mineralische_rohstoffe200"
+msgstr "Charta da las materias primas mineralas da la Svizra 1:200000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-steinbrueche_1915"
+msgstr "Crapperas 1915"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-steinbrueche_1965"
+msgstr "Crapperas 1965"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-steinbrueche_1980"
+msgstr "Crapperas 1980"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-steinbrueche_1995"
+msgstr "Crapperas 1995"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-steine_historische_bauwerke"
+msgstr "Crappa da monuments istorics"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-zementindustrie_1965"
+msgstr "Industria da cement 1965"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-zementindustrie_1995"
+msgstr "Industria da cement 1995"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-ziegeleien_1907"
+msgstr "Fabricas da quadrels 1907"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-ziegeleien_1965"
+msgstr "Fabricas da quadrels 1965"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-ziegeleien_1995"
+msgstr "Fabricas da quadrels 1995"
+
+msgid "fullname.ch.swisstopo.geologie-geotope"
+msgstr "Geotops svizzers"
+
+msgid "fullname.ch.swisstopo.geologie-geowege"
+msgstr "Sendas da viandar geologicas"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-1000to21000km2"
+msgstr "Documents geologics (1000-21000km2)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-100to1000km2"
+msgstr "Documents geologics (100-1000km2)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-10to100km2"
+msgstr "Documents geologics (10-100km2)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-10x10km"
+msgstr "Documents geologics (10x10km)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-1x1km"
+msgstr "Documents geologics (1x1km)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-gt21000km2"
+msgstr "Documents geologics (>21000km2)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-lt10km2"
+msgstr "Documents geologics (<10km2)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-linien"
+msgstr "Documents geologics (lingias)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-punkte"
+msgstr "Documents geologics (puncts)"
+
+msgid "fullname.ch.swisstopo.geologie-gravimetrischer_atlas"
+msgstr "Atlas gravimetric da la Svizra 1:100000"
+
+msgid "fullname.ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte"
+msgstr "Gravimetrischer Atlas der Schweiz: Messpunkte 1:100000"
+
+msgid "fullname.ch.swisstopo.geologie-gravimetrischer_atlas_papier.metadata"
+msgstr "Divisiun da l'Atlas gravimetric da la Svizra 1:100000"
+
+msgid "fullname.ch.swisstopo.geologie-grundwasservorkommen_papier.metadata"
+msgstr "Divisiun da la charta idrogeologica: resursas d'aua sutterrana 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-grundwasservulnerabilitaet_papier.metadata"
+msgstr "Divisiun da la charta idrogeologica: vulnerabilitad da las resursas d'aua sutterrana 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen"
+msgstr "Charta idrogeologica da la Svizra: resursas d'aua sutterrana 1:500'000"
+
+msgid "fullname.ch.swisstopo.geologie-hydrogeologische_karte-grundwasservulnerabilitaet"
+msgstr "Charta idrogeologica da la Svizra: vulnerabilitad da las resursas d'aua sutterrana 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-rohstoffe-industrieminerale"
+msgstr "Minerals d'industria"
+
+msgid "fullname.ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas"
+msgstr "Materias primas d'energia"
+
+msgid "fullname.ch.swisstopo.geologie-rohstoffe-vererzungen"
+msgstr "Metallisaziuns"
+
+msgid "fullname.ch.swisstopo.geologie-spezialkarten_schweiz.metadata"
+msgstr "Divisiun da chartas geologicas spezialas Retagl"
+
+msgid "fullname.ch.swisstopo.geologie-spezialkarten_schweiz_papier.metadata"
+msgstr "Divisiun da chartas geologicas spezialas Palpiri"
+
+msgid "fullname.ch.swisstopo.geologie-spezialkarten_schweiz_vector.metadata"
+msgstr "Divisiun da chartas geologicas spezialas Vectur"
+
+msgid "fullname.ch.swisstopo.geologie-tektonische_einheiten-onegeology"
+msgstr "Tektonische Einheiten - OneGeology"
+
+msgid "fullname.ch.swisstopo.geologie-tektonische_karte"
+msgstr "Charta tectonica da la Svizra 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-tektonische_karte_papier.metadata"
+msgstr "Divisiun da la charta tectonica 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-tektonische_stoerungen-onegeology"
+msgstr "Tektonische Störungen - OneGeology"
+
+msgid "fullname.ch.swisstopo.geologie-tektonische_stoerungen-onegeologyeurope"
+msgstr "Störungen - OneGeology Europe"
+
+msgid "fullname.ch.swisstopo.geologie-tiefengeothermie_projekte"
+msgstr "Projects da geotermia profunda en Svizra"
+
+msgid "fullname.ch.swisstopo.hangneigung-ueber_30"
+msgstr "Classas da pendenza da dapli che 30 grads"
+
+msgid "fullname.ch.swisstopo.hebungsraten"
+msgstr "Ratas d'auzament"
+
+msgid "fullname.ch.swisstopo.hiks-dufour"
+msgstr "Charta topografica da la Svizra (Charta Dufour)"
+
+msgid "fullname.ch.swisstopo.hiks-dufour.metadata"
+msgstr "Divisiun da la Charta Dufour per la butia online"
+
+msgid "fullname.ch.swisstopo.hiks-siegfried"
+msgstr "Atlas topografic da la Svizra (Charta Siegfried)"
+
+msgid "fullname.ch.swisstopo.hiks-siegfried-ta25.metadata"
+msgstr "Divisiun da la Charta Siegfried 1:25'000 per la butia online"
+
+msgid "fullname.ch.swisstopo.hiks-siegfried-ta50.metadata"
+msgstr "Divisiun da la Charta Siegfried 1.50'000 per la butia online"
+
+msgid "fullname.ch.swisstopo.images-landsat25"
+msgstr "Mosaic Landsat"
+
+msgid "fullname.ch.swisstopo.images-spot-5.metadata"
+msgstr "Extensiun geografica Spot Mosaic"
+
+msgid "fullname.ch.swisstopo.images-spotimage"
+msgstr "fullname.ch.swisstopo.images-spotimage"
+
+msgid "fullname.ch.swisstopo.images-swissimage"
+msgstr "Fotografia or da l'aria"
+
+msgid "fullname.ch.swisstopo.images-swissimage-dop10.metadata"
+msgstr "Divisiun en quadrels SWISSIMAGE 10 cm"
+
+msgid "fullname.ch.swisstopo.images-swissimage.metadata"
+msgstr "Divisiun en quadrels SWISSIMAGE 25 cm"
+
+msgid "fullname.ch.swisstopo.images-swissimage.metadata-kartenblatt"
+msgstr "Flugjahr SWISSIMAGE"
+
+msgid "fullname.ch.swisstopo.images-swissimage.metadata-kartenblatt_name"
+msgstr "Kachelname SWISSIMAGE"
+
+msgid "fullname.ch.swisstopo.images-swissimage.metadata-kartenblatt_nummer"
+msgstr "Kachelnummer SWISSIMAGE"
+
+msgid "fullname.ch.swisstopo-karto.hangneigung"
+msgstr "Pendenza da dapli che 30 grads"
+
+msgid "fullname.ch.swisstopo-karto.schneeschuhrouten"
+msgstr "Rutas da gianellas"
+
+msgid "fullname.ch.swisstopo-karto.skitouren"
+msgstr "Rutas da skis"
+
+msgid "fullname.ch.swisstopo.koordinatenaenderung"
+msgstr "Midada dal rom da referenza MN03 – MN95: midada da coordinatas MN03->MN95"
+
+msgid "fullname.ch.swisstopo.landeskarte1000_papier.metadata"
+msgstr "Charta stampada: Charta naziunala 1:1'000'000"
+
+msgid "fullname.ch.swisstopo.landeskarte100_papier.metadata"
+msgstr "Charta stampada: Charta naziunala 1:100'000"
+
+msgid "fullname.ch.swisstopo.landeskarte200_papier.metadata"
+msgstr "Charta stampada: Charta naziunala 1:200'000"
+
+msgid "fullname.ch.swisstopo.landeskarte25_papier.metadata"
+msgstr "Charta stampada: Charta naziunala 1:25'000"
+
+msgid "fullname.ch.swisstopo.landeskarte500_papier.metadata"
+msgstr "Charta stampada: Charta naziunala 1:500'000"
+
+msgid "fullname.ch.swisstopo.landeskarte50_papier.metadata"
+msgstr "Charta stampada: Charta naziunala 1:50'000"
+
+msgid "fullname.ch.swisstopo.landeskarte-farbe-10"
+msgstr "Charta naziunala 1:10'000 (colur)"
+
+msgid "fullname.ch.swisstopo.landeskarte-grau-10"
+msgstr "Charta naziunala 1:10'000 (grisch)"
+
+msgid "fullname.ch.swisstopo.landesschwerenetz"
+msgstr "Rait gravimetrica naziunala"
+
+msgid "fullname.ch.swisstopo.lotabweichungen"
+msgstr "Deviaziuns da la verticala"
+
+msgid "fullname.ch.swisstopo.lubis-bildstreifen"
+msgstr "Strivlas da fotografias ord l'aria swisstopo"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder-dritte-firmen"
+msgstr "Fotografias ord l'aria da persunas privatas"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder-dritte-kantone"
+msgstr "Fotografias ord l'aria dals chantuns"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder_farbe"
+msgstr "Fotografias ord l'aria colur"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder_infrarot"
+msgstr "Fotografias ord l'aria IR"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder_schraegaufnahmen"
+msgstr "Fotografias ord l'aria inclinà"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder_schwarzweiss"
+msgstr "Fotografias ord l'aria alv e nair"
+
+msgid "fullname.ch.swisstopo.luftfahrtkarten-icao.metadata"
+msgstr "Divisiun charta d'aviatica da la Svizra OACI 1:500'000 Charta Raster"
+
+msgid "fullname.ch.swisstopo.luftfahrtkarten-icao_papier.metadata"
+msgstr "Charta stampada: Charta d'aviatica da la Svizra 1:500'000"
+
+msgid "fullname.ch.swisstopo.meldungen-karten_geodaten"
+msgstr "Meldungen zu Karten und Geodaten"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe"
+msgstr "Charta naziunala da la Svizra (colur)"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk1000.noscale"
+msgstr "Charta naziunala 1:1 milliun"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk100.noscale"
+msgstr "Charta naziunala 1:100'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk200.noscale"
+msgstr "Charta naziunala 1:200'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk25.noscale"
+msgstr "Charta naziunala 1:25'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk500.noscale"
+msgstr "Charta naziunala 1:500'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk50.noscale"
+msgstr "Charta naziunala 1:50'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-grau"
+msgstr "Charta naziunala da la Svizra (grisch)"
+
+msgid "fullname.ch.swisstopo.pixelkarte-grau-pk1000.noscale"
+msgstr "Charta naziunala 1:1 milliun"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk1000.metadata"
+msgstr "Divisiun charta naziunala 1:1 milliun"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk1000.metadata-kartenblatt"
+msgstr "Nachführungsstand Landeskarte 1:1 Mio."
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk1000.metadata-kartenblatt_name"
+msgstr "Kartenblattname Landeskarte 1:1 Mio."
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk1000.metadata-kartenblatt_nummer"
+msgstr "Kartenblattnummer Landeskarte 1:1 Mio."
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk100.metadata"
+msgstr "Divisiun charta naziunala 1:100'000 Swiss Map Raster"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk100.metadata-kartenblatt"
+msgstr "Nachführungsstand Landeskarte 1:100000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk100.metadata-kartenblatt_name"
+msgstr "Kartenblattname Landeskarte 1:100000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk100.metadata-kartenblatt_nummer"
+msgstr "Kartenblattnummer Landeskarte 1:100000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk200.metadata"
+msgstr "Divisiun charta naziunala 1:200'000 Swiss Map Raster"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk200.metadata-kartenblatt"
+msgstr "Nachführungsstand Landeskarte 1:200000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk200.metadata-kartenblatt_name"
+msgstr "Kartenblattname Landeskarte 1:200000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk200.metadata-kartenblatt_nummer"
+msgstr "Kartenblattnummer Landeskarte 1:200000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk25.metadata"
+msgstr "Divisiun charta naziunala 1:25'000 Swiss Map Raster"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk25.metadata-kartenblatt"
+msgstr "Nachführungsstand Landeskarte 1:25000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk25.metadata-kartenblatt_name"
+msgstr "Kartenblattname Landeskarte 1:25000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk25.metadata-kartenblatt_nummer"
+msgstr "Kartenblattnummer Landeskarte 1:25000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk500.metadata"
+msgstr "Divisiun charta naziunala 1:500'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk500.metadata-kartenblatt"
+msgstr "Nachführungsstand Landeskarte  1:500000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk500.metadata-kartenblatt_name"
+msgstr "Kartenblattname Landeskarte 1:500000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk500.metadata-kartenblatt_nummer"
+msgstr "Kartenblattnummer Landeskarte 1:500000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk50.metadata"
+msgstr "Divisiun charta naziunala 1:50'000 Swiss Map Raster"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk50.metadata-kartenblatt"
+msgstr "Nachführungsstand Landeskarte 1:50000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk50.metadata-kartenblatt_name"
+msgstr "Kartenblattname Landeskarte 1:50000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk50.metadata-kartenblatt_nummer"
+msgstr "Kartenblattnummer Landeskarte 1:50000"
+
+msgid "fullname.ch.swisstopo.segelflugkarte.metadata"
+msgstr "Divisiun charta da sgol senza motor da la Svizra 1:300'000 Charta Raster"
+
+msgid "fullname.ch.swisstopo.segelflugkarte_papier.metadata"
+msgstr "Charta da sgol senza motor da la Svizra 1:300'000"
+
+msgid "fullname.ch.swisstopo.skitourenkarte-50.metadata"
+msgstr "Charta stampada: Charta da turas cun gianellas e cun skis 1:50'000"
+
+msgid "fullname.ch.swisstopo.strassenkarte200_papier.metadata"
+msgstr "Charta stampada: Charta da las vias 1:200'000"
+
+msgid "fullname.ch.swisstopo.swissalti3d.metadata"
+msgstr "Extensiun geografica swissALTI3D"
+
+msgid "fullname.ch.swisstopo.swissalti3d-reliefschattierung"
+msgstr "swissALTI3D sumbriva dal reliev"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-bezirk-flaeche"
+msgstr "SWISSBOUNDARIES3D Bezirksfläche"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill"
+msgstr "swissBOUNDARIES3D cunfins districtuals"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-bezirk-grenze"
+msgstr "SWISSBOUNDARIES3D Bezirksgrenze"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-bezirk-name"
+msgstr "SWISSBOUNDARIES3D Bezirksgrenze"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-gemeinde-flaeche"
+msgstr "SWISSBOUNDARIES3D Gemeindefläche"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill"
+msgstr "swissBOUNDARIES3D cunfins communals"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-gemeinde-grenze"
+msgstr "SWISSBOUNDARIES3D Gemeindegrenze"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-gemeinde-name"
+msgstr "SWISSBOUNDARIES3D Gemeindegrenze"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-kanton-flaeche"
+msgstr "SWISSBOUNDARIES3D Kantonsfläche"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-kanton-flaeche.fill"
+msgstr "swissBOUNDARIES3D cunfins chantunals"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-kanton-grenze"
+msgstr "SWISSBOUNDARIES3D Kantonsgrenze"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-kanton-name"
+msgstr "SWISSBOUNDARIES3D Kantonsgrenze"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-land-flaeche"
+msgstr "SWISSBOUNDARIES3D Landesfläche"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-land-flaeche.fill"
+msgstr "swissBOUNDARIES3D cunfins naziunals"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-land-grenze"
+msgstr "SWISSBOUNDARIES3D Landesgrenze"
+
+msgid "fullname.ch.swisstopo.swissbuildings3d_1.metadata"
+msgstr "Extensiun geografica swissBUILDINGS3D 1.0"
+
+msgid "fullname.ch.swisstopo.swissbuildings3d_2.metadata"
+msgstr "Disponibladad swissBUILDINGS3D 2.0"
+
+msgid "fullname.ch.swisstopo.swissimage"
+msgstr "SWISSIMAGE: Il mosaic d'ortofotos digitalas da la Svizra"
+
+msgid "fullname.ch.swisstopo.swissimage-product"
+msgstr "SWISSIMAGE: Il mosaic d'ortofotos digitalas en colur da la Svizra"
+
+msgid "fullname.ch.swisstopo.swiss-map-raster10.metadata"
+msgstr "Divisiun charta naziunala 1:10'000 Swiss Map Raster"
+
+msgid "fullname.ch.swisstopo.swiss-map-vector1000.metadata"
+msgstr "Divisiun charta naziunala 1:1 milliun Swiss Map Vector"
+
+msgid "fullname.ch.swisstopo.swiss-map-vector10.metadata"
+msgstr "Divisiun charta naziunala 1:10'000 Swiss Map Vector"
+
+msgid "fullname.ch.swisstopo.swiss-map-vector500.metadata"
+msgstr "Divisiun charta naziunala 1:500'000 Swiss Map Vector"
+
+msgid "fullname.ch.swisstopo.swissnames3d"
+msgstr "swissNAMES3D Nums geografics da la mesiraziun naziunala"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-eisenbahnnetz"
+msgstr "swissTLM3D Eisenbahn"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-gewaessernetz"
+msgstr "swissTLM3D Gewässernetz"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-karte-farbe"
+msgstr "swissTLM-Map (colur)"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-karte-farbe.3d"
+msgstr "swissTLM-Map light (colur)"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-karte-grau"
+msgstr "swissTLM-Map (grisch)"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-karte-grau.3d"
+msgstr "swissTLM-Map light (grisch)"
+
+msgid "fullname.ch.swisstopo.swisstlm3d.metadata"
+msgstr "Extensiun geografica swissTLM3D"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-strassen"
+msgstr "swissTLM3D Strassen und Wege"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-uebrigerverkehr"
+msgstr "swissTLM3D Übrige Bahn"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-wanderwege"
+msgstr "swissTLM3D sendas da viandar"
+
+msgid "fullname.ch.swisstopo.tlm-swissboundaries"
+msgstr "swissBOUNDARIES3D"
+
+msgid "fullname.ch.swisstopo.transformation-bezugsrahmen_hoehe"
+msgstr "Transfurmaziun altimetrica HTRANS LHN95-LN02"
+
+msgid "fullname.ch.swisstopo.transformationsgenauigkeit"
+msgstr "Midada dal rom da referenza MN03 – MN95: charta da precisaziun da la transfurmaziun cumbinada"
+
+msgid "fullname.ch.swisstopo.treasurehunt"
+msgstr "Treasurehunt"
+
+msgid "fullname.ch.swisstopo.uebersicht-gemeinden"
+msgstr "Charta da las vischnancas 1:300'000"
+
+msgid "fullname.ch.swisstopo.uebersicht-schweiz"
+msgstr "Charta sinoptic digitala 1:1 milliun"
+
+msgid "fullname.ch.swisstopo-vd.amtliche-vermessung"
+msgstr "Mesiraziun Uffiziala (OpenData)"
+
+msgid "fullname.ch.swisstopo-vd.geometa-gemeinde"
+msgstr "Infurmaziuns davart la vischnanca"
+
+msgid "fullname.ch.swisstopo-vd.geometa-grundbuch"
+msgstr "Infurmaziuns davart il register funsil"
+
+msgid "fullname.ch.swisstopo-vd.geometa-los"
+msgstr "Sort da la mesiraziun uffiziala – territoris en lavur"
+
+msgid "fullname.ch.swisstopo-vd.geometa-nfgeom"
+msgstr "Geometer-revisur"
+
+msgid "fullname.ch.swisstopo-vd.geometa-periodische_nachfuehrung"
+msgstr "Stadi da la mesiraziun uffiziala"
+
+msgid "fullname.ch.swisstopo-vd.geometa-standav"
+msgstr "Stadi da la mesiraziun uffiziala"
+
+msgid "fullname.ch.swisstopo-vd.ortschaftenverzeichnis_plz"
+msgstr "Register uffizial dals lieus cun il numer postal e cun il perimeter"
+
+msgid "fullname.ch.swisstopo-vd.spannungsarme-gebiete"
+msgstr "Territoris cun tensiuns negligiblas"
+
+msgid "fullname.ch.swisstopo-vd.stand-oerebkataster"
+msgstr "Cataster RPDP: disponibladad da las infurmaziuns"
+
+msgid "fullname.ch.swisstopo.vec200-adminboundaries-protectedarea"
+msgstr "VECTOR200 Territoris protegids"
+
+msgid "fullname.ch.swisstopo.vec200-building"
+msgstr "VECTOR200 Buildings"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography"
+msgstr "VECTOR200 Hydrography"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography-dam"
+msgstr "VECTOR200 Staudämme"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography-flowingwater"
+msgstr "VECTOR200 Fliessgewässer"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography-hydroinfo"
+msgstr "VECTOR200 Wichtige Punkte im Gewässerverlauf"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography-lake"
+msgstr "VECTOR200 Seen"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography-stagnantwater"
+msgstr "VECTOR200 Stehende Gewässer"
+
+msgid "fullname.ch.swisstopo.vec200-landcover"
+msgstr "VECTOR200 Landcover"
+
+msgid "fullname.ch.swisstopo.vec200-landcover-wald"
+msgstr "VECTOR200 Surfatschas da guaud"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous"
+msgstr "VECTOR200 Miscellaneous"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous-builtupp"
+msgstr "VECTOR200 Ortschaften in Punktform mit dazugehöriger Einwohnerzahl"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous-geodpoint"
+msgstr "VECTOR200 Cotas d'autezza"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous-physl"
+msgstr "VECTOR200 Abrupte Geländeübergänge"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous-poi"
+msgstr "VECTOR200 Markante Einzelobjekte"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous-supply"
+msgstr "VECTOR 200 Hochspannungsleitungen und Pipelines"
+
+msgid "fullname.ch.swisstopo.vec200-names-namedlocation"
+msgstr "VECTOR200 Names"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-airport"
+msgstr "VECTOR200 Airport Flugplatz, Flughafen"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-customsoffice"
+msgstr "VECTOR200 CustomsOffice Zollaemter"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-interchange"
+msgstr "VECTOR200 Interchange Wichtige Strassenknoten"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-oeffentliche-verkehr"
+msgstr "VECTOR200 Transportation Traffic public"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-railway"
+msgstr "VECTOR200 Railway Bahnen"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-ramp"
+msgstr "VECTOR200 ramp Auffahrtsrampen"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-road"
+msgstr "VECTOR200 road Strassen und Wege"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-runway"
+msgstr "VECTOR200 runway Flugpiste"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-ship-autofaehre"
+msgstr "VECTOR200 ship Autofähre"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-ship-kursschiff_linie"
+msgstr "VECTOR200 ship Passagierschiff"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-strassennetz"
+msgstr "VECTOR200 Transportation Rait da vias"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-terminal"
+msgstr "VECTOR200 terminal Anbindungen an Verkehrstraeger"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-trafficinfo"
+msgstr "VECTOR200 TrafficInfo Verkehrsinformationen zu den Strassen"
+
+msgid "fullname.ch.swisstopo.vec25-anlagen"
+msgstr "VECTOR25 Stabiliments"
+
+msgid "fullname.ch.swisstopo.vec25-einzelobjekte"
+msgstr "VECTOR25 Objects singuls"
+
+msgid "fullname.ch.swisstopo.vec25-einzelobjekte-linien"
+msgstr "VECTOR25 Einzelobjekte Linien"
+
+msgid "fullname.ch.swisstopo.vec25-einzelobjekte-punkte"
+msgstr "VECTOR25 Einzelobjekte Punkte"
+
+msgid "fullname.ch.swisstopo.vec25-gebaeude"
+msgstr "VECTOR25 Edifizis"
+
+msgid "fullname.ch.swisstopo.vec25-heckenbaeume"
+msgstr "VECTOR25 Saivs vivas e bostgs"
+
+msgid "fullname.ch.swisstopo.vec25-heckenbaeume-linien"
+msgstr "VECTOR25 Hecken und Bäume Punkte"
+
+msgid "fullname.ch.swisstopo.vec25-heckenbaeume-linien_punkte"
+msgstr "VECTOR25 Hecken und Bäume Linien"
+
+msgid "fullname.ch.swisstopo.vec25-primaerflaechen"
+msgstr "VECTOR25 Surfatschas primaras"
+
+msgid "fullname.ch.swisstopo.verschiebungsvektoren-tsp1"
+msgstr "Midada dal rom da referenza MN03 - MN95: Vecturs da spustament sin il nivel dals puncts PST1 - puncts (MN03 - MN95)"
+
+msgid "fullname.ch.swisstopo.verschiebungsvektoren-tsp2"
+msgstr "Midada dal rom da referenza MN03 - MN95: Vecturs da spustament sin il nivel dals puncts PST2 - puncts (MN03 - MN95)"
+
+msgid "fullname.ch.swisstopo.wanderkarte25-zus_papier.metadata"
+msgstr "Charta stampada: cumposiziuns Chartas da viandar 1:25'000"
+
+msgid "fullname.ch.swisstopo.wanderkarte33_papier.metadata"
+msgstr "Charta stampada: Chartas da viandar 1:33'333"
+
+msgid "fullname.ch.swisstopo.wanderkarte50_papier.metadata"
+msgstr "Charta stampada: Chartas da viandar seria \"T\" 1:50'000"
+
+msgid "fullname.ch.swisstopo.zeitreihen"
+msgstr "Viadi en il temp – chartas topograficas"
+
+msgid "fullname.ch.vbs.armeelogistikcenter"
+msgstr "Centers logistics da l'armada"
+
+msgid "fullname.ch.vbs.armeelogistik-logistikraeume"
+msgstr "Secturs logistics dals centers logistics da l'armada"
+
+msgid "fullname.ch.vbs.bundestankstellen-bebeco"
+msgstr "Tancadis federals BEBECO"
+
+msgid "fullname.ch.vbs.grunddispositiv-zeus"
+msgstr "Dispositiv da basa \"Zeus\""
+
+msgid "fullname.ch.vbs.logistikraeume-armeelogistikcenter"
+msgstr "Secturs logistics dals centers logistics da l'armada"
+
+msgid "fullname.ch.vbs.milairspacechart"
+msgstr "Mil Airspace Chart 1:500'000"
+
+msgid "fullname.ch.vbs.patrouilledesglaciers-a_rennen"
+msgstr "Traject da la Patrouille des Glaciers (cursa A)"
+
+msgid "fullname.ch.vbs.patrouilledesglaciers-z_rennen"
+msgstr "Traject da la Patrouille des Glaciers (cursa Z)"
+
+msgid "fullname.ch.vbs.rekrutierungszentren"
+msgstr "Centers da recrutaziun da l'armada"
+
+msgid "fullname.ch.vbs.retablierungsstellen"
+msgstr "Posts da restabiliment da l'armada"
+
+msgid "fullname.ch.vbs.sachplan-infrastruktur-militaer_anhoerung"
+msgstr "Plan secturial Militar – audiziuns"
+
+msgid "fullname.ch.vbs.sachplan-infrastruktur-militaer_kraft"
+msgstr "Plan secturial Militar"
+
+msgid "fullname.ch.vbs.territorialregionen"
+msgstr "Regiuns territorialas militaras"
+
+msgid "fullname.ch.vbs.waldschadenkarte"
+msgstr "Charta dals donns da guaud - projectil"
+
+msgid "fullname.org.epsg.grid_2056"
+msgstr "Rait da coordinatas CH1903+/MN95"
+
+msgid "fullname.org.epsg.grid_21781"
+msgstr "Rait da coordinatas CH1903/MN03"
+
+msgid "fullname.org.epsg.grid_4326"
+msgstr "Rait da coordinatas WGS84"
 
 msgid "funksender"
 msgstr "Funksender"

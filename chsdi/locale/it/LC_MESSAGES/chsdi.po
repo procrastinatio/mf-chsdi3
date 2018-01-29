@@ -4193,6 +4193,9 @@ msgstr "Tipo"
 msgid "ch.bak.url"
 msgstr "http://www.bak.admin.ch/index.html?lang=it"
 
+msgid "ch.baspo.nationales-sportanlagenkonzept"
+msgstr "Impianti sportivi CISIN"
+
 msgid "ch.bav"
 msgstr "UFT"
 
@@ -5459,8 +5462,38 @@ msgstr "Download comune"
 msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1"
 msgstr "Confini amministrativi G1, agglomerati"
 
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1.acode"
+msgstr "Code dell'agglomerazione"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1.aname"
+msgstr "Nome dell'agglomerazione"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1.area_ha"
+msgstr "Superficie in ha"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1.gmdname"
+msgstr "Nome della commune"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g1.gmdnr"
+msgstr "Numero della commune"
+
 msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2"
 msgstr "Confini amministrativi G2, agglomerati"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2.acode"
+msgstr "Code dell'agglomerazione"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2.aname"
+msgstr "Nome dell'agglomerazione"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2.area_ha"
+msgstr "Superficie in ha"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2.gmdname"
+msgstr "Nome della commune"
+
+msgid "ch.bfs.generalisierte-grenzen_agglomerationen_g2.gmdnr"
+msgstr "Numero della commune"
 
 msgid "ch.bfs.url"
 msgstr "http://www.bfs.admin.ch/bfs/portal/it/index.html"
@@ -6384,7 +6417,7 @@ msgid "ch.swisstopo.geologie-geologische_einheiten-onegeology"
 msgstr "Geologia 1:500 000"
 
 msgid "ch.swisstopo.geologie-geologische_einheiten-onegeologyeurope"
-msgstr "ch.swisstopo.geologie-geologische_einheiten-onegeologyeurope"
+msgstr "1GE LG 500K Geologische Einheiten"
 
 msgid "ch.swisstopo.geologie-geologische_karte"
 msgstr "Geologia 500"
@@ -6954,7 +6987,7 @@ msgid "ch.swisstopo.geologie-tektonische_stoerungen-onegeology"
 msgstr "Tettonica 1:500 000"
 
 msgid "ch.swisstopo.geologie-tektonische_stoerungen-onegeologyeurope"
-msgstr "ch.swisstopo.geologie-tektonische_stoerungen-onegeologyeurope"
+msgstr "1GE LG 500K Stoerungen"
 
 msgid "ch.swisstopo.geologie-terrestrische_strahlung"
 msgstr "Radiazione terrestre"
@@ -9454,6 +9487,2427 @@ msgstr "Cartina generale"
 
 msgid "Full map"
 msgstr "Mappa più grande"
+
+msgid "fullname.ch.are.agglomerationen_isolierte_staedte"
+msgstr "Agglomerati e città isolate"
+
+msgid "fullname.ch.are.alpenkonvention"
+msgstr "Convenzione delle alpi"
+
+msgid "fullname.ch.are.bauzonen"
+msgstr "Zone edificabili Svizzera (armonizzate)"
+
+msgid "fullname.ch.are.belastung-gueterverkehr-bahn"
+msgstr "Volume annuo delle ferrovie svizzere (traffico merci)"
+
+msgid "fullname.ch.are.belastung-gueterverkehr-strasse"
+msgstr "Volume annuo della rete stradale svizzera (traffico merci pesante)"
+
+msgid "fullname.ch.are.belastung-personenverkehr-bahn"
+msgstr "Volume annuo dei trasporti pubblici (traffico viaggiatori)"
+
+msgid "fullname.ch.are.belastung-personenverkehr-strasse"
+msgstr "Volume annuo della rete stradale svizzera (traffico viaggiatori)"
+
+msgid "fullname.ch.are.beschaeftigtendichte"
+msgstr "Densità di impieghi - STATENT"
+
+msgid "fullname.ch.are.bevoelkerungsdichte"
+msgstr "Densità di popolazione - censimento delle aziende"
+
+msgid "fullname.ch.are.gemeindetypen"
+msgstr "Tipologia dei comuni ARE"
+
+msgid "fullname.ch.are.gueteklassen_oev"
+msgstr "Classi di collegamento dei TP ARE"
+
+msgid "fullname.ch.are.landschaftstypen"
+msgstr "Tipologia dei paesaggi svizzeri"
+
+msgid "fullname.ch.are.reisezeit-miv"
+msgstr "Tempo di viaggio TIM verso un centro"
+
+msgid "fullname.ch.are.reisezeit-oev"
+msgstr "Tempo di viaggio con TP verso un centro"
+
+msgid "fullname.ch.are.windenergie-bundesinteressen"
+msgstr "Concezione energia eolica – Carta indicativa degli interessi della Confederazione per la pianificazione di impianti eolici"
+
+msgid "fullname.ch.are.wohnungsinventar-zweitwohnungsanteil"
+msgstr "Inventario delle abitazioni e quota di abitazioni secondarie"
+
+msgid "fullname.ch.astra.ausnahmetransportrouten"
+msgstr "Percorsi cantonali per trasporti eccezionali"
+
+msgid "fullname.ch.astra.ivs-gelaendekarte"
+msgstr "Inventario federale delle vie di comunicazione storiche della Svizzera, Carta del territorio"
+
+msgid "fullname.ch.astra.ivs-nat"
+msgstr "Inventario federale delle vie di comunicazione storiche della Svizzera (IVS)"
+
+msgid "fullname.ch.astra.ivs-nat_abgrenzungen"
+msgstr "Inventario federale delle vie di comunicazione storiche della Svizzera, Delimitazioni"
+
+msgid "fullname.ch.astra.ivs-nat-verlaeufe"
+msgstr "Tracciato delle vie di comunicazione storiche d’importanza nazionale senza sostanza"
+
+msgid "fullname.ch.astra.ivs-nat_wegbegleiter"
+msgstr "Inventario federale delle vie di comunicazione storiche della Svizzera, Supporti del traffico"
+
+msgid "fullname.ch.astra.ivs-reg_loc"
+msgstr "Inventario delle vie di comunicazione storiche regionali e locali della Svizzera"
+
+msgid "fullname.ch.astra.mountainbikeland"
+msgstr "Traffico lento la Svizzera in mountain bike"
+
+msgid "fullname.ch.astra.nationalstrassenachsen"
+msgstr "Asse delle strade nazionali"
+
+msgid "fullname.ch.astra.projektierungszonen-nationalstrassen.oereb"
+msgstr "Zone di progettazione riservate per le strade nazionali RDPP"
+
+msgid "fullname.ch.astra.schwerverunfallte-kanton_alkohol"
+msgstr "Incidenti stradali con vittime gravi con la causa principale l'alcol per 10'000 abitanti per cantone"
+
+msgid "fullname.ch.astra.schwerverunfallte-kanton_geschwindigkeit"
+msgstr "Incidenti stradali con vittime gravi con la causa principale la velocità per 10'000 abitanti per cantone"
+
+msgid "fullname.ch.astra.schwerverunfallte-kanton_jahresvergleich"
+msgstr "Incidenti stradali con vittime gravi per cantone in comparazione annuale"
+
+msgid "fullname.ch.astra.schwerverunfallte-kanton_pro_einwohner"
+msgstr "Incidenti stradali con vittime gravi per 10'000 abitanti per cantone"
+
+msgid "fullname.ch.astra.skatingland"
+msgstr "Traffico lento la Svizzera in skating"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal"
+msgstr "Censimento svizzero del traffico stradale (ubicazioni della rete regionale e locale)"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal-status_netz"
+msgstr "Comptage de la circulation routière (emplacements réseau régional et local: état et type de réseau)"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal-typ"
+msgstr "Comptage de la circulation routière (emplacements réseau régional et local: type de mesurage)"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet"
+msgstr "Censimento svizzero del traffico stradale (ubicazioni della rete principale)"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet-status_netz"
+msgstr "Comptage de la circulation routière (emplacements réseau principal: état et type de réseau)"
+
+msgid "fullname.ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet-typ"
+msgstr "Comptage de la circulation routière (emplacements réseau principal: type de mesurage)"
+
+msgid "fullname.ch.astra.unfaelle-personenschaeden_alle"
+msgstr "Incidenti stradali con danni personali"
+
+msgid "fullname.ch.astra.unfaelle-personenschaeden_fahrraeder"
+msgstr "Incidenti stradali con lesioni e la partecipazione di almeno una bicicletta (comprese le biciclette elettriche con l'aiuto del pedale)"
+
+msgid "fullname.ch.astra.unfaelle-personenschaeden_fussgaenger"
+msgstr "Incidenti stradali con lesioni e la partecipazione di almeno un pedone"
+
+msgid "fullname.ch.astra.unfaelle-personenschaeden_getoetete"
+msgstr "Incidenti stradali con almeno una persona uccisa"
+
+msgid "fullname.ch.astra.unfaelle-personenschaeden_motorraeder"
+msgstr "Incidenti stradali con lesioni e la partecipazione di almeno un motociclo"
+
+msgid "fullname.ch.astra.veloland"
+msgstr "Traffico lento la Svizzera in bici"
+
+msgid "fullname.ch.astra.wanderland"
+msgstr "Traffico lento la Svizzera a piedi"
+
+msgid "fullname.ch.babs.kulturgueter"
+msgstr "Inventario della protezione dei beni culturali con oggetti d'importanza nazionale"
+
+msgid "fullname.ch.bafu.alpweiden-herdenschutzhunde"
+msgstr "Alpeggi protteti da cani da protezione del bestiame"
+
+msgid "fullname.ch.bafu.aquaprotect_050"
+msgstr "Aree inondabili in Aquaprotect: Frequenza 50 anni"
+
+msgid "fullname.ch.bafu.aquaprotect_100"
+msgstr "Aree inondabili in Aquaprotect: Frequenza 100 anni"
+
+msgid "fullname.ch.bafu.aquaprotect_250"
+msgstr "Aree inondabili in Aquaprotect: Frequenza 250 anni"
+
+msgid "fullname.ch.bafu.aquaprotect_500"
+msgstr "Aree inondabili in Aquaprotect: Frequenza 500 anni"
+
+msgid "fullname.ch.bafu.auen-vegetationskarten"
+msgstr "Cartografia delle zone golenali d'importanza nazionale"
+
+msgid "fullname.ch.bafu.biogeographische_regionen"
+msgstr "Regioni biogeografiche della Svizzera (CH)"
+
+msgid "fullname.ch.bafu.bundesinventare-amphibien"
+msgstr "Inventario federale dei siti di riproduzione degli anfibi di importanza nazionale- Oggetti fissi"
+
+msgid "fullname.ch.bafu.bundesinventare-amphibien_anhang4"
+msgstr "Anfibi allegato 3"
+
+msgid "fullname.ch.bafu.bundesinventare-amphibien_wanderobjekte"
+msgstr "Inventario federale dei siti di riproduzione degli anfibi di importanza nazionale-Oggetti mobili"
+
+msgid "fullname.ch.bafu.bundesinventare-auen"
+msgstr "Inventario federale delle zone golenali d'importanza nazionale"
+
+msgid "fullname.ch.bafu.bundesinventare-auen_anhang2"
+msgstr "Inventario federale delle zone golenali d'importanza nazionale - Allegato 2"
+
+msgid "fullname.ch.bafu.bundesinventare-bln"
+msgstr "Inventario federale dei paesaggi e dei monumenti naturali (IFP)"
+
+msgid "fullname.ch.bafu.bundesinventare-flachmoore"
+msgstr "Inventario federale delle paludi d'importanza nazionale"
+
+msgid "fullname.ch.bafu.bundesinventare-flachmoore_regional"
+msgstr "Paludi di importanza regionale"
+
+msgid "fullname.ch.bafu.bundesinventare-hochmoore"
+msgstr "Inventario federale delle torbiere alte e delle paludi torbiere di transizione d'importanza nazionale"
+
+msgid "fullname.ch.bafu.bundesinventare-jagdbanngebiete"
+msgstr "Inventario delle bandite federali di caccia (compresa la rete di itinerari) - bandite federali"
+
+msgid "fullname.ch.bafu.bundesinventare-moorlandschaften"
+msgstr "Inventario federale delle zone palustri di particolare bellezza e d'importanza nazionale"
+
+msgid "fullname.ch.bafu.bundesinventare-trockenwiesen_trockenweiden"
+msgstr "Inventario federale dei prati e pascoli secchi (PPS) d’importanza nazionale"
+
+msgid "fullname.ch.bafu.bundesinventare-trockenwiesen_trockenweiden_anhang2"
+msgstr "Inventario federale dei prati e pascoli secchi d’importanza nazionale"
+
+msgid "fullname.ch.bafu.bundesinventare-vogelreservate"
+msgstr "Inventario federale delle riserve di uccelli acquatici e migratori d'importanza internazionale e nazionale"
+
+msgid "fullname.ch.bafu.fauna-steinbockkolonien"
+msgstr "Diffusione delle colonie di stambecchi"
+
+msgid "fullname.ch.bafu.fauna-vernetzungsachsen_national"
+msgstr "Sistema di collegamento fauna selvatica"
+
+msgid "fullname.ch.bafu.fauna-wildtierkorridor_national"
+msgstr "Corridoi faunistici sovraregionale"
+
+msgid "fullname.ch.bafu.feststoffe-geschiebemessnetz"
+msgstr "Banca dati per il rilevamento del trasporto solido di fondo (Confederazione)"
+
+msgid "fullname.ch.bafu.fischerei-aeschen_kernzonen"
+msgstr "Popolazioni di temoli di importanza nazionale: zone centrali"
+
+msgid "fullname.ch.bafu.fischerei-aeschen_laichplaetze"
+msgstr "Popolazioni di temoli di importanza nazionale: siti di riproduzione dei pesci"
+
+msgid "fullname.ch.bafu.fischerei-aeschen_larvenhabitate"
+msgstr "Popolazioni di temoli di importanza nazionale: habitat delle larve"
+
+msgid "fullname.ch.bafu.fischerei-aeschen_verbreitungsgebiet"
+msgstr "Popolazioni di temoli di importanza nazionale: aree di diffusione"
+
+msgid "fullname.ch.bafu.fischerei-krebspest"
+msgstr "Peste del gambero – Prova in Svizzera"
+
+msgid "fullname.ch.bafu.fischerei-nasenlaichplaetze"
+msgstr "Siti di riproduzione del naso 1995-2004"
+
+msgid "fullname.ch.bafu.fischerei-proliferative_nierenkrankheit"
+msgstr "MRP (malattia renale proliferativa)"
+
+msgid "fullname.ch.bafu.flora-schwingrasen"
+msgstr "Inventario dei prati galleggianti"
+
+msgid "fullname.ch.bafu.flora-verbreitungskarten"
+msgstr "Grafica raster delle cartine di diffusione"
+
+msgid "fullname.ch.bafu.flora-weltensutter_atlas"
+msgstr "Atlante Welten&Sutter"
+
+msgid "fullname.ch.bafu.flussordnungszahlen-strahler"
+msgstr "Numerazione dei segmenti fluviali secondo Strahler"
+
+msgid "fullname.ch.bafu.gefahren-aktuelle_erdbeben"
+msgstr "Mappa degli terremoti recenti (ultimi 90 giorni) in Svizzera e nelle regioni confinanti"
+
+msgid "fullname.ch.bafu.gefahren-basiskarte"
+msgstr "Carta di base della Piattaforma comune dei pericoli naturali"
+
+msgid "fullname.ch.bafu.gefahren-baugrundklassen"
+msgstr "Carta dei terreni di fondazione secondo la norma SIA 261"
+
+msgid "fullname.ch.bafu.gefahren-gefaehrdungszonen"
+msgstr "Zone sismiche secondo la norma SIA 261"
+
+msgid "fullname.ch.bafu.gefahren-historische_erdbeben"
+msgstr "Carta dei terremoti storici in Svizzera e nei Paesi limitrofi"
+
+msgid "fullname.ch.bafu.gefahren-spektral"
+msgstr "Perimetro degli studi di microzonazione spettrale disponibili"
+
+msgid "fullname.ch.bafu.gewaesserschutz-badewasserqualitaet"
+msgstr "Qualità delle acque balneabili"
+
+msgid "fullname.ch.bafu.gewaesserschutzbereiche"
+msgstr "Settori di protezione delle acque"
+
+msgid "fullname.ch.bafu.gewaesserschutz-biologischer_zustand_diatomeen"
+msgstr "La valutazione dello stato biologico delle acque fondata su analisi delle diatomee"
+
+msgid "fullname.ch.bafu.gewaesserschutz-biologischer_zustand_fische"
+msgstr "La valutazione dello stato biologico delle acque fondata su analisi dei pesci"
+
+msgid "fullname.ch.bafu.gewaesserschutz-biologischer_zustand_makrophyten"
+msgstr "La valutazione dello stato biologico delle acque fondata su analisi delle macrofite"
+
+msgid "fullname.ch.bafu.gewaesserschutz-biologischer_zustand_makrozoobenthos"
+msgstr "La valutazione dello stato biologico delle acque fondata su analisi dei macrobenthos"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_ammonium"
+msgstr "La valutazione dello stato chimico delle acque fondata sulla concentrazione di ammonio"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_doc"
+msgstr "La valutazione dello stato chimico delle acque fondata sulla concentrazione di carbonio organico disciolto (DOC)"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_nitrat"
+msgstr "La valutazione dello stato chimico delle acque fondata sulla concentrazione di nitrato"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_nitrit"
+msgstr "La valutazione dello stato chimico delle acque fondata sulla concentrazione di nitrito"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_phosphat"
+msgstr "La valutazione dello stato chimico delle acque fondata sulla concentrazione di fosfato"
+
+msgid "fullname.ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt"
+msgstr "La valutazione dello stato chimico delle acque fondata sulla concentrazione di fosforo totale"
+
+msgid "fullname.ch.bafu.gewaesserschutz-diffuse_eintraege_phosphor"
+msgstr "Immissioni diffuse di fosforo nelle acque, valori modellizzati"
+
+msgid "fullname.ch.bafu.gewaesserschutz-diffuse_eintraege_stickstoff"
+msgstr "Immissioni diffuse di azoto nelle acque, valori modellizzati"
+
+msgid "fullname.ch.bafu.gewaesserschutz-klaeranlagen_anteilq347"
+msgstr "Banca di dati sugli impianti di depurazione delle acque (ARA-DB) - Percentuale di acqua di scarico nel corso d'acqua ricettore nel periodo di acqua bassa"
+
+msgid "fullname.ch.bafu.gewaesserschutz-klaeranlagen_ausbaugroesse"
+msgstr "Banca di dati sugli impianti di depurazione delle acque (ARA-DB) - Capacità (EA)"
+
+msgid "fullname.ch.bafu.gewaesserschutz-klaeranlagen_reinigungstyp"
+msgstr "Banca di dati sugli impianti di depurazione delle acque (ARA-DB) - tipo di trattamento"
+
+msgid "fullname.ch.bafu.grundwasserkoerper"
+msgstr "Corpi idrici sotterranei dala Swizzera"
+
+msgid "fullname.ch.bafu.grundwasserschutzareale"
+msgstr "Aree di protezione delle acque sotterranee"
+
+msgid "fullname.ch.bafu.grundwasserschutzzonen"
+msgstr "Zone di protezione delle acque sotterranee"
+
+msgid "fullname.ch.bafu.holznutzung"
+msgstr "Utilizzo annuo di legname e mortalità (Inventario Forestale Nazionale)"
+
+msgid "fullname.ch.bafu.holzvorrat"
+msgstr "Provvigione di legname (Inventario Forestale Nazionale)"
+
+msgid "fullname.ch.bafu.holzzuwachs"
+msgstr "Accrescimento annua di legno (Inventario Forestale Nazionale)"
+
+msgid "fullname.ch.bafu.hydrogeologie-markierversuche"
+msgstr "Prove con traccianti nelle acque sotterranee"
+
+msgid "fullname.ch.bafu.hydrogeologie-uebersichtskarte"
+msgstr "Schizzo idrogeologico della Svizzera"
+
+msgid "fullname.ch.bafu.hydrogeologische-karte_100"
+msgstr "Carta idrogeologica della Svizzera 1:100000"
+
+msgid "fullname.ch.bafu.hydrologie-daueruntersuchung_fliessgewaesser"
+msgstr "Monitoraggio nazionale continuo dei corsi d'acqua svizzeri (NADUF) - ubicazioni delle stazioni di misurazione"
+
+msgid "fullname.ch.bafu.hydrologie-gewaesserzustandsmessstationen"
+msgstr "Siti di misurazione dello stato delle acque CH"
+
+msgid "fullname.ch.bafu.hydrologie-hintergrundkarte"
+msgstr "Carta base generalizzata per la rappresentazione di dati idrologici"
+
+msgid "fullname.ch.bafu.hydrologie-hochwassergrenzwertpegel"
+msgstr "HWGWP Limnigrafo di piena"
+
+msgid "fullname.ch.bafu.hydrologie-hochwasserstatistik"
+msgstr "Statistica delle piene HQStat"
+
+msgid "fullname.ch.bafu.hydrologie-hydromessstationen"
+msgstr "Rete di misurazione di base Acque di superficie"
+
+msgid "fullname.ch.bafu.hydrologie-messstationen_gefahren"
+msgstr "Confronto tra i dati relativi ai deflussi e alle portate registrate nelle ultime 24 ore con le soglie d'allarme"
+
+msgid "fullname.ch.bafu.hydrologie-niedrigwasserstatistik"
+msgstr "Statistica delle magre NQStat"
+
+msgid "fullname.ch.bafu.hydrologie-q347"
+msgstr "Basi per la determinazione dei deflussi Q347"
+
+msgid "fullname.ch.bafu.hydrologie-untersuchungsgebiete"
+msgstr "Bacini di ricerche idrologiche"
+
+msgid "fullname.ch.bafu.hydrologie-untersuchungsgebiete_stationen"
+msgstr "Stazioni di misurazione dei bacini di ricerche idrologiche"
+
+msgid "fullname.ch.bafu.hydrologie-wassertemperaturmessstationen"
+msgstr "Stazioni di misurazione della temperatura dell’acqua"
+
+msgid "fullname.ch.bafu.hydrologischer-atlas_basisgebiete"
+msgstr "Bacini di base (bacini imbriferi) HADES"
+
+msgid "fullname.ch.bafu.hydrologischer-atlas_bilanzgebiete"
+msgstr "Bacini di bilancio (bacini imbriferi) HADES"
+
+msgid "fullname.ch.bafu.hydrologischer-atlas_flussgebiete"
+msgstr "Bacini fluviali (bacini imbriferi) HADES"
+
+msgid "fullname.ch.bafu.hydrologischer-atlas_kantonale-messstationen"
+msgstr "Stazioni di misura cantonali e private (HADES 5.1.2)"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_gefahren"
+msgstr "Confronto tra i dati relativi ai deflussi e alle portate con le soglie d'allarme"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_grundwasser"
+msgstr "NAQUA-QUANT Stazioni di misura (Osservazione nazionale delle acque sotterranee NAQUA)"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_grundwasserzustand"
+msgstr "Situazione generale dei livelli delle acque sotterranee et delle portate delle sorgenti"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_temperatur"
+msgstr "Temperature dei fiumi"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_vorhersage"
+msgstr "Stazioni previsioni idrologiche"
+
+msgid "fullname.ch.bafu.hydroweb-messstationen_zustand"
+msgstr "Situazione generale di fiumi e ruscelli"
+
+msgid "fullname.ch.bafu.hydroweb-warnkarte_national"
+msgstr "Carta di vigilanza dei corsi d'acqua d'interesse nazionale"
+
+msgid "fullname.ch.bafu.hydroweb-warnkarte_regional"
+msgstr "Carta di vigilanza dei piccoli e medi corsi d’acqua"
+
+msgid "fullname.ch.bafu.karst-ausdehnung_grundwasservorkommen"
+msgstr "Estensione delle falde freatiche in regioni carsiche"
+
+msgid "fullname.ch.bafu.karst-einzugsgebiete"
+msgstr "Bacini di alimentazione in regioni carsiche"
+
+msgid "fullname.ch.bafu.karst-einzugsgebietseinheiten"
+msgstr "Unità di baccino di alimentazione in regioni carsiche"
+
+msgid "fullname.ch.bafu.karst-quellen_schwinden"
+msgstr "Sorgenti e perdite in regioni carsiche"
+
+msgid "fullname.ch.bafu.karst-unterirdische_fliesswege"
+msgstr "Vie di deflusso idrico sotterraneo in regioni carsiche"
+
+msgid "fullname.ch.bafu.laerm-bahnlaerm_nacht"
+msgstr "Esposizione al rumore del traffico ferroviario (Lr_notte)"
+
+msgid "fullname.ch.bafu.laerm-bahnlaerm_tag"
+msgstr "Esposizione al rumore del traffico ferroviario (Lr_giorno)"
+
+msgid "fullname.ch.bafu.laerm-strassenlaerm_nacht"
+msgstr "Esposizione al rumore del traffico stradale (Lr_notte)"
+
+msgid "fullname.ch.bafu.laerm-strassenlaerm_tag"
+msgstr "Esposizione al rumore del traffico stradale (Lr_giorno)"
+
+msgid "fullname.ch.bafu.landesforstinventar-baumarten"
+msgstr "Percentuale di conifere sulle riserve (Inventario Forestale Nazionale)"
+
+msgid "fullname.ch.bafu.landesforstinventar-totholz"
+msgstr "Volume del legno morto (Inventario Forestale Nazionale)"
+
+msgid "fullname.ch.bafu.landesforstinventar-waldanteil"
+msgstr "Percentuale di bosco (Inventario Forestale Nazionale)"
+
+msgid "fullname.ch.bafu.luftreinhaltung-ammoniakkonzentration"
+msgstr "Concentrazione di ammoniaca"
+
+msgid "fullname.ch.bafu.luftreinhaltung-stickstoffdeposition"
+msgstr "Deposizione di azoto"
+
+msgid "fullname.ch.bafu.luftreinhaltung-stickstoff_kritischer_eintrag"
+msgstr "Superamento dei carichi critici di azoto"
+
+msgid "fullname.ch.bafu.mittlere-abfluesse"
+msgstr "Deflussi medi e tipi di regime di deflusso per la rete idrografica Svizzera"
+
+msgid "fullname.ch.bafu.moose"
+msgstr "Lista rossa delle biofite minacciate in Svizzera"
+
+msgid "fullname.ch.bafu.nabelstationen"
+msgstr "Rete nazionale d'osservazione degli inquinanti atmosferici NABEL: stazioni"
+
+msgid "fullname.ch.bafu.naqua-grundwasser_nitrat"
+msgstr "Nitrati nelle acque sotterranee (Osservazione nazionale delle acque sotterranee NAQUA)"
+
+msgid "fullname.ch.bafu.naqua-grundwasser_psm"
+msgstr "Prodotti fitosanitari nelle acque sotterranee (Osservazione nazionale delle acque sotterranee NAQUA)"
+
+msgid "fullname.ch.bafu.naqua-grundwasser_voc"
+msgstr "Composti organici volatili (COV) nelle acque sotterranee (Osservazione nazionale delle acque sotterranee NAQUA)"
+
+msgid "fullname.ch.bafu.neophyten-amerikanische_kermesbeere"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Cremesina uva turca"
+
+msgid "fullname.ch.bafu.neophyten-amerikanischer_stinktierkohl"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Lysichiton americano"
+
+msgid "fullname.ch.bafu.neophyten-armenische_brombeere"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Rovo d'Armenia"
+
+msgid "fullname.ch.bafu.neophyten-aufrechtes_traubenkraut"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Ambrosia con foglie di artemisia"
+
+msgid "fullname.ch.bafu.neophyten-auslaeuferbildendes_fettkraut"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Borracina stoloniferus"
+
+msgid "fullname.ch.bafu.neophyten-balfours_springkraut"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Balsamina di Balfour"
+
+msgid "fullname.ch.bafu.neophyten-bastardindigo"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Indaco bastardo"
+
+msgid "fullname.ch.bafu.neophyten-bastard_staudenknoeterich"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Poligono di Boemia"
+
+msgid "fullname.ch.bafu.neophyten-besen_radmelde"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Granata comune"
+
+msgid "fullname.ch.bafu.neophyten-blauglockenbaum"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Paulownia"
+
+msgid "fullname.ch.bafu.neophyten-brasilianisches_tausendblatt"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Millefoglio d'acqua"
+
+msgid "fullname.ch.bafu.neophyten-carolina_nachtschatten"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Morella della Carolina"
+
+msgid "fullname.ch.bafu.neophyten-chinesische_samtpappel"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Cencio molle"
+
+msgid "fullname.ch.bafu.neophyten-druesiges_springkraut"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Balsamina ghiandolosa"
+
+msgid "fullname.ch.bafu.neophyten-einjaehriges_berufkraut"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Cespica annua"
+
+msgid "fullname.ch.bafu.neophyten-essbare_kermesbeere"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Cremesina uva turca esculenta"
+
+msgid "fullname.ch.bafu.neophyten-essbares_zypergras"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Zigolo dolce"
+
+msgid "fullname.ch.bafu.neophyten-essigbaum"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Sommacco maggiore"
+
+msgid "fullname.ch.bafu.neophyten-felsen_greiskraut"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Senecione montanino"
+
+msgid "fullname.ch.bafu.neophyten-fortunes_hanfpalme"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Palma di Fortune"
+
+msgid "fullname.ch.bafu.neophyten-gestreiftes_suessgras"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Gramignone striato"
+
+msgid "fullname.ch.bafu.neophyten-gewoehnliche_jungfernrebe"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Vite del Canadà domestica"
+
+msgid "fullname.ch.bafu.neophyten-glattes_zackenschoetchen"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Cascellore orientale"
+
+msgid "fullname.ch.bafu.neophyten-goetterbaum"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Ailanto"
+
+msgid "fullname.ch.bafu.neophyten-grossbluetiges_heusenkraut"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Porracchia a fiori grandi"
+
+msgid "fullname.ch.bafu.neophyten-grosser_wassernabel"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Soldinella reniforme"
+
+msgid "fullname.ch.bafu.neophyten-haargurke"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Sicios angoloso"
+
+msgid "fullname.ch.bafu.neophyten-henrys_geissblatt"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Caprifoglio di Henry"
+
+msgid "fullname.ch.bafu.neophyten-herbst_traubenkirsche"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Pruno autunnale"
+
+msgid "fullname.ch.bafu.neophyten-igelgurke"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Echinocistis lobata"
+
+msgid "fullname.ch.bafu.neophyten-japanischer_staudenknoeterich"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Poligono del Giappone"
+
+msgid "fullname.ch.bafu.neophyten-japanisches_geissblatt"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Caprifoglio giapponese"
+
+msgid "fullname.ch.bafu.neophyten-kanadische_goldrute"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Verga d'oro del Canada"
+
+msgid "fullname.ch.bafu.neophyten-kanadische_wasserpest"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Peste d'acqua comune"
+
+msgid "fullname.ch.bafu.neophyten-karolina_haarnixe"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Cabomba della Carolina"
+
+msgid "fullname.ch.bafu.neophyten-kaukasus_fettkraut"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Borracina caucasica"
+
+msgid "fullname.ch.bafu.neophyten-kirschlorbeer"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Lauroceraso"
+
+msgid "fullname.ch.bafu.neophyten-kletternder_giftsumach"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Edera velenosa"
+
+msgid "fullname.ch.bafu.neophyten-kopoubohne"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Pueraria irsuta"
+
+msgid "fullname.ch.bafu.neophyten-mahonie"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Maonia"
+
+msgid "fullname.ch.bafu.neophyten-nadelkraut"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Erba grassa di Helms"
+
+msgid "fullname.ch.bafu.neophyten-nuttalls_wasserpest"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Peste d'acqua di Nuttall"
+
+msgid "fullname.ch.bafu.neophyten-portulak_heusenkraut"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Porracchia plepoide"
+
+msgid "fullname.ch.bafu.neophyten-riesenbaerenklau"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Panace di Mantegazzi"
+
+msgid "fullname.ch.bafu.neophyten-robinie"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Robinia"
+
+msgid "fullname.ch.bafu.neophyten-runzelblaettriger_schneeball"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Viburno rugoso"
+
+msgid "fullname.ch.bafu.neophyten-sachalin_staudenknoeterich"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Poligono di Sachalin"
+
+msgid "fullname.ch.bafu.neophyten-schmetterlingsstrauch"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Buddleja"
+
+msgid "fullname.ch.bafu.neophyten-seidiger_hornstrauch"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Corniolo serico"
+
+msgid "fullname.ch.bafu.neophyten-spaetbluehende_goldrute"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Verga d'oro maggiore"
+
+msgid "fullname.ch.bafu.neophyten-suedafrikanisches_greiskraut"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Senecione sudafricano"
+
+msgid "fullname.ch.bafu.neophyten-syrische_seidenpflanze"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Albero della seta"
+
+msgid "fullname.ch.bafu.neophyten-topinambur"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Girasole del Canada"
+
+msgid "fullname.ch.bafu.neophyten-verlotscher_beifuss"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Assenzio dei fratelli Verlot"
+
+msgid "fullname.ch.bafu.neophyten-vielaehriger_knoeterich"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Poligono con spighe numerose"
+
+msgid "fullname.ch.bafu.neophyten-vielblaettrige_lupine"
+msgstr "Piante esotiche invasive - carte di distribuzione potenziale Lupino fogliuto"
+
+msgid "fullname.ch.bafu.oekomorphologie-f_abschnitte"
+msgstr "Ecomorfologia livello R - Tratti"
+
+msgid "fullname.ch.bafu.oekomorphologie-f_abstuerze"
+msgstr "Ecomorfologia livello R – Opere di caduta"
+
+msgid "fullname.ch.bafu.oekomorphologie-f_bauwerke"
+msgstr "Ecomorfologia livello R – Costruzioni"
+
+msgid "fullname.ch.bafu.permafrost"
+msgstr "Cartina indicativa sulla distribuzione potenziale del permafrost in Svizzera"
+
+msgid "fullname.ch.bafu.ren-extensive_landwirtschaftsgebiete"
+msgstr "Rete ecologica nazionale REN, biotopo zona di agricoltura estensiva"
+
+msgid "fullname.ch.bafu.ren-feuchtgebiete"
+msgstr "Rete ecologica nazionale REN, habitat zona umida"
+
+msgid "fullname.ch.bafu.ren-fliessgewaesser_seen"
+msgstr "Rete ecologica nazionale REN, habitat corsi d'acqua / laghi"
+
+msgid "fullname.ch.bafu.ren-trockenstandorte"
+msgstr "Rete ecologica nazionale REN, habitat ambienti secchi"
+
+msgid "fullname.ch.bafu.ren-wald"
+msgstr "Rete ecologica nazionale REN, habitat bosco"
+
+msgid "fullname.ch.bafu.schutzgebiete-aulav_auen"
+msgstr "Zone protette della pubblicazione civile degli ostacoli alla navigazione aerea - Zone golenali"
+
+msgid "fullname.ch.bafu.schutzgebiete-aulav_jagdbanngebiete"
+msgstr "Zone protette della pubblicazione civile degli ostacoli alla navigazione aerea - Bandite federali"
+
+msgid "fullname.ch.bafu.schutzgebiete-aulav_moorlandschaften"
+msgstr "Zone protette della pubblicazione civile degli ostacoli alla navigazione aerea - Zone palustri"
+
+msgid "fullname.ch.bafu.schutzgebiete-aulav_uebrige"
+msgstr "Zone protette della pubblicazione civile degli ostacoli alla navigazione aerea - Altre zone protette"
+
+msgid "fullname.ch.bafu.schutzgebiete-biosphaerenreservate"
+msgstr "Riserve di biosfera"
+
+msgid "fullname.ch.bafu.schutzgebiete-luftfahrt"
+msgstr "Zone protette della pubblicazione militare degli ostacoli alla navigazione aerea"
+
+msgid "fullname.ch.bafu.schutzgebiete-paerke_nationaler_bedeutung"
+msgstr "Parco Nazionale Svizzero e parchi d'importanza nazionale (Zone)"
+
+msgid "fullname.ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter"
+msgstr "Parco Nazionale Svizzero e parchi d'importanza nazionale (Perimetro)"
+
+msgid "fullname.ch.bafu.schutzgebiete-ramsar"
+msgstr "Convenzione sulle zone umide d’importanza internazionale segnata-mente come habitat degli uccelli acquatici e palustri (Convenzione di Ramsar)"
+
+msgid "fullname.ch.bafu.schutzgebiete-schweizerischer_nationalpark"
+msgstr "Parco Nazionale Svizzero"
+
+msgid "fullname.ch.bafu.schutzgebiete-smaragd"
+msgstr "Zone Smeraldo"
+
+msgid "fullname.ch.bafu.schutzgebiete-wildruhezonen"
+msgstr "Siti di protezione della fauna selvatica"
+
+msgid "fullname.ch.bafu.showme-gemeinden_hochwasser"
+msgstr "Grado di realizzazione delle carte dei pericoli naturali (Communi): Piene"
+
+msgid "fullname.ch.bafu.showme-gemeinden_lawinen"
+msgstr "Grado di realizzazione delle carte dei pericoli naturali (Communi): Valanghe"
+
+msgid "fullname.ch.bafu.showme-gemeinden_rutschungen"
+msgstr "Grado di realizzazione delle carte dei pericoli naturali (Communi): Scivolamenti"
+
+msgid "fullname.ch.bafu.showme-gemeinden_sturzprozesse"
+msgstr "Grado di realizzazione delle carte dei pericoli naturali (Communi): Processi di crollo"
+
+msgid "fullname.ch.bafu.showme-kantone_hochwasser"
+msgstr "Grado di realizzazione delle carte dei pericoli naturali (Cantoni): Piene"
+
+msgid "fullname.ch.bafu.showme-kantone_lawinen"
+msgstr "Grado di realizzazione delle carte dei pericoli naturali (Cantoni): Valanghe"
+
+msgid "fullname.ch.bafu.showme-kantone_rutschungen"
+msgstr "Grado di realizzazione delle carte dei pericoli naturali (Cantoni): Scivolamenti"
+
+msgid "fullname.ch.bafu.showme-kantone_sturzprozesse"
+msgstr "Grado di realizzazione delle carte dei pericoli naturali (Cantoni): Processi di crollo"
+
+msgid "fullname.ch.bafu.silvaprotect-hangmuren"
+msgstr "SilvaProtect-CH (Indicazione dei pericoli a livello nazionale): colata detritica di versante"
+
+msgid "fullname.ch.bafu.silvaprotect-lawinen"
+msgstr "SilvaProtect-CH (Indicazione dei pericoli a livello nazionale): valanghe"
+
+msgid "fullname.ch.bafu.silvaprotect-murgang"
+msgstr "SilvaProtect-CH (Indicazione dei pericoli a livello nazionale): colata detritica"
+
+msgid "fullname.ch.bafu.silvaprotect-sturz"
+msgstr "SilvaProtect-CH (Indicazione dei pericoli a livello nazionale): crolli"
+
+msgid "fullname.ch.bafu.silvaprotect-uebersarung"
+msgstr "SilvaProtect-CH (Indicazione dei pericoli a livello nazionale): alluvionamento da sedimento"
+
+msgid "fullname.ch.bafu.strukturguete-hochrhein_linkesufer"
+msgstr "Qualità strutturale del Alto Reno (2020)"
+
+msgid "fullname.ch.bafu.strukturguete-hochrhein_linkesumfeld"
+msgstr "Qualità strutturale del Alto Reno (2020)"
+
+msgid "fullname.ch.bafu.strukturguete-hochrhein_rechtesufer"
+msgstr "Qualità strutturale del Alto Reno (2020)"
+
+msgid "fullname.ch.bafu.strukturguete-hochrhein_rechtesumfeld"
+msgstr "Qualità strutturale del Alto Reno (2020)"
+
+msgid "fullname.ch.bafu.strukturguete-hochrhein_sohle"
+msgstr "Qualità strutturale del Alto Reno (2020)"
+
+msgid "fullname.ch.bafu.sturm-boeenspitzen_100"
+msgstr "Tempesta: raffiche con periodo di ritorno di 100 anni"
+
+msgid "fullname.ch.bafu.sturm-boeenspitzen_30"
+msgstr "Tempesta: raffiche con periodo di ritorno di 30 anni"
+
+msgid "fullname.ch.bafu.sturm-boeenspitzen_300"
+msgstr "Tempesta: raffiche con periodo di ritorno di 300 anni"
+
+msgid "fullname.ch.bafu.sturm-boeenspitzen_50"
+msgstr "Tempesta: raffiche con periodo di ritorno di 50 anni"
+
+msgid "fullname.ch.bafu.sturm-staudruck_100"
+msgstr "Tempesta: pressione dinamica con periodo di ritorno di 100 anni"
+
+msgid "fullname.ch.bafu.sturm-staudruck_30"
+msgstr "Tempesta: pressione dinamica con periodo di ritorno di 30 anni"
+
+msgid "fullname.ch.bafu.sturm-staudruck_300"
+msgstr "Tempesta: pressione dinamica con periodo di ritorno di 300 anni"
+
+msgid "fullname.ch.bafu.sturm-staudruck_50"
+msgstr "Tempesta: pressione dinamica con periodo di ritorno di 50 anni"
+
+msgid "fullname.ch.bafu.swissprtr"
+msgstr "Registro delle emissioni di sostanze inquinanti e dei trasferimenti di rifiuti e di sostanze inquinanti nelle acque di scarico (SwissPRTR)"
+
+msgid "fullname.ch.bafu.typisierung-fliessgewaesser"
+msgstr "Tipizzazione dei corsi d’acqua della Svizzera"
+
+msgid "fullname.ch.bafu.unesco-weltnaturerbe"
+msgstr "UNESCO siti naturali"
+
+msgid "fullname.ch.bafu.vec25-gewaessernetz_2000"
+msgstr "Corsi d'acqua della carta sinottica 1:2 milioni"
+
+msgid "fullname.ch.bafu.vec25-seen"
+msgstr "Laghi"
+
+msgid "fullname.ch.bafu.waldreservate"
+msgstr "Riserva forestali"
+
+msgid "fullname.ch.bafu.waldschadenflaechen-lothar"
+msgstr "Inventario dei danni provocati dall’uragano LOTHAR 1999"
+
+msgid "fullname.ch.bafu.waldschadenflaechen-vivian"
+msgstr "Aree boschive danneggiate \"Vivian\" 1990"
+
+msgid "fullname.ch.bafu.wasserbau-querprofilmarken"
+msgstr "Tratti misurati - punto fisso dei profili trasversali"
+
+msgid "fullname.ch.bafu.wasserbau-vermessungsstrecken"
+msgstr "Banca dati dei profili trasversali (PT) - tratti misurati"
+
+msgid "fullname.ch.bafu.wasser-entnahme"
+msgstr "Carta dei deflussi residuali della Svizzera: prelievi d'acqua"
+
+msgid "fullname.ch.bafu.wasser-entnahme-andere_nutzung-bedeutend"
+msgstr "Débits résiduels, Prises d'eau - Autres utilisations - Prélèvement important du point de vue environnemental"
+
+msgid "fullname.ch.bafu.wasser-entnahme-andere_nutzung-weitere"
+msgstr "Débits résiduels, Prises d'eau - Autres utilisations - Autres prélèvements"
+
+msgid "fullname.ch.bafu.wasser-entnahme-wasserkraft-bedeutend"
+msgstr "Débits résiduels, Prises d'eau - Force hydraulique - Prélèvement important du point de vue environnemental"
+
+msgid "fullname.ch.bafu.wasser-entnahme-wasserkraft-weitere"
+msgstr "Débits résiduels, Prises d'eau - Force hydraulique - Autres prélèvements"
+
+msgid "fullname.ch.bafu.wasser-gebietsauslaesse"
+msgstr "Bacini imbriferi topografici dei corsi d’acqua svizzeri: Sbocchi"
+
+msgid "fullname.ch.bafu.wasser-leitungen"
+msgstr "Carte dei deflussi residuali della Svizzera: derivazione"
+
+msgid "fullname.ch.bafu.wasser-rueckgabe"
+msgstr "Carte dei deflussi residuali della Svizzera: restituzione d'acqua"
+
+msgid "fullname.ch.bafu.wasser-teileinzugsgebiete_2"
+msgstr "Bacini imbriferi topografici dei corsi d’acqua svizzeri 2km2"
+
+msgid "fullname.ch.bafu.wasser-teileinzugsgebiete_40"
+msgstr "Bacini imbriferi topografici dei corsi d’acqua svizzeri 40km2"
+
+msgid "fullname.ch.bafu.wasser-vorfluter"
+msgstr "Bacini imbriferi topografici dei corsi d’acqua svizzeri: Emissari"
+
+msgid "fullname.ch.bafu.wrz-jagdbanngebiete_select"
+msgstr "Siti di protezione della fauna selvatica"
+
+msgid "fullname.ch.bafu.wrz-wildruhezonen-jagdbanngebiete-wege-routen"
+msgstr "Sentieri / itinerari autorizzati"
+
+msgid "fullname.ch.bafu.wrz-wildruhezonen_portal"
+msgstr "Zone di tranquillità"
+
+msgid "fullname.ch.bag.radonkarte"
+msgstr "Mappa del radon"
+
+msgid "fullname.ch.bag.zecken-fsme-faelle"
+msgstr "Encefalite da zecche / Meningoencefalite verno-estiva (FSME) - Zone a frequenza aumentata"
+
+msgid "fullname.ch.bag.zecken-fsme-impfung"
+msgstr "Encefalite da zecche / Meningoencefalite verno-estiva (FSME) - Raccomandazione di vaccinazione"
+
+msgid "fullname.ch.bag.zecken-lyme"
+msgstr "Borreliosi / Malattia di Lyme"
+
+msgid "fullname.ch.bak.bundesinventar-schuetzenswerte-ortsbilder"
+msgstr "Inventario federale degli insediamenti svizzeri da proteggere d'importanza nazionale ISOS"
+
+msgid "fullname.ch.bakom.anbieter-eigenes_festnetz"
+msgstr "Numero dei fornitori di servizi di telecomunicazione con proprio accesso alla rete fissa"
+
+msgid "fullname.ch.bakom.anschlussart-glasfaser"
+msgstr "Tipi di collegamento disponibili fibra ottica"
+
+msgid "fullname.ch.bakom.anschlussart-koaxialkabel"
+msgstr "Tipi di collegamento disponibili cavo coassiale"
+
+msgid "fullname.ch.bakom.anschlussart-kupferdraht"
+msgstr "Tipi di collegamento disponibili cavo in rame"
+
+msgid "fullname.ch.bakom.downlink1"
+msgstr "Disponibilità Internet su rete fissa: ≥ 1 Mbit/s velocità di download"
+
+msgid "fullname.ch.bakom.downlink10"
+msgstr "Disponibilità Internet su rete fissa: ≥ 10 Mbit/s velocità di download"
+
+msgid "fullname.ch.bakom.downlink100"
+msgstr "Disponibilità Internet via rete fissa: ≥ 100 Mbit/s velocità di download"
+
+msgid "fullname.ch.bakom.downlink2"
+msgstr "Disponibilità Internet su rete fissa: ≥ 2 Mbit/s velocità di download"
+
+msgid "fullname.ch.bakom.downlink20"
+msgstr "Disponibilità Internet su rete fissa: ≥ 20 Mbit/s velocità di download"
+
+msgid "fullname.ch.bakom.downlink50"
+msgstr "Disponibilità Internet su rete fissa: ≥ 50 Mbit/s velocità di download"
+
+msgid "fullname.ch.bakom.mobil-antennenstandorte-gsm"
+msgstr "Telefonia mobile GSM – ubicazione antenne"
+
+msgid "fullname.ch.bakom.mobil-antennenstandorte-lte"
+msgstr "Telefonia mobile 4G (LTE) – ubicazione antenne"
+
+msgid "fullname.ch.bakom.mobil-antennenstandorte-umts"
+msgstr "Telefonia mobile 3G (UMTS) – ubicazione antenne"
+
+msgid "fullname.ch.bakom.radio-fernsehsender"
+msgstr "Emittenti radiotelevisive svizzere"
+
+msgid "fullname.ch.bakom.richtfunkverbindungen"
+msgstr "Collegamento in ponte radio"
+
+msgid "fullname.ch.bakom.uplink1"
+msgstr "Disponibilità Internet su rete fissa:≥ 1 Mbit/s velocità di upload"
+
+msgid "fullname.ch.bakom.uplink10"
+msgstr "Disponibilità Internet su rete fissa: ≥ 10 Mbit/s velocità di upload"
+
+msgid "fullname.ch.bakom.uplink100"
+msgstr "Disponibilità Internet su rete fissa: ≥ 100 Mbit/s velocità di upload"
+
+msgid "fullname.ch.bakom.uplink2"
+msgstr "Disponibilità Internet su rete fissa: ≥ 2 Mbit/s velocità di upload"
+
+msgid "fullname.ch.bakom.uplink20"
+msgstr "Disponibilà Internet su rete fissa ≥20 Mbit/s velocità di upload"
+
+msgid "fullname.ch.bakom.uplink50"
+msgstr "Disponibilità Internet su rete fissa: ≥ 50 Mbit/s velocità di upload"
+
+msgid "fullname.ch.bakom.verfuegbarkeit-hdtv"
+msgstr "Disponibilità TV HD su rete fissa"
+
+msgid "fullname.ch.bakom.verfuegbarkeit-tv"
+msgstr "Disponibilità TV su rete fissa (almeno SD)"
+
+msgid "fullname.ch.bakom.versorgungsgebiet-tv"
+msgstr "Zone di copertura delle emittenti TV locali/regionali"
+
+msgid "fullname.ch.bakom.versorgungsgebiet-ukw"
+msgstr "Zone di copertura delle emittenti radio locali/regionali"
+
+msgid "fullname.ch.bak.schutzgebiete-unesco_weltkulturerbe"
+msgstr "UNESCO siti culturali"
+
+msgid "fullname.ch.baspo.nationales-sportanlagenkonzept"
+msgstr "Concezione degli impianti sportivi di importanza nazionale CISIN"
+
+msgid "fullname.ch.bav.anlagen-schienengueterverkehr"
+msgstr "Elenco degli impianti del traffico merci ferroviario ai sensi della concezione del trasporto di merci per ferrovia"
+
+msgid "fullname.ch.bav.baulinien-eisenbahnanlagen.oereb"
+msgstr "Linee di costruzione per gli impianti ferroviari RDPP"
+
+msgid "fullname.ch.bav.haltestellen-oev"
+msgstr "Stazioni per i trasporti pubblici"
+
+msgid "fullname.ch.bav.kataster-belasteter-standorte-oev"
+msgstr "Catasto dei siti inquinati nel settore dei trasporti pubblici (CSIN UFT)"
+
+msgid "fullname.ch.bav.kataster-belasteter-standorte-oev.oereb"
+msgstr "Catasto dei siti inquinati nel settore dei trasporti pubblici (CSIN UFT) RDPP"
+
+msgid "fullname.ch.bav.laermbelastung-eisenbahn_festgelegte_emissionen_nacht"
+msgstr "Catasto dei rumori - impianti ferroviari - rumore dei treni, emissioni notturne (stabilite)"
+
+msgid "fullname.ch.bav.laermbelastung-eisenbahn_festgelegte_emissionen_tag"
+msgstr "Catasto dei rumori - impianti ferroviari - rumore dei treni, emissioni diurne stabilite"
+
+msgid "fullname.ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_nacht"
+msgstr "Catasto dei rumori - impianti ferroviari - rumore dei treni, emissioni notturne effettive"
+
+msgid "fullname.ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_tag"
+msgstr "Catasto dei rumori - impianti ferroviari - rumore dei treni, emissioni diurne effettive"
+
+msgid "fullname.ch.bav.projektierungszonen-eisenbahnanlagen.oereb"
+msgstr "Zone di progettazione per gli impianti ferroviari RDPP"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schiene_anhorung"
+msgstr "Piano settoriale dei trasporti, parte infrastruttura ferroviaria (SIS): consultazione"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schiene_ausgangslage"
+msgstr "Piano settoriale dei trasporti, parte infrastruttura ferroviaria (SIS): statu quo"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schiene_kraft"
+msgstr "Piano settoriale dei trasporti, parte infrastruttura ferroviaria (SIS)"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung"
+msgstr "Piano settoriale dei trasporti, parte infrastruttura navigazione (SIF): consultazione"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schifffahrt_ausgangslage"
+msgstr "Piano settoriale dei trasporti, parte infrastruttura navigazione (SIF): statu quo"
+
+msgid "fullname.ch.bav.sachplan-infrastruktur-schifffahrt_kraft"
+msgstr "Piano settoriale dei trasporti, parte infrastruttura navigazione (SIF)"
+
+msgid "fullname.ch.bav.schienennetz"
+msgstr "Rete ferroviaria"
+
+msgid "fullname.ch.bav.schienennetz-kilometrierungslinien"
+msgstr "Linee di chilometraggio per la rete ferroviaria"
+
+msgid "fullname.ch.bazl.baulinien-flughafenanlagen.oereb"
+msgstr "Linee di costruzione per gli impianti aeroportuali RDPP"
+
+msgid "fullname.ch.bazl.einschraenkungen-drohnen"
+msgstr "Zone con restrizioni per aeromodelli e droni"
+
+msgid "fullname.ch.bazl.flugplaetze-heliports"
+msgstr "Aerodromi civili e militari"
+
+msgid "fullname.ch.bazl.gebirgslandeplaetze"
+msgstr "Aree d'atterraggio in montagna: terreni d'atterraggio, appositamente designate, situate a un'altitudine superiore a 1100 m s.l.m"
+
+msgid "fullname.ch.bazl.kataster-belasteter-standorte-zivilflugplaetze"
+msgstr "Catasto dei siti inquinati nel settore degli aeroporti civili (CSIN UFAC)"
+
+msgid "fullname.ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.oereb"
+msgstr "Catasto dei siti inquinati nel settore degli aeroporti civili (CSIN UFAC) RDPP"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_erste-nachtstunde"
+msgstr "Catasto dei rumori sugli aerodromi civili - Inquinamento fonico durante la prima ora della notte Lrn (ore 22-23)"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_helikopter"
+msgstr "Catasto dei rumori sugli aerodromi civili - Inquinamento fonico del traffico egli elicotteri Lr"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_helikopter-maximalpegel"
+msgstr "Catasto dei rumori sugli aerodromi civili - Inquinamento fonico del traffico egli elicotteri Lmax"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_klein-grossflugzeuge"
+msgstr "Catasto dei rumori sugli aerodromi civili - Inquinamento fonico del traffico di velivoli piccoli e grandi Lrt (ore 06-22)"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_kleinluftfahrzeuge"
+msgstr "Catasto dei rumori sugli aerodromi civili - Inquinamento fonico del traffico di velivoli piccoli Lrk"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_letzte-nachtstunde"
+msgstr "Catasto dei rumori sugli aerodromi civili - Inquinamento fonico durante l'ultima ora della notte Lrn (ore 05-06)"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_militaer-gesamt"
+msgstr "Catasto dei rumori sugli aerodromi civili - Inquinamento fonico dell'aerodromo militare, incluso traffico civile Lr"
+
+msgid "fullname.ch.bazl.laermbelastungskataster-zivilflugplaetze_zweite-nachtstunde"
+msgstr "Catasto dei rumori sugli aerodromi civili - Inquinamento fonico durante la seconda ora della notte Lrn (ore 23-24)"
+
+msgid "fullname.ch.bazl.landschaftsruhezonen"
+msgstr "Zone di calma nel paesaggio nell'ambito aeronautico"
+
+msgid "fullname.ch.bazl.luftfahrthindernis"
+msgstr "Dati relativi agli ostacoli alla navigazione aerea svizzera"
+
+msgid "fullname.ch.bazl.luftfahrtkarten-icao"
+msgstr "Carta aeronautica OACI Svizzera 1:500'000"
+
+msgid "fullname.ch.bazl.luftraeume-fluginformationsgebiet"
+msgstr "Spazi aerei: regione d'informazione di volo (FIR)"
+
+msgid "fullname.ch.bazl.luftraeume-fluginformationszonen"
+msgstr "Spazi aerei: zone d'informazione di volo (FIZ)"
+
+msgid "fullname.ch.bazl.luftraeume-kontrollbezirke"
+msgstr "Spazi aerei: regioni di controllo (CTA)"
+
+msgid "fullname.ch.bazl.luftraeume-kontrollzonen"
+msgstr "Spazi aerei: zone di controllo (CTR)"
+
+msgid "fullname.ch.bazl.luftraeume-nahkontrollbezirke"
+msgstr "Spazi aerei: regioni di controllo terminali (TMA)"
+
+msgid "fullname.ch.bazl.projektierungszonen-flughafenanlagen"
+msgstr "Zone di progettazione per gli impianti aeroportuali"
+
+msgid "fullname.ch.bazl.projektierungszonen-flughafenanlagen.oereb"
+msgstr "Zone di progettazione per gli impianti aeroportuali RDPP"
+
+msgid "fullname.ch.bazl.sachplan-infrastruktur-luftfahrt_anhorung"
+msgstr "Piano settoriale dell’infrastruttura aeronautica (PSIA) - consultazioni"
+
+msgid "fullname.ch.bazl.sachplan-infrastruktur-luftfahrt_kraft"
+msgstr "Piano settoriale dell’infrastruttura aeronautica (PSIA)"
+
+msgid "fullname.ch.bazl.schutzgebiete-aulav_liechtenstein"
+msgstr "Zone protette della pubblicazione civile degli ostacoli alla navigazione aerea – Zone protette Liechtenstein"
+
+msgid "fullname.ch.bazl.segelflugkarte"
+msgstr "Carta del volo a vela Svizzera 1:300'000"
+
+msgid "fullname.ch.bazl.sicherheitszonenplan"
+msgstr "Piano delle zone di sicurezza"
+
+msgid "fullname.ch.bazl.sicherheitszonenplan.oereb"
+msgstr "Piano delle zone di sicurezza RDPP"
+
+msgid "fullname.ch.bazl.spitallandeplaetze"
+msgstr "Aree d'atterraggio degli ospedali: terreni d'atterraggio per operazioni di soccorso"
+
+msgid "fullname.ch.bfe.abgeltung-wasserkraftnutzung"
+msgstr "Ordinanza sull’indennizzo delle perdite subite nell’utilizzazione delle forze idriche (OIFI)"
+
+msgid "fullname.ch.bfe.bikesharing"
+msgstr "Bikesharing e ciclonoleggio"
+
+msgid "fullname.ch.bfe.energieforschung"
+msgstr "Cleantech: progetti pilota e di dimostrazione, progetti faro"
+
+msgid "fullname.ch.bfe.energiestaedte"
+msgstr "Città dell’energia"
+
+msgid "fullname.ch.bfe.energiestaedte-2000watt-areale"
+msgstr "Aree 2000 Watt"
+
+msgid "fullname.ch.bfe.energiestaedte-2000watt-aufdemweg"
+msgstr "Città dell’energia in cammino verso la Società a 2000 Watt"
+
+msgid "fullname.ch.bfe.energiestaedte-energieregionen"
+msgstr "Regioni-Energia"
+
+msgid "fullname.ch.bfe.kernkraftwerke"
+msgstr "Centrali nucleari"
+
+msgid "fullname.ch.bfe.kleinwasserkraftpotentiale"
+msgstr "Potenziale dei corsi d'acqua svizzeri per le piccole centrali idrauliche"
+
+msgid "fullname.ch.bfe.ladestellen-elektromobilitaet"
+msgstr "Ladestellen Elektromobilität"
+
+msgid "fullname.ch.bfe.meteorologische-vereisung"
+msgstr "Atlante eolico svizzero: Frequenza con cui si riuniscono le condizioni meteorologiche favorevoli alla formazione del ghiaccio a un’altezza di 100 m sopra il livello del terreno"
+
+msgid "fullname.ch.bfe.minergiegebaeude"
+msgstr "Minergie"
+
+msgid "fullname.ch.bfe.sachplan-geologie-tiefenlager"
+msgstr "Piano settoriale dei depositi in strati geologici profondi"
+
+msgid "fullname.ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung"
+msgstr "Piano settoriale dei depositi in strati geologici profondi: presentazione tematica"
+
+msgid "fullname.ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung"
+msgstr "Piano settoriale dei depositi in strati geologici profondi - consultazione tappa 2"
+
+msgid "fullname.ch.bfe.sachplan-uebertragungsleitungen_anhoerung"
+msgstr "Piano settoriale degli elettrodotti (PSE) - consultazioni"
+
+msgid "fullname.ch.bfe.sachplan-uebertragungsleitungen_kraft"
+msgstr "Piano settoriale degli elettrodotti (PSE)"
+
+msgid "fullname.ch.bfe.solarenergie-eignung-daecher"
+msgstr "Idoneità dei tetti delle case a utilizzare l'energia solare"
+
+msgid "fullname.ch.bfe.solarenergie-eignung-fassaden"
+msgstr "Idoneità delle facciate delle case ai fini dello sfruttamento di energia solare"
+
+msgid "fullname.ch.bfe.statistik-wasserkraftanlagen"
+msgstr "Statistica degli impianti idroelettrici (SIMI)"
+
+msgid "fullname.ch.bfe.stauanlagen-bundesaufsicht"
+msgstr "Impianti di sbarramento sotto la vigilanza della Confederazione"
+
+msgid "fullname.ch.bfe.windenergieanlagen"
+msgstr "Impianti eolici"
+
+msgid "fullname.ch.bfe.windenergie-geschwindigkeit_h100"
+msgstr "Atlante eolico svizzero: velocità media annua e direzione media annua del vento a un'altezza di 100 m sopra il livello del terreno secondo modellizzazione"
+
+msgid "fullname.ch.bfe.windenergie-geschwindigkeit_h125"
+msgstr "Atlante eolico svizzero: velocità media annua e direzione media annua del vento a un'altezza di 50 m sopra il livello del terreno secondo modellizzazione"
+
+msgid "fullname.ch.bfe.windenergie-geschwindigkeit_h150"
+msgstr "Atlante eolico svizzero: velocità media annua e direzione media annua del vento a un'altezza di 50 m sopra il livello del terreno secondo modellizzazione"
+
+msgid "fullname.ch.bfe.windenergie-geschwindigkeit_h50"
+msgstr "Atlante eolico svizzero: velocità media annua e direzione media annua del vento a un'altezza di 50 m sopra il livello del terreno secondo modellizzazione"
+
+msgid "fullname.ch.bfe.windenergie-geschwindigkeit_h75"
+msgstr "Atlante eolico svizzero: velocità media annua e direzione media annua del vento a un'altezza di 75 m sopra il livello del terreno secondo modellizzazione"
+
+msgid "fullname.ch.bfe.windenergie-potenzialgebiete"
+msgstr "Concezione energia eolica – carta di base della Confederazione concernente le principali zone a potenziale eolico"
+
+msgid "fullname.ch.bfs.arealstatistik"
+msgstr "Statistica della superficie 2004/2009 secondo la nomenclatura standard NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-04"
+msgstr "Statistique de la superficie 2004/09 selon nomenclature standard NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-17"
+msgstr "Statistique de la superficie 2004/09 selon nomenclature standard NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-1985"
+msgstr "Statistica della superficie 1979/85 secondo la nomenclatura standard NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-1985-04"
+msgstr "Statistique de la superficie 1979/1985, 4 domaines principaux"
+
+msgid "fullname.ch.bfs.arealstatistik-1985-15"
+msgstr "Statistique de la superficie 1979/1985, 15 modes d'utilisation agrégés"
+
+msgid "fullname.ch.bfs.arealstatistik-1985-25"
+msgstr "Statistique de la superficie 1979/1985, 25 modes d'utilisation agrégés"
+
+msgid "fullname.ch.bfs.arealstatistik-1985-punkte"
+msgstr "Statistique de la superficie 1979/1985, 74 catégories de base"
+
+msgid "fullname.ch.bfs.arealstatistik-1997"
+msgstr "Statistica della superficie 1992/97 secondo la nomenclatura standard NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-1997-04"
+msgstr "Statistique de la superficie 1992/1997, 4 domaines principaux"
+
+msgid "fullname.ch.bfs.arealstatistik-1997-15"
+msgstr "Statistique de la superficie 1992/1997, 15 modes d'utilisation agrégés"
+
+msgid "fullname.ch.bfs.arealstatistik-1997-25"
+msgstr "Statistique de la superficie 1992/1997, 25 modes d'utilisation agrégés"
+
+msgid "fullname.ch.bfs.arealstatistik-1997-punkte"
+msgstr "Statistique de la superficie 1992/1997, 74 catégories de base"
+
+msgid "fullname.ch.bfs.arealstatistik-27"
+msgstr "Statistique de la superficie 2004/09 selon nomenclature standard NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodenbedeckung"
+msgstr "Statistica della superficie 2004/09 secondo la nomenclatura standard NOLC04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodenbedeckung-1985"
+msgstr "Statistica della superficie 2004/09 secondo la nomenclatura standard NOLC04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodenbedeckung-1997"
+msgstr "Statistica della superficie 2004/09 secondo la nomenclatura standard NOLC04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung"
+msgstr "Statistica della superficie 2004/09 secondo la nomenclatura standard NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung-04"
+msgstr "Statistique de la superficie 2004/09 selon nomenclature de l'utilisation du sol NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung-10"
+msgstr "Statistique de la superficie 2004/09 selon nomenclature de l'utilisation du sol NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung-1985"
+msgstr "Statistica della superficie 1979/85 secondo la nomenclatura standard NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung-1997"
+msgstr "Statistica della superficie 1992/97 secondo la nomenclatura standard NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-bodennutzung-punkte"
+msgstr "Statistique de la superficie 2004/09 selon nomenclature de l'utilisation du sol NOLU04"
+
+msgid "fullname.ch.bfs.arealstatistik-hintergrund"
+msgstr "Statistica della superficie semplificata"
+
+msgid "fullname.ch.bfs.arealstatistik-punkte"
+msgstr "Statistique de la superficie 2004/09 selon nomenclature standard NOAS04"
+
+msgid "fullname.ch.bfs.arealstatistik-waldmischungsgrad"
+msgstr "Statistica della superficie, miscela della foresta 1990"
+
+msgid "fullname.ch.bfs.betriebszaehlungen-arbeitsstaetten"
+msgstr "Censimenti/statistiche delle aziende: Stabilimenti"
+
+msgid "fullname.ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente"
+msgstr "Censimenti/statistiche delle aziende: Addetti (EPT)"
+
+msgid "fullname.ch.bfs.gebaeude_wohnungs_register"
+msgstr "Registro federale degli edifici e delle abitazioni REA"
+
+msgid "fullname.ch.bfs.generalisierte-grenzen_agglomerationen_g1"
+msgstr "Confini generalizzati G1 e spazio carattere urbano"
+
+msgid "fullname.ch.bfs.generalisierte-grenzen_agglomerationen_g2"
+msgstr "Confini generalizzati G2 e spazio carattere urbano"
+
+msgid "fullname.ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner"
+msgstr "Statistica della popolazione: abitanti"
+
+msgid "fullname.ch.bfs.volkszaehlung-gebaeudestatistik_gebaeude"
+msgstr "Statistica degli edifici e delle abitazioni: Edifici"
+
+msgid "fullname.ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen"
+msgstr "Statistica degli edifici e delle abitazioni: Abitazioni"
+
+msgid "fullname.ch.blw.alpprodukte"
+msgstr "Prodotti dell'alpe"
+
+msgid "fullname.ch.blw.bergprodukte"
+msgstr "Prodotti di montagna"
+
+msgid "fullname.ch.blw.bewaesserungsbeduerftigkeit"
+msgstr "Fabbisogno irriguo"
+
+msgid "fullname.ch.blw.bodeneignung-gruendigkeit"
+msgstr "Carta digitale delle attitudini dei suoli svizzeri - Profondità"
+
+msgid "fullname.ch.blw.bodeneignung-kulturland"
+msgstr "Carta digitale delle attitudini dei suoli svizzeri - Terreni coltivi"
+
+msgid "fullname.ch.blw.bodeneignung-kulturtyp"
+msgstr "Carta digitale delle attitudini dei suoli svizzeri - Tipologie di colture"
+
+msgid "fullname.ch.blw.bodeneignung-naehrstoffspeichervermoegen"
+msgstr "Carta digitale delle attitudini dei suoli svizzeri - Capacità di stoccaggio di sostanze nutritive"
+
+msgid "fullname.ch.blw.bodeneignung-skelettgehalt"
+msgstr "Carta digitale delle attitudini dei suoli svizzeri - Scheletro"
+
+msgid "fullname.ch.blw.bodeneignung-vernaessung"
+msgstr "Carta digitale delle attitudini dei suoli svizzeri - Saturazione idrica"
+
+msgid "fullname.ch.blw.bodeneignung-wasserdurchlaessigkeit"
+msgstr "Carta digitale delle attitudini dei suoli svizzeri - Permeabilità"
+
+msgid "fullname.ch.blw.bodeneignung-wasserspeichervermoegen"
+msgstr "Carta digitale delle attitudini dei suoli svizzeri - Capacità di stoccaggio idrico"
+
+msgid "fullname.ch.blw.emapis-beizugsgebiet"
+msgstr "Miglioramenti strutturali agricole - Comprensorio di una ricomposizione particellare"
+
+msgid "fullname.ch.blw.emapis-bewaesserung"
+msgstr "Miglioramenti strutturali agricole - Impianti d’irrigazione"
+
+msgid "fullname.ch.blw.emapis-elektrizitaetsversorgung"
+msgstr "Miglioramenti strutturali agricole - Approvvigionamento con elettricità"
+
+msgid "fullname.ch.blw.emapis-entwaesserung"
+msgstr "Miglioramenti strutturali agricole - Bilancio idrico, struttura del suolo"
+
+msgid "fullname.ch.blw.emapis-hochbau"
+msgstr "Miglioramenti strutturali agricole - Diversi provvedimenti in relazione agli edifici agricoli"
+
+msgid "fullname.ch.blw.emapis-milchleitung"
+msgstr "Miglioramenti strutturali agricole - Lattodotto"
+
+msgid "fullname.ch.blw.emapis-oekologie"
+msgstr "Miglioramenti strutturali agricole - Provvedimenti ecologici"
+
+msgid "fullname.ch.blw.emapis-projektschwerpunkt"
+msgstr "Miglioramenti strutturali agricole - Punto centrale di progetti di più ampia portata"
+
+msgid "fullname.ch.blw.emapis-seilbahnen"
+msgstr "Miglioramenti strutturali agricole - Teleferiche agricole o alpestri"
+
+msgid "fullname.ch.blw.emapis-wasserversorgung"
+msgstr "Miglioramenti strutturali agricole - Approvvigionamento con acqua potabile"
+
+msgid "fullname.ch.blw.emapis-wegebau"
+msgstr "Miglioramenti strutturali agricole - Costruzione di strade agricole"
+
+msgid "fullname.ch.blw.emapis-zusammenfassung"
+msgstr "Miglioramenti strutturali agricole - Sommario"
+
+msgid "fullname.ch.blw.erosion"
+msgstr "Carta del rischio di erosione, qualitativo 1 (regione di pianura)"
+
+msgid "fullname.ch.blw.erosion-mit_bergzonen"
+msgstr "Carta del rischio di erosione, qualitativo 2 (regione di pianura e zone di montagna I+II)"
+
+msgid "fullname.ch.blw.erosion-quantitativ"
+msgstr "Carta del rischio di erosione, perdita di suolo media sul lungo periodo, espressa in tonnellate per ettaro e anno"
+
+msgid "fullname.ch.blw.feldblockkarte"
+msgstr "Carta dei blocchi di particelle per il rischio di erosione"
+
+msgid "fullname.ch.blw.gewaesseranschlusskarte"
+msgstr "Carta delle superfici collegate ad acque superficiali, probabilità di collegamento"
+
+msgid "fullname.ch.blw.gewaesseranschlusskarte-direkt"
+msgstr "Carta delle superfici collegate direttamente e indirettamente ad acque superficiali, probabilità di collegamento"
+
+msgid "fullname.ch.blw.hang_steillagen"
+msgstr "Zone declive"
+
+msgid "fullname.ch.blw.klimaeignung-futterbau"
+msgstr "Carta delle attitudini climatiche per l'agricoltura in Svizzera - Foraggicoltura"
+
+msgid "fullname.ch.blw.klimaeignung-getreidebau"
+msgstr "Carta delle attitudini climatiche per l'agricoltura in Svizzera - Cerealicoltura"
+
+msgid "fullname.ch.blw.klimaeignung-kartoffeln"
+msgstr "Carta delle attitudini climatiche per l'agricoltura in Svizzera - Patate"
+
+msgid "fullname.ch.blw.klimaeignung-koernermais"
+msgstr "Carta delle attitudini climatiche per l'agricoltura in Svizzera - Mais da granella"
+
+msgid "fullname.ch.blw.klimaeignung-kulturland"
+msgstr "Carta delle attitudini climatiche per l'agricoltura in Svizzera - Terreni coltivi"
+
+msgid "fullname.ch.blw.klimaeignung-spezialkulturen"
+msgstr "Carta delle attitudini climatiche per l'agricoltura in Svizzera - Colture speciali"
+
+msgid "fullname.ch.blw.klimaeignung-typ"
+msgstr "Carta delle attitudini climatiche per l'agricoltura in Svizzera - Visione d'insieme"
+
+msgid "fullname.ch.blw.klimaeignung-zwischenfruchtbau"
+msgstr "Carta delle attitudini climatiche per l'agricoltura in Svizzera - Colture intercalari"
+
+msgid "fullname.ch.blw.landwirtschaftliche-zonengrenzen"
+msgstr "Limiti delle zone agricole della Svizzera"
+
+msgid "fullname.ch.blw.niederschlagshaushalt"
+msgstr "Carta delle attitudini climatiche per l'agricoltura in Svizzera - Precipitazioni"
+
+msgid "fullname.ch.blw.steil_terrassenlagen_rebbau"
+msgstr "Vigneti in zone declive"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch"
+msgstr "Registro delle denominazioni di origine (DOP) e delle indicazioni geografiche (IGP) Prodotti carnei"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-ap_wurst"
+msgstr "fullname.ch.blw.ursprungsbezeichnungen-fleisch-ap_wurst"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-buendnerfleisch"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotto a base di carne"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-gl_kaelberwurst"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotto a base di carne"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-longeole"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotto a base di carne"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-saucisse_ajoie"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotto a base di carne"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-saucisse_aux_choux_vd"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotto a base di carne"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-saucisse_ne"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotto a base di carne"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-saucisson_vd"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotto a base di carne"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-sg_wuerste"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotto a base di carne"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-fleisch-vs_trockenfleisch"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotto a base di carne"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese"
+msgstr "Registro delle denominazioni di origine (DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-be_alpkaese"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-emmentaler"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-etivaz"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-formaggio_d_alpe_ti"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-gruyere"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-sbrinz"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-tete_de_moine"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-vacherin_fr"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-vacherin_mont_d_or"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-vs_raclette"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-kaese-werdenberger"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Formaggio"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-konditoreiwaren"
+msgstr "Registro delle denominazioni di origine (DOP) e delle indicazioni geografiche (IGP) Prodotti di pasticceria"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen"
+msgstr "Registro delle denominazioni di origine (DOP) e delle indicazioni geografiche (IGP) Prodotti vegetali"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen-cardon_epineux_ge"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotti vegetali"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen-munder_safran"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotti vegetali"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen-poire_botzi"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotti vegetali"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen-rheintaler_ribel"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotti vegetali"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-pflanzen-vs_roggenbrot"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) Prodotti vegetali"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-spirituosen"
+msgstr "Registro delle denominazioni di origine (DOP) e delle indicazioni geografiche (IGP) Distillati"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-spirituosen-abricotine"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) distillati"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-spirituosen-damassine"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) distillati"
+
+msgid "fullname.ch.blw.ursprungsbezeichnungen-spirituosen-eau_vie_poire"
+msgstr "Registro delle denominazioni di origine (DOC/DOP) e delle indicazioni geografiche (IGP) distillati"
+
+msgid "fullname.ch.ensi.zonenplan-notfallschutz-kernanlagen"
+msgstr "Piani delle zone per la pianificazione delle misure di emergenza nei dintorni degli impianti nucleari"
+
+msgid "fullname.ch.ezv.lohnbrennereien"
+msgstr "Distillerie per conto di terzi"
+
+msgid "fullname.ch.kantone.cadastralwebmap-farbe"
+msgstr "CadastralWebMap"
+
+msgid "fullname.ch.meteoschweiz.globalstrahlung-monatlich"
+msgstr "Globalstrahlung test"
+
+msgid "fullname.ch.meteoschweiz.messdaten-foehn"
+msgstr "Dati favonio della rete di rilevamento automatica"
+
+msgid "fullname.ch.meteoschweiz.messdaten-globalstrahlung"
+msgstr "Dati radiazione globale della rete di rilevamento automatica"
+
+msgid "fullname.ch.meteoschweiz.messdaten-luftdruck-qfe"
+msgstr "Dati pressione alla stazione (QFE) della rete di rilevamento automatica"
+
+msgid "fullname.ch.meteoschweiz.messdaten-luftdruck-qff"
+msgstr "Dati pressione ridotta al livello del mare (QFF) della rete di rilevamento automatica"
+
+msgid "fullname.ch.meteoschweiz.messdaten-luftdruck-qnh"
+msgstr "Dati pressione ridotta al livello del mare (QFF) della rete di rilevamento automatica"
+
+msgid "fullname.ch.meteoschweiz.messdaten-luftfeuchtigkeit"
+msgstr "Dati umidità della rete di rilevamento automatica"
+
+msgid "fullname.ch.meteoschweiz.messdaten-lufttemperatur"
+msgstr "Dati temperatura aria della rete di rilevamento automatica"
+
+msgid "fullname.ch.meteoschweiz.messdaten-niederschlag"
+msgstr "Dati precipitazioni giornaliere della rete di rilevamento automatica"
+
+msgid "fullname.ch.meteoschweiz.messdaten-niederschlag-tagessummen"
+msgstr "Dati precipitazioni giornaliere della rete di rilevamento automatica e manuale"
+
+msgid "fullname.ch.meteoschweiz.messdaten-sonnenscheindauer"
+msgstr "Dati soleggiamento della rete di rilevamento automatica"
+
+msgid "fullname.ch.meteoschweiz.messdaten-taupunkt"
+msgstr "Dati punto di rugiada della rete di rilevamento automatica"
+
+msgid "fullname.ch.meteoschweiz.messdaten-wind-boenspitze"
+msgstr "Dati raffica della rete di rilevamento automatica"
+
+msgid "fullname.ch.meteoschweiz.messdaten-windgeschwindigkeit"
+msgstr "Dati velocità del vento della rete di rilevamento automatica"
+
+msgid "fullname.ch.mobility.standorte"
+msgstr "Stazioni di offerenti di automobili condivise (carsharing)"
+
+msgid "fullname.ch.nagra.aeromagnetische-karte_1100"
+msgstr "Carta aeromagnetica 1:100000 Argovia fino a Sciaffusa (1100 m)"
+
+msgid "fullname.ch.nagra.aeromagnetische-karte_1500"
+msgstr "Carta aeromagnetica 1:100000 Argovia fino a Sciaffusa (1500 m)"
+
+msgid "fullname.ch.pronatura.naturschutzgebiete"
+msgstr "Pro Natura: Riserve naturali"
+
+msgid "fullname.ch.pronatura.waldreservate"
+msgstr "Pro Natura: Riserve forestali"
+
+msgid "fullname.ch.sem.sachplan-asyl_anhoerung"
+msgstr "Piano settoriale Asilo (PSA) - consultazioni"
+
+msgid "fullname.ch.sem.sachplan-asyl_kraft"
+msgstr "Piano settoriale Asilo (PSA)"
+
+msgid "fullname.ch.sgpk.maechtigkeit-lockergesteine"
+msgstr "Spessore dei sedimenti della Svizzera"
+
+msgid "fullname.ch.swisstopo.amtliches-strassenverzeichnis"
+msgstr "Elenco ufficiale delle strade"
+
+msgid "fullname.ch.swisstopo.burgenkarte200_papier.metadata"
+msgstr "Carta stampata: Carta dei castelli della Svizzera 1:200'000"
+
+msgid "fullname.ch.swisstopo.digitales-hoehenmodell_25.metadata"
+msgstr "Estensione geografica MDT25"
+
+msgid "fullname.ch.swisstopo.digitales-hoehenmodell_25_reliefschattierung"
+msgstr "MDT25 ombreggiature del rilievo"
+
+msgid "fullname.ch.swisstopo.dreiecksvermaschung"
+msgstr "Cambiamento di quadro di riferimento MN03 – MN95: Magliatura triangolare (CHENyx06 e FINELTRA MN)"
+
+msgid "fullname.ch.swisstopo.fixpunkte-agnes"
+msgstr "Rete di riferimento (permanente): Rete GNNS automatica svizzera (AGNES)"
+
+msgid "fullname.ch.swisstopo.fixpunkte-hfp1"
+msgstr "Punti fissi altimetrici PFA1 (misurazione nazionale)"
+
+msgid "fullname.ch.swisstopo.fixpunkte-hfp2"
+msgstr "Punti fissi altimetrici PFA2 (misurazione ufficiale)"
+
+msgid "fullname.ch.swisstopo.fixpunkte-lfp1"
+msgstr "Punti fissi planimetrici PFP1 (misurazione nazionale)"
+
+msgid "fullname.ch.swisstopo.fixpunkte-lfp2"
+msgstr "Punti fissi planimetrici PFP2 (misurazione ufficiale)"
+
+msgid "fullname.ch.swisstopo.generalkarte300_papier.metadata"
+msgstr "Carta stampata: Carta generale 1:300'000"
+
+msgid "fullname.ch.swisstopo.geoidmodell-ch1903"
+msgstr "Modello del geoide CHGeo2004 in CH1903"
+
+msgid "fullname.ch.swisstopo.geoidmodell-etrs89"
+msgstr "Modello del geoide CHGeo2004 in ETRS89"
+
+msgid "fullname.ch.swisstopo.geologie-bodenunruhe"
+msgstr "Modèle du bruit sismique anthropique de la Suisse"
+
+msgid "fullname.ch.swisstopo.geologie-bohrungen_tiefer_500"
+msgstr "Forages de plus de 500 m de profondeur"
+
+msgid "fullname.ch.swisstopo.geologie-dosisleistung-terrestrisch"
+msgstr "Radiazione terrestre"
+
+msgid "fullname.ch.swisstopo.geologie-eiszeit-lgm"
+msgstr "La Svizzera durante l'ultimo massimo glaciale (LGM) 1:500000 (carta vettoriale)"
+
+msgid "fullname.ch.swisstopo.geologie-eiszeit-lgm-raster"
+msgstr "La Svizzera durante l'ultimo massimo glaciale (LGM) 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-eiszeit-lgm-raster_papier.metadata"
+msgstr "Suddivisione ultimo massimo glaciale (LGM) 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-erlebnis_geologie"
+msgstr "Avventura geologia"
+
+msgid "fullname.ch.swisstopo.geologie-generalkarte-ggk200"
+msgstr "Carta geologica generale della Svizzera 1:200000"
+
+msgid "fullname.ch.swisstopo.geologie-generalkarte-ggk200.metadata"
+msgstr "Divisione carta geologica generale 200 Raster"
+
+msgid "fullname.ch.swisstopo.geologie-generalkarte-ggk200_papier.metadata"
+msgstr "Divisione carta geologica generale 200 Stampa"
+
+msgid "fullname.ch.swisstopo.geologie-geocover"
+msgstr "Set di dati geologici vettoriali GeoCover"
+
+msgid "fullname.ch.swisstopo.geologie-geocover.metadata"
+msgstr "Suddivisione dei fogli dei set di dati geologici vettoriali GeoCover"
+
+msgid "fullname.ch.swisstopo.geologie-geodaesie-bouguer_anomalien"
+msgstr "Carta gravimetrica della Svizzera (anomalie di Bouguer) 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geodaesie-bouguer_anomalien_papier.metadata"
+msgstr "Suddivisione della carta gravimetrica (anomalie di Bouguer) 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geodaesie-isostatische_anomalien"
+msgstr "Carta gravimetrica della Svizzera (isoanomalie) 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geologische_einheiten-onegeology"
+msgstr "Unités Géologiques - OneGeology"
+
+msgid "fullname.ch.swisstopo.geologie-geologische_einheiten-onegeologyeurope"
+msgstr "Geologische Einheiten - OneGeology Europe"
+
+msgid "fullname.ch.swisstopo.geologie-geologische_karte"
+msgstr "Carta geologica della Svizzera 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geologische_karte_papier.metadata"
+msgstr "Suddivisione della carta geologica 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geologischer_atlas"
+msgstr "Atlante geologico della Svizzera 1:25000"
+
+msgid "fullname.ch.swisstopo.geologie-geologischer_atlas.metadata"
+msgstr "Divisione atlante geologico 25 Raster"
+
+msgid "fullname.ch.swisstopo.geologie-geologischer_atlas_papier.metadata"
+msgstr "Divisione atlante geologico 25 Stampa"
+
+msgid "fullname.ch.swisstopo.geologie-geologischer_atlas_vector.metadata"
+msgstr "Divisione atlante geologico 25 Vector"
+
+msgid "fullname.ch.swisstopo.geologie-geomorphologie"
+msgstr "Geomorfologia, visione d'insieme"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-aeromagnetische_karte_jura"
+msgstr "Carta aeromagnetica dell'Altopiano e del Giura svizzero"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-aeromagnetische_karte_schweiz"
+msgstr "Carta aeromagnetica della Svizzera 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-deklination"
+msgstr "Carta della declinazione in Svizzera 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-geothermie"
+msgstr "Carta geotermica svizzera 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-inklination"
+msgstr "Carta dell'inclinazione in Svizzera 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geophysik-totalintensitaet"
+msgstr "Carta dell'intensità totale in Svizzera 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-gk200"
+msgstr "Carta geotecnica della Svizzera 1:200000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-gk500-genese"
+msgstr "Carta litologica e petrografica della Svizzera – Origine delle rocce 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung"
+msgstr "Carta litologica e petrografica della Svizzera – Classificazione delle rocce 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen"
+msgstr "Carta litologica e petrografica della Svizzera – Gruppi litologici principali 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-mineralische_rohstoffe200"
+msgstr "Carta delle materie prime minerali della Svizzera 1:200000"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-steinbrueche_1915"
+msgstr "Cave 1915"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-steinbrueche_1965"
+msgstr "Cave 1965"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-steinbrueche_1980"
+msgstr "Cave 1980"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-steinbrueche_1995"
+msgstr "Cave 1995"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-steine_historische_bauwerke"
+msgstr "Pietre dei monumenti storici"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-zementindustrie_1965"
+msgstr "Industria dei cementi 1965"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-zementindustrie_1995"
+msgstr "Industria dei cementi 1995"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-ziegeleien_1907"
+msgstr "Mattonifici 1907"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-ziegeleien_1965"
+msgstr "Mattonifici 1965"
+
+msgid "fullname.ch.swisstopo.geologie-geotechnik-ziegeleien_1995"
+msgstr "Mattonifici 1995"
+
+msgid "fullname.ch.swisstopo.geologie-geotope"
+msgstr "Geotopi svizzeri"
+
+msgid "fullname.ch.swisstopo.geologie-geowege"
+msgstr "Sentieri geologici"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-1000to21000km2"
+msgstr "Documenti geologici (1000-21000km2)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-100to1000km2"
+msgstr "Documenti geologici (100-1000km2)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-10to100km2"
+msgstr "Documenti geologici (10-100km2)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-10x10km"
+msgstr "Documenti geologici (10x10km)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-1x1km"
+msgstr "Documenti geologici (1x1km)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-gt21000km2"
+msgstr "Documenti geologici (>21000km2)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-flaechen-lt10km2"
+msgstr "Documenti geologici (<10km2)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-linien"
+msgstr "Documenti geologici (linee)"
+
+msgid "fullname.ch.swisstopo.geologie-gisgeol-punkte"
+msgstr "Documenti geologici (punti)"
+
+msgid "fullname.ch.swisstopo.geologie-gravimetrischer_atlas"
+msgstr "Atlante gravimetrico della Svizzera 1:100000"
+
+msgid "fullname.ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte"
+msgstr "Atlante gravimetrico della Svizzera: punti di misurazione 1:100000"
+
+msgid "fullname.ch.swisstopo.geologie-gravimetrischer_atlas_papier.metadata"
+msgstr "Divisione dell'Atlante gravimetrico della Svizzera 1:100000"
+
+msgid "fullname.ch.swisstopo.geologie-grundwasservorkommen_papier.metadata"
+msgstr "Suddivisione della carta idrogeologica: riserve acquifere 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-grundwasservulnerabilitaet_papier.metadata"
+msgstr "Suddivisione della carta idrogeologica: vulnerabilità delle falde acquifere 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen"
+msgstr "Carta idrogeologica della Svizzera: riserve acquifere 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-hydrogeologische_karte-grundwasservulnerabilitaet"
+msgstr "Carta idrogeologica della Svizzera: vulnerabilità delle falde acquifere 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-rohstoffe-industrieminerale"
+msgstr "Minerali industriali"
+
+msgid "fullname.ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas"
+msgstr "Materie prime energetiche"
+
+msgid "fullname.ch.swisstopo.geologie-rohstoffe-vererzungen"
+msgstr "Mineralizzazioni"
+
+msgid "fullname.ch.swisstopo.geologie-spezialkarten_schweiz.metadata"
+msgstr "Divisione carte geologiche speciali Raster"
+
+msgid "fullname.ch.swisstopo.geologie-spezialkarten_schweiz_papier.metadata"
+msgstr "Divisione carte geologiche speciali Stampa"
+
+msgid "fullname.ch.swisstopo.geologie-spezialkarten_schweiz_vector.metadata"
+msgstr "Divisione carte geologiche speciali Vector"
+
+msgid "fullname.ch.swisstopo.geologie-tektonische_einheiten-onegeology"
+msgstr "Unités Tectoniques - OneGeology"
+
+msgid "fullname.ch.swisstopo.geologie-tektonische_karte"
+msgstr "Carta tettonica della Svizzera 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-tektonische_karte_papier.metadata"
+msgstr "Suddivisione della carta tettonica 1:500000"
+
+msgid "fullname.ch.swisstopo.geologie-tektonische_stoerungen-onegeology"
+msgstr "Accidents Tectoniques - OneGeology"
+
+msgid "fullname.ch.swisstopo.geologie-tektonische_stoerungen-onegeologyeurope"
+msgstr "Störungen - OneGeology Europe"
+
+msgid "fullname.ch.swisstopo.geologie-tiefengeothermie_projekte"
+msgstr "Progetti di geotermia profonda in Svizzera"
+
+msgid "fullname.ch.swisstopo.hangneigung-ueber_30"
+msgstr "Classi di pendenza maggiori di 30 gradi"
+
+msgid "fullname.ch.swisstopo.hebungsraten"
+msgstr "Tassi di sollevamento"
+
+msgid "fullname.ch.swisstopo.hiks-dufour"
+msgstr "Carta topografica della Svizzera (Carta Dufour)"
+
+msgid "fullname.ch.swisstopo.hiks-dufour.metadata"
+msgstr "Divisione della Carta Dufour per l’online shop"
+
+msgid "fullname.ch.swisstopo.hiks-siegfried"
+msgstr "Atlante topografico della Svizzera (Carta Siegfried)"
+
+msgid "fullname.ch.swisstopo.hiks-siegfried-ta25.metadata"
+msgstr "Divisione della carta Siegfried 1:25 000 per l’online shop"
+
+msgid "fullname.ch.swisstopo.hiks-siegfried-ta50.metadata"
+msgstr "Divisione dell’Atlante topografico della Svizzera 1:50 000 per l’online shop"
+
+msgid "fullname.ch.swisstopo.images-landsat25"
+msgstr "Mosaico Landsat"
+
+msgid "fullname.ch.swisstopo.images-spot-5.metadata"
+msgstr "Estensione geografica di Spot Mosaic"
+
+msgid "fullname.ch.swisstopo.images-spotimage"
+msgstr "fullname.ch.swisstopo.images-spotimage"
+
+msgid "fullname.ch.swisstopo.images-swissimage"
+msgstr "Veduta aerea"
+
+msgid "fullname.ch.swisstopo.images-swissimage-dop10.metadata"
+msgstr "Divisione in tiles SWISSIMAGE 10 cm"
+
+msgid "fullname.ch.swisstopo.images-swissimage.metadata"
+msgstr "Divisione in tiles SWISSIMAGE 25 cm"
+
+msgid "fullname.ch.swisstopo.images-swissimage.metadata-kartenblatt"
+msgstr "Année de vol SWISSIMAGE"
+
+msgid "fullname.ch.swisstopo.images-swissimage.metadata-kartenblatt_name"
+msgstr "Nom de tuile SWISSIMAGE"
+
+msgid "fullname.ch.swisstopo.images-swissimage.metadata-kartenblatt_nummer"
+msgstr "Numéro de tuile SWISSIMAGE"
+
+msgid "fullname.ch.swisstopo-karto.hangneigung"
+msgstr "Pendenza maggiori di 30 gradi"
+
+msgid "fullname.ch.swisstopo-karto.schneeschuhrouten"
+msgstr "Itinerari racchette"
+
+msgid "fullname.ch.swisstopo-karto.skitouren"
+msgstr "Itinerari di sci"
+
+msgid "fullname.ch.swisstopo.koordinatenaenderung"
+msgstr "Cambiamento di quadro di riferimento MN03 – MN95: Cambiamenti di coordinate MN03->MN95"
+
+msgid "fullname.ch.swisstopo.landeskarte1000_papier.metadata"
+msgstr "Carta stampata: Carta nazionale 1:1'000'000"
+
+msgid "fullname.ch.swisstopo.landeskarte100_papier.metadata"
+msgstr "Carta stampata: Carta nazionale 1:100'000"
+
+msgid "fullname.ch.swisstopo.landeskarte200_papier.metadata"
+msgstr "Carta stampata: Carta nazionale 1:200'000"
+
+msgid "fullname.ch.swisstopo.landeskarte25_papier.metadata"
+msgstr "Carta stampata: Carta nazionale 1:25'000"
+
+msgid "fullname.ch.swisstopo.landeskarte500_papier.metadata"
+msgstr "Carta stampata: Carta nazionale 1:500'000"
+
+msgid "fullname.ch.swisstopo.landeskarte50_papier.metadata"
+msgstr "Carta stampata: Carta nazionale 1:50'000"
+
+msgid "fullname.ch.swisstopo.landeskarte-farbe-10"
+msgstr "Carta nazionale 1:10'000 (colori)"
+
+msgid "fullname.ch.swisstopo.landeskarte-grau-10"
+msgstr "Carta nazionale 1:10'000 (grigio)"
+
+msgid "fullname.ch.swisstopo.landesschwerenetz"
+msgstr "Rete gravimetrica nazionale"
+
+msgid "fullname.ch.swisstopo.lotabweichungen"
+msgstr "Deviazione della verticale"
+
+msgid "fullname.ch.swisstopo.lubis-bildstreifen"
+msgstr "Striscie aeree swisstopo"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder-dritte-firmen"
+msgstr "Immagini aeree privati"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder-dritte-kantone"
+msgstr "Immagini aeree dei cantoni"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder_farbe"
+msgstr "Immagini aeree swisstopo a colori"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder_infrarot"
+msgstr "Immagini aeree swisstopo IR"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder_schraegaufnahmen"
+msgstr "Immagini aeree swisstopo oblique"
+
+msgid "fullname.ch.swisstopo.lubis-luftbilder_schwarzweiss"
+msgstr "Immagini aeree swisstopo b / n"
+
+msgid "fullname.ch.swisstopo.luftfahrtkarten-icao.metadata"
+msgstr "Suddivisione della carta aeronautica OACI Svizzera 1:500'000 Carta Raster"
+
+msgid "fullname.ch.swisstopo.luftfahrtkarten-icao_papier.metadata"
+msgstr "Carta stampata: Carta aeronautica della Svizzera 1:500'000"
+
+msgid "fullname.ch.swisstopo.meldungen-karten_geodaten"
+msgstr "Segnalazioni su carte e geodati"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe"
+msgstr "Carte nazionali della Svizzera (a colori)"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk1000.noscale"
+msgstr "Carta nazionale 1:1 milione"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk100.noscale"
+msgstr "Carta nazionale 1:100'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk200.noscale"
+msgstr "Carta nazionale 1:200'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk25.noscale"
+msgstr "Carta nazionale 1:25'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk500.noscale"
+msgstr "Carta nazionale 1:500'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-farbe-pk50.noscale"
+msgstr "Carta nazionale 1:50'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-grau"
+msgstr "Carte nazionali della Svizzera (grigio)"
+
+msgid "fullname.ch.swisstopo.pixelkarte-grau-pk1000.noscale"
+msgstr "Carta nazionale 1:1 milione"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk1000.metadata"
+msgstr "Divisione delle carte nazionali 1:1 milione"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk1000.metadata-kartenblatt"
+msgstr "Etat de mise à jour carte nationale 1:1 million"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk1000.metadata-kartenblatt_name"
+msgstr "Nom de la feuille carte nationale 1:1 million"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk1000.metadata-kartenblatt_nummer"
+msgstr "Numéro de la feuille nationale 1:1 million"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk100.metadata"
+msgstr "Divisione delle carte nazionali 1:100'000 Swiss Map Raster"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk100.metadata-kartenblatt"
+msgstr "Etat de mise à jour carte nationale 1:100000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk100.metadata-kartenblatt_name"
+msgstr "Nom de la feuille carte nationale 1:100000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk100.metadata-kartenblatt_nummer"
+msgstr "Numéro de la feuille nationale 1:100000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk200.metadata"
+msgstr "Suddivisione della carta nazionale 1:200000 Swiss Map Raster"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk200.metadata-kartenblatt"
+msgstr "Etat de mise à jour carte nationale 1:200000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk200.metadata-kartenblatt_name"
+msgstr "Nom de la feuille carte nationale 1:200000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk200.metadata-kartenblatt_nummer"
+msgstr "Numéro de la feuille nationale 1:200000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk25.metadata"
+msgstr "Suddivisione della carta nazionale 1:25000 Swiss Map Raster"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk25.metadata-kartenblatt"
+msgstr "Etat de mise à jour carte nationale 1:25'000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk25.metadata-kartenblatt_name"
+msgstr "Nom de la feuille carte nationale 1:25000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk25.metadata-kartenblatt_nummer"
+msgstr "Numéro de la feuille nationale 1:25000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk500.metadata"
+msgstr "Suddivisione della carta nazionale 1:500000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk500.metadata-kartenblatt"
+msgstr "Etat de mise à jour carte nationale 1:500000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk500.metadata-kartenblatt_name"
+msgstr "Nom de la feuille carte nationale 1:500000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk500.metadata-kartenblatt_nummer"
+msgstr "Numéro de la feuille nationale 1:500000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk50.metadata"
+msgstr "Suddivisione della carta nazionale 1:50000 Swiss Map Raster"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk50.metadata-kartenblatt"
+msgstr "Etat de mise à jour carte nationale 1:50000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk50.metadata-kartenblatt_name"
+msgstr "Nom de la feuille carte nationale 1:50000"
+
+msgid "fullname.ch.swisstopo.pixelkarte-pk50.metadata-kartenblatt_nummer"
+msgstr "Numéro de la feuille nationale 1:50000"
+
+msgid "fullname.ch.swisstopo.segelflugkarte.metadata"
+msgstr "Suddivisione della carta del volo a vela Svizzera 1:300'000 Carta Raster"
+
+msgid "fullname.ch.swisstopo.segelflugkarte_papier.metadata"
+msgstr "Carta stampata: Carta del volo a vela Svizzera 1:300'000"
+
+msgid "fullname.ch.swisstopo.skitourenkarte-50.metadata"
+msgstr "Carta stampata: Carta scialpinistica e per racchette da neve 1:50'000"
+
+msgid "fullname.ch.swisstopo.strassenkarte200_papier.metadata"
+msgstr "Carta stampata: Carta stradale della Svizzera 1:200'000"
+
+msgid "fullname.ch.swisstopo.swissalti3d.metadata"
+msgstr "Estensione geografica swissALTI3D"
+
+msgid "fullname.ch.swisstopo.swissalti3d-reliefschattierung"
+msgstr "swissALTI3D ombreggiature del rilievo"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-bezirk-flaeche"
+msgstr "SWISSBOUNDARIES3D Surface de district"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill"
+msgstr "swissBOUNDARIES3D limiti di distretto"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-bezirk-grenze"
+msgstr "SWISSBOUNDARIES3D Limite de district"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-bezirk-name"
+msgstr "SWISSBOUNDARIES3D Nom de district"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-gemeinde-flaeche"
+msgstr "SWISSBOUNDARIES3D Surface de commune"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill"
+msgstr "swissBOUNDARIES3D limiti comunali"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-gemeinde-grenze"
+msgstr "SWISSBOUNDARIES3D Limite de commune"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-gemeinde-name"
+msgstr "SWISSBOUNDARIES3D Nom de commune"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-kanton-flaeche"
+msgstr "SWISSBOUNDARIES3D Surface de canton"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-kanton-flaeche.fill"
+msgstr "swissBOUNDARIES3D frontiere cantonali"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-kanton-grenze"
+msgstr "SWISSBOUNDARIES3D Limite de canton"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-kanton-name"
+msgstr "SWISSBOUNDARIES3D Nom de canton"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-land-flaeche"
+msgstr "SWISSBOUNDARIES3D Surface du pays"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-land-flaeche.fill"
+msgstr "swissBOUNDARIES3D frontiere nazionali"
+
+msgid "fullname.ch.swisstopo.swissboundaries3d-land-grenze"
+msgstr "SWISSBOUNDARIES3D Frontière nationale"
+
+msgid "fullname.ch.swisstopo.swissbuildings3d_1.metadata"
+msgstr "Estensione geografica swissBUILDINGS3D 1.0"
+
+msgid "fullname.ch.swisstopo.swissbuildings3d_2.metadata"
+msgstr "Disponibilità swissBUILDINGS3D 2.0"
+
+msgid "fullname.ch.swisstopo.swissimage"
+msgstr "SWISSIMAGE: Il mosaico di ortofoto digitali della Svizzera"
+
+msgid "fullname.ch.swisstopo.swissimage-product"
+msgstr "SWISSIMAGE: Il mosaico di ortofoto digitali a colori della Svizzera"
+
+msgid "fullname.ch.swisstopo.swiss-map-raster10.metadata"
+msgstr "Suddivisione della carta nazionale 1:10'000 Swiss Map Raster"
+
+msgid "fullname.ch.swisstopo.swiss-map-vector1000.metadata"
+msgstr "Suddivisione della carta nazionale 1:1 milione Swiss Map Vector"
+
+msgid "fullname.ch.swisstopo.swiss-map-vector10.metadata"
+msgstr "Suddivisione della carta nazionale 1:10'000 Swiss Map Vector"
+
+msgid "fullname.ch.swisstopo.swiss-map-vector500.metadata"
+msgstr "Suddivisione della carta nazionale1:500'000 Swiss Map Vector"
+
+msgid "fullname.ch.swisstopo.swissnames3d"
+msgstr "swissNAMES3D nomi geografici della misurazione nazionale"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-eisenbahnnetz"
+msgstr "swissTLM3D Linee ferroviarie"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-gewaessernetz"
+msgstr "swissTLM3D Rete idrografica"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-karte-farbe"
+msgstr "swissTLM-Map (colori)"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-karte-farbe.3d"
+msgstr "swissTLM-Map light (colori)"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-karte-grau"
+msgstr "swissTLM-Map (grigio)"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-karte-grau.3d"
+msgstr "swissTLM-Map light (grigio)"
+
+msgid "fullname.ch.swisstopo.swisstlm3d.metadata"
+msgstr "Estensione geografica swissTLM3D"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-strassen"
+msgstr "swissTLM3D Strade e sentieri"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-uebrigerverkehr"
+msgstr "swissTLM3D Altri trasporti"
+
+msgid "fullname.ch.swisstopo.swisstlm3d-wanderwege"
+msgstr "swissTLM3D percorsi escursionistici"
+
+msgid "fullname.ch.swisstopo.tlm-swissboundaries"
+msgstr "swissBOUNDARIES3D"
+
+msgid "fullname.ch.swisstopo.transformation-bezugsrahmen_hoehe"
+msgstr "Trasformazione altimetrica HTRANS RAN95-NF02"
+
+msgid "fullname.ch.swisstopo.transformationsgenauigkeit"
+msgstr "Cambiamento di quadro di riferimento MN03 – MN95: Carta di precisione della trasformazione combinata"
+
+msgid "fullname.ch.swisstopo.treasurehunt"
+msgstr "Mappa-Tesoro"
+
+msgid "fullname.ch.swisstopo.uebersicht-gemeinden"
+msgstr "Carta dei Comuni della Svizzera 1:300'000"
+
+msgid "fullname.ch.swisstopo.uebersicht-schweiz"
+msgstr "Carta sinottica della Svizzera 1:1 mio"
+
+msgid "fullname.ch.swisstopo-vd.amtliche-vermessung"
+msgstr "Misurazione Ufficiale (OpenData)"
+
+msgid "fullname.ch.swisstopo-vd.geometa-gemeinde"
+msgstr "Informazioni sul Comune"
+
+msgid "fullname.ch.swisstopo-vd.geometa-grundbuch"
+msgstr "Informazioni del registro fondiario"
+
+msgid "fullname.ch.swisstopo-vd.geometa-los"
+msgstr "Lotto della misurazione ufficiale – aree con lavori in corso"
+
+msgid "fullname.ch.swisstopo-vd.geometa-nfgeom"
+msgstr "Geometra preposto/a alla tenuta a giorno"
+
+msgid "fullname.ch.swisstopo-vd.geometa-periodische_nachfuehrung"
+msgstr "Tenuta a giorno periodica"
+
+msgid "fullname.ch.swisstopo-vd.geometa-standav"
+msgstr "Stato della misurazione ufficiale"
+
+msgid "fullname.ch.swisstopo-vd.ortschaftenverzeichnis_plz"
+msgstr "Elenco ufficiale delle località con il numero postale d'avviamento e il perimetro"
+
+msgid "fullname.ch.swisstopo-vd.spannungsarme-gebiete"
+msgstr "Zone di tensioni trascurabili"
+
+msgid "fullname.ch.swisstopo-vd.stand-oerebkataster"
+msgstr "Catasto RDPP: disponibilità di informazioni"
+
+msgid "fullname.ch.swisstopo.vec200-adminboundaries-protectedarea"
+msgstr "VECTOR200 Sitti protetti"
+
+msgid "fullname.ch.swisstopo.vec200-building"
+msgstr "VECTOR200 Buildings"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography"
+msgstr "Idrologia VECTOR200"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography-dam"
+msgstr "VECTOR200 Murs de barrage"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography-flowingwater"
+msgstr "VECTOR200 Eaux courantes"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography-hydroinfo"
+msgstr "VECTOR200 Points d’importance sur le cours d’eau"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography-lake"
+msgstr "VECTOR200 Lacs"
+
+msgid "fullname.ch.swisstopo.vec200-hydrography-stagnantwater"
+msgstr "VECTOR200 Eaux stagnantes"
+
+msgid "fullname.ch.swisstopo.vec200-landcover"
+msgstr "VECTOR200 Landcover"
+
+msgid "fullname.ch.swisstopo.vec200-landcover-wald"
+msgstr "Superficie forestali di VECTOR200"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous"
+msgstr "VECTOR200 Miscellaneous"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous-builtupp"
+msgstr "VECTOR200 Localités sous forme ponctuelles avec le nombre d’habitants"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous-geodpoint"
+msgstr "Altitudini VECTOR200"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous-physl"
+msgstr "VECTOR200 Ruptures de pentes"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous-poi"
+msgstr "VECTOR200 Objets ponctuels marquants"
+
+msgid "fullname.ch.swisstopo.vec200-miscellaneous-supply"
+msgstr "VECTOR200 Lignes de haute tension et les pipelines"
+
+msgid "fullname.ch.swisstopo.vec200-names-namedlocation"
+msgstr "VECTOR200 Names"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-airport"
+msgstr "VECTOR200 Airport Aérodromes, aéroports"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-customsoffice"
+msgstr "VECTOR200 CustomsOffice Bureaux de douane"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-interchange"
+msgstr "VECTOR200 Interchange Noeuds routiers importants"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-oeffentliche-verkehr"
+msgstr "VECTOR200 Transportation trasporti pubblici"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-railway"
+msgstr "VECTOR200 Railway Chemins de fer, transport par câble"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-ramp"
+msgstr "VECTOR200 Ramp Rampes d'accès aux routes"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-road"
+msgstr "VECTOR 200 Road Routes et sentiers"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-runway"
+msgstr "VECTOR200 Runway Pistes d'aviation"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-ship-autofaehre"
+msgstr "VECTOR200 Ship Bacs pour voitures"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-ship-kursschiff_linie"
+msgstr "VECTOR200 Ship Bateau passagers"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-strassennetz"
+msgstr "VECTOR200 Transportation Rete stradale"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-terminal"
+msgstr "VECTOR200 Terminal Points d'accès aux réseaux de transport non routier"
+
+msgid "fullname.ch.swisstopo.vec200-transportation-trafficinfo"
+msgstr "VECTOR200 TrafficInfo Informations sur le trafic routier"
+
+msgid "fullname.ch.swisstopo.vec25-anlagen"
+msgstr "VECTOR25 Superfici delimitate"
+
+msgid "fullname.ch.swisstopo.vec25-einzelobjekte"
+msgstr "VECTOR25 Oggetti isolati"
+
+msgid "fullname.ch.swisstopo.vec25-einzelobjekte-linien"
+msgstr "VECTOR25 Objets isolés lignes"
+
+msgid "fullname.ch.swisstopo.vec25-einzelobjekte-punkte"
+msgstr "VECTOR25 Objets isolés points"
+
+msgid "fullname.ch.swisstopo.vec25-gebaeude"
+msgstr "VECTOR25 Edifici"
+
+msgid "fullname.ch.swisstopo.vec25-heckenbaeume"
+msgstr "VECTOR25 Siepi e alberi isolati"
+
+msgid "fullname.ch.swisstopo.vec25-heckenbaeume-linien"
+msgstr "VECTOR25 Haies et arbres isolés points"
+
+msgid "fullname.ch.swisstopo.vec25-heckenbaeume-linien_punkte"
+msgstr "VECTOR25 Haies et arbres isolés lignes"
+
+msgid "fullname.ch.swisstopo.vec25-primaerflaechen"
+msgstr "VECTOR25 Superfici primarie"
+
+msgid "fullname.ch.swisstopo.verschiebungsvektoren-tsp1"
+msgstr "Cambiamento di quadro di riferimento MN03 – MN95: Vettori di spostamento a livello dei punti PAT1 (MN03 - MN95)"
+
+msgid "fullname.ch.swisstopo.verschiebungsvektoren-tsp2"
+msgstr "Cambiamento di quadro di riferimento MN03 – MN95: Vettori di spostamento a livello dei punti PAT2 (MN03 - MN95)"
+
+msgid "fullname.ch.swisstopo.wanderkarte25-zus_papier.metadata"
+msgstr "Carta stampata: Composizioni carte escursionistiche 1:25'000"
+
+msgid "fullname.ch.swisstopo.wanderkarte33_papier.metadata"
+msgstr "Carta stampata: Carte escursionistiche 1:33'333"
+
+msgid "fullname.ch.swisstopo.wanderkarte50_papier.metadata"
+msgstr "Carta stampata: Carte escursionistiche serie \"T\" 1:50'000"
+
+msgid "fullname.ch.swisstopo.zeitreihen"
+msgstr "Viaggio nel tempo - Carte topografiche"
+
+msgid "fullname.ch.vbs.armeelogistikcenter"
+msgstr "Centri logistici dell'esercito"
+
+msgid "fullname.ch.vbs.armeelogistik-logistikraeume"
+msgstr "Settori logistici dei centri logistici dell'esercito"
+
+msgid "fullname.ch.vbs.bundestankstellen-bebeco"
+msgstr "Stazioni di servizio della confederazione BEBECO"
+
+msgid "fullname.ch.vbs.grunddispositiv-zeus"
+msgstr "Dispositivo \"Zeus\""
+
+msgid "fullname.ch.vbs.logistikraeume-armeelogistikcenter"
+msgstr "Settori logistici dei centri logistici dell'esercito"
+
+msgid "fullname.ch.vbs.milairspacechart"
+msgstr "Mil Airspace Chart 1:500'000"
+
+msgid "fullname.ch.vbs.patrouilledesglaciers-a_rennen"
+msgstr "Tratto Patrouille des Glaciers (Percorso A)"
+
+msgid "fullname.ch.vbs.patrouilledesglaciers-z_rennen"
+msgstr "Tratto Patrouille des Glaciers (Percorso Z)"
+
+msgid "fullname.ch.vbs.rekrutierungszentren"
+msgstr "Centri di reclutamento dell'esercito"
+
+msgid "fullname.ch.vbs.retablierungsstellen"
+msgstr "Punti di ristabilimento dell'esercito"
+
+msgid "fullname.ch.vbs.sachplan-infrastruktur-militaer_anhoerung"
+msgstr "Piano settoriale militare - consultazioni"
+
+msgid "fullname.ch.vbs.sachplan-infrastruktur-militaer_kraft"
+msgstr "Piano settoriale militare"
+
+msgid "fullname.ch.vbs.territorialregionen"
+msgstr "Regioni territoriali militari"
+
+msgid "fullname.ch.vbs.waldschadenkarte"
+msgstr "Mappa dei danni forestali - projektil"
+
+msgid "fullname.org.epsg.grid_2056"
+msgstr "Reticolo delle coordinate CH1903+/MN95"
+
+msgid "fullname.org.epsg.grid_21781"
+msgstr "Reticolo delle coordinate CH1903/MN03"
+
+msgid "fullname.org.epsg.grid_4326"
+msgstr "Reticolo delle coordinate WGS84"
 
 msgid "funksender"
 msgstr "Trasmettitore radio"
