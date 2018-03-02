@@ -1,0 +1,802 @@
+{
+  "type": "range",
+  "property": "value",
+  "ranges": [
+    {
+      "geomType": "point",
+      "range": [
+        0,
+        50
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(59,100,94,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        0,
+        50
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(59,100,94,0.9)"
+        },
+        "label": {
+          "template": "${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        0,
+        50
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(59,100,94,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        50,
+        100
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(97,147,142,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        50,
+        100
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(97,147,142,0.9)"
+        },
+        "label": {
+          "template": "${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        50,
+        100
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(97,147,142,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        100,
+        150
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(155,201,192,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        100,
+        150
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(155,201,192,0.9)"
+        },
+        "label": {
+          "template": "${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        100,
+        150
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(155,201,192,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        150,
+        200
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(210,232,228,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        150,
+        200
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(210,232,228,0.9)"
+        },
+        "label": {
+          "template": "${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        150,
+        200
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(210,232,228,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        200,
+        250
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(241,229,199,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        200,
+        250
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(241,229,199,0.9)"
+        },
+        "label": {
+          "template": "${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        200,
+        250
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(241,229,199,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        250,
+        300
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(213,190,134,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        250,
+        300
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(213,190,134,0.9)"
+        },
+        "label": {
+          "template": "${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        250,
+        300
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(213,190,134,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        300,
+        350
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(173,127,67,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        300,
+        350
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(173,127,67,0.9)"
+        },
+        "label": {
+          "template": "${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        300,
+        350
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(173,127,67,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        350,
+        1000
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(124,83,38,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        350,
+        1000
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(124,83,38,0.9)"
+        },
+        "label": {
+          "template": "${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        350,
+        1000
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(124,83,38,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} hPa",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        -100000000,
+        0
+      ],
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "stroke": {
+          "color": "black",
+          "width": 1
+        },
+        "fill": {
+          "color": "white"
+        },
+        "label": {
+          "template": "X",
+          "text": {
+            "stroke": {
+              "color": "white",
+              "width": 1
+            },
+            "fill": {
+              "color": "blue"
+            }
+          }
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        1000,
+        100000000
+      ],
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "stroke": {
+          "color": "black",
+          "width": 1
+        },
+        "fill": {
+          "color": "white"
+        },
+        "label": {
+          "template": "X",
+          "text": {
+            "stroke": {
+              "color": "white",
+              "width": 1
+            },
+            "fill": {
+              "color": "red"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

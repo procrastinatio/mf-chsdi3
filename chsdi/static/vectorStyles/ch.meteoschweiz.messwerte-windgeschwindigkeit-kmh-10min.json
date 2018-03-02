@@ -1,0 +1,1016 @@
+{
+  "type": "range",
+  "property": "value",
+  "ranges": [
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        0,
+        11
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(255,255,255,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        0,
+        11
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(255,255,255,0.9)"
+        },
+        "label": {
+          "template": "${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        0,
+        11
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(255,255,255,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        11,
+        28
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(255,255,255,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        11,
+        28
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(255,255,255,0.9)"
+        },
+        "label": {
+          "template": "${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        11,
+        28
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(255,255,255,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        28,
+        38
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(255,255,255,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        28,
+        38
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(255,255,255,0.9)"
+        },
+        "label": {
+          "template": "${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        28,
+        38
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(255,255,255,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        38,
+        49
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(250,226,255,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        38,
+        49
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(250,226,255,0.9)"
+        },
+        "label": {
+          "template": "${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        38,
+        49
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(250,226,255,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        49,
+        61
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(238,188,236,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        49,
+        61
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(238,188,236,0.9)"
+        },
+        "label": {
+          "template": "${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        49,
+        61
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(238,188,236,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        61,
+        74
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(222,146,198,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        61,
+        74
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(222,146,198,0.9)"
+        },
+        "label": {
+          "template": "${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        61,
+        74
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(222,146,198,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        74,
+        88
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(198,101,151,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        74,
+        88
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(198,101,151,0.9)"
+        },
+        "label": {
+          "template": "${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        74,
+        88
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(198,101,151,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        88,
+        102
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(166,56,95,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        88,
+        102
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(166,56,95,0.9)"
+        },
+        "label": {
+          "template": "${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        88,
+        102
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(166,56,95,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        102,
+        117
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(125,1,18,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        102,
+        117
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(125,1,18,0.9)"
+        },
+        "label": {
+          "template": "${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        102,
+        117
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(125,1,18,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        117,
+        300
+      ],
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(125,1,18,0.9)"
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        117,
+        300
+      ],
+      "minResolution": 50,
+      "maxResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(125,1,18,0.9)"
+        },
+        "label": {
+          "template": "${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "rotation": "wind_direction",
+      "range": [
+        117,
+        300
+      ],
+      "maxResolution": 50,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "fill": {
+          "color": "rgba(125,1,18,0.9)"
+        },
+        "label": {
+          "template": "${station_name}\n ${value} km/h",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -19,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black",
+          "width": 1
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        -100000000,
+        0
+      ],
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "stroke": {
+          "color": "black",
+          "width": 1
+        },
+        "fill": {
+          "color": "white"
+        },
+        "label": {
+          "template": "X",
+          "text": {
+            "stroke": {
+              "color": "white",
+              "width": 1
+            },
+            "fill": {
+              "color": "blue"
+            }
+          }
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "range": [
+        300,
+        100000000
+      ],
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "stroke": {
+          "color": "black",
+          "width": 1
+        },
+        "fill": {
+          "color": "white"
+        },
+        "label": {
+          "template": "X",
+          "text": {
+            "stroke": {
+              "color": "white",
+              "width": 1
+            },
+            "fill": {
+              "color": "red"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

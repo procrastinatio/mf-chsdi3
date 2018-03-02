@@ -1,0 +1,82 @@
+{
+  "type": "unique",
+  "property": "station_symbol",
+  "values": [
+    {
+      "geomType": "point",
+      "value": 1,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "fill": {
+          "color": "white"
+        },
+        "label": {
+          "template": "${station_name}",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1,
+            "offsetY": -15,
+            "stroke": {
+              "color": "black",
+              "width": 3
+            },
+            "backgroundFill": {
+              "color": "black"
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        },
+        "stroke": {
+          "color": "black"
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "value": 2,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "stroke": {
+          "color": "black"
+        },
+        "fill": {
+          "color": "white"
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "value": 3,
+      "vectorOptions": {
+        "type": "square",
+        "radius": 6,
+        "stroke": {
+          "color": "black"
+        },
+        "fill": {
+          "color": "white"
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "value": 4,
+      "vectorOptions": {
+        "type": "star",
+        "radius": 6,
+        "stroke": {
+          "color": "black"
+        },
+        "fill": {
+          "color": "white"
+        }
+      }
+    }
+  ]
+}

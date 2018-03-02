@@ -1,0 +1,66 @@
+{
+  "type": "unique",
+  "property": "station_symbol",
+  "values": [
+    {
+      "geomType": "point",
+      "value": 1,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 6,
+        "stroke": {
+          "color": "black",
+          "width": 1
+        },
+        "fill": {
+          "color": "white"
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "value": 2,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "stroke": {
+          "color": "black",
+          "width": 1
+        },
+        "fill": {
+          "color": "white"
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "value": 3,
+      "vectorOptions": {
+        "type": "square",
+        "radius": 6,
+        "stroke": {
+          "color": "black",
+          "width": 1
+        },
+        "fill": {
+          "color": "white"
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "value": 4,
+      "vectorOptions": {
+        "type": "star",
+        "radius": 6,
+        "stroke": {
+          "color": "black",
+          "width": 1
+        },
+        "fill": {
+          "color": "white"
+        }
+      }
+    }
+  ]
+}
