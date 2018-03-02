@@ -4152,7 +4152,7 @@ msgid "ch.bakom.uplink10"
 msgstr "Upload ≥ 10 Mbit/s"
 
 msgid "ch.bakom.uplink100"
-msgstr "Upload ≥ 100 Mbit/s"
+msgstr "Upload ≥ 1000 Mbit/s"
 
 msgid "ch.bakom.uplink2"
 msgstr "Upload ≥ 2 Mbit/s"
@@ -4193,8 +4193,32 @@ msgstr "Type"
 msgid "ch.bak.url"
 msgstr "http://www.bak.admin.ch/index.html?lang=en"
 
+msgid "ch.baspo"
+msgstr "BASPO"
+
 msgid "ch.baspo.nationales-sportanlagenkonzept"
 msgstr "Sports facilities CSFNI"
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.art_der_anlage"
+msgstr "Type of the installation"
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.kategorie_de"
+msgstr "Category"
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.name_der_anlage"
+msgstr "Name of the installation"
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.nasak_nr"
+msgstr "NASAK no."
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.ort"
+msgstr "Village"
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.website"
+msgstr "Website"
+
+msgid "ch.baspo.url"
+msgstr "https://www.baspo.admin.ch/de/home.html"
 
 msgid "ch.bav"
 msgstr "FOT"
@@ -5888,62 +5912,59 @@ msgstr "AF"
 msgid "ch.meteoschweiz"
 msgstr "MeteoSwiss"
 
-msgid "ch.meteoschweiz.globalstrahlung-monatlich"
-msgstr "Globalstrahlung test"
-
 msgid "ch.meteoschweiz.messdaten-foehn"
-msgstr "Foehn data"
+msgstr "Measurements foehn index"
 
 msgid "ch.meteoschweiz.messdaten-gesamtschnee"
-msgstr "Total snow depth"
+msgstr "Measurements snow depth"
 
 msgid "ch.meteoschweiz.messdaten-globalstrahlung"
-msgstr "Global radiation data"
+msgstr "Measurements global radiation"
 
 msgid "ch.meteoschweiz.messdaten-luftdruck-qfe"
-msgstr "Air pressure at station altitude QFE"
+msgstr "Measurements pressure station QFE"
 
 msgid "ch.meteoschweiz.messdaten-luftdruck-qff"
-msgstr "Air pressure reduced at sea level QFF"
+msgstr "Measurements pressure reduced QFF"
 
 msgid "ch.meteoschweiz.messdaten-luftdruck-qnh"
 msgstr "Air pressure reduced at sea level QFF"
 
 msgid "ch.meteoschweiz.messdaten-luftfeuchtigkeit"
-msgstr "Humidity data"
+msgstr "Measurements humidity"
 
 msgid "ch.meteoschweiz.messdaten-lufttemperatur"
-msgstr "Air temperature data"
+msgstr "Measurements temperature 2m"
 
 msgid "ch.meteoschweiz.messdaten-lufttemperatur-dailymax"
-msgstr "Air temperature data 24h maximum"
+msgstr "Measurements max. temperature, 24h"
 
 msgid "ch.meteoschweiz.messdaten-lufttemperatur-dailymin"
-msgstr "Air temperature data 24h minimum"
+msgstr "Measurements min. temperature, 24h"
 
 msgid "ch.meteoschweiz.messdaten-neuschnee"
-msgstr "Fresh snow depth"
+msgstr "Measurements fresh snow"
 
 msgid "ch.meteoschweiz.messdaten-niederschlag"
-msgstr "Precipitation data 10' sum"
+msgstr "Measurements precipitation, 10min"
 
 msgid "ch.meteoschweiz.messdaten-niederschlag-stundensummen"
-msgstr "Precipitation data hourly total"
+msgstr "Measurements precipitation, 1h"
 
 msgid "ch.meteoschweiz.messdaten-niederschlag-tagessummen"
-msgstr "Precipitation data daily values"
+msgstr "Measurements precipitation, 1 d"
 
 msgid "ch.meteoschweiz.messdaten-sonnenscheindauer"
-msgstr "Sunshine duration data"
+msgstr "Measurements sunshine duration"
 
 msgid "ch.meteoschweiz.messdaten-taupunkt"
-msgstr "Dew point data"
+msgstr "Measurements dew point"
 
 msgid "ch.meteoschweiz.messdaten-wind-boenspitze"
 msgstr "Wind gust data"
 
 msgid "ch.meteoschweiz.messdaten-windgeschwindigkeit"
-msgstr "Wind speed data"
+msgstr "Measurements wind speed"
 
 msgid "ch.meteoschweiz.messnetz-atmosphaere"
 msgstr "Atmosphere stations"
@@ -6932,20 +6953,104 @@ msgstr "Mineral resources"
 msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau"
 msgstr "Gebrochene Gesteine: Abbau"
 
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.clkind"
+msgstr "Bedeutung"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.emkinds"
+msgstr "Abbaumethoden"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.ltkinds"
+msgstr "Gesteine abgebaut"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.obname"
+msgstr "Name"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.purl"
+msgstr "Detailinformation im Fachportal"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.stkind"
+msgstr "Abbaustatus"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.tckind"
+msgstr "Gesteinsgruppe"
+
 msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale"
 msgstr "Industrial minerals"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.edrskinds"
+msgstr "Rohstoffe abgebaut"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.emkinds"
+msgstr "Abbaumethoden"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.imkinds"
+msgstr "Industrieminerale"
 
 msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.name_ads"
 msgstr "Site"
 
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.obname"
+msgstr "Name"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.obnamealt"
+msgstr "Zweitname"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.purl"
+msgstr "Detailinformation im Fachportal"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.stkind"
+msgstr "Abbaustatus"
+
 msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas"
 msgstr "Fossil fuels"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.ederkinds"
+msgstr "Rohstoffe abgebaut"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.emkinds"
+msgstr "Abbaumethoden"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.erkinds"
+msgstr "Rohstoffe vorkommend"
 
 msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.name_ads"
 msgstr "Site"
 
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.obname"
+msgstr "Name"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.obnamealt"
+msgstr "Zweitname"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.purl"
+msgstr "Detailinformation im Fachportal"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.stkind"
+msgstr "Abbaustatus"
+
 msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau"
 msgstr "Naturwerksteine: Abbau"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.clkind"
+msgstr "Bedeutung"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.emkinds"
+msgstr "Abbaumethoden"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.ltkinds"
+msgstr "Gesteine abgebaut"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.obname"
+msgstr "Name"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.purl"
+msgstr "Detailinformation im Fachportal"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.stkind"
+msgstr "Abbaustatus"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.tckind"
+msgstr "Gesteinsgruppe"
 
 msgid "ch.swisstopo.geologie-rohstoffe-vererzungen"
 msgstr "Mineralizations"
@@ -8003,6 +8108,9 @@ msgstr "SWISSIMAGE"
 msgid "ch.swisstopo.swissimage-product"
 msgstr "SWISSIMAGE"
 
+msgid "ch.swisstopo.swissimage-product.metadata"
+msgstr "Tiling SWISSIMAGE Journey thru time"
+
 msgid "ch.swisstopo.swiss-map-raster10.metadata"
 msgstr "Division national Map 1:10'000 Raster"
 
@@ -8011,6 +8119,9 @@ msgstr "Division National Map 1000 Vector"
 
 msgid "ch.swisstopo.swiss-map-vector10.metadata"
 msgstr "Division National Map 10 Vector"
+
+msgid "ch.swisstopo.swiss-map-vector25.metadata"
+msgstr "Division National Map 25 Vector"
 
 msgid "ch.swisstopo.swiss-map-vector500.metadata"
 msgstr "Division National Map 500 Vector"
@@ -14022,7 +14133,7 @@ msgid "tt_wrz_portal_grundlage"
 msgstr "Decision basis"
 
 msgid "tt_wrz_portal_schutz"
-msgstr "Schutzstatus"
+msgstr "Protection status"
 
 msgid "tt_wrz_portal_schutzstatus"
 msgstr "Protection status"

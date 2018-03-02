@@ -4152,7 +4152,7 @@ msgid "ch.bakom.uplink10"
 msgstr "Upload ≥ 10 Mbit/s"
 
 msgid "ch.bakom.uplink100"
-msgstr "Upload ≥ 100 Mbit/s"
+msgstr "Upload ≥ 1000 Mbit/s"
 
 msgid "ch.bakom.uplink2"
 msgstr "Upload ≥ 2 Mbit/s"
@@ -4193,8 +4193,32 @@ msgstr "Tip"
 msgid "ch.bak.url"
 msgstr "http://www.bak.admin.ch/index.html?lang=rm"
 
+msgid "ch.baspo"
+msgstr "BASPO"
+
 msgid "ch.baspo.nationales-sportanlagenkonzept"
 msgstr "Sportanlagen NASAK"
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.art_der_anlage"
+msgstr "Anlagentyp"
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.kategorie_de"
+msgstr "Kategorie"
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.name_der_anlage"
+msgstr "Name der Anlage"
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.nasak_nr"
+msgstr "NASAK Nr."
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.ort"
+msgstr "Ort"
+
+msgid "ch.baspo.nationales-sportanlagenkonzept.website"
+msgstr "Website"
+
+msgid "ch.baspo.url"
+msgstr "https://www.baspo.admin.ch/de/home.html"
 
 msgid "ch.bav"
 msgstr "BAV"
@@ -5888,65 +5912,62 @@ msgstr "LW"
 msgid "ch.meteoschweiz"
 msgstr "MeteoSchweiz"
 
-msgid "ch.meteoschweiz.globalstrahlung-monatlich"
-msgstr "Globalstrahlung test"
-
 msgid "ch.meteoschweiz.messdaten-foehn"
-msgstr "Messdaten Föhn"
+msgstr "Messwerte Föhnindex"
 
 msgid "ch.meteoschweiz.messdaten-gesamtschnee"
-msgstr "Messdaten Gesamtschneehöhe"
+msgstr "Messwerte Schneehöhe"
 
 msgid "ch.meteoschweiz.messdaten-globalstrahlung"
-msgstr "Messdaten Globalstrahlung"
+msgstr "Messwerte Globalstrahlung"
 
 msgid "ch.meteoschweiz.messdaten-luftdruck-qfe"
-msgstr "Messdaten Luftdruck Stationshöhe QFE"
+msgstr "Messwerte Luftdruck Station QFE"
 
 msgid "ch.meteoschweiz.messdaten-luftdruck-qff"
-msgstr "Messdaten Luftdruck Meereshöhe QFF"
+msgstr "Messwerte Luftdruck reduziert QFF"
 
 msgid "ch.meteoschweiz.messdaten-luftdruck-qnh"
 msgstr "Messdaten Luftdruck Meereshöhe QFF"
 
 msgid "ch.meteoschweiz.messdaten-luftfeuchtigkeit"
-msgstr "Messdaten Luftfeuchtigkeit"
+msgstr "Messwerte Luftfeuchtigkeit"
 
 msgid "ch.meteoschweiz.messdaten-lufttemperatur"
-msgstr "Messdaten Lufttemperatur"
+msgstr "Messwerte Temperatur 2m"
 
 msgid "ch.meteoschweiz.messdaten-lufttemperatur-dailymax"
-msgstr "Messdaten Lufttemperatur Tagesmaximum 24h"
+msgstr "Messwerte Max. Temperatur 2m, 24h"
 
 msgid "ch.meteoschweiz.messdaten-lufttemperatur-dailymin"
-msgstr "Messdaten Lufttemperatur Tagesminimum 24h"
+msgstr "Messwerte Min. Temperatur 2m, 24h"
 
 msgid "ch.meteoschweiz.messdaten-neuschnee"
-msgstr "Messdaten Neuschneehöhe"
+msgstr "Messwerte Neuschnee"
 
 msgid "ch.meteoschweiz.messdaten-niederschlag"
-msgstr "Messdaten Niederschlag 10' Summe"
+msgstr "Messwerte Niederschlag, 10min"
 
 msgid "ch.meteoschweiz.messdaten-niederschlag-stundensummen"
-msgstr "Messdaten Niederschlag Stundensumme"
+msgstr "Messwerte Niederschlag, 1h"
 
 msgid "ch.meteoschweiz.messdaten-niederschlag-tagessummen"
-msgstr "Messdaten Niederschlag Tagessumme"
+msgstr "Messwerte Niederschlag, 1 Tag"
 
 msgid "ch.meteoschweiz.messdaten-sonnenscheindauer"
-msgstr "Messdaten Sonnenscheindauer"
+msgstr "Messwerte Sonnenscheindauer"
 
 msgid "ch.meteoschweiz.messdaten-taupunkt"
-msgstr "Messdaten Taupunkt"
+msgstr "Messwerte Taupunkt"
 
 msgid "ch.meteoschweiz.messdaten-wind-boenspitze"
 msgstr "Messdaten Böenspitze"
 
 msgid "ch.meteoschweiz.messdaten-windgeschwindigkeit"
-msgstr "Messdaten Windgeschwindigkeit"
+msgstr "Messwerte Windgeschwindigkeit"
 
 msgid "ch.meteoschweiz.messnetz-atmosphaere"
-msgstr "Atmosphärenstationen Profilmessungen"
+msgstr "Atmosphärenstationen"
 
 msgid "ch.meteoschweiz.messnetz-automatisch"
 msgstr "Automatische Wetterstationen"
@@ -6932,20 +6953,104 @@ msgstr "ch.swisstopo.geologie-rohstoffe"
 msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau"
 msgstr "Gebrochene Gesteine: Abbau"
 
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.clkind"
+msgstr "Bedeutung"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.emkinds"
+msgstr "Abbaumethoden"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.ltkinds"
+msgstr "Gesteine abgebaut"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.obname"
+msgstr "Name"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.purl"
+msgstr "Detailinformation im Fachportal"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.stkind"
+msgstr "Abbaustatus"
+
+msgid "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau.tckind"
+msgstr "Gesteinsgruppe"
+
 msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale"
 msgstr "Minerals industrials"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.edrskinds"
+msgstr "Rohstoffe abgebaut"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.emkinds"
+msgstr "Abbaumethoden"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.imkinds"
+msgstr "Industrieminerale"
 
 msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.name_ads"
 msgstr "Localitad"
 
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.obname"
+msgstr "Name"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.obnamealt"
+msgstr "Zweitname"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.purl"
+msgstr "Detailinformation im Fachportal"
+
+msgid "ch.swisstopo.geologie-rohstoffe-industrieminerale.stkind"
+msgstr "Abbaustatus"
+
 msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas"
 msgstr "Materias primas d'energia"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.ederkinds"
+msgstr "Rohstoffe abgebaut"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.emkinds"
+msgstr "Abbaumethoden"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.erkinds"
+msgstr "Rohstoffe vorkommend"
 
 msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.name_ads"
 msgstr "Localitad"
 
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.obname"
+msgstr "Name"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.obnamealt"
+msgstr "Zweitname"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.purl"
+msgstr "Detailinformation im Fachportal"
+
+msgid "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas.stkind"
+msgstr "Abbaustatus"
+
 msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau"
 msgstr "Naturwerksteine: Abbau"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.clkind"
+msgstr "Bedeutung"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.emkinds"
+msgstr "Abbaumethoden"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.ltkinds"
+msgstr "Gesteine abgebaut"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.obname"
+msgstr "Name"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.purl"
+msgstr "Detailinformation im Fachportal"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.stkind"
+msgstr "Abbaustatus"
+
+msgid "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau.tckind"
+msgstr "Gesteinsgruppe"
 
 msgid "ch.swisstopo.geologie-rohstoffe-vererzungen"
 msgstr "Metallisaziuns"
@@ -8003,6 +8108,9 @@ msgstr "SWISSIMAGE"
 msgid "ch.swisstopo.swissimage-product"
 msgstr "SWISSIMAGE"
 
+msgid "ch.swisstopo.swissimage-product.metadata"
+msgstr "Einteilung SWISSIMAGE Zeitreise"
+
 msgid "ch.swisstopo.swiss-map-raster10.metadata"
 msgstr "Divisiun charta naziunala 1:10'000 Raster"
 
@@ -8011,6 +8119,9 @@ msgstr "Divisiun charta naziunala 1000 Vectur"
 
 msgid "ch.swisstopo.swiss-map-vector10.metadata"
 msgstr "Divisiun charta naziunala 10 Vectur"
+
+msgid "ch.swisstopo.swiss-map-vector25.metadata"
+msgstr "Divisiun charta naziunala 25 Vectur"
 
 msgid "ch.swisstopo.swiss-map-vector500.metadata"
 msgstr "Divisiun charta naziunala 500 Vectur"
