@@ -5912,45 +5912,6 @@ msgstr "LW"
 msgid "ch.meteoschweiz"
 msgstr "MeteoSchweiz"
 
-msgid "ch.meteoschweiz.messdaten-foehn"
-msgstr "Messwerte Föhnindex"
-
-msgid "ch.meteoschweiz.messdaten-gesamtschnee"
-msgstr "Messwerte Schneehöhe"
-
-msgid "ch.meteoschweiz.messdaten-globalstrahlung"
-msgstr "Messwerte Globalstrahlung"
-
-msgid "ch.meteoschweiz.messdaten-luftdruck-qfe"
-msgstr "Messwerte Luftdruck Station QFE"
-
-msgid "ch.meteoschweiz.messdaten-luftdruck-qff"
-msgstr "Messwerte Luftdruck reduziert QFF"
-
-msgid "ch.meteoschweiz.messdaten-luftdruck-qnh"
-msgstr "Messdaten Luftdruck Meereshöhe QFF"
-
-msgid "ch.meteoschweiz.messdaten-luftfeuchtigkeit"
-msgstr "Messwerte Luftfeuchtigkeit"
-
-msgid "ch.meteoschweiz.messdaten-lufttemperatur"
-msgstr "Messwerte Temperatur 2m"
-
-msgid "ch.meteoschweiz.messdaten-lufttemperatur-dailymax"
-msgstr "Messwerte Max. Temperatur 2m, 24h"
-
-msgid "ch.meteoschweiz.messdaten-lufttemperatur-dailymin"
-msgstr "Messwerte Min. Temperatur 2m, 24h"
-
-msgid "ch.meteoschweiz.messdaten-neuschnee"
-msgstr "Messwerte Neuschnee"
-
-msgid "ch.meteoschweiz.messdaten-niederschlag"
-msgstr "Messwerte Niederschlag, 10min"
-
-msgid "ch.meteoschweiz.messdaten-niederschlag-stundensummen"
-msgstr "Messwerte Niederschlag, 1h"
-
 msgid "ch.meteoschweiz.messdaten-niederschlag-tagessummen"
 msgstr "Messwerte Niederschlag, 1 Tag"
 
@@ -5992,6 +5953,45 @@ msgstr "Pollenstationen"
 
 msgid "ch.meteoschweiz.messnetz-webcams"
 msgstr "Wetterkameras"
+
+msgid "ch.meteoschweiz.messwerte-foehn-10min"
+msgstr "Messwerte Föhnindex"
+
+msgid "ch.meteoschweiz.messwerte-gesamtschnee-1d"
+msgstr "Messwerte Schneehöhe"
+
+msgid "ch.meteoschweiz.messwerte-globalstrahlung-10min"
+msgstr "Messwerte Globalstrahlung"
+
+msgid "ch.meteoschweiz.messwerte-luftdruck-qfe-10min"
+msgstr "Messwerte Luftdruck Station QFE"
+
+msgid "ch.meteoschweiz.messwerte-luftdruck-qff-10min"
+msgstr "Messwerte Luftdruck reduziert QFF"
+
+msgid "ch.meteoschweiz.messwerte-luftdruck-qnh-10min"
+msgstr "Messdaten Luftdruck Meereshöhe QFF"
+
+msgid "ch.meteoschweiz.messwerte-luftfeuchtigkeit-10min"
+msgstr "Messwerte Luftfeuchtigkeit"
+
+msgid "ch.meteoschweiz.messwerte-lufttemperatur-10min"
+msgstr "Messwerte Temperatur 2m"
+
+msgid "ch.meteoschweiz.messwerte-lufttemperatur-24h-max-1h"
+msgstr "Messwerte Max. Temperatur 2m, 24h"
+
+msgid "ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h"
+msgstr "Messwerte Min. Temperatur 2m, 24h"
+
+msgid "ch.meteoschweiz.messwerte-neuschnee-1d"
+msgstr "Messwerte Neuschnee"
+
+msgid "ch.meteoschweiz.messwerte-niederschlag-10min"
+msgstr "Messwerte Niederschlag, 10min"
+
+msgid "ch.meteoschweiz.messwerte-niederschlag-1h"
+msgstr "Messwerte Niederschlag, 1h"
 
 msgid "ch.mobility.standorte"
 msgstr "Carsharing"

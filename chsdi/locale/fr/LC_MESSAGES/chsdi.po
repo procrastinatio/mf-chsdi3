@@ -5912,45 +5912,6 @@ msgstr "FA"
 msgid "ch.meteoschweiz"
 msgstr "MétéoSuisse"
 
-msgid "ch.meteoschweiz.messdaten-foehn"
-msgstr "Mesures index de foehn"
-
-msgid "ch.meteoschweiz.messdaten-gesamtschnee"
-msgstr "Mesures neige gisante"
-
-msgid "ch.meteoschweiz.messdaten-globalstrahlung"
-msgstr "Mesures rayonnement global"
-
-msgid "ch.meteoschweiz.messdaten-luftdruck-qfe"
-msgstr "Mesures pression station QFE"
-
-msgid "ch.meteoschweiz.messdaten-luftdruck-qff"
-msgstr "Mesures pression réduite QFF"
-
-msgid "ch.meteoschweiz.messdaten-luftdruck-qnh"
-msgstr "Pression atmosphérique réduite niveau mer QFF"
-
-msgid "ch.meteoschweiz.messdaten-luftfeuchtigkeit"
-msgstr "Mesures humidité"
-
-msgid "ch.meteoschweiz.messdaten-lufttemperatur"
-msgstr "Mesures température 2m"
-
-msgid "ch.meteoschweiz.messdaten-lufttemperatur-dailymax"
-msgstr "Mesures max. température 2m, 24h"
-
-msgid "ch.meteoschweiz.messdaten-lufttemperatur-dailymin"
-msgstr "Mesures min. température 2m, 24h"
-
-msgid "ch.meteoschweiz.messdaten-neuschnee"
-msgstr "Mesures neige fraîche"
-
-msgid "ch.meteoschweiz.messdaten-niederschlag"
-msgstr "Mesures précipitations, 10min"
-
-msgid "ch.meteoschweiz.messdaten-niederschlag-stundensummen"
-msgstr "Mesures précipitations, 1h"
-
 msgid "ch.meteoschweiz.messdaten-niederschlag-tagessummen"
 msgstr "Mesures précipitations, 1 jour"
 
@@ -5992,6 +5953,45 @@ msgstr "Stations pollen"
 
 msgid "ch.meteoschweiz.messnetz-webcams"
 msgstr "Caméras météorologiques"
+
+msgid "ch.meteoschweiz.messwerte-foehn-10min"
+msgstr "Mesures index de foehn"
+
+msgid "ch.meteoschweiz.messwerte-gesamtschnee-1d"
+msgstr "Mesures neige gisante"
+
+msgid "ch.meteoschweiz.messwerte-globalstrahlung-10min"
+msgstr "Mesures rayonnement global"
+
+msgid "ch.meteoschweiz.messwerte-luftdruck-qfe-10min"
+msgstr "Mesures pression station QFE"
+
+msgid "ch.meteoschweiz.messwerte-luftdruck-qff-10min"
+msgstr "Mesures pression réduite QFF"
+
+msgid "ch.meteoschweiz.messwerte-luftdruck-qnh-10min"
+msgstr "Pression atmosphérique réduite niveau mer QFF"
+
+msgid "ch.meteoschweiz.messwerte-luftfeuchtigkeit-10min"
+msgstr "Mesures humidité"
+
+msgid "ch.meteoschweiz.messwerte-lufttemperatur-10min"
+msgstr "Mesures température 2m"
+
+msgid "ch.meteoschweiz.messwerte-lufttemperatur-24h-max-1h"
+msgstr "Mesures max. température 2m, 24h"
+
+msgid "ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h"
+msgstr "Mesures min. température 2m, 24h"
+
+msgid "ch.meteoschweiz.messwerte-neuschnee-1d"
+msgstr "Mesures neige fraîche"
+
+msgid "ch.meteoschweiz.messwerte-niederschlag-10min"
+msgstr "Mesures précipitations, 10min"
+
+msgid "ch.meteoschweiz.messwerte-niederschlag-1h"
+msgstr "Mesures précipitations, 1h"
 
 msgid "ch.mobility.standorte"
 msgstr "Autopartage (carsharing)"

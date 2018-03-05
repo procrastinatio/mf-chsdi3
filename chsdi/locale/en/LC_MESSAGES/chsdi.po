@@ -5912,45 +5912,6 @@ msgstr "AF"
 msgid "ch.meteoschweiz"
 msgstr "MeteoSwiss"
 
-msgid "ch.meteoschweiz.messdaten-foehn"
-msgstr "Measurements foehn index"
-
-msgid "ch.meteoschweiz.messdaten-gesamtschnee"
-msgstr "Measurements snow depth"
-
-msgid "ch.meteoschweiz.messdaten-globalstrahlung"
-msgstr "Measurements global radiation"
-
-msgid "ch.meteoschweiz.messdaten-luftdruck-qfe"
-msgstr "Measurements pressure station QFE"
-
-msgid "ch.meteoschweiz.messdaten-luftdruck-qff"
-msgstr "Measurements pressure reduced QFF"
-
-msgid "ch.meteoschweiz.messdaten-luftdruck-qnh"
-msgstr "Air pressure reduced at sea level QFF"
-
-msgid "ch.meteoschweiz.messdaten-luftfeuchtigkeit"
-msgstr "Measurements humidity"
-
-msgid "ch.meteoschweiz.messdaten-lufttemperatur"
-msgstr "Measurements temperature 2m"
-
-msgid "ch.meteoschweiz.messdaten-lufttemperatur-dailymax"
-msgstr "Measurements max. temperature, 24h"
-
-msgid "ch.meteoschweiz.messdaten-lufttemperatur-dailymin"
-msgstr "Measurements min. temperature, 24h"
-
-msgid "ch.meteoschweiz.messdaten-neuschnee"
-msgstr "Measurements fresh snow"
-
-msgid "ch.meteoschweiz.messdaten-niederschlag"
-msgstr "Measurements precipitation, 10min"
-
-msgid "ch.meteoschweiz.messdaten-niederschlag-stundensummen"
-msgstr "Measurements precipitation, 1h"
-
 msgid "ch.meteoschweiz.messdaten-niederschlag-tagessummen"
 msgstr "Measurements precipitation, 1 d"
 
@@ -5992,6 +5953,45 @@ msgstr "Pollen stations"
 
 msgid "ch.meteoschweiz.messnetz-webcams"
 msgstr "Weather cameras"
+
+msgid "ch.meteoschweiz.messwerte-foehn-10min"
+msgstr "Measurements foehn index"
+
+msgid "ch.meteoschweiz.messwerte-gesamtschnee-1d"
+msgstr "Measurements snow depth"
+
+msgid "ch.meteoschweiz.messwerte-globalstrahlung-10min"
+msgstr "Measurements global radiation"
+
+msgid "ch.meteoschweiz.messwerte-luftdruck-qfe-10min"
+msgstr "Measurements pressure station QFE"
+
+msgid "ch.meteoschweiz.messwerte-luftdruck-qff-10min"
+msgstr "Measurements pressure reduced QFF"
+
+msgid "ch.meteoschweiz.messwerte-luftdruck-qnh-10min"
+msgstr "Air pressure reduced at sea level QFF"
+
+msgid "ch.meteoschweiz.messwerte-luftfeuchtigkeit-10min"
+msgstr "Measurements humidity"
+
+msgid "ch.meteoschweiz.messwerte-lufttemperatur-10min"
+msgstr "Measurements temperature 2m"
+
+msgid "ch.meteoschweiz.messwerte-lufttemperatur-24h-max-1h"
+msgstr "Measurements max. temperature, 24h"
+
+msgid "ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h"
+msgstr "Measurements min. temperature, 24h"
+
+msgid "ch.meteoschweiz.messwerte-neuschnee-1d"
+msgstr "Measurements fresh snow"
+
+msgid "ch.meteoschweiz.messwerte-niederschlag-10min"
+msgstr "Measurements precipitation, 10min"
+
+msgid "ch.meteoschweiz.messwerte-niederschlag-1h"
+msgstr "Measurements precipitation, 1h"
 
 msgid "ch.mobility.standorte"
 msgstr "Carsharing"
