@@ -9032,6 +9032,9 @@ msgstr "Sachplan Militär"
 msgid "ch.vbs.sachplan-infrastruktur-militaer_kraft_polygons_raster"
 msgstr "Sachplan Militär"
 
+msgid "ch.vbs.sperr-gefahrenzonenkarte"
+msgstr "Sperr- und Gefahrenzonenkarte"
+
 msgid "ch.vbs.territorialregionen"
 msgstr "Regiuns territorialas"
 
