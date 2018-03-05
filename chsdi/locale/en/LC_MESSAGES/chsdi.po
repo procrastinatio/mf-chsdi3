@@ -5912,21 +5912,6 @@ msgstr "AF"
 msgid "ch.meteoschweiz"
 msgstr "MeteoSwiss"
 
-msgid "ch.meteoschweiz.messdaten-niederschlag-tagessummen"
-msgstr "Measurements precipitation, 1 d"
-
-msgid "ch.meteoschweiz.messdaten-sonnenscheindauer"
-msgstr "Measurements sunshine duration"
-
-msgid "ch.meteoschweiz.messdaten-taupunkt"
-msgstr "Measurements dew point"
-
-msgid "ch.meteoschweiz.messdaten-wind-boenspitze"
-msgstr "Wind gust data"
-
-msgid "ch.meteoschweiz.messdaten-windgeschwindigkeit"
-msgstr "Measurements wind speed"
-
 msgid "ch.meteoschweiz.messnetz-atmosphaere"
 msgstr "Atmosphere stations"
 
@@ -5990,8 +5975,23 @@ msgstr "Measurements fresh snow"
 msgid "ch.meteoschweiz.messwerte-niederschlag-10min"
 msgstr "Measurements precipitation, 10min"
 
+msgid "ch.meteoschweiz.messwerte-niederschlag-1d"
+msgstr "Measurements precipitation, 1 d"
+
 msgid "ch.meteoschweiz.messwerte-niederschlag-1h"
 msgstr "Measurements precipitation, 1h"
+
+msgid "ch.meteoschweiz.messwerte-sonnenscheindauer-10min"
+msgstr "Measurements sunshine duration"
+
+msgid "ch.meteoschweiz.messwerte-taupunkt-10min"
+msgstr "Measurements dew point"
+
+msgid "ch.meteoschweiz.messwerte-wind-boeenspitze-kmh-10min"
+msgstr "Wind gust data"
+
+msgid "ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min"
+msgstr "Measurements wind speed"
 
 msgid "ch.mobility.standorte"
 msgstr "Carsharing"

@@ -5912,21 +5912,6 @@ msgstr "FA"
 msgid "ch.meteoschweiz"
 msgstr "MétéoSuisse"
 
-msgid "ch.meteoschweiz.messdaten-niederschlag-tagessummen"
-msgstr "Mesures précipitations, 1 jour"
-
-msgid "ch.meteoschweiz.messdaten-sonnenscheindauer"
-msgstr "Mesures durée d'ensoleillement"
-
-msgid "ch.meteoschweiz.messdaten-taupunkt"
-msgstr "Mesures point de rosée"
-
-msgid "ch.meteoschweiz.messdaten-wind-boenspitze"
-msgstr "Données rafales"
-
-msgid "ch.meteoschweiz.messdaten-windgeschwindigkeit"
-msgstr "Mesures vitesse du vent"
-
 msgid "ch.meteoschweiz.messnetz-atmosphaere"
 msgstr "Stations atmosphère"
 
@@ -5990,8 +5975,23 @@ msgstr "Mesures neige fraîche"
 msgid "ch.meteoschweiz.messwerte-niederschlag-10min"
 msgstr "Mesures précipitations, 10min"
 
+msgid "ch.meteoschweiz.messwerte-niederschlag-1d"
+msgstr "Mesures précipitations, 1 jour"
+
 msgid "ch.meteoschweiz.messwerte-niederschlag-1h"
 msgstr "Mesures précipitations, 1h"
+
+msgid "ch.meteoschweiz.messwerte-sonnenscheindauer-10min"
+msgstr "Mesures durée d'ensoleillement"
+
+msgid "ch.meteoschweiz.messwerte-taupunkt-10min"
+msgstr "Mesures point de rosée"
+
+msgid "ch.meteoschweiz.messwerte-wind-boeenspitze-kmh-10min"
+msgstr "Données rafales"
+
+msgid "ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min"
+msgstr "Mesures vitesse du vent"
 
 msgid "ch.mobility.standorte"
 msgstr "Autopartage (carsharing)"
