@@ -36,7 +36,7 @@
           "color": "rgba(7,30,70,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -72,7 +72,7 @@
           "color": "rgba(7,30,70,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -128,7 +128,7 @@
           "color": "rgba(7,47,107,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -164,7 +164,7 @@
           "color": "rgba(7,47,107,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -220,7 +220,7 @@
           "color": "rgba(8,82,156,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -256,7 +256,7 @@
           "color": "rgba(8,82,156,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -312,7 +312,7 @@
           "color": "rgba(33,113,181,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -348,7 +348,7 @@
           "color": "rgba(33,113,181,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -404,7 +404,7 @@
           "color": "rgba(66,146,199,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -440,7 +440,7 @@
           "color": "rgba(66,146,199,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -496,7 +496,7 @@
           "color": "rgba(90,160,205,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -532,7 +532,7 @@
           "color": "rgba(90,160,205,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -588,7 +588,7 @@
           "color": "rgba(120,191,214,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -624,7 +624,7 @@
           "color": "rgba(120,191,214,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -680,7 +680,7 @@
           "color": "rgba(170,220,230,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -711,18 +711,18 @@
       "maxResolution": 50,
       "vectorOptions": {
         "type": "circle",
-        "radius": 6,
+        "radius": 8,
         "fill": {
           "color": "rgba(170,220,230,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -24,
             "stroke": {
               "color": "black",
               "width": 3
@@ -772,7 +772,7 @@
           "color": "rgba(219,245,255,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -808,7 +808,7 @@
           "color": "rgba(219,245,255,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -864,7 +864,7 @@
           "color": "rgba(240,252,255,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -900,7 +900,7 @@
           "color": "rgba(240,252,255,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -956,7 +956,7 @@
           "color": "rgba(255,240,245,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -992,7 +992,7 @@
           "color": "rgba(255,240,245,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1048,7 +1048,7 @@
           "color": "rgba(255,224,224,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1084,7 +1084,7 @@
           "color": "rgba(255,224,224,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1140,7 +1140,7 @@
           "color": "rgba(252,187,170,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1176,7 +1176,7 @@
           "color": "rgba(252,187,170,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1232,7 +1232,7 @@
           "color": "rgba(252,146,114,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1268,7 +1268,7 @@
           "color": "rgba(252,146,114,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1324,7 +1324,7 @@
           "color": "rgba(251,106,74,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1360,7 +1360,7 @@
           "color": "rgba(251,106,74,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1416,7 +1416,7 @@
           "color": "rgba(240,60,43,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1452,7 +1452,7 @@
           "color": "rgba(240,60,43,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1508,7 +1508,7 @@
           "color": "rgba(204,24,30,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1544,7 +1544,7 @@
           "color": "rgba(204,24,30,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1600,7 +1600,7 @@
           "color": "rgba(166,15,20,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1636,7 +1636,7 @@
           "color": "rgba(166,15,20,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1692,7 +1692,7 @@
           "color": "rgba(120,10,15,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1728,7 +1728,7 @@
           "color": "rgba(120,10,15,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1784,7 +1784,7 @@
           "color": "rgba(95,0,0,0.9)"
         },
         "label": {
-          "template": "${value} C",
+          "template": "${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
@@ -1820,7 +1820,7 @@
           "color": "rgba(95,0,0,0.9)"
         },
         "label": {
-          "template": "${station_name}\n ${value} C",
+          "template": "${station_name}\n ${value} °C",
           "text": {
             "textAlign": "center",
             "textBaseline": "middle",
