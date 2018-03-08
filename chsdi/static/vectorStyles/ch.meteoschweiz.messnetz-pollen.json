@@ -17,14 +17,11 @@
             "textAlign": "center",
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
-            "scale": 1,
-            "offsetY": -15,
+            "scale": 1.25,
+            "offsetY": -24,
             "stroke": {
-              "color": "black",
+              "color": "rgba(161,16,53,0.9)",
               "width": 3
-            },
-            "backgroundFill": {
-              "color": "black"
             },
             "fill": {
               "color": "white"
@@ -32,7 +29,8 @@
           }
         },
         "stroke": {
-          "color": "black"
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
         }
       }
     },
@@ -41,12 +39,30 @@
       "value": 2,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 6,
+        "radius": 7,
         "stroke": {
-          "color": "black"
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
         },
         "fill": {
           "color": "white"
+        },
+        "label": {
+          "template": "${station_name}",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -24,
+            "stroke": {
+              "color": "rgba(161,16,53,0.9)",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
         }
       }
     },
@@ -55,12 +71,30 @@
       "value": 3,
       "vectorOptions": {
         "type": "square",
-        "radius": 6,
+        "radius": 7,
         "stroke": {
-          "color": "black"
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
         },
         "fill": {
           "color": "white"
+        },
+        "label": {
+          "template": "${station_name}",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -24,
+            "stroke": {
+              "color": "rgba(161,16,53,0.9)",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
         }
       }
     },
@@ -69,12 +103,30 @@
       "value": 4,
       "vectorOptions": {
         "type": "star",
-        "radius": 6,
+        "radius": 7,
         "stroke": {
-          "color": "black"
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
         },
         "fill": {
           "color": "white"
+        },
+        "label": {
+          "template": "${station_name}",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -24,
+            "stroke": {
+              "color": "rgba(161,16,53,0.9)",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
         }
       }
     }
