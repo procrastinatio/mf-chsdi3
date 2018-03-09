@@ -5955,7 +5955,7 @@ msgid "ch.meteoschweiz.messwerte-luftdruck-qff-10min"
 msgstr "Messwerte Luftdruck reduziert QFF"
 
 msgid "ch.meteoschweiz.messwerte-luftdruck-qnh-10min"
-msgstr "Messdaten Luftdruck Meereshöhe QFF"
+msgstr "Messwerte Luftdruck reduziert QNH"
 
 msgid "ch.meteoschweiz.messwerte-luftfeuchtigkeit-10min"
 msgstr "Messwerte Luftfeuchtigkeit"
@@ -7055,8 +7055,29 @@ msgstr "Gesteinsgruppe"
 msgid "ch.swisstopo.geologie-rohstoffe-vererzungen"
 msgstr "Metallrohstoffe: Vorkommen"
 
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.edmikinds"
+msgstr "Erze abgebaut"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.emkinds"
+msgstr "Abbaumethoden"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.grkinds"
+msgstr "Vererzungsgruppen"
+
 msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.name_ads"
 msgstr "Lokalität"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.obname"
+msgstr "Name"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.obnamealt"
+msgstr "Zweitname"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.purl"
+msgstr "Detailinformation im Fachportal"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.stkind"
+msgstr "Abbaustatus"
 
 msgid "ch.swisstopo.geologie-spezialkarten_schweiz.metadata"
 msgstr "Einteilung Geologische Spezialkarten Raster"

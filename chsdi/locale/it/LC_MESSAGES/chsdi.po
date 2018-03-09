@@ -5955,7 +5955,7 @@ msgid "ch.meteoschweiz.messwerte-luftdruck-qff-10min"
 msgstr "Misurazioni pressione ridotta QFF"
 
 msgid "ch.meteoschweiz.messwerte-luftdruck-qnh-10min"
-msgstr "Pressione ridotta livello mare QFF"
+msgstr "Misurazioni pressione ridotta QNH"
 
 msgid "ch.meteoschweiz.messwerte-luftfeuchtigkeit-10min"
 msgstr "Misurazioni umidità"
@@ -7055,8 +7055,29 @@ msgstr "Gruppo di rocce"
 msgid "ch.swisstopo.geologie-rohstoffe-vererzungen"
 msgstr "Mineralizzazioni"
 
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.edmikinds"
+msgstr "Minerali estratti"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.emkinds"
+msgstr "Metodi di sfruttamento"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.grkinds"
+msgstr "Associazioni di elementi metallici"
+
 msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.name_ads"
 msgstr "Località"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.obname"
+msgstr "Nome"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.obnamealt"
+msgstr "Nome alternativo"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.purl"
+msgstr "Informazioni dettagliate sul portale specializzato"
+
+msgid "ch.swisstopo.geologie-rohstoffe-vererzungen.stkind"
+msgstr "Stato dello sfruttamento"
 
 msgid "ch.swisstopo.geologie-spezialkarten_schweiz.metadata"
 msgstr "Divisione carte geologiche speciali Raster"
