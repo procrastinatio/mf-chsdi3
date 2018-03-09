@@ -5,12 +5,61 @@
     {
       "geomType": "point",
       "value": 1,
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "circle",
+        "radius": 4,
+        "stroke": {
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
+        },
+        "fill": {
+          "color": "white"
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "value": 1,
       "vectorOptions": {
         "type": "circle",
         "radius": 6,
         "stroke": {
-          "color": "black",
-          "width": 1
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
+        },
+        "fill": {
+          "color": "white"
+        },
+        "label": {
+          "template": "${station_name}",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -24,
+            "stroke": {
+              "color": "rgba(161,16,53,0.9)",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "value": 2,
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "triangle",
+        "radius": 6,
+        "stroke": {
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
         },
         "fill": {
           "color": "white"
@@ -22,10 +71,43 @@
       "value": 2,
       "vectorOptions": {
         "type": "triangle",
+        "radius": 8,
+        "stroke": {
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
+        },
+        "fill": {
+          "color": "white"
+        },
+        "label": {
+          "template": "${station_name}",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -24,
+            "stroke": {
+              "color": "rgba(161,16,53,0.9)",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "value": 3,
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "square",
         "radius": 6,
         "stroke": {
-          "color": "black",
-          "width": 1
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
         },
         "fill": {
           "color": "white"
@@ -37,10 +119,43 @@
       "value": 3,
       "vectorOptions": {
         "type": "square",
+        "radius": 8,
+        "stroke": {
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
+        },
+        "fill": {
+          "color": "white"
+        },
+        "label": {
+          "template": "${station_name}",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -24,
+            "stroke": {
+              "color": "rgba(161,16,53,0.9)",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
+        }
+      }
+    },
+    {
+      "geomType": "point",
+      "value": 4,
+      "minResolution": 250,
+      "vectorOptions": {
+        "type": "star",
         "radius": 6,
         "stroke": {
-          "color": "black",
-          "width": 1
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
         },
         "fill": {
           "color": "white"
@@ -52,13 +167,30 @@
       "value": 4,
       "vectorOptions": {
         "type": "star",
-        "radius": 6,
+        "radius": 8,
         "stroke": {
-          "color": "black",
-          "width": 1
+          "color": "rgba(161,16,53,0.9)",
+          "width": 2
         },
         "fill": {
           "color": "white"
+        },
+        "label": {
+          "template": "${station_name}",
+          "text": {
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+            "scale": 1.25,
+            "offsetY": -24,
+            "stroke": {
+              "color": "rgba(161,16,53,0.9)",
+              "width": 3
+            },
+            "fill": {
+              "color": "white"
+            }
+          }
         }
       }
     }
