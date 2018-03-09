@@ -70,7 +70,7 @@
       "maxResolution": 50,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 6,
+        "radius": 10,
         "fill": {
           "color": "rgba(255,255,255,0.9)"
         },
@@ -81,7 +81,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -24,
             "stroke": {
               "color": "black",
               "width": 3
@@ -165,7 +165,7 @@
       "maxResolution": 50,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 6,
+        "radius": 10,
         "fill": {
           "color": "rgba(255,255,255,0.9)"
         },
@@ -176,7 +176,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -24,
             "stroke": {
               "color": "black",
               "width": 3
@@ -260,7 +260,7 @@
       "maxResolution": 50,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 6,
+        "radius": 10,
         "fill": {
           "color": "rgba(255,255,255,0.9)"
         },
@@ -271,7 +271,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -24,
             "stroke": {
               "color": "black",
               "width": 3
@@ -355,7 +355,7 @@
       "maxResolution": 50,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 6,
+        "radius": 10,
         "fill": {
           "color": "rgba(250,226,255,0.9)"
         },
@@ -366,7 +366,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -24,
             "stroke": {
               "color": "black",
               "width": 3
@@ -450,7 +450,7 @@
       "maxResolution": 50,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 6,
+        "radius": 10,
         "fill": {
           "color": "rgba(238,188,236,0.9)"
         },
@@ -461,7 +461,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -24,
             "stroke": {
               "color": "black",
               "width": 3
@@ -545,7 +545,7 @@
       "maxResolution": 50,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 6,
+        "radius": 10,
         "fill": {
           "color": "rgba(222,146,198,0.9)"
         },
@@ -556,7 +556,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -24,
             "stroke": {
               "color": "black",
               "width": 3
@@ -640,7 +640,7 @@
       "maxResolution": 50,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 6,
+        "radius": 10,
         "fill": {
           "color": "rgba(198,101,151,0.9)"
         },
@@ -651,7 +651,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -24,
             "stroke": {
               "color": "black",
               "width": 3
@@ -735,7 +735,7 @@
       "maxResolution": 50,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 6,
+        "radius": 10,
         "fill": {
           "color": "rgba(166,56,95,0.9)"
         },
@@ -746,7 +746,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -24,
             "stroke": {
               "color": "black",
               "width": 3
@@ -830,7 +830,7 @@
       "maxResolution": 50,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 6,
+        "radius": 10,
         "fill": {
           "color": "rgba(125,1,18,0.9)"
         },
@@ -841,7 +841,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -24,
             "stroke": {
               "color": "black",
               "width": 3
@@ -925,7 +925,7 @@
       "maxResolution": 50,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 6,
+        "radius": 10,
         "fill": {
           "color": "rgba(125,1,18,0.9)"
         },
@@ -936,7 +936,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -24,
             "stroke": {
               "color": "black",
               "width": 3
