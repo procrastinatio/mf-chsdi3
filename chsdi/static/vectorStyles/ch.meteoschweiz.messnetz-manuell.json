@@ -23,7 +23,7 @@
       "value": 1,
       "vectorOptions": {
         "type": "circle",
-        "radius": 6,
+        "radius": 7,
         "stroke": {
           "color": "rgba(161,16,53,0.9)",
           "width": 2
@@ -71,7 +71,7 @@
       "value": 2,
       "vectorOptions": {
         "type": "triangle",
-        "radius": 8,
+        "radius": 9,
         "stroke": {
           "color": "rgba(161,16,53,0.9)",
           "width": 2
@@ -119,7 +119,7 @@
       "value": 3,
       "vectorOptions": {
         "type": "square",
-        "radius": 8,
+        "radius": 9,
           "stroke": {
             "color": "rgba(161,16,53,0.9)",
           "width": 2
@@ -167,7 +167,7 @@
       "value": 4,
       "vectorOptions": {
         "type": "star",
-        "radius": 8,
+        "radius": 9,
         "stroke": {
           "color": "rgba(161,16,53,0.9)",
           "width": 2
