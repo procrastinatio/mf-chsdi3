@@ -11,15 +11,8 @@
       ],
       "minResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(255,255,255,0.9)"
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
-        }
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow16_255_255_255.png"
       }
     },
     {
@@ -32,11 +25,8 @@
       "minResolution": 50,
       "maxResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(255,255,255,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_255_255_255.png",
         "label": {
           "template": "${value} km/h",
           "text": {
@@ -44,7 +34,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -22,
             "stroke": {
               "color": "black",
               "width": 3
@@ -53,10 +43,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -69,11 +55,8 @@
       ],
       "maxResolution": 50,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 10,
-        "fill": {
-          "color": "rgba(255,255,255,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_255_255_255.png",
         "label": {
           "template": "${station_name}\n ${value} km/h",
           "text": {
@@ -81,7 +64,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -24,
+            "offsetY": -28,
             "stroke": {
               "color": "black",
               "width": 3
@@ -90,10 +73,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -106,15 +85,8 @@
       ],
       "minResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(255,255,255,0.9)"
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
-        }
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow16_250_225_255.png"
       }
     },
     {
@@ -127,11 +99,8 @@
       "minResolution": 50,
       "maxResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(255,255,255,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_250_225_255.png",
         "label": {
           "template": "${value} km/h",
           "text": {
@@ -139,7 +108,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -22,
             "stroke": {
               "color": "black",
               "width": 3
@@ -148,10 +117,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -164,11 +129,8 @@
       ],
       "maxResolution": 50,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 10,
-        "fill": {
-          "color": "rgba(255,255,255,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_250_225_255.png",
         "label": {
           "template": "${station_name}\n ${value} km/h",
           "text": {
@@ -176,7 +138,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -24,
+            "offsetY": -28,
             "stroke": {
               "color": "black",
               "width": 3
@@ -185,10 +147,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -201,15 +159,8 @@
       ],
       "minResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(255,255,255,0.9)"
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
-        }
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow16_238_188_236.png"
       }
     },
     {
@@ -222,11 +173,8 @@
       "minResolution": 50,
       "maxResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(255,255,255,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_238_188_236.png",
         "label": {
           "template": "${value} km/h",
           "text": {
@@ -234,7 +182,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -22,
             "stroke": {
               "color": "black",
               "width": 3
@@ -243,10 +191,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -259,11 +203,8 @@
       ],
       "maxResolution": 50,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 10,
-        "fill": {
-          "color": "rgba(255,255,255,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_238_188_236.png",
         "label": {
           "template": "${station_name}\n ${value} km/h",
           "text": {
@@ -271,7 +212,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -24,
+            "offsetY": -28,
             "stroke": {
               "color": "black",
               "width": 3
@@ -280,10 +221,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -296,15 +233,8 @@
       ],
       "minResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(250,226,255,0.9)"
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
-        }
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow16_222_146_198.png"
       }
     },
     {
@@ -317,11 +247,8 @@
       "minResolution": 50,
       "maxResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(250,226,255,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_222_146_198.png",
         "label": {
           "template": "${value} km/h",
           "text": {
@@ -329,7 +256,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -22,
             "stroke": {
               "color": "black",
               "width": 3
@@ -338,10 +265,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -354,11 +277,8 @@
       ],
       "maxResolution": 50,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 10,
-        "fill": {
-          "color": "rgba(250,226,255,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_222_146_198.png",
         "label": {
           "template": "${station_name}\n ${value} km/h",
           "text": {
@@ -366,7 +286,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -24,
+            "offsetY": -28,
             "stroke": {
               "color": "black",
               "width": 3
@@ -375,10 +295,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -391,15 +307,8 @@
       ],
       "minResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(238,188,236,0.9)"
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
-        }
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow16_198_101_151.png"
       }
     },
     {
@@ -412,11 +321,8 @@
       "minResolution": 50,
       "maxResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(238,188,236,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_198_101_151.png",
         "label": {
           "template": "${value} km/h",
           "text": {
@@ -424,7 +330,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -22,
             "stroke": {
               "color": "black",
               "width": 3
@@ -433,10 +339,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -449,11 +351,8 @@
       ],
       "maxResolution": 50,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 10,
-        "fill": {
-          "color": "rgba(238,188,236,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_198_101_151.png",
         "label": {
           "template": "${station_name}\n ${value} km/h",
           "text": {
@@ -461,7 +360,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -24,
+            "offsetY": -28,
             "stroke": {
               "color": "black",
               "width": 3
@@ -470,10 +369,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -486,15 +381,8 @@
       ],
       "minResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(222,146,198,0.9)"
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
-        }
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow16_166_56_95.png"
       }
     },
     {
@@ -507,11 +395,8 @@
       "minResolution": 50,
       "maxResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(222,146,198,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_166_56_95.png",
         "label": {
           "template": "${value} km/h",
           "text": {
@@ -519,7 +404,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -22,
             "stroke": {
               "color": "black",
               "width": 3
@@ -528,10 +413,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -544,11 +425,8 @@
       ],
       "maxResolution": 50,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 10,
-        "fill": {
-          "color": "rgba(222,146,198,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_166_56_95.png",
         "label": {
           "template": "${station_name}\n ${value} km/h",
           "text": {
@@ -556,7 +434,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -24,
+            "offsetY": -28,
             "stroke": {
               "color": "black",
               "width": 3
@@ -565,10 +443,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -581,15 +455,8 @@
       ],
       "minResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(198,101,151,0.9)"
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
-        }
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow16_125_1_18.png"
       }
     },
     {
@@ -602,11 +469,8 @@
       "minResolution": 50,
       "maxResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(198,101,151,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_125_1_18.png",
         "label": {
           "template": "${value} km/h",
           "text": {
@@ -614,7 +478,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -22,
             "stroke": {
               "color": "black",
               "width": 3
@@ -623,10 +487,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -639,11 +499,8 @@
       ],
       "maxResolution": 50,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 10,
-        "fill": {
-          "color": "rgba(198,101,151,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_125_1_18.png",
         "label": {
           "template": "${station_name}\n ${value} km/h",
           "text": {
@@ -651,7 +508,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -24,
+            "offsetY": -28,
             "stroke": {
               "color": "black",
               "width": 3
@@ -660,10 +517,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -676,15 +529,8 @@
       ],
       "minResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(166,56,95,0.9)"
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
-        }
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow16_125_1_18.png"
       }
     },
     {
@@ -697,11 +543,8 @@
       "minResolution": 50,
       "maxResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(166,56,95,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_125_1_18.png",
         "label": {
           "template": "${value} km/h",
           "text": {
@@ -709,7 +552,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -22,
             "stroke": {
               "color": "black",
               "width": 3
@@ -718,10 +561,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -734,11 +573,8 @@
       ],
       "maxResolution": 50,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 10,
-        "fill": {
-          "color": "rgba(166,56,95,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_125_1_18.png",
         "label": {
           "template": "${station_name}\n ${value} km/h",
           "text": {
@@ -746,7 +582,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -24,
+            "offsetY": -28,
             "stroke": {
               "color": "black",
               "width": 3
@@ -755,10 +591,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -771,15 +603,8 @@
       ],
       "minResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(125,1,18,0.9)"
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
-        }
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow16_125_1_18.png"
       }
     },
     {
@@ -792,11 +617,8 @@
       "minResolution": 50,
       "maxResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(125,1,18,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_125_1_18.png",
         "label": {
           "template": "${value} km/h",
           "text": {
@@ -804,7 +626,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -22,
             "stroke": {
               "color": "black",
               "width": 3
@@ -813,10 +635,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -829,11 +647,8 @@
       ],
       "maxResolution": 50,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 10,
-        "fill": {
-          "color": "rgba(125,1,18,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_125_1_18.png",
         "label": {
           "template": "${station_name}\n ${value} km/h",
           "text": {
@@ -841,7 +656,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -24,
+            "offsetY": -28,
             "stroke": {
               "color": "black",
               "width": 3
@@ -850,10 +665,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -866,15 +677,8 @@
       ],
       "minResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(125,1,18,0.9)"
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
-        }
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow16_125_1_18.png"
       }
     },
     {
@@ -887,11 +691,8 @@
       "minResolution": 50,
       "maxResolution": 250,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 6,
-        "fill": {
-          "color": "rgba(125,1,18,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_125_1_18.png",
         "label": {
           "template": "${value} km/h",
           "text": {
@@ -899,7 +700,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -19,
+            "offsetY": -22,
             "stroke": {
               "color": "black",
               "width": 3
@@ -908,10 +709,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
@@ -924,11 +721,8 @@
       ],
       "maxResolution": 50,
       "vectorOptions": {
-        "type": "triangle",
-        "radius": 10,
-        "fill": {
-          "color": "rgba(125,1,18,0.9)"
-        },
+        "type": "icon",
+        "src": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min/images/arrow20_125_1_18.png",
         "label": {
           "template": "${station_name}\n ${value} km/h",
           "text": {
@@ -936,7 +730,7 @@
             "textBaseline": "middle",
             "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
             "scale": 1.25,
-            "offsetY": -24,
+            "offsetY": -28,
             "stroke": {
               "color": "black",
               "width": 3
@@ -945,10 +739,6 @@
               "color": "white"
             }
           }
-        },
-        "stroke": {
-          "color": "black",
-          "width": 1
         }
       }
     },
