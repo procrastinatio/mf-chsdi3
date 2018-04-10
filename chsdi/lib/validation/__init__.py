@@ -62,7 +62,7 @@ class BaseLayersValidation(BaseValidation):
 
     @srid.setter
     def srid(self, value):
-        if value in self.output_srs:
+        if value in OUTPUT_SRS:
             self._srid = int(value)
         elif value is not None:
             raise HTTPBadRequest('Unsupported spatial reference %s' % value)
