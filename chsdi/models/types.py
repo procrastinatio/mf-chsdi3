@@ -4,7 +4,7 @@ import sqlalchemy.types as types
 from geoalchemy2.types import Geometry
 from sqlalchemy.sql import func
 
-from chsdi3.validation import OUTPUT_SRS
+from chsdi.lib.validation import OUTPUT_SRS
 
 
 class DateTimeChsdi(types.TypeDecorator):
