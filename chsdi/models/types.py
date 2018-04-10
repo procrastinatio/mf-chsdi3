@@ -4,6 +4,8 @@ import sqlalchemy.types as types
 from geoalchemy2.types import Geometry
 from sqlalchemy.sql import func
 
+from chsdi3.validation import OUTPUT_SRS
+
 
 class DateTimeChsdi(types.TypeDecorator):
 
@@ -45,7 +47,7 @@ class GeometryChsdi(Geometry):
 
     @srid_out.setter
     def srid_out(self, value):
-        if value in (2056, 21781):
+        if value in OUTPUT_SRS:
             self._srid_out = value
 
     def column_expression(self, col):

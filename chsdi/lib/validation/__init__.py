@@ -5,6 +5,9 @@ from pyramid.httpexceptions import HTTPBadRequest
 from chsdi.models.bod import Topics
 
 
+OUTPUT_SRS = ('21781', '2056', '3857', '4326')
+
+
 class MapNameValidation(object):
 
     def hasMap(self, db, mapName):
@@ -59,7 +62,7 @@ class BaseLayersValidation(BaseValidation):
 
     @srid.setter
     def srid(self, value):
-        if value in ('2056', '21781'):
+        if value in self.output_srs:
             self._srid = int(value)
         elif value is not None:
             raise HTTPBadRequest('Unsupported spatial reference %s' % value)
