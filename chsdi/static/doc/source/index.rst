@@ -6,6 +6,20 @@
 .. raw:: html
 
   <head>
+    <meta name="fragment" content="!">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="application-name" content="api.geo.admin.ch">
+    <meta name="keywords" content="maps Switzerland, map viewer, Confederation, geodata, public platform, geographical information, geoportal, orthophotos, geolocation, geoinformation, Geodaten, Geoinformation, Bund, Plattform, Karte, Kartendienst, Kartenviewer, API">
+    <meta property="og:description" content="map.geo.admin.ch is the mapping platform of the Swiss Confederation. Access federal geographical information, maps, data, services and metadata of Switzerland.">
+    <meta property="og:title" content="Geoadmin API">
+    <meta property="og:url" content="https://api.geo.admin.ch">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@swiss_geoportal">
+    <meta name="twitter:creator" content="@swiss_geoportal">
+    <meta name="twitter:title" content="geo.admin.ch">
+    <meta name="twitter:image" content="https://cms.geo.admin.ch/img/logo_geoportal.png">
+    <meta name="twitter:url" content="https://api.geo.admin.ch">
     <link href="_static/custom.css" rel="stylesheet" type="text/css" />
     <link rel="apple-touch-icon" sizes="76x76" href="_static/touch-icon-bund-76x76.png"/>
     <link rel="apple-touch-icon" sizes="120x120" href="_static/touch-icon-bund-120x120.png"/>
