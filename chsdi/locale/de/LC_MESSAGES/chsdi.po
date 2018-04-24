@@ -5066,6 +5066,9 @@ msgstr "Name"
 msgid "ch.bfe.bikesharing"
 msgstr "Bikesharing- und Veloverleihsysteme"
 
+msgid "ch.bfe.energieberatungsstellen"
+msgstr "Energieberatungsstellen"
+
 msgid "ch.bfe.energieforschung"
 msgstr "Cleantech-Projekte"
 
@@ -5410,6 +5413,9 @@ msgstr "Windgeschwindigkeit 75 m Höhe"
 
 msgid "ch.bfe.windenergie-potenzialgebiete"
 msgstr "Windpotenzialgebiete"
+
+msgid "ch.bfe.wpsm-qualifizierte_firmen"
+msgstr "WPSM-qualifizierte Firmen"
 
 msgid "ch.bfs"
 msgstr "BFS"

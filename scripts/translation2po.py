@@ -34,7 +34,7 @@ def get_yaml(yaml_file_path):
 
 
 def get_db_connection():
-    return psycopg2.connect(host=os.environ.get('DBHOST'), dbname='bod_master', user='www-data')
+    return psycopg2.connect(host=os.environ.get('DBHOST'), dbname='bod_ltrea_master', user='www-data')
 
 
 def select_all(cur):

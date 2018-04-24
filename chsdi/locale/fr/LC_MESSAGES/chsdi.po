@@ -5066,6 +5066,9 @@ msgstr "Nom"
 msgid "ch.bfe.bikesharing"
 msgstr "Bikesharing et prêt de velo"
 
+msgid "ch.bfe.energieberatungsstellen"
+msgstr "Services de conseil en énergie"
+
 msgid "ch.bfe.energieforschung"
 msgstr "Projets cleantech"
 
@@ -5410,6 +5413,9 @@ msgstr "Vitesse du vent à 75 m du sol"
 
 msgid "ch.bfe.windenergie-potenzialgebiete"
 msgstr "Zones à potentiel éolien"
+
+msgid "ch.bfe.wpsm-qualifizierte_firmen"
+msgstr "Entreprises qualifiées PAC-SM"
 
 msgid "ch.bfs"
 msgstr "OFS"

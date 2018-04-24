@@ -5066,6 +5066,9 @@ msgstr "Name"
 msgid "ch.bfe.bikesharing"
 msgstr "Bike sharing and bicycle hire"
 
+msgid "ch.bfe.energieberatungsstellen"
+msgstr "Energy advice services"
+
 msgid "ch.bfe.energieforschung"
 msgstr "Cleantech projects"
 
@@ -5410,6 +5413,9 @@ msgstr "Wind speed 75 metres above ground"
 
 msgid "ch.bfe.windenergie-potenzialgebiete"
 msgstr "Windpotenzialgebiete"
+
+msgid "ch.bfe.wpsm-qualifizierte_firmen"
+msgstr "Qualified HPSM companies"
 
 msgid "ch.bfs"
 msgstr "FSO"

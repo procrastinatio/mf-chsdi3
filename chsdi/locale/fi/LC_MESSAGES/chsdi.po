@@ -5066,6 +5066,9 @@ msgstr "Name"
 msgid "ch.bfe.bikesharing"
 msgstr "Bikesharing ed emprest da velos"
 
+msgid "ch.bfe.energieberatungsstellen"
+msgstr "Energieberatungsstellen"
+
 msgid "ch.bfe.energieforschung"
 msgstr "Projects cleantech"
 
@@ -5410,6 +5413,9 @@ msgstr "Sveltezza dal vent autezza 75 m"
 
 msgid "ch.bfe.windenergie-potenzialgebiete"
 msgstr "Windpotenzialgebiete"
+
+msgid "ch.bfe.wpsm-qualifizierte_firmen"
+msgstr "WPSM-qualifizierte Firmen"
 
 msgid "ch.bfs"
 msgstr "BFS"
