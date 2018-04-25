@@ -977,6 +977,9 @@ msgstr "Tipologia dei comuni ARE"
 msgid "ch.are.gemeindetypen"
 msgstr "Tipologia dei comuni ARE"
 
+msgid "ch.are.gemeindetypen.name_"
+msgstr "name"
+
 msgid "ch.are.gueteklassen_oev"
 msgstr "Classi di collegamento dei TP ARE"
 
@@ -985,6 +988,30 @@ msgstr "ARE + cantone"
 
 msgid "ch.are.landschaftstypen"
 msgstr "Tipologia dei paesaggi svizzeri"
+
+msgid "ch.are.landschaftstypen.object_are"
+msgstr "object are"
+
+msgid "ch.are.landschaftstypen.regname_de"
+msgstr "regname de"
+
+msgid "ch.are.landschaftstypen.regname_fr"
+msgstr "regname fr"
+
+msgid "ch.are.landschaftstypen.stand"
+msgstr "stand"
+
+msgid "ch.are.landschaftstypen.typ_area"
+msgstr "typ area"
+
+msgid "ch.are.landschaftstypen.typname_de"
+msgstr "typname de"
+
+msgid "ch.are.landschaftstypen.typname_fr"
+msgstr "typname fr"
+
+msgid "ch.are.landschaftstypen.typ_nr"
+msgstr "typ nr"
 
 msgid "ch.are.reisezeit-miv"
 msgstr "Tempo di viaggio TIM 2005"
@@ -1007,14 +1034,50 @@ msgstr "Eolico: interessi della Confederazione"
 msgid "ch.are.windenergie-bundesinteressen.bik1"
 msgstr "Zone edificabili con zona cuscinetto (protezione contro l’inquinamento fonico)"
 
+msgid "ch.are.windenergie-bundesinteressen.bik1_5_d"
+msgstr "bik1 5 d"
+
+msgid "ch.are.windenergie-bundesinteressen.bik1_5_fr"
+msgstr "bik1 5 fr"
+
+msgid "ch.are.windenergie-bundesinteressen.bik1_5_it"
+msgstr "bik1 5 it"
+
 msgid "ch.are.windenergie-bundesinteressen.bik2"
 msgstr "Zone di protezione senza ponderazione degli interessi"
+
+msgid "ch.are.windenergie-bundesinteressen.bik2_d"
+msgstr "bik2 d"
+
+msgid "ch.are.windenergie-bundesinteressen.bik2_fr"
+msgstr "bik2 fr"
+
+msgid "ch.are.windenergie-bundesinteressen.bik2_it"
+msgstr "bik2 it"
 
 msgid "ch.are.windenergie-bundesinteressen.bik3"
 msgstr "Zone in principio da escludere"
 
+msgid "ch.are.windenergie-bundesinteressen.bik3_d"
+msgstr "bik3 d"
+
+msgid "ch.are.windenergie-bundesinteressen.bik3_fr"
+msgstr "bik3 fr"
+
+msgid "ch.are.windenergie-bundesinteressen.bik3_it"
+msgstr "bik3 it"
+
 msgid "ch.are.windenergie-bundesinteressen.bik4"
 msgstr "Zone con riserva di coordinamento (non esaustivo)"
+
+msgid "ch.are.windenergie-bundesinteressen.bik4_d"
+msgstr "bik4 d"
+
+msgid "ch.are.windenergie-bundesinteressen.bik4_fr"
+msgstr "bik4 fr"
+
+msgid "ch.are.windenergie-bundesinteressen.bik4_it"
+msgstr "bik4 it"
 
 msgid "ch.are.windenergie-bundesinteressen.bik5"
 msgstr "Altre restrizioni"
@@ -1040,6 +1103,9 @@ msgstr "Inventario delle abitazioni"
 msgid "ch.are.wohnungsinventar-zweitwohnungsanteil.gemeinde"
 msgstr "Comune"
 
+msgid "ch.are.wohnungsinventar-zweitwohnungsanteil.gemeinde_name"
+msgstr "gemeinde name"
+
 msgid "ch.are.wohnungsinventar-zweitwohnungsanteil.zwg_3010"
 msgstr "numero delle abitazioni primarie"
 
@@ -1058,6 +1124,21 @@ msgstr "tutte le abitazioni"
 msgid "ch.are.wohnungsinventar-zweitwohnungsanteil.zwg_3200"
 msgstr "procedimento"
 
+msgid "ch.are.wohnungsinventar-zweitwohnungsanteil.zwg_3200_de"
+msgstr "zwg 3200 de"
+
+msgid "ch.are.wohnungsinventar-zweitwohnungsanteil.zwg_3200_en"
+msgstr "zwg 3200 en"
+
+msgid "ch.are.wohnungsinventar-zweitwohnungsanteil.zwg_3200_fr"
+msgstr "zwg 3200 fr"
+
+msgid "ch.are.wohnungsinventar-zweitwohnungsanteil.zwg_3200_it"
+msgstr "zwg 3200 it"
+
+msgid "ch.are.wohnungsinventar-zweitwohnungsanteil.zwg_3200_rm"
+msgstr "zwg 3200 rm"
+
 msgid "ch.astra"
 msgstr "USTRA"
 
@@ -1069,6 +1150,9 @@ msgstr "http://www.astra.admin.ch/index.html?lang=it"
 
 msgid "ch.astra.ausnahmetransportrouten"
 msgstr "Itinerari per trasporti eccezionali"
+
+msgid "ch.astra.ausnahmetransportrouten.bgdi_id"
+msgstr "bgdi id"
 
 msgid "ch.astra.historischer-verkehrswege"
 msgstr "IVS Nazionale"
@@ -1085,17 +1169,44 @@ msgstr "IVS Nazionale"
 msgid "ch.astra.ivs-nat_abgrenzungen"
 msgstr "IVS Delimitazioni"
 
+msgid "ch.astra.ivs-nat.ivs_kanton"
+msgstr "ivs kanton"
+
 msgid "ch.astra.ivs-nat.ivs_nummer"
 msgstr "Oggetto IVS"
 
 msgid "ch.astra.ivs-nat.ivs_signatur"
 msgstr "Sostanza"
 
+msgid "ch.astra.ivs-nat.ivs_signatur_de"
+msgstr "ivs signatur de"
+
+msgid "ch.astra.ivs-nat.ivs_signatur_fr"
+msgstr "ivs signatur fr"
+
+msgid "ch.astra.ivs-nat.ivs_signatur_it"
+msgstr "ivs signatur it"
+
+msgid "ch.astra.ivs-nat.ivs_slabedeutung"
+msgstr "ivs slabedeutung"
+
+msgid "ch.astra.ivs-nat.ivs_sladatehist"
+msgstr "ivs sladatehist"
+
+msgid "ch.astra.ivs-nat.ivs_sladatemorph"
+msgstr "ivs sladatemorph"
+
 msgid "ch.astra.ivs-nat.ivs_slaname"
 msgstr "Tracciato"
 
+msgid "ch.astra.ivs-nat.ivs_sortsla"
+msgstr "ivs sortsla"
+
 msgid "ch.astra.ivs-nat-verlaeufe"
 msgstr "IVS import.naz. tracciato s. sost."
+
+msgid "ch.astra.ivs-nat-verlaeufe.ivs_kanton"
+msgstr "ivs kanton"
 
 msgid "ch.astra.ivs-nat-verlaeufe.ivs_nummer"
 msgstr "Oggetto IVS"
@@ -1103,8 +1214,29 @@ msgstr "Oggetto IVS"
 msgid "ch.astra.ivs-nat-verlaeufe.ivs_signatur"
 msgstr "Sostanza"
 
+msgid "ch.astra.ivs-nat-verlaeufe.ivs_signatur_de"
+msgstr "ivs signatur de"
+
+msgid "ch.astra.ivs-nat-verlaeufe.ivs_signatur_fr"
+msgstr "ivs signatur fr"
+
+msgid "ch.astra.ivs-nat-verlaeufe.ivs_signatur_it"
+msgstr "ivs signatur it"
+
+msgid "ch.astra.ivs-nat-verlaeufe.ivs_slabedeutung"
+msgstr "ivs slabedeutung"
+
+msgid "ch.astra.ivs-nat-verlaeufe.ivs_sladatehist"
+msgstr "ivs sladatehist"
+
+msgid "ch.astra.ivs-nat-verlaeufe.ivs_sladatemorph"
+msgstr "ivs sladatemorph"
+
 msgid "ch.astra.ivs-nat-verlaeufe.ivs_slaname"
 msgstr "Tracciato"
+
+msgid "ch.astra.ivs-nat-verlaeufe.ivs_sortsla"
+msgstr "ivs sortsla"
 
 msgid "ch.astra.ivs-nat_wegbegleiter"
 msgstr "IVS Supporti del traffico"
@@ -1115,14 +1247,41 @@ msgstr "ch.astra.ivs-punktobjekt"
 msgid "ch.astra.ivs-reg_loc"
 msgstr "IVS Regionali e locali"
 
+msgid "ch.astra.ivs-reg_loc.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.astra.ivs-reg_loc.ivs_kanton"
+msgstr "ivs kanton"
+
 msgid "ch.astra.ivs-reg_loc.ivs_nummer"
 msgstr "Oggetto IVS"
 
 msgid "ch.astra.ivs-reg_loc.ivs_signatur"
 msgstr "Sostanza"
 
+msgid "ch.astra.ivs-reg_loc.ivs_signatur_de"
+msgstr "ivs signatur de"
+
+msgid "ch.astra.ivs-reg_loc.ivs_signatur_fr"
+msgstr "ivs signatur fr"
+
+msgid "ch.astra.ivs-reg_loc.ivs_signatur_it"
+msgstr "ivs signatur it"
+
+msgid "ch.astra.ivs-reg_loc.ivs_slabedeutung"
+msgstr "ivs slabedeutung"
+
+msgid "ch.astra.ivs-reg_loc.ivs_sladatehist"
+msgstr "ivs sladatehist"
+
+msgid "ch.astra.ivs-reg_loc.ivs_sladatemorph"
+msgstr "ivs sladatemorph"
+
 msgid "ch.astra.ivs-reg_loc.ivs_slaname"
 msgstr "Tracciato"
+
+msgid "ch.astra.ivs-reg_loc.ivs_sortsla"
+msgstr "ivs sortsla"
 
 msgid "ch.astra.kanuland"
 msgstr "La Svizzera in canoa"
@@ -1132,6 +1291,18 @@ msgstr "USTRA + cantone"
 
 msgid "ch.astra.mountainbikeland"
 msgstr "La Svizzera in mountain bike"
+
+msgid "ch.astra.mountainbikeland.chmobil_route_number"
+msgstr "chmobil route number"
+
+msgid "ch.astra.mountainbikeland.chmobil_title"
+msgstr "chmobil title"
+
+msgid "ch.astra.mountainbikeland.chmobil_url_etappe"
+msgstr "chmobil url etappe"
+
+msgid "ch.astra.mountainbikeland.chmobil_url_route"
+msgstr "chmobil url route"
 
 msgid "ch.astra.nationalstrassenachsen"
 msgstr "Asse delle strade nazionali"
@@ -1162,6 +1333,9 @@ msgstr "Sequenza no"
 
 msgid "ch.astra.nationalstrassenachsen.strassennummer"
 msgstr "No della strada"
+
+msgid "ch.astra.nationalstrassenachsen.type_geom"
+msgstr "type geom"
 
 msgid "ch.astra.projektierungszonen-nationalstrassen.oereb"
 msgstr "Zone progettazione autostrada RDPP"
@@ -1271,11 +1445,38 @@ msgstr "Anno"
 msgid "ch.astra.skatingland"
 msgstr "La Svizzera in skating"
 
+msgid "ch.astra.skatingland.chmobil_route_number"
+msgstr "chmobil route number"
+
+msgid "ch.astra.skatingland.chmobil_title"
+msgstr "chmobil title"
+
+msgid "ch.astra.skatingland.chmobil_url_etappe"
+msgstr "chmobil url etappe"
+
+msgid "ch.astra.skatingland.chmobil_url_route"
+msgstr "chmobil url route"
+
 msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal"
 msgstr "Circolazione stradale (regionale)"
 
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal.anzahl_fahrstreifen_tot"
+msgstr "anzahl fahrstreifen tot"
+
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal.bulletins_sasvz"
+msgstr "bulletins sasvz"
+
 msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal.id"
 msgstr "Numero"
+
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal.jahresauswertung"
+msgstr "jahresauswertung"
+
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal.ssvz_2005"
+msgstr "ssvz 2005"
 
 msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal-status_netz"
 msgstr "Circulation routière (régional)"
@@ -1283,14 +1484,35 @@ msgstr "Circulation routière (régional)"
 msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal-typ"
 msgstr "Circulation routière (régional: type)"
 
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal.uno_zaehlstelle"
+msgstr "uno zaehlstelle"
+
 msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal.zaehlstellen_bezeichnung"
 msgstr "Posti di contaggio"
+
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-regional_lokal.zst_physisch_virtuell"
+msgstr "zst physisch virtuell"
 
 msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet"
 msgstr "Circolazione stradale (principale)"
 
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet.anzahl_fahrstreifen_tot"
+msgstr "anzahl fahrstreifen tot"
+
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet.bulletins_sasvz"
+msgstr "bulletins sasvz"
+
 msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet.id"
 msgstr "Numero"
+
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet.jahresauswertung"
+msgstr "jahresauswertung"
+
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet.ssvz_2005"
+msgstr "ssvz 2005"
 
 msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet-status_netz"
 msgstr "Circulation routière (principal)"
@@ -1298,8 +1520,14 @@ msgstr "Circulation routière (principal)"
 msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet-typ"
 msgstr "Circulation routière (principal: type)"
 
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet.uno_zaehlstelle"
+msgstr "uno zaehlstelle"
+
 msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet.zaehlstellen_bezeichnung"
 msgstr "Posti di contaggio"
+
+msgid "ch.astra.strassenverkehrszaehlung_messstellen-uebergeordnet.zst_physisch_virtuell"
+msgstr "zst physisch virtuell"
 
 msgid "ch.astra.unfaelle-personenschaeden_alle"
 msgstr "Incidenti con danni personali"
@@ -1592,14 +1820,77 @@ msgstr "http://www.astra.admin.ch/index.html?lang=it"
 msgid "ch.astra.veloland"
 msgstr "La Svizzera in bici"
 
+msgid "ch.astra.veloland.chmobil_route_number"
+msgstr "chmobil route number"
+
+msgid "ch.astra.veloland.chmobil_title"
+msgstr "chmobil title"
+
+msgid "ch.astra.veloland.chmobil_url_etappe"
+msgstr "chmobil url etappe"
+
+msgid "ch.astra.veloland.chmobil_url_route"
+msgstr "chmobil url route"
+
 msgid "ch.astra.wanderland"
 msgstr "La Svizzera a piedi"
+
+msgid "ch.astra.wanderland.chmobil_route_number"
+msgstr "chmobil route number"
+
+msgid "ch.astra.wanderland.chmobil_title"
+msgstr "chmobil title"
+
+msgid "ch.astra.wanderland.chmobil_url_etappe"
+msgstr "chmobil url etappe"
+
+msgid "ch.astra.wanderland.chmobil_url_route"
+msgstr "chmobil url route"
 
 msgid "ch.babs"
 msgstr "FOCP"
 
 msgid "ch.babs.kulturgueter"
 msgstr "Inventario PBC"
+
+msgid "ch.babs.kulturgueter.adresse"
+msgstr "adresse"
+
+msgid "ch.babs.kulturgueter.gemeinde_ehemalig"
+msgstr "gemeinde ehemalig"
+
+msgid "ch.babs.kulturgueter.hausnr"
+msgstr "hausnr"
+
+msgid "ch.babs.kulturgueter.kategorie"
+msgstr "kategorie"
+
+msgid "ch.babs.kulturgueter.kurztexte"
+msgstr "kurztexte"
+
+msgid "ch.babs.kulturgueter.link_2_title"
+msgstr "link 2 title"
+
+msgid "ch.babs.kulturgueter.link_2_uri"
+msgstr "link 2 uri"
+
+msgid "ch.babs.kulturgueter.link_3_title"
+msgstr "link 3 title"
+
+msgid "ch.babs.kulturgueter.link_3_uri"
+msgstr "link 3 uri"
+
+msgid "ch.babs.kulturgueter.link_title"
+msgstr "link title"
+
+msgid "ch.babs.kulturgueter.link_uri"
+msgstr "link uri"
+
+msgid "ch.babs.kulturgueter.objektart"
+msgstr "objektart"
+
+msgid "ch.babs.kulturgueter.pdf_list"
+msgstr "pdf list"
 
 msgid "ch.babs.kulturgueter.zkob"
 msgstr "Description"
@@ -1612,6 +1903,15 @@ msgstr "UFAM"
 
 msgid "ch.bafu.alpweiden-herdenschutzhunde"
 msgstr "Alpeggi con cani da guardia"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.code_hinweis"
+msgstr "code hinweis"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.code_hundepraesenz"
+msgstr "code hundepraesenz"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.code_refverhalten"
+msgstr "code refverhalten"
 
 msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis"
 msgstr "Note"
@@ -1721,6 +2021,15 @@ msgstr "Superficie [ha]"
 msgid "ch.bafu.bundesinventare-amphibien.site"
 msgstr "Sito"
 
+msgid "ch.bafu.bundesinventare-amphibien.site_de"
+msgstr "site de"
+
+msgid "ch.bafu.bundesinventare-amphibien.site_fr"
+msgstr "site fr"
+
+msgid "ch.bafu.bundesinventare-amphibien.site_it"
+msgstr "site it"
+
 msgid "ch.bafu.bundesinventare-amphibien_wanderobjekte"
 msgstr "Anfibi oggetti mobili"
 
@@ -1742,20 +2051,47 @@ msgstr "Zone golenali - Allegato 2"
 msgid "ch.bafu.bundesinventare-auen_anhang2.area"
 msgstr "Superficie [ha]"
 
+msgid "ch.bafu.bundesinventare-auen_anhang2.auen_type"
+msgstr "auen type"
+
+msgid "ch.bafu.bundesinventare-auen_anhang2.auen_type_de"
+msgstr "auen type de"
+
+msgid "ch.bafu.bundesinventare-auen_anhang2.auen_type_fr"
+msgstr "auen type fr"
+
+msgid "ch.bafu.bundesinventare-auen_anhang2.auen_type_it"
+msgstr "auen type it"
+
 msgid "ch.bafu.bundesinventare-auen_anhang2.name"
 msgstr "Nome"
 
 msgid "ch.bafu.bundesinventare-auen_anhang2.objnummer"
 msgstr "No."
 
+msgid "ch.bafu.bundesinventare-auen_anhang2.refobjblat"
+msgstr "refobjblat"
+
 msgid "ch.bafu.bundesinventare-auen_anhang2.refobjblatt"
 msgstr "Descrizione dell'oggetto"
+
+msgid "ch.bafu.bundesinventare-auen_anhang2.shape_area"
+msgstr "shape area"
 
 msgid "ch.bafu.bundesinventare-auen_anhang2.type"
 msgstr "Tipo"
 
 msgid "ch.bafu.bundesinventare-auen.auen_type"
 msgstr "Tipo"
+
+msgid "ch.bafu.bundesinventare-auen.auen_type_de"
+msgstr "auen type de"
+
+msgid "ch.bafu.bundesinventare-auen.auen_type_fr"
+msgstr "auen type fr"
+
+msgid "ch.bafu.bundesinventare-auen.auen_type_it"
+msgstr "auen type it"
 
 msgid "ch.bafu.bundesinventare-auen.au_name"
 msgstr "Nome"
@@ -1832,6 +2168,15 @@ msgstr "Torbiere alte"
 msgid "ch.bafu.bundesinventare-hochmoore.hochmoore_type"
 msgstr "Tipo"
 
+msgid "ch.bafu.bundesinventare-hochmoore.hochmoore_type_de"
+msgstr "hochmoore type de"
+
+msgid "ch.bafu.bundesinventare-hochmoore.hochmoore_type_fr"
+msgstr "hochmoore type fr"
+
+msgid "ch.bafu.bundesinventare-hochmoore.hochmoore_type_it"
+msgstr "hochmoore type it"
+
 msgid "ch.bafu.bundesinventare-hochmoore.name"
 msgstr "Nome"
 
@@ -1846,6 +2191,15 @@ msgstr "Superficie [ha]"
 
 msgid "ch.bafu.bundesinventare-hochmoore.unit"
 msgstr "Unité de cartographie"
+
+msgid "ch.bafu.bundesinventare-hochmoore.unit_de"
+msgstr "unit de"
+
+msgid "ch.bafu.bundesinventare-hochmoore.unit_fr"
+msgstr "unit fr"
+
+msgid "ch.bafu.bundesinventare-hochmoore.unit_it"
+msgstr "unit it"
 
 msgid "ch.bafu.bundesinventare-jagdbanngebiete"
 msgstr "Bandite federali di caccia"
@@ -1874,6 +2228,9 @@ msgstr "Prati e pascoli secchi (PPS)"
 msgid "ch.bafu.bundesinventare-trockenwiesen_trockenweiden_anhang2"
 msgstr "PPS allegato 2"
 
+msgid "ch.bafu.bundesinventare-trockenwiesen_trockenweiden_anhang2.bewertung"
+msgstr "bewertung"
+
 msgid "ch.bafu.bundesinventare-trockenwiesen_trockenweiden_anhang2.name"
 msgstr "Nome"
 
@@ -1888,6 +2245,9 @@ msgstr "Superficie [ha]"
 
 msgid "ch.bafu.bundesinventare-trockenwiesen_trockenweiden_anhang2.teilobjnummer"
 msgstr "Sottozona-No."
+
+msgid "ch.bafu.bundesinventare-trockenwiesen_trockenweiden.bewertung"
+msgstr "bewertung"
 
 msgid "ch.bafu.bundesinventare-trockenwiesen_trockenweiden.name"
 msgstr "Nome"
@@ -1922,8 +2282,26 @@ msgstr "Descrizione dell'oggetto"
 msgid "ch.bafu.bundesinventare-vogelreservate.schutzebene"
 msgstr "Livello di protezione"
 
+msgid "ch.bafu.bundesinventare-vogelreservate.schutzebene_de"
+msgstr "schutzebene de"
+
+msgid "ch.bafu.bundesinventare-vogelreservate.schutzebene_fr"
+msgstr "schutzebene fr"
+
+msgid "ch.bafu.bundesinventare-vogelreservate.schutzebene_it"
+msgstr "schutzebene it"
+
 msgid "ch.bafu.bundesinventare-vogelreservate.schutzkategorie"
 msgstr "Categoria di Protezione"
+
+msgid "ch.bafu.bundesinventare-vogelreservate.schutzkategorie_de"
+msgstr "schutzkategorie de"
+
+msgid "ch.bafu.bundesinventare-vogelreservate.schutzkategorie_fr"
+msgstr "schutzkategorie fr"
+
+msgid "ch.bafu.bundesinventare-vogelreservate.schutzkategorie_it"
+msgstr "schutzkategorie it"
 
 msgid "ch.bafu.bundesinventare-vogelreservate.shape_area"
 msgstr "Superficie [m2]"
@@ -1985,11 +2363,23 @@ msgstr "Institution"
 msgid "ch.bafu.feststoffe-geschiebemessnetz.lage"
 msgstr "Zone géographique"
 
+msgid "ch.bafu.feststoffe-geschiebemessnetz.lage_de"
+msgstr "lage de"
+
+msgid "ch.bafu.feststoffe-geschiebemessnetz.lage_fr"
+msgstr "lage fr"
+
 msgid "ch.bafu.feststoffe-geschiebemessnetz.lk"
 msgstr "Numéro de la carte topographique nationale"
 
 msgid "ch.bafu.feststoffe-geschiebemessnetz.platz"
 msgstr "Place de dépôt"
+
+msgid "ch.bafu.feststoffe-geschiebemessnetz.platz_de"
+msgstr "platz de"
+
+msgid "ch.bafu.feststoffe-geschiebemessnetz.platz_fr"
+msgstr "platz fr"
 
 msgid "ch.bafu.feststoffe-geschiebemessnetz.station"
 msgstr "Nom de la station de mesure"
@@ -2183,6 +2573,9 @@ msgstr "Aspect général"
 msgid "ch.bafu.gewaesserschutz-badewasserqualitaet.anzahlmessungen"
 msgstr "Prélèvements (par saison)"
 
+msgid "ch.bafu.gewaesserschutz-badewasserqualitaet.baquaimg"
+msgstr "baquaimg"
+
 msgid "ch.bafu.gewaesserschutz-badewasserqualitaet.bwatercat"
 msgstr "Catégorie du site de baignade"
 
@@ -2197,6 +2590,9 @@ msgstr "ID du site de baignade"
 
 msgid "ch.bafu.gewaesserschutz-badewasserqualitaet.bwname"
 msgstr "Nom du site de baignade"
+
+msgid "ch.bafu.gewaesserschutz-badewasserqualitaet.canton"
+msgstr "canton"
 
 msgid "ch.bafu.gewaesserschutz-badewasserqualitaet.ch1903x"
 msgstr "Coordonnée X"
@@ -2273,32 +2669,152 @@ msgstr "Settori di protezione delle acque"
 msgid "ch.bafu.gewaesserschutz-biologischer_zustand_diatomeen"
 msgstr "Diatomee"
 
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_diatomeen.klasse_de"
+msgstr "klasse de"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_diatomeen.klasse_en"
+msgstr "klasse en"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_diatomeen.klasse_fr"
+msgstr "klasse fr"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_diatomeen.klasse_it"
+msgstr "klasse it"
+
 msgid "ch.bafu.gewaesserschutz-biologischer_zustand_fische"
 msgstr "Pesci"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_fische.klasse_de"
+msgstr "klasse de"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_fische.klasse_en"
+msgstr "klasse en"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_fische.klasse_fr"
+msgstr "klasse fr"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_fische.klasse_it"
+msgstr "klasse it"
 
 msgid "ch.bafu.gewaesserschutz-biologischer_zustand_makrophyten"
 msgstr "Macrofite"
 
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_makrophyten.klasse_de"
+msgstr "klasse de"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_makrophyten.klasse_en"
+msgstr "klasse en"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_makrophyten.klasse_fr"
+msgstr "klasse fr"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_makrophyten.klasse_it"
+msgstr "klasse it"
+
 msgid "ch.bafu.gewaesserschutz-biologischer_zustand_makrozoobenthos"
 msgstr "Macrobenthos"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_makrozoobenthos.klasse_de"
+msgstr "klasse de"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_makrozoobenthos.klasse_en"
+msgstr "klasse en"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_makrozoobenthos.klasse_fr"
+msgstr "klasse fr"
+
+msgid "ch.bafu.gewaesserschutz-biologischer_zustand_makrozoobenthos.klasse_it"
+msgstr "klasse it"
 
 msgid "ch.bafu.gewaesserschutz-chemischer_zustand_ammonium"
 msgstr "Ammonio"
 
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_ammonium.klasse_de"
+msgstr "klasse de"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_ammonium.klasse_en"
+msgstr "klasse en"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_ammonium.klasse_fr"
+msgstr "klasse fr"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_ammonium.klasse_it"
+msgstr "klasse it"
+
 msgid "ch.bafu.gewaesserschutz-chemischer_zustand_doc"
 msgstr "Carbonio organico disciolto (DOC)"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_doc.klasse_de"
+msgstr "klasse de"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_doc.klasse_en"
+msgstr "klasse en"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_doc.klasse_fr"
+msgstr "klasse fr"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_doc.klasse_it"
+msgstr "klasse it"
 
 msgid "ch.bafu.gewaesserschutz-chemischer_zustand_nitrat"
 msgstr "Nitrato"
 
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_nitrat.klasse_de"
+msgstr "klasse de"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_nitrat.klasse_en"
+msgstr "klasse en"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_nitrat.klasse_fr"
+msgstr "klasse fr"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_nitrat.klasse_it"
+msgstr "klasse it"
+
 msgid "ch.bafu.gewaesserschutz-chemischer_zustand_nitrit"
 msgstr "Nitrito"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_nitrit.klasse_de"
+msgstr "klasse de"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_nitrit.klasse_en"
+msgstr "klasse en"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_nitrit.klasse_fr"
+msgstr "klasse fr"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_nitrit.klasse_it"
+msgstr "klasse it"
 
 msgid "ch.bafu.gewaesserschutz-chemischer_zustand_phosphat"
 msgstr "Fosfato"
 
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_phosphat.klasse_de"
+msgstr "klasse de"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_phosphat.klasse_en"
+msgstr "klasse en"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_phosphat.klasse_fr"
+msgstr "klasse fr"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_phosphat.klasse_it"
+msgstr "klasse it"
+
 msgid "ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt"
 msgstr "Fosforo totale"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt.klasse_de"
+msgstr "klasse de"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt.klasse_en"
+msgstr "klasse en"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt.klasse_fr"
+msgstr "klasse fr"
+
+msgid "ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt.klasse_it"
+msgstr "klasse it"
 
 msgid "ch.bafu.gewaesserschutz-diffuse_eintraege_phosphor"
 msgstr "Immissioni diffuse di fosforo"
@@ -2732,6 +3248,12 @@ msgstr "Schizzo idrogeologico"
 msgid "ch.bafu.hydrogeologische-karte_100"
 msgstr "Carta idrogeologica 100"
 
+msgid "ch.bafu.hydrogeologische-karte_100.name"
+msgstr "name"
+
+msgid "ch.bafu.hydrogeologische-karte_100.pdf_list"
+msgstr "pdf list"
+
 msgid "ch.bafu.hydrologie-daueruntersuchung_fliessgewaesser"
 msgstr "Monitoraggio corsi d'acqua svizzeri"
 
@@ -2753,8 +3275,14 @@ msgstr "Altitude de la station [m s.m.]"
 msgid "ch.bafu.hydrologie-daueruntersuchung_fliessgewaesser.hyperlink"
 msgstr "Lien"
 
+msgid "ch.bafu.hydrologie-daueruntersuchung_fliessgewaesser.hyperlink_d"
+msgstr "hyperlink d"
+
 msgid "ch.bafu.hydrologie-daueruntersuchung_fliessgewaesser.hyperlink_daten"
 msgstr "Données historiques de la chimie des eaux (fichier Excel de l’EAWAG)"
+
+msgid "ch.bafu.hydrologie-daueruntersuchung_fliessgewaesser.hyperlink_f"
+msgstr "hyperlink f"
 
 msgid "ch.bafu.hydrologie-daueruntersuchung_fliessgewaesser.hyperlink_name"
 msgstr "Données actuelles et historiques"
@@ -2791,6 +3319,9 @@ msgstr "Numero della stazione"
 
 msgid "ch.bafu.hydrologie-hintergrundkarte"
 msgstr "Carta base dati idrologici"
+
+msgid "ch.bafu.hydrologie-hintergrundkarte.name"
+msgstr "name"
 
 msgid "ch.bafu.hydrologie-hochwassergrenzwertpegel"
 msgstr "Limnigrafo di piena"
@@ -2840,6 +3371,15 @@ msgstr "PDF"
 msgid "ch.bafu.hydrologie-hochwasserstatistik.url"
 msgstr "Probabilité des crues"
 
+msgid "ch.bafu.hydrologie-hochwasserstatistik.url_de"
+msgstr "url de"
+
+msgid "ch.bafu.hydrologie-hochwasserstatistik.url_fr"
+msgstr "url fr"
+
+msgid "ch.bafu.hydrologie-hochwasserstatistik.url_hqpdf"
+msgstr "url hqpdf"
+
 msgid "ch.bafu.hydrologie-hochwasserstatistik.urlpdf"
 msgstr "Données actuelles et historiques"
 
@@ -2854,6 +3394,12 @@ msgstr "Statistica delle magre"
 
 msgid "ch.bafu.hydrologie-niedrigwasserstatistik.hyperlink"
 msgstr "Données actuelles et historiques"
+
+msgid "ch.bafu.hydrologie-niedrigwasserstatistik.hyperlink_de"
+msgstr "hyperlink de"
+
+msgid "ch.bafu.hydrologie-niedrigwasserstatistik.hyperlink_fr"
+msgstr "hyperlink fr"
 
 msgid "ch.bafu.hydrologie-niedrigwasserstatistik.name"
 msgstr "Nom de la station"
@@ -2882,6 +3428,9 @@ msgstr "Nom"
 msgid "ch.bafu.hydrologie-q347.id"
 msgstr "ID"
 
+msgid "ch.bafu.hydrologie-q347.id_q347"
+msgstr "id q347"
+
 msgid "ch.bafu.hydrologie-q347.lhg"
 msgstr "Nr. HADES 5.1"
 
@@ -2896,6 +3445,9 @@ msgstr "Q347 (modèle) [l/s]"
 
 msgid "ch.bafu.hydrologie-q347.qp"
 msgstr "Q347 (P) [l/s]"
+
+msgid "ch.bafu.hydrologie-q347.symbolisierung"
+msgstr "symbolisierung"
 
 msgid "ch.bafu.hydrologie-untersuchungsgebiete"
 msgstr "Bacini di ricerche idrologiche HUG"
@@ -2924,6 +3476,9 @@ msgstr "Nom"
 msgid "ch.bafu.hydrologie-untersuchungsgebiete.regimetyp"
 msgstr "Type de régime"
 
+msgid "ch.bafu.hydrologie-untersuchungsgebiete.regimtyp"
+msgstr "regimtyp"
+
 msgid "ch.bafu.hydrologie-untersuchungsgebiete_stationen"
 msgstr "Stazioni di misurazione HUG"
 
@@ -2942,6 +3497,12 @@ msgstr "Coordonnée Y"
 msgid "ch.bafu.hydrologie-untersuchungsgebiete_stationen.hoehe"
 msgstr "Altitude de la station [m s.m.]"
 
+msgid "ch.bafu.hydrologie-untersuchungsgebiete_stationen.hyperlink_d"
+msgstr "hyperlink d"
+
+msgid "ch.bafu.hydrologie-untersuchungsgebiete_stationen.hyperlink_f"
+msgstr "hyperlink f"
+
 msgid "ch.bafu.hydrologie-untersuchungsgebiete_stationen.name"
 msgstr "Nom de la station"
 
@@ -2953,6 +3514,12 @@ msgstr "Données actuelles et historiques"
 
 msgid "ch.bafu.hydrologie-untersuchungsgebiete.stationseite"
 msgstr "Données actuelles et historiques"
+
+msgid "ch.bafu.hydrologie-untersuchungsgebiete.stationsseite_de"
+msgstr "stationsseite de"
+
+msgid "ch.bafu.hydrologie-untersuchungsgebiete.stationsseite_fr"
+msgstr "stationsseite fr"
 
 msgid "ch.bafu.hydrologie-wassertemperaturmessstationen"
 msgstr "Stazioni misurazione temperatura"
@@ -3158,11 +3725,35 @@ msgstr "Falde freatiche carsiche"
 msgid "ch.bafu.karst-ausdehnung_grundwasservorkommen.nk_hdyn"
 msgstr "Stato idrodinamico"
 
+msgid "ch.bafu.karst-ausdehnung_grundwasservorkommen.nk_hdyn_de"
+msgstr "nk hdyn de"
+
+msgid "ch.bafu.karst-ausdehnung_grundwasservorkommen.nk_hdyn_en"
+msgstr "nk hdyn en"
+
+msgid "ch.bafu.karst-ausdehnung_grundwasservorkommen.nk_hdyn_fr"
+msgstr "nk hdyn fr"
+
+msgid "ch.bafu.karst-ausdehnung_grundwasservorkommen.nk_hdyn_it"
+msgstr "nk hdyn it"
+
 msgid "ch.bafu.karst-ausdehnung_grundwasservorkommen.nk_level"
 msgstr "Posizione della falda carsica"
 
 msgid "ch.bafu.karst-ausdehnung_grundwasservorkommen.nk_type"
 msgstr "Tipo di falda carsica"
+
+msgid "ch.bafu.karst-ausdehnung_grundwasservorkommen.nk_type_de"
+msgstr "nk type de"
+
+msgid "ch.bafu.karst-ausdehnung_grundwasservorkommen.nk_type_en"
+msgstr "nk type en"
+
+msgid "ch.bafu.karst-ausdehnung_grundwasservorkommen.nk_type_fr"
+msgstr "nk type fr"
+
+msgid "ch.bafu.karst-ausdehnung_grundwasservorkommen.nk_type_it"
+msgstr "nk type it"
 
 msgid "ch.bafu.karst-einzugsgebiete"
 msgstr "Bacini di alimentazione carsici"
@@ -3175,6 +3766,9 @@ msgstr "Altitudine minima [msm]"
 
 msgid "ch.bafu.karst-einzugsgebiete.ba_alt_moy"
 msgstr "Altitudine media [msm]"
+
+msgid "ch.bafu.karst-einzugsgebiete.ba_id"
+msgstr "ba id"
 
 msgid "ch.bafu.karst-einzugsgebiete.ba_name"
 msgstr "Nome del bacino di alimentazione"
@@ -3200,8 +3794,26 @@ msgstr "Altitudine media [msm]"
 msgid "ch.bafu.karst-einzugsgebietseinheiten.ub_flux"
 msgstr "Tipo di drenaggio"
 
+msgid "ch.bafu.karst-einzugsgebietseinheiten.ub_flux_fr"
+msgstr "ub flux fr"
+
+msgid "ch.bafu.karst-einzugsgebietseinheiten.ub_name"
+msgstr "ub name"
+
 msgid "ch.bafu.karst-einzugsgebietseinheiten.ub_type"
 msgstr "Tipo di superficie"
+
+msgid "ch.bafu.karst-einzugsgebietseinheiten.ub_type_de"
+msgstr "ub type de"
+
+msgid "ch.bafu.karst-einzugsgebietseinheiten.ub_type_en"
+msgstr "ub type en"
+
+msgid "ch.bafu.karst-einzugsgebietseinheiten.ub_type_fr"
+msgstr "ub type fr"
+
+msgid "ch.bafu.karst-einzugsgebietseinheiten.ub_type_it"
+msgstr "ub type it"
 
 msgid "ch.bafu.karst-quellen_schwinden"
 msgstr "Sorgenti carsiche e perdite"
@@ -3209,17 +3821,68 @@ msgstr "Sorgenti carsiche e perdite"
 msgid "ch.bafu.karst-quellen_schwinden.ip_exp"
 msgstr "Utilizzo"
 
+msgid "ch.bafu.karst-quellen_schwinden.ip_exp_de"
+msgstr "ip exp de"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_exp_en"
+msgstr "ip exp en"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_exp_fr"
+msgstr "ip exp fr"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_exp_it"
+msgstr "ip exp it"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_id"
+msgstr "ip id"
+
 msgid "ch.bafu.karst-quellen_schwinden.ip_name"
 msgstr "Nome"
 
 msgid "ch.bafu.karst-quellen_schwinden.ip_qclass"
 msgstr "Classe di deflusso"
 
+msgid "ch.bafu.karst-quellen_schwinden.ip_qclass_de"
+msgstr "ip qclass de"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_qclass_en"
+msgstr "ip qclass en"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_qclass_fr"
+msgstr "ip qclass fr"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_qclass_it"
+msgstr "ip qclass it"
+
 msgid "ch.bafu.karst-quellen_schwinden.ip_reg"
 msgstr "Regime"
 
+msgid "ch.bafu.karst-quellen_schwinden.ip_reg_de"
+msgstr "ip reg de"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_reg_en"
+msgstr "ip reg en"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_reg_fr"
+msgstr "ip reg fr"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_reg_it"
+msgstr "ip reg it"
+
 msgid "ch.bafu.karst-quellen_schwinden.ip_type"
 msgstr "Tipo"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_type_de"
+msgstr "ip type de"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_type_en"
+msgstr "ip type en"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_type_fr"
+msgstr "ip type fr"
+
+msgid "ch.bafu.karst-quellen_schwinden.ip_type_it"
+msgstr "ip type it"
 
 msgid "ch.bafu.karst-quellen_schwinden.ip_x"
 msgstr "Coordinate X"
@@ -3236,8 +3899,35 @@ msgstr "Vie di deflusso idrico sotterraneo"
 msgid "ch.bafu.karst-unterirdische_fliesswege.ei_hdyn"
 msgstr "Stato idrodinamico"
 
+msgid "ch.bafu.karst-unterirdische_fliesswege.ei_hdyn_de"
+msgstr "ei hdyn de"
+
+msgid "ch.bafu.karst-unterirdische_fliesswege.ei_hdyn_en"
+msgstr "ei hdyn en"
+
+msgid "ch.bafu.karst-unterirdische_fliesswege.ei_hdyn_fr"
+msgstr "ei hdyn fr"
+
+msgid "ch.bafu.karst-unterirdische_fliesswege.ei_hdyn_it"
+msgstr "ei hdyn it"
+
+msgid "ch.bafu.karst-unterirdische_fliesswege.ei_id"
+msgstr "ei id"
+
 msgid "ch.bafu.karst-unterirdische_fliesswege.ei_type"
 msgstr "Tipo di deflusso"
+
+msgid "ch.bafu.karst-unterirdische_fliesswege.ei_type_de"
+msgstr "ei type de"
+
+msgid "ch.bafu.karst-unterirdische_fliesswege.ei_type_en"
+msgstr "ei type en"
+
+msgid "ch.bafu.karst-unterirdische_fliesswege.ei_type_fr"
+msgstr "ei type fr"
+
+msgid "ch.bafu.karst-unterirdische_fliesswege.ei_type_it"
+msgstr "ei type it"
 
 msgid "ch.bafu.kt"
 msgstr "UFAM + cantone"
@@ -3335,8 +4025,26 @@ msgstr "Type de régime"
 msgid "ch.bafu.moose"
 msgstr "Liste rosse muschi"
 
+msgid "ch.bafu.moose.genus"
+msgstr "genus"
+
 msgid "ch.bafu.nabelstationen"
 msgstr "Stazioni di misura qualità dell'aria"
+
+msgid "ch.bafu.nabelstationen.desc_de"
+msgstr "desc de"
+
+msgid "ch.bafu.nabelstationen.desc_fr"
+msgstr "desc fr"
+
+msgid "ch.bafu.nabelstationen.name"
+msgstr "name"
+
+msgid "ch.bafu.nabelstationen.typ_de"
+msgstr "typ de"
+
+msgid "ch.bafu.nabelstationen.typ_fr"
+msgstr "typ fr"
 
 msgid "ch.bafu.naqua-grundwasser_nitrat"
 msgstr "Acque sotterranee : Nitrati"
@@ -3518,11 +4226,152 @@ msgstr "Lupino fogliuto"
 msgid "ch.bafu.oekomorphologie-f_abschnitte"
 msgstr "Ecomorfologia R - Tratti"
 
+msgid "ch.bafu.oekomorphologie-f_abschnitte.bewalgen_de"
+msgstr "bewalgen de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.bewalgen_fr"
+msgstr "bewalgen fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.bewmakro_de"
+msgstr "bewmakro de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.bewmakro_fr"
+msgstr "bewmakro fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.breitenvar_de"
+msgstr "breitenvar de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.breitenvar_fr"
+msgstr "breitenvar fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.eindol_de"
+msgstr "eindol de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.eindol_fr"
+msgstr "eindol fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.lbukmat_de"
+msgstr "lbukmat de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.lbukmat_fr"
+msgstr "lbukmat fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.lbukver_de"
+msgstr "lbukver de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.lbukver_fr"
+msgstr "lbukver fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.lufbebew_de"
+msgstr "lufbebew de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.lufbebew_fr"
+msgstr "lufbebew fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.luferber_de"
+msgstr "luferber de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.luferber_fr"
+msgstr "luferber fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.oekomklasse_de"
+msgstr "oekomklasse de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.oekomklasse_fr"
+msgstr "oekomklasse fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.rbukmat_de"
+msgstr "rbukmat de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.rbukmat_fr"
+msgstr "rbukmat fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.rbukver_de"
+msgstr "rbukver de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.rbukver_fr"
+msgstr "rbukver fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.rufbebew_de"
+msgstr "rufbebew de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.rufbebew_fr"
+msgstr "rufbebew fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.ruferber_de"
+msgstr "ruferber de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.ruferber_fr"
+msgstr "ruferber fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.sohlmat_de"
+msgstr "sohlmat de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.sohlmat_fr"
+msgstr "sohlmat fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.sohlver_de"
+msgstr "sohlver de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.sohlver_fr"
+msgstr "sohlver fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.tiefenvar_de"
+msgstr "tiefenvar de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.tiefenvar_fr"
+msgstr "tiefenvar fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.totholz_de"
+msgstr "totholz de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.totholz_fr"
+msgstr "totholz fr"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.translid"
+msgstr "translid"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.vnatabst_de"
+msgstr "vnatabst de"
+
+msgid "ch.bafu.oekomorphologie-f_abschnitte.vnatabst_fr"
+msgstr "vnatabst fr"
+
 msgid "ch.bafu.oekomorphologie-f_abstuerze"
 msgstr "Ecomorfologia R – Opere di caduta"
 
+msgid "ch.bafu.oekomorphologie-f_abstuerze.abstmat_de"
+msgstr "abstmat de"
+
+msgid "ch.bafu.oekomorphologie-f_abstuerze.abstmat_fr"
+msgstr "abstmat fr"
+
+msgid "ch.bafu.oekomorphologie-f_abstuerze.absttyp_de"
+msgstr "absttyp de"
+
+msgid "ch.bafu.oekomorphologie-f_abstuerze.absttyp_fr"
+msgstr "absttyp fr"
+
+msgid "ch.bafu.oekomorphologie-f_abstuerze.loc_angle_geo"
+msgstr "loc angle geo"
+
+msgid "ch.bafu.oekomorphologie-f_abstuerze.translid"
+msgstr "translid"
+
 msgid "ch.bafu.oekomorphologie-f_bauwerke"
 msgstr "Ecomorfologia R – Costruzioni"
+
+msgid "ch.bafu.oekomorphologie-f_bauwerke.bauwtyp_de"
+msgstr "bauwtyp de"
+
+msgid "ch.bafu.oekomorphologie-f_bauwerke.bauwtyp_fr"
+msgstr "bauwtyp fr"
+
+msgid "ch.bafu.oekomorphologie-f_bauwerke.loc_angle_geo"
+msgstr "loc angle geo"
+
+msgid "ch.bafu.oekomorphologie-f_bauwerke.translid"
+msgstr "translid"
 
 msgid "ch.bafu.permafrost"
 msgstr "Cartina indicativa del permafrost"
@@ -3551,14 +4400,41 @@ msgstr "REN Zone di foresta<1000m"
 msgid "ch.bafu.schutzgebiete-aulav_auen"
 msgstr "Zone golenali OAEs"
 
+msgid "ch.bafu.schutzgebiete-aulav_auen.key_name"
+msgstr "key name"
+
+msgid "ch.bafu.schutzgebiete-aulav_auen.key_obj"
+msgstr "key obj"
+
 msgid "ch.bafu.schutzgebiete-aulav_jagdbanngebiete"
 msgstr "Bandite federali OAEs"
+
+msgid "ch.bafu.schutzgebiete-aulav_jagdbanngebiete.key_name"
+msgstr "key name"
+
+msgid "ch.bafu.schutzgebiete-aulav_jagdbanngebiete.key_obj"
+msgstr "key obj"
 
 msgid "ch.bafu.schutzgebiete-aulav_moorlandschaften"
 msgstr "Zone palustri OAEs"
 
+msgid "ch.bafu.schutzgebiete-aulav_moorlandschaften.key_name"
+msgstr "key name"
+
+msgid "ch.bafu.schutzgebiete-aulav_moorlandschaften.key_obj"
+msgstr "key obj"
+
 msgid "ch.bafu.schutzgebiete-aulav_uebrige"
 msgstr "Altre zone protette OAEs"
+
+msgid "ch.bafu.schutzgebiete-aulav_uebrige.key_name"
+msgstr "key name"
+
+msgid "ch.bafu.schutzgebiete-aulav_uebrige.key_obj"
+msgstr "key obj"
+
+msgid "ch.bafu.schutzgebiete-aulav_uebrige.typ"
+msgstr "typ"
 
 msgid "ch.bafu.schutzgebiete-biosphaerenreservate"
 msgstr "Riserve di biosfera"
@@ -3574,6 +4450,9 @@ msgstr "Categoria"
 
 msgid "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung.name"
 msgstr "Nome"
+
+msgid "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung.objektnummer"
+msgstr "objektnummer"
 
 msgid "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung.objnummer"
 msgstr "OgettoNo."
@@ -3607,6 +4486,9 @@ msgstr "Superficie [ha]"
 
 msgid "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung.status"
 msgstr "Stato"
+
+msgid "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung.teil_nummer"
+msgstr "teil nummer"
 
 msgid "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung.teilobjnummer"
 msgstr "SubogettoNo."
@@ -3773,17 +4655,86 @@ msgstr "Lit mineur"
 msgid "ch.bafu.sturm-boeenspitzen_100"
 msgstr "Tempesta raffiche 100"
 
+msgid "ch.bafu.sturm-boeenspitzen_100.boenspitzen_kmh_100"
+msgstr "boenspitzen kmh 100"
+
+msgid "ch.bafu.sturm-boeenspitzen_100.boenspitzen_kmh_30"
+msgstr "boenspitzen kmh 30"
+
+msgid "ch.bafu.sturm-boeenspitzen_100.boenspitzen_kmh_50"
+msgstr "boenspitzen kmh 50"
+
+msgid "ch.bafu.sturm-boeenspitzen_100.boenspitzen_ms_100"
+msgstr "boenspitzen ms 100"
+
+msgid "ch.bafu.sturm-boeenspitzen_100.boenspitzen_ms_30"
+msgstr "boenspitzen ms 30"
+
+msgid "ch.bafu.sturm-boeenspitzen_100.boenspitzen_ms_50"
+msgstr "boenspitzen ms 50"
+
 msgid "ch.bafu.sturm-boeenspitzen_30"
 msgstr "Tempesta raffiche 30"
 
 msgid "ch.bafu.sturm-boeenspitzen_300"
 msgstr "Tempesta raffiche 300"
 
+msgid "ch.bafu.sturm-boeenspitzen_300.boenspitzen_kmh_100"
+msgstr "boenspitzen kmh 100"
+
+msgid "ch.bafu.sturm-boeenspitzen_300.boenspitzen_kmh_30"
+msgstr "boenspitzen kmh 30"
+
+msgid "ch.bafu.sturm-boeenspitzen_300.boenspitzen_kmh_300"
+msgstr "boenspitzen kmh 300"
+
+msgid "ch.bafu.sturm-boeenspitzen_300.boenspitzen_kmh_50"
+msgstr "boenspitzen kmh 50"
+
+msgid "ch.bafu.sturm-boeenspitzen_300.boenspitzen_ms_100"
+msgstr "boenspitzen ms 100"
+
+msgid "ch.bafu.sturm-boeenspitzen_300.boenspitzen_ms_30"
+msgstr "boenspitzen ms 30"
+
+msgid "ch.bafu.sturm-boeenspitzen_300.boenspitzen_ms_300"
+msgstr "boenspitzen ms 300"
+
+msgid "ch.bafu.sturm-boeenspitzen_300.boenspitzen_ms_50"
+msgstr "boenspitzen ms 50"
+
+msgid "ch.bafu.sturm-boeenspitzen_30.boenspitzen_kmh_30"
+msgstr "boenspitzen kmh 30"
+
+msgid "ch.bafu.sturm-boeenspitzen_30.boenspitzen_ms_30"
+msgstr "boenspitzen ms 30"
+
 msgid "ch.bafu.sturm-boeenspitzen_50"
 msgstr "Tempesta raffiche 50"
 
+msgid "ch.bafu.sturm-boeenspitzen_50.boenspitzen_kmh_30"
+msgstr "boenspitzen kmh 30"
+
+msgid "ch.bafu.sturm-boeenspitzen_50.boenspitzen_kmh_50"
+msgstr "boenspitzen kmh 50"
+
+msgid "ch.bafu.sturm-boeenspitzen_50.boenspitzen_ms_30"
+msgstr "boenspitzen ms 30"
+
+msgid "ch.bafu.sturm-boeenspitzen_50.boenspitzen_ms_50"
+msgstr "boenspitzen ms 50"
+
 msgid "ch.bafu.sturm-staudruck_100"
 msgstr "Tempesta pressione dinamica 100"
+
+msgid "ch.bafu.sturm-staudruck_100.staudruck_30"
+msgstr "staudruck 30"
+
+msgid "ch.bafu.sturm-staudruck_100.staudruck_300"
+msgstr "staudruck 300"
+
+msgid "ch.bafu.sturm-staudruck_100.staudruck_50"
+msgstr "staudruck 50"
 
 msgid "ch.bafu.sturm-staudruck_30"
 msgstr "Tempesta pressione dinamica 30"
@@ -3791,11 +4742,41 @@ msgstr "Tempesta pressione dinamica 30"
 msgid "ch.bafu.sturm-staudruck_300"
 msgstr "Tempesta pressione dinamica 300"
 
+msgid "ch.bafu.sturm-staudruck_300.staudruck_100"
+msgstr "staudruck 100"
+
+msgid "ch.bafu.sturm-staudruck_300.staudruck_30"
+msgstr "staudruck 30"
+
+msgid "ch.bafu.sturm-staudruck_300.staudruck_50"
+msgstr "staudruck 50"
+
+msgid "ch.bafu.sturm-staudruck_30.staudruck_100"
+msgstr "staudruck 100"
+
+msgid "ch.bafu.sturm-staudruck_30.staudruck_300"
+msgstr "staudruck 300"
+
+msgid "ch.bafu.sturm-staudruck_30.staudruck_50"
+msgstr "staudruck 50"
+
 msgid "ch.bafu.sturm-staudruck_50"
 msgstr "Tempesta pressione dinamica 50"
 
+msgid "ch.bafu.sturm-staudruck_50.staudruck_100"
+msgstr "staudruck 100"
+
+msgid "ch.bafu.sturm-staudruck_50.staudruck_30"
+msgstr "staudruck 30"
+
+msgid "ch.bafu.sturm-staudruck_50.staudruck_300"
+msgstr "staudruck 300"
+
 msgid "ch.bafu.swissprtr"
 msgstr "Emissioni di inquinanti (SwissPRTR)"
+
+msgid "ch.bafu.swissprtr.jahr"
+msgstr "jahr"
 
 msgid "ch.bafu.typisierung-fliessgewaesser"
 msgstr "Tipizzazione dei corsi d’acqua"
@@ -3878,6 +4859,12 @@ msgstr "Lien vers le portrait du type"
 msgid "ch.bafu.typisierung-fliessgewaesser.url_uebersicht"
 msgstr "Lien vers la vue d´ensemble"
 
+msgid "ch.bafu.typisierung-fliessgewaesser.url_uebersicht_de"
+msgstr "url uebersicht de"
+
+msgid "ch.bafu.typisierung-fliessgewaesser.url_uebersicht_fr"
+msgstr "url uebersicht fr"
+
 msgid "ch.bafu.unesco-weltnaturerbe"
 msgstr "UNESCO siti naturali"
 
@@ -3943,6 +4930,9 @@ msgstr "Longueur de bord du lac (m)"
 
 msgid "ch.bafu.waldreservate"
 msgstr "Riserva forestali"
+
+msgid "ch.bafu.waldreservate.gesflaeche"
+msgstr "gesflaeche"
 
 msgid "ch.bafu.waldreservate.gisflaeche"
 msgstr "Superficie totale [ha]"
@@ -4034,6 +5024,21 @@ msgstr "Autres utilisations - Prélèvement important du point de vue environnem
 msgid "ch.bafu.wasser-entnahme-andere_nutzung-weitere"
 msgstr "Autres utilisations - Autres prélèvements"
 
+msgid "ch.bafu.wasser-entnahme.ent_gew"
+msgstr "ent gew"
+
+msgid "ch.bafu.wasser-entnahme.kanton"
+msgstr "kanton"
+
+msgid "ch.bafu.wasser-entnahme.kantoncode"
+msgstr "kantoncode"
+
+msgid "ch.bafu.wasser-entnahme.link"
+msgstr "link"
+
+msgid "ch.bafu.wasser-entnahme.rwknr"
+msgstr "rwknr"
+
 msgid "ch.bafu.wasser-entnahme-wasserkraft-bedeutend"
 msgstr "Force hydraulique - Prélèvement important du point de vue environnemental"
 
@@ -4042,6 +5047,21 @@ msgstr "Force hydraulique - Autres prélèvements"
 
 msgid "ch.bafu.wasser-gebietsauslaesse"
 msgstr "Sbocchi dei bacini imbriferi"
+
+msgid "ch.bafu.wasser-gebietsauslaesse.kanal_de"
+msgstr "kanal de"
+
+msgid "ch.bafu.wasser-gebietsauslaesse.kanal_en"
+msgstr "kanal en"
+
+msgid "ch.bafu.wasser-gebietsauslaesse.kanal_fr"
+msgstr "kanal fr"
+
+msgid "ch.bafu.wasser-gebietsauslaesse.kanal_it"
+msgstr "kanal it"
+
+msgid "ch.bafu.wasser-gebietsauslaesse.kanal_rm"
+msgstr "kanal rm"
 
 msgid "ch.bafu.wasser-leitungen"
 msgstr "Derivazione"
@@ -4052,14 +5072,137 @@ msgstr "Restituzione"
 msgid "ch.bafu.wasser-teileinzugsgebiete_2"
 msgstr "Bacini imbriferi 2km2"
 
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_abflussvar"
+msgstr "ext abfluesse abflussvar"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_apr"
+msgstr "ext abfluesse mqn apr"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_aug"
+msgstr "ext abfluesse mqn aug"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_dez"
+msgstr "ext abfluesse mqn dez"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_feb"
+msgstr "ext abfluesse mqn feb"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_jahr"
+msgstr "ext abfluesse mqn jahr"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_jan"
+msgstr "ext abfluesse mqn jan"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_jul"
+msgstr "ext abfluesse mqn jul"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_jun"
+msgstr "ext abfluesse mqn jun"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_mai"
+msgstr "ext abfluesse mqn mai"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_mar"
+msgstr "ext abfluesse mqn mar"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_nov"
+msgstr "ext abfluesse mqn nov"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_okt"
+msgstr "ext abfluesse mqn okt"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_mqn_sep"
+msgstr "ext abfluesse mqn sep"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_abfluesse_regimetyp"
+msgstr "ext abfluesse regimetyp"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_ezg_datenausgabe"
+msgstr "ext ezg datenausgabe"
+
 msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_ezg_flussgb"
 msgstr "Nome del bacino fluviale:"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_ezg_gewissnr"
+msgstr "ext ezg gewissnr"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_ezg_xy_gebietsauslass"
+msgstr "ext ezg xy gebietsauslass"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_gebietsauslaesse_gemeindename"
+msgstr "ext gebietsauslaesse gemeindename"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_gewiss_nr_namen_gewaesser"
+msgstr "ext gewiss nr namen gewaesser"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_landnutzung_ant_bestockt"
+msgstr "ext landnutzung ant bestockt"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_landnutzung_ant_gewaesser"
+msgstr "ext landnutzung ant gewaesser"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_landnutzung_ant_gletscher_firn"
+msgstr "ext landnutzung ant gletscher firn"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_landnutzung_ant_landwirtschaft"
+msgstr "ext landnutzung ant landwirtschaft"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_landnutzung_ant_siedlung"
+msgstr "ext landnutzung ant siedlung"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_landnutzung_ant_unprod_sonst"
+msgstr "ext landnutzung ant unprod sonst"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_physiogeographie_anteil_ch"
+msgstr "ext physiogeographie anteil ch"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_physiogeographie_ch_max_z"
+msgstr "ext physiogeographie ch max z"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_physiogeographie_ch_mean_z"
+msgstr "ext physiogeographie ch mean z"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_physiogeographie_ch_min_z"
+msgstr "ext physiogeographie ch min z"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.ext_physiogeographie_gesamtflaeche"
+msgstr "ext physiogeographie gesamtflaeche"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.flussgb_de"
+msgstr "flussgb de"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.flussgb_en"
+msgstr "flussgb en"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.flussgb_fr"
+msgstr "flussgb fr"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.flussgb_it"
+msgstr "flussgb it"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.flussgb_rm"
+msgstr "flussgb rm"
 
 msgid "ch.bafu.wasser-teileinzugsgebiete_2.gwlnr"
 msgstr "N° del corso d‘acqua"
 
 msgid "ch.bafu.wasser-teileinzugsgebiete_2.id"
 msgstr "Numero del bacino idrografico"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.typ2_de"
+msgstr "typ2 de"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.typ2_en"
+msgstr "typ2 en"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.typ2_fr"
+msgstr "typ2 fr"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.typ2_it"
+msgstr "typ2 it"
+
+msgid "ch.bafu.wasser-teileinzugsgebiete_2.typ2_rm"
+msgstr "typ2 rm"
 
 msgid "ch.bafu.wasser-teileinzugsgebiete_40"
 msgstr "Bacini imbriferi 40 km2"
@@ -4079,6 +5222,21 @@ msgstr "Siti di prot. della fauna selvatica"
 msgid "ch.bafu.wrz-jagdbanngebiete_select.beschlussjahr"
 msgstr "Anno della decisione"
 
+msgid "ch.bafu.wrz-jagdbanngebiete_select.best_de"
+msgstr "best de"
+
+msgid "ch.bafu.wrz-jagdbanngebiete_select.best_fr"
+msgstr "best fr"
+
+msgid "ch.bafu.wrz-jagdbanngebiete_select.bestimmung"
+msgstr "bestimmung"
+
+msgid "ch.bafu.wrz-jagdbanngebiete_select.best_it"
+msgstr "best it"
+
+msgid "ch.bafu.wrz-jagdbanngebiete_select.grundlage"
+msgstr "grundlage"
+
 msgid "ch.bafu.wrz-jagdbanngebiete_select.jb_name"
 msgstr "Nome della bandita"
 
@@ -4094,6 +5252,12 @@ msgstr "Numero dell'oggetto"
 msgid "ch.bafu.wrz-jagdbanngebiete_select.schutzs_it"
 msgstr "Numero dell'oggetto"
 
+msgid "ch.bafu.wrz-jagdbanngebiete_select.schutzzeit"
+msgstr "schutzzeit"
+
+msgid "ch.bafu.wrz-jagdbanngebiete_select.zusatzinformation"
+msgstr "zusatzinformation"
+
 msgid "ch.bafu.wrz-wildruhezonen-jagdbanngebiete-wege-routen"
 msgstr "Sentieri /itinerari autorizzati"
 
@@ -4102,6 +5266,21 @@ msgstr "Zone di tranquillità"
 
 msgid "ch.bafu.wrz-wildruhezonen_portal.beschlussjahr"
 msgstr "Anno della decisione"
+
+msgid "ch.bafu.wrz-wildruhezonen_portal.best_de"
+msgstr "best de"
+
+msgid "ch.bafu.wrz-wildruhezonen_portal.best_fr"
+msgstr "best fr"
+
+msgid "ch.bafu.wrz-wildruhezonen_portal.bestimmung"
+msgstr "bestimmung"
+
+msgid "ch.bafu.wrz-wildruhezonen_portal.best_it"
+msgstr "best it"
+
+msgid "ch.bafu.wrz-wildruhezonen_portal.grundlage"
+msgstr "grundlage"
 
 msgid "ch.bafu.wrz-wildruhezonen_portal.kanton"
 msgstr "Cantone"
@@ -4115,8 +5294,14 @@ msgstr "Numero dell'oggetto"
 msgid "ch.bafu.wrz-wildruhezonen_portal.schutzs_it"
 msgstr "Numero dell'oggetto"
 
+msgid "ch.bafu.wrz-wildruhezonen_portal.schutzzeit"
+msgstr "schutzzeit"
+
 msgid "ch.bafu.wrz-wildruhezonen_portal.wrz_name"
 msgstr "Nome della zona"
+
+msgid "ch.bafu.wrz-wildruhezonen_portal.zusatzinformation"
+msgstr "zusatzinformation"
 
 msgid "ch.bag"
 msgstr "UFSP"
@@ -4148,6 +5333,9 @@ msgstr "UFC"
 msgid "ch.bak.bundesinventar-schuetzenswerte-ortsbilder"
 msgstr "Inventario federale ISOS"
 
+msgid "ch.bak.bundesinventar-schuetzenswerte-ortsbilder.pdfspecial"
+msgstr "pdfspecial"
+
 msgid "ch.bak.isos.warning"
 msgstr "Questo sito è aggiornato due volte all’anno. Se desiderate utilizzare una rilevazione ISOS in un ambito legale vi preghiamo di rivolgervi al servizio competente (isos@bak.admin.ch). © Dati: UFC, Berna"
 
@@ -4156,6 +5344,15 @@ msgstr "UFCOM"
 
 msgid "ch.bakom.anbieter-eigenes_festnetz"
 msgstr "Numero dei fornitori d'accesso"
+
+msgid "ch.bakom.anbieter-eigenes_festnetz.alias"
+msgstr "alias"
+
+msgid "ch.bakom.anbieter-eigenes_festnetz.fdaurl"
+msgstr "fdaurl"
+
+msgid "ch.bakom.anbieter-eigenes_festnetz.nbofprovider"
+msgstr "nbofprovider"
 
 msgid "ch.bakom.anschlussart-glasfaser"
 msgstr "Fibra ottica FTTB/FTTH"
@@ -4187,14 +5384,26 @@ msgstr "Download ≥50 Mbit/s"
 msgid "ch.bakom.mobil-antennenstandorte-gsm"
 msgstr "Ubicazione antenne GSM"
 
+msgid "ch.bakom.mobil-antennenstandorte-gsm.bgdi_created"
+msgstr "bgdi created"
+
 msgid "ch.bakom.mobil-antennenstandorte-lte"
 msgstr "Ubicazione antenne 4G (LTE)"
+
+msgid "ch.bakom.mobil-antennenstandorte-lte.bgdi_created"
+msgstr "bgdi created"
 
 msgid "ch.bakom.mobil-antennenstandorte-umts"
 msgstr "Ubicazione antenne 3G (UMTS)"
 
+msgid "ch.bakom.mobil-antennenstandorte-umts.bgdi_created"
+msgstr "bgdi created"
+
 msgid "ch.bakom.radio-fernsehsender"
 msgstr "Emittenti radiotelevisive"
+
+msgid "ch.bakom.radio-fernsehsender.bgdi_created"
+msgstr "bgdi created"
 
 msgid "ch.bakom.radio-fernsehsender.code"
 msgstr "Code"
@@ -4250,8 +5459,41 @@ msgstr "Programmi"
 msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe"
 msgstr "UNESCO siti culturali"
 
+msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe.bgdi_surface"
+msgstr "bgdi surface"
+
+msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe.name_de"
+msgstr "name de"
+
+msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe.name_en"
+msgstr "name en"
+
+msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe.name_fr"
+msgstr "name fr"
+
+msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe.name_it"
+msgstr "name it"
+
+msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe.name_rm"
+msgstr "name rm"
+
 msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe_type"
 msgstr "Tipo"
+
+msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe.type_de"
+msgstr "type de"
+
+msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe.type_en"
+msgstr "type en"
+
+msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe.type_fr"
+msgstr "type fr"
+
+msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe.type_it"
+msgstr "type it"
+
+msgid "ch.bak.schutzgebiete-unesco_weltkulturerbe.type_rm"
+msgstr "type rm"
 
 msgid "ch.bak.url"
 msgstr "http://www.bak.admin.ch/index.html?lang=it"
@@ -4304,6 +5546,15 @@ msgstr "Nome"
 msgid "ch.bav.anlagen-schienengueterverkehr.typ"
 msgstr "Categorie di impianti"
 
+msgid "ch.bav.anlagen-schienengueterverkehr.typ_de"
+msgstr "typ de"
+
+msgid "ch.bav.anlagen-schienengueterverkehr.typ_fr"
+msgstr "typ fr"
+
+msgid "ch.bav.anlagen-schienengueterverkehr.typ_it"
+msgstr "typ it"
+
 msgid "ch.bav.baulinien-eisenbahnanlagen.oereb"
 msgstr "Linee di costruzione ferrovie RDPP"
 
@@ -4355,11 +5606,41 @@ msgstr "Mezzo di trasporto"
 msgid "ch.bav.kataster-belasteter-standorte-oev"
 msgstr "Siti inquinati trasporti pubbl."
 
+msgid "ch.bav.kataster-belasteter-standorte-oev.bgdi_created"
+msgstr "bgdi created"
+
 msgid "ch.bav.kataster-belasteter-standorte-oev.katasternummer"
 msgstr "Numero UFT del sito"
 
 msgid "ch.bav.kataster-belasteter-standorte-oev.oereb"
 msgstr "Siti inquinati trasporti pubbl. RDPP"
+
+msgid "ch.bav.kataster-belasteter-standorte-oev.standorttyp_de"
+msgstr "standorttyp de"
+
+msgid "ch.bav.kataster-belasteter-standorte-oev.standorttyp_fr"
+msgstr "standorttyp fr"
+
+msgid "ch.bav.kataster-belasteter-standorte-oev.standorttyp_it"
+msgstr "standorttyp it"
+
+msgid "ch.bav.kataster-belasteter-standorte-oev.statusaltlv_de"
+msgstr "statusaltlv de"
+
+msgid "ch.bav.kataster-belasteter-standorte-oev.statusaltlv_fr"
+msgstr "statusaltlv fr"
+
+msgid "ch.bav.kataster-belasteter-standorte-oev.statusaltlv_it"
+msgstr "statusaltlv it"
+
+msgid "ch.bav.kataster-belasteter-standorte-oev.untersuchungsstand_de"
+msgstr "untersuchungsstand de"
+
+msgid "ch.bav.kataster-belasteter-standorte-oev.untersuchungsstand_fr"
+msgstr "untersuchungsstand fr"
+
+msgid "ch.bav.kataster-belasteter-standorte-oev.untersuchungsstand_it"
+msgstr "untersuchungsstand it"
 
 msgid "ch.bav.laermbelastung-eisenbahn_festgelegte_emissionen_nacht"
 msgstr "Rumore dei treni, emissioni N stab."
@@ -4421,6 +5702,18 @@ msgstr "Rumore dei treni, emissioni N eff."
 msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_nacht.enmodel_railway"
 msgstr "Modello di emissione"
 
+msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_nacht.enmodelrailway_de"
+msgstr "enmodelrailway de"
+
+msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_nacht.enmodelrailway_en"
+msgstr "enmodelrailway en"
+
+msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_nacht.enmodelrailway_fr"
+msgstr "enmodelrailway fr"
+
+msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_nacht.enmodelrailway_it"
+msgstr "enmodelrailway it"
+
 msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_nacht.km_from"
 msgstr "Km da"
 
@@ -4450,6 +5743,18 @@ msgstr "Rumore dei treni, emissioni D eff."
 
 msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_tag.enmodel_railway"
 msgstr "Modello di emissione"
+
+msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_tag.enmodelrailway_de"
+msgstr "enmodelrailway de"
+
+msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_tag.enmodelrailway_en"
+msgstr "enmodelrailway en"
+
+msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_tag.enmodelrailway_fr"
+msgstr "enmodelrailway fr"
+
+msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_tag.enmodelrailway_it"
+msgstr "enmodelrailway it"
 
 msgid "ch.bav.laermbelastung-eisenbahn_tatsaechliche_emissionen_tag.km_from"
 msgstr "Km da"
@@ -4529,8 +5834,32 @@ msgstr "Nome di progetto"
 msgid "ch.bav.sachplan-infrastruktur-schiene_kraft"
 msgstr "PS Infrastruttura ferroviaria"
 
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.description_de"
+msgstr "description de"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.description_fr"
+msgstr "description fr"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.description_it"
+msgstr "description it"
+
 msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.doc_title"
 msgstr "Informazioni supplementari"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.doc_web"
+msgstr "doc web"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.fackind_text_de"
+msgstr "fackind text de"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.fackind_text_fr"
+msgstr "fackind text fr"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.fackind_text_it"
+msgstr "fackind text it"
 
 msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.facname"
 msgstr "Installazione"
@@ -4544,6 +5873,24 @@ msgstr "Installazione"
 msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.facname_it"
 msgstr "Installazione"
 
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.facstatus_text_de"
+msgstr "facstatus text de"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.facstatus_text_fr"
+msgstr "facstatus text fr"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.facstatus_text_it"
+msgstr "facstatus text it"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.objname_de"
+msgstr "objname de"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.objname_fr"
+msgstr "objname fr"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.objname_it"
+msgstr "objname it"
+
 msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.plname_de"
 msgstr "Misura"
 
@@ -4552,6 +5899,9 @@ msgstr "Misura"
 
 msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.plname_it"
 msgstr "Misura"
+
+msgid "ch.bav.sachplan-infrastruktur-schiene_kraft.validfrom"
+msgstr "validfrom"
 
 msgid "ch.bav.sachplan-infrastruktur-schifffahrt_amhorung.facstatus"
 msgstr "Stato di progetto"
@@ -4619,8 +5969,32 @@ msgstr "Data di decisione"
 msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft"
 msgstr "PS Infrastruttura navigazione"
 
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.description_de"
+msgstr "description de"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.description_fr"
+msgstr "description fr"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.description_it"
+msgstr "description it"
+
 msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.doc_title"
 msgstr "Informazioni supplementari"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.doc_web"
+msgstr "doc web"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.fackind_text_de"
+msgstr "fackind text de"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.fackind_text_fr"
+msgstr "fackind text fr"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.fackind_text_it"
+msgstr "fackind text it"
 
 msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.facname_de"
 msgstr "Installazione"
@@ -4630,6 +6004,24 @@ msgstr "Installazione"
 
 msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.facname_it"
 msgstr "Installazione"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.facstatus_text_de"
+msgstr "facstatus text de"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.facstatus_text_fr"
+msgstr "facstatus text fr"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.facstatus_text_it"
+msgstr "facstatus text it"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.objname_de"
+msgstr "objname de"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.objname_fr"
+msgstr "objname fr"
+
+msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.objname_it"
+msgstr "objname it"
 
 msgid "ch.bav.sachplan-infrastruktur-schifffahrt_kraft.plname_de"
 msgstr "Misura"
@@ -4822,6 +6214,33 @@ msgstr "Numero UFAC del sito"
 
 msgid "ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.oereb"
 msgstr "Siti inquinati aeroporti civ. RDPP"
+
+msgid "ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.standorttyp_de"
+msgstr "standorttyp de"
+
+msgid "ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.standorttyp_fr"
+msgstr "standorttyp fr"
+
+msgid "ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.standorttyp_it"
+msgstr "standorttyp it"
+
+msgid "ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.statusaltlv_de"
+msgstr "statusaltlv de"
+
+msgid "ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.statusaltlv_fr"
+msgstr "statusaltlv fr"
+
+msgid "ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.statusaltlv_it"
+msgstr "statusaltlv it"
+
+msgid "ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.untersuchungsstand_de"
+msgstr "untersuchungsstand de"
+
+msgid "ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.untersuchungsstand_fr"
+msgstr "untersuchungsstand fr"
+
+msgid "ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.untersuchungsstand_it"
+msgstr "untersuchungsstand it"
 
 msgid "ch.bazl.laermbelastungskataster-zivilflugplaetze_erste-nachtstunde"
 msgstr "Inquinam. fonico 1a ora notte"
@@ -5018,14 +6437,104 @@ msgstr "Limite superiore [valore]"
 msgid "ch.bazl.projektierungszonen-flughafenanlagen"
 msgstr "Zone riservate aeroporti"
 
+msgid "ch.bazl.projektierungszonen-flughafenanlagen.bgdi_id"
+msgstr "bgdi id"
+
+msgid "ch.bazl.projektierungszonen-flughafenanlagen.canton"
+msgstr "canton"
+
+msgid "ch.bazl.projektierungszonen-flughafenanlagen.legalstatus_text_de"
+msgstr "legalstatus text de"
+
+msgid "ch.bazl.projektierungszonen-flughafenanlagen.legalstatus_text_fr"
+msgstr "legalstatus text fr"
+
+msgid "ch.bazl.projektierungszonen-flughafenanlagen.legalstatus_text_it"
+msgstr "legalstatus text it"
+
+msgid "ch.bazl.projektierungszonen-flughafenanlagen.municipality"
+msgstr "municipality"
+
 msgid "ch.bazl.projektierungszonen-flughafenanlagen.oereb"
 msgstr "Zone riservate aeroporti RDPP"
+
+msgid "ch.bazl.projektierungszonen-flughafenanlagen.validfrom"
+msgstr "validfrom"
+
+msgid "ch.bazl.projektierungszonen-flughafenanlagen.weblink_origin"
+msgstr "weblink origin"
+
+msgid "ch.bazl.projektierungszonen-flughafenanlagen.zonekind_text_de"
+msgstr "zonekind text de"
+
+msgid "ch.bazl.projektierungszonen-flughafenanlagen.zonekind_text_fr"
+msgstr "zonekind text fr"
+
+msgid "ch.bazl.projektierungszonen-flughafenanlagen.zonekind_text_it"
+msgstr "zonekind text it"
 
 msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_anhorung"
 msgstr "PSIA consultazione"
 
 msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft"
 msgstr "PS Infrastruttura aeronautica"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.description_text_de"
+msgstr "description text de"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.description_text_fr"
+msgstr "description text fr"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.description_text_it"
+msgstr "description text it"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.document_title"
+msgstr "document title"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.document_web"
+msgstr "document web"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.fackind_text_de"
+msgstr "fackind text de"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.fackind_text_fr"
+msgstr "fackind text fr"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.fackind_text_it"
+msgstr "fackind text it"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.facname_de"
+msgstr "facname de"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.facname_fr"
+msgstr "facname fr"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.facname_it"
+msgstr "facname it"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.facstatus_text_de"
+msgstr "facstatus text de"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.facstatus_text_fr"
+msgstr "facstatus text fr"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.facstatus_text_it"
+msgstr "facstatus text it"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.objectname_de"
+msgstr "objectname de"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.objectname_fr"
+msgstr "objectname fr"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.objectname_it"
+msgstr "objectname it"
+
+msgid "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.validfrom"
+msgstr "validfrom"
 
 msgid "ch.bazl.schutzgebiete-aulav_liechtenstein"
 msgstr "Zone protette Liechtenstein OAEs"
@@ -5042,8 +6551,77 @@ msgstr "Edizione"
 msgid "ch.bazl.sicherheitszonenplan"
 msgstr "Piano delle zone di sicurezza"
 
+msgid "ch.bazl.sicherheitszonenplan.approval_date"
+msgstr "approval date"
+
+msgid "ch.bazl.sicherheitszonenplan.canton"
+msgstr "canton"
+
+msgid "ch.bazl.sicherheitszonenplan.doc_description"
+msgstr "doc description"
+
+msgid "ch.bazl.sicherheitszonenplan.doc_id"
+msgstr "doc id"
+
+msgid "ch.bazl.sicherheitszonenplan.latest_modification"
+msgstr "latest modification"
+
+msgid "ch.bazl.sicherheitszonenplan.legalstatus_de"
+msgstr "legalstatus de"
+
+msgid "ch.bazl.sicherheitszonenplan.legalstatus_fr"
+msgstr "legalstatus fr"
+
+msgid "ch.bazl.sicherheitszonenplan.legalstatus_it"
+msgstr "legalstatus it"
+
+msgid "ch.bazl.sicherheitszonenplan.legalstatus_tid"
+msgstr "legalstatus tid"
+
+msgid "ch.bazl.sicherheitszonenplan.municipality"
+msgstr "municipality"
+
 msgid "ch.bazl.sicherheitszonenplan.oereb"
 msgstr "Piano delle zone di sicurezza RDPP"
+
+msgid "ch.bazl.sicherheitszonenplan.originator"
+msgstr "originator"
+
+msgid "ch.bazl.sicherheitszonenplan.status_id"
+msgstr "status id"
+
+msgid "ch.bazl.sicherheitszonenplan.title"
+msgstr "title"
+
+msgid "ch.bazl.sicherheitszonenplan.type_id"
+msgstr "type id"
+
+msgid "ch.bazl.sicherheitszonenplan.valid_from"
+msgstr "valid from"
+
+msgid "ch.bazl.sicherheitszonenplan.valid_until"
+msgstr "valid until"
+
+msgid "ch.bazl.sicherheitszonenplan.weblink"
+msgstr "weblink"
+
+msgid "ch.bazl.sicherheitszonenplan.zone"
+msgstr "zone"
+
+msgid "ch.bazl.sicherheitszonenplan.zone_name"
+msgstr "zone name"
+
+msgid "ch.bazl.sicherheitszonenplan.zonetype_de"
+msgstr "zonetype de"
+
+msgid "ch.bazl.sicherheitszonenplan.zonetype_fr"
+msgstr "zonetype fr"
+
+msgid "ch.bazl.sicherheitszonenplan.zonetype_it"
+msgstr "zonetype it"
+
+msgid "ch.bazl.sicherheitszonenplan.zonetype_tid"
+msgstr "zonetype tid"
 
 msgid "ch.bazl.sperrzonen-modellluftfahrzeuge"
 msgstr "Restrizioni per droni"
@@ -5081,11 +6659,23 @@ msgstr "Descrizione"
 msgid "ch.bfe.energieforschung.bild"
 msgstr "Foto"
 
+msgid "ch.bfe.energieforschung.bild0"
+msgstr "bild0"
+
+msgid "ch.bfe.energieforschung.bild1"
+msgstr "bild1"
+
+msgid "ch.bfe.energieforschung.bild2"
+msgstr "bild2"
+
 msgid "ch.bfe.energieforschung.fachartikel"
 msgstr "Articoli specialistici"
 
 msgid "ch.bfe.energieforschung.infoclip"
 msgstr "Info-Clip"
+
+msgid "ch.bfe.energieforschung.kanton"
+msgstr "kanton"
 
 msgid "ch.bfe.energieforschung.kontakt"
 msgstr "Contatto"
@@ -5096,8 +6686,26 @@ msgstr "Tipo di progetto"
 msgid "ch.bfe.energieforschung_new"
 msgstr "Progetti Cleantech"
 
+msgid "ch.bfe.energieforschung.oberthema_de"
+msgstr "oberthema de"
+
+msgid "ch.bfe.energieforschung.oberthema_en"
+msgstr "oberthema en"
+
+msgid "ch.bfe.energieforschung.oberthema_fr"
+msgstr "oberthema fr"
+
+msgid "ch.bfe.energieforschung.oberthema_it"
+msgstr "oberthema it"
+
+msgid "ch.bfe.energieforschung.plz"
+msgstr "plz"
+
 msgid "ch.bfe.energieforschung.projektdauer"
 msgstr "Durata del progetto"
+
+msgid "ch.bfe.energieforschung.projektende"
+msgstr "projektende"
 
 msgid "ch.bfe.energieforschung.projektnummer"
 msgstr "Progetto n°"
@@ -5111,11 +6719,35 @@ msgstr "Ubicazione del progetto"
 msgid "ch.bfe.energieforschung.projektstatus"
 msgstr "Stato del progetto"
 
+msgid "ch.bfe.energieforschung.projektstatus_de"
+msgstr "projektstatus de"
+
+msgid "ch.bfe.energieforschung.projektstatus_en"
+msgstr "projektstatus en"
+
+msgid "ch.bfe.energieforschung.projektstatus_fr"
+msgstr "projektstatus fr"
+
+msgid "ch.bfe.energieforschung.projektstatus_it"
+msgstr "projektstatus it"
+
 msgid "ch.bfe.energieforschung.thema"
 msgstr "Tema"
 
 msgid "ch.bfe.energieforschung.titel"
 msgstr "Titolo del progetto"
+
+msgid "ch.bfe.energieforschung.unterthema_de"
+msgstr "unterthema de"
+
+msgid "ch.bfe.energieforschung.unterthema_en"
+msgstr "unterthema en"
+
+msgid "ch.bfe.energieforschung.unterthema_fr"
+msgstr "unterthema fr"
+
+msgid "ch.bfe.energieforschung.unterthema_it"
+msgstr "unterthema it"
 
 msgid "ch.bfe.energiestaedte"
 msgstr "Città dell’energia"
@@ -5126,6 +6758,24 @@ msgstr "Aree 2000 Watt"
 msgid "ch.bfe.energiestaedte.2000watt-areale"
 msgstr "Aree a 2000 Watt"
 
+msgid "ch.bfe.energiestaedte-2000watt-areale.kategorie"
+msgstr "kategorie"
+
+msgid "ch.bfe.energiestaedte-2000watt-areale.linkberater"
+msgstr "linkberater"
+
+msgid "ch.bfe.energiestaedte-2000watt-areale.linkfaktenblatt_de"
+msgstr "linkfaktenblatt de"
+
+msgid "ch.bfe.energiestaedte-2000watt-areale.linkfaktenblatt_en"
+msgstr "linkfaktenblatt en"
+
+msgid "ch.bfe.energiestaedte-2000watt-areale.linkfaktenblatt_fr"
+msgstr "linkfaktenblatt fr"
+
+msgid "ch.bfe.energiestaedte-2000watt-areale.linkfaktenblatt_it"
+msgstr "linkfaktenblatt it"
+
 msgid "ch.bfe.energiestaedte-2000watt-areale.name"
 msgstr "Area"
 
@@ -5134,6 +6784,12 @@ msgstr "Area 2000 Watt"
 
 msgid "ch.bfe.energiestaedte-2000watt-aufdemweg"
 msgstr "Città dell’energia verso 2000 Watt"
+
+msgid "ch.bfe.energiestaedte-2000watt-aufdemweg.kategorie"
+msgstr "kategorie"
+
+msgid "ch.bfe.energiestaedte-2000watt-aufdemweg.linkberater"
+msgstr "linkberater"
 
 msgid "ch.bfe.energiestaedte-2000watt-aufdemweg.name"
 msgstr "Comune / città"
@@ -5147,11 +6803,35 @@ msgstr "Città dell’energia verso 2000 Watt"
 msgid "ch.bfe.energiestaedte.2000watt-energiestaedteaufdemweg"
 msgstr "Città dell’energia verso 2000 Watt"
 
+msgid "ch.bfe.energiestaedte.beteiligtegemeinde"
+msgstr "beteiligtegemeinde"
+
+msgid "ch.bfe.energiestaedte.bfsnr"
+msgstr "bfsnr"
+
+msgid "ch.bfe.energiestaedte.einwohner"
+msgstr "einwohner"
+
 msgid "ch.bfe.energiestaedte-energieregionen"
 msgstr "Regioni-Energia"
 
+msgid "ch.bfe.energiestaedte-energieregionen.kategorie"
+msgstr "kategorie"
+
+msgid "ch.bfe.energiestaedte-energieregionen.linkberater"
+msgstr "linkberater"
+
 msgid "ch.bfe.energiestaedte-energieregionen.name"
 msgstr "Regioni-Energia"
+
+msgid "ch.bfe.energiestaedte.linkberater"
+msgstr "linkberater"
+
+msgid "ch.bfe.energiestaedte.linkenergiestadtweb"
+msgstr "linkenergiestadtweb"
+
+msgid "ch.bfe.energiestaedte.linkfaktenblatt"
+msgstr "linkfaktenblatt"
 
 msgid "ch.bfe.energiestaedte.name"
 msgstr "Comune / città"
@@ -5164,6 +6844,111 @@ msgstr "ch.bfe.geologische_tiefenlager_fac"
 
 msgid "ch.bfe.kernkraftwerke"
 msgstr "Centrali nucleari"
+
+msgid "ch.bfe.kernkraftwerke.canton"
+msgstr "canton"
+
+msgid "ch.bfe.kernkraftwerke.commissioning_phase"
+msgstr "commissioning phase"
+
+msgid "ch.bfe.kernkraftwerke.construction_phase"
+msgstr "construction phase"
+
+msgid "ch.bfe.kernkraftwerke.cooling_type_de"
+msgstr "cooling type de"
+
+msgid "ch.bfe.kernkraftwerke.cooling_type_en"
+msgstr "cooling type en"
+
+msgid "ch.bfe.kernkraftwerke.cooling_type_fr"
+msgstr "cooling type fr"
+
+msgid "ch.bfe.kernkraftwerke.cooling_type_it"
+msgstr "cooling type it"
+
+msgid "ch.bfe.kernkraftwerke.decontamination_phase"
+msgstr "decontamination phase"
+
+msgid "ch.bfe.kernkraftwerke.dismantling_phase"
+msgstr "dismantling phase"
+
+msgid "ch.bfe.kernkraftwerke.enforcement_1"
+msgstr "enforcement 1"
+
+msgid "ch.bfe.kernkraftwerke.enforcement_2"
+msgstr "enforcement 2"
+
+msgid "ch.bfe.kernkraftwerke.enforcement_3"
+msgstr "enforcement 3"
+
+msgid "ch.bfe.kernkraftwerke.gross_el_output"
+msgstr "gross el output"
+
+msgid "ch.bfe.kernkraftwerke.license_de"
+msgstr "license de"
+
+msgid "ch.bfe.kernkraftwerke.license_en"
+msgstr "license en"
+
+msgid "ch.bfe.kernkraftwerke.license_fr"
+msgstr "license fr"
+
+msgid "ch.bfe.kernkraftwerke.license_it"
+msgstr "license it"
+
+msgid "ch.bfe.kernkraftwerke.life_phase_de"
+msgstr "life phase de"
+
+msgid "ch.bfe.kernkraftwerke.life_phase_en"
+msgstr "life phase en"
+
+msgid "ch.bfe.kernkraftwerke.life_phase_fr"
+msgstr "life phase fr"
+
+msgid "ch.bfe.kernkraftwerke.life_phase_it"
+msgstr "life phase it"
+
+msgid "ch.bfe.kernkraftwerke.municipality"
+msgstr "municipality"
+
+msgid "ch.bfe.kernkraftwerke.name"
+msgstr "name"
+
+msgid "ch.bfe.kernkraftwerke.net_el_output"
+msgstr "net el output"
+
+msgid "ch.bfe.kernkraftwerke.nominal_thermal_output"
+msgstr "nominal thermal output"
+
+msgid "ch.bfe.kernkraftwerke.operation_phase"
+msgstr "operation phase"
+
+msgid "ch.bfe.kernkraftwerke.operator"
+msgstr "operator"
+
+msgid "ch.bfe.kernkraftwerke.owner"
+msgstr "owner"
+
+msgid "ch.bfe.kernkraftwerke.reactor_name"
+msgstr "reactor name"
+
+msgid "ch.bfe.kernkraftwerke.reactors"
+msgstr "reactors"
+
+msgid "ch.bfe.kernkraftwerke.reactor_type_de"
+msgstr "reactor type de"
+
+msgid "ch.bfe.kernkraftwerke.reactor_type_en"
+msgstr "reactor type en"
+
+msgid "ch.bfe.kernkraftwerke.reactor_type_fr"
+msgstr "reactor type fr"
+
+msgid "ch.bfe.kernkraftwerke.reactor_type_it"
+msgstr "reactor type it"
+
+msgid "ch.bfe.kernkraftwerke.regulatory"
+msgstr "regulatory"
 
 msgid "ch.bfe.kleinwasserkraftpotentiale"
 msgstr "Potenz. piccole centr. idraul."
@@ -5186,17 +6971,62 @@ msgstr "Minergie"
 msgid "ch.bfe.minergiegebaeude.adresse"
 msgstr "Indirizzo"
 
+msgid "ch.bfe.minergiegebaeude.buildinginfo_de"
+msgstr "buildinginfo de"
+
+msgid "ch.bfe.minergiegebaeude.buildinginfo_en"
+msgstr "buildinginfo en"
+
+msgid "ch.bfe.minergiegebaeude.buildinginfo_fr"
+msgstr "buildinginfo fr"
+
+msgid "ch.bfe.minergiegebaeude.buildinginfo_it"
+msgstr "buildinginfo it"
+
+msgid "ch.bfe.minergiegebaeude.canton"
+msgstr "canton"
+
+msgid "ch.bfe.minergiegebaeude.certificate"
+msgstr "certificate"
+
+msgid "ch.bfe.minergiegebaeude.ebf"
+msgstr "ebf"
+
 msgid "ch.bfe.minergiegebaeude.energiebezugsflaeche"
 msgstr "Superficie di riferimento energetico"
 
 msgid "ch.bfe.minergiegebaeude.gebaeude"
 msgstr "Edificio"
 
+msgid "ch.bfe.minergiegebaeude.http_de"
+msgstr "http de"
+
+msgid "ch.bfe.minergiegebaeude.http_en"
+msgstr "http en"
+
+msgid "ch.bfe.minergiegebaeude.http_fr"
+msgstr "http fr"
+
+msgid "ch.bfe.minergiegebaeude.http_it"
+msgstr "http it"
+
 msgid "ch.bfe.minergiegebaeude.kanton"
 msgstr "Cantone"
 
+msgid "ch.bfe.minergiegebaeude.place"
+msgstr "place"
+
+msgid "ch.bfe.minergiegebaeude.postcode"
+msgstr "postcode"
+
 msgid "ch.bfe.minergiegebaeude.standard"
 msgstr "Standard"
+
+msgid "ch.bfe.minergiegebaeude.street"
+msgstr "street"
+
+msgid "ch.bfe.minergiegebaeude.streetnr"
+msgstr "streetnr"
 
 msgid "ch.bfe.minergiegebaeude.weitere_informationen"
 msgstr "Ulteriori informazioni"
@@ -5207,6 +7037,21 @@ msgstr "Certificato"
 msgid "ch.bfe.sachplan-geologie-tiefenlager"
 msgstr "PS Depositi strati geol. profondi"
 
+msgid "ch.bfe.sachplan-geologie-tiefenlager.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager.description"
+msgstr "description"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager.fackind_text_de"
+msgstr "fackind text de"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager.fackind_text_fr"
+msgstr "fackind text fr"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager.fackind_text_it"
+msgstr "fackind text it"
+
 msgid "ch.bfe.sachplan-geologie-tiefenlager.facname_de"
 msgstr "Installazione"
 
@@ -5216,11 +7061,80 @@ msgstr "Installazione"
 msgid "ch.bfe.sachplan-geologie-tiefenlager.facname_it"
 msgstr "Installazione"
 
+msgid "ch.bfe.sachplan-geologie-tiefenlager.facstatus_text_de"
+msgstr "facstatus text de"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager.facstatus_text_fr"
+msgstr "facstatus text fr"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager.facstatus_text_it"
+msgstr "facstatus text it"
+
 msgid "ch.bfe.sachplan-geologie-tiefenlager.name"
 msgstr "Installazione"
 
+msgid "ch.bfe.sachplan-geologie-tiefenlager.objname_text_de"
+msgstr "objname text de"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager.objname_text_fr"
+msgstr "objname text fr"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager.objname_text_it"
+msgstr "objname text it"
+
 msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung"
 msgstr "PS depositi strati geol.prof.: p.t."
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.description"
+msgstr "description"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.fackind_text_de"
+msgstr "fackind text de"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.fackind_text_fr"
+msgstr "fackind text fr"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.fackind_text_it"
+msgstr "fackind text it"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.facname_de"
+msgstr "facname de"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.facname_fr"
+msgstr "facname fr"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.facname_it"
+msgstr "facname it"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.facstatus_text_de"
+msgstr "facstatus text de"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.facstatus_text_fr"
+msgstr "facstatus text fr"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.facstatus_text_it"
+msgstr "facstatus text it"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.objname_text_de"
+msgstr "objname text de"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.objname_text_fr"
+msgstr "objname text fr"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.objname_text_it"
+msgstr "objname text it"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.validfrom"
+msgstr "validfrom"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager-thematische-darstellung.web"
+msgstr "web"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager.validfrom"
+msgstr "validfrom"
 
 msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung"
 msgstr "PS DSGP consultazione tappa 2"
@@ -5234,6 +7148,15 @@ msgstr "Descrizione"
 msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.fackind"
 msgstr "Tipo d'installazione"
 
+msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.fackind_de"
+msgstr "fackind de"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.fackind_fr"
+msgstr "fackind fr"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.fackind_it"
+msgstr "fackind it"
+
 msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.facptname"
 msgstr "Nome dell'installazione"
 
@@ -5243,8 +7166,20 @@ msgstr "Nome dell'installazione"
 msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.facptname_fr"
 msgstr "Nome dell'installazione"
 
+msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.facptname_it"
+msgstr "facptname it"
+
 msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.planningstatus"
 msgstr "Stato della pianificazione"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.planningstatus_de"
+msgstr "planningstatus de"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.planningstatus_fr"
+msgstr "planningstatus fr"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.planningstatus_it"
+msgstr "planningstatus it"
 
 msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.pmkind"
 msgstr "Tipo di misura"
@@ -5266,6 +7201,18 @@ msgstr "al"
 
 msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.web"
 msgstr "Informazioni supplementari"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.web_de"
+msgstr "web de"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.web_fr"
+msgstr "web fr"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager_vernehmlassung.web_it"
+msgstr "web it"
+
+msgid "ch.bfe.sachplan-geologie-tiefenlager.web"
+msgstr "web"
 
 msgid "ch.bfe.sachplan-uebertragungsleitungen_anhoerung"
 msgstr "PSE consultazione"
@@ -5294,8 +7241,32 @@ msgstr "Misura"
 msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft"
 msgstr "PS Elettrodotti"
 
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.description_de"
+msgstr "description de"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.description_fr"
+msgstr "description fr"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.description_it"
+msgstr "description it"
+
 msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.doc_title"
 msgstr "Informazioni supplementari"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.doc_web"
+msgstr "doc web"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.fackind_text_de"
+msgstr "fackind text de"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.fackind_text_fr"
+msgstr "fackind text fr"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.fackind_text_it"
+msgstr "fackind text it"
 
 msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.facname_de"
 msgstr "Installazione"
@@ -5306,6 +7277,24 @@ msgstr "Installazione"
 msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.facname_it"
 msgstr "Installazione"
 
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.facstatus_text_de"
+msgstr "facstatus text de"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.facstatus_text_fr"
+msgstr "facstatus text fr"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.facstatus_text_it"
+msgstr "facstatus text it"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.objname_de"
+msgstr "objname de"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.objname_fr"
+msgstr "objname fr"
+
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.objname_it"
+msgstr "objname it"
+
 msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.plname_de"
 msgstr "Misura"
 
@@ -5315,11 +7304,50 @@ msgstr "Misura"
 msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.plname_it"
 msgstr "Misura"
 
+msgid "ch.bfe.sachplan-uebertragungsleitungen_kraft.validfrom"
+msgstr "validfrom"
+
 msgid "ch.bfe.solarenergie-eignung-daecher"
 msgstr "Solare: idoneità dei tetti"
 
+msgid "ch.bfe.solarenergie-eignung-daecher.a_param"
+msgstr "a param"
+
 msgid "ch.bfe.solarenergie-eignung-daecher.ausrichtung"
 msgstr "Orientation [°]"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.bedarf_heizung"
+msgstr "bedarf heizung"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.bedarf_warmwasser"
+msgstr "bedarf warmwasser"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.b_param"
+msgstr "b param"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.building_id"
+msgstr "building id"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.c_param"
+msgstr "c param"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.datum_aenderung"
+msgstr "datum aenderung"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.datum_erstellung"
+msgstr "datum erstellung"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.df_nummer"
+msgstr "df nummer"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.dg_heizung"
+msgstr "dg heizung"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.dg_waermebedarf"
+msgstr "dg waermebedarf"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.duschgaenge"
+msgstr "duschgaenge"
 
 msgid "ch.bfe.solarenergie-eignung-daecher.finanzertrag"
 msgstr "Rapport [CHF]"
@@ -5327,20 +7355,95 @@ msgstr "Rapport [CHF]"
 msgid "ch.bfe.solarenergie-eignung-daecher.flaeche"
 msgstr "Surface [m2]"
 
+msgid "ch.bfe.solarenergie-eignung-daecher.flaeche_kollektoren"
+msgstr "flaeche kollektoren"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.gs_serie_start"
+msgstr "gs serie start"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.gstrahlung"
+msgstr "gstrahlung"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.heizgradtage"
+msgstr "heizgradtage"
+
 msgid "ch.bfe.solarenergie-eignung-daecher.klasse"
 msgstr "Aptitude"
 
 msgid "ch.bfe.solarenergie-eignung-daecher.klasse_text"
 msgstr "Aptitude"
 
+msgid "ch.bfe.solarenergie-eignung-daecher.monate"
+msgstr "monate"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.monats_ertrag"
+msgstr "monats ertrag"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.mstrahlung"
+msgstr "mstrahlung"
+
 msgid "ch.bfe.solarenergie-eignung-daecher.neigung"
 msgstr "Inclination [°]"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.sb_datum_aenderung"
+msgstr "sb datum aenderung"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.sb_datum_erstellung"
+msgstr "sb datum erstellung"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.sb_objektart"
+msgstr "sb objektart"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.stromertrag"
+msgstr "stromertrag"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.volumen_speicher"
+msgstr "volumen speicher"
+
+msgid "ch.bfe.solarenergie-eignung-daecher.waermeertrag"
+msgstr "waermeertrag"
 
 msgid "ch.bfe.solarenergie-eignung-fassaden"
 msgstr "Energia solare: idoneità delle facciate"
 
+msgid "ch.bfe.solarenergie-eignung-fassaden.a_param"
+msgstr "a param"
+
 msgid "ch.bfe.solarenergie-eignung-fassaden.ausrichtung"
 msgstr "Orientation [°]"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.bedarf_heizung"
+msgstr "bedarf heizung"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.bedarf_warmwasser"
+msgstr "bedarf warmwasser"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.b_param"
+msgstr "b param"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.building_id"
+msgstr "building id"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.c_param"
+msgstr "c param"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.datum_aenderung"
+msgstr "datum aenderung"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.datum_erstellung"
+msgstr "datum erstellung"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.dg_heizung"
+msgstr "dg heizung"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.dg_waermebedarf"
+msgstr "dg waermebedarf"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.duschgaenge"
+msgstr "duschgaenge"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.ff_nummer"
+msgstr "ff nummer"
 
 msgid "ch.bfe.solarenergie-eignung-fassaden.finanzertrag"
 msgstr "Rapport [CHF]"
@@ -5348,8 +7451,53 @@ msgstr "Rapport [CHF]"
 msgid "ch.bfe.solarenergie-eignung-fassaden.flaeche"
 msgstr "Surface [m2]"
 
+msgid "ch.bfe.solarenergie-eignung-fassaden.flaeche_kollektoren"
+msgstr "flaeche kollektoren"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.gs_serie_start"
+msgstr "gs serie start"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.gstrahlung"
+msgstr "gstrahlung"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.gwr_egid"
+msgstr "gwr egid"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.heizgradtage"
+msgstr "heizgradtage"
+
 msgid "ch.bfe.solarenergie-eignung-fassaden.klasse"
 msgstr "Aptitude"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.klasse_text"
+msgstr "klasse text"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.monate"
+msgstr "monate"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.monats_ertrag"
+msgstr "monats ertrag"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.mstrahlung"
+msgstr "mstrahlung"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.sb_datum_aenderung"
+msgstr "sb datum aenderung"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.sb_datum_erstellung"
+msgstr "sb datum erstellung"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.sb_objektart"
+msgstr "sb objektart"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.stromertrag"
+msgstr "stromertrag"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.volumen_speicher"
+msgstr "volumen speicher"
+
+msgid "ch.bfe.solarenergie-eignung-fassaden.waermeertrag"
+msgstr "waermeertrag"
 
 msgid "ch.bfe.solarprofis"
 msgstr "Professionisti del solare"
@@ -5369,6 +7517,24 @@ msgstr "Altezza di caduta lorda mezzo"
 msgid "ch.bfe.statistik-wasserkraftanlagen.hydropowerplantoperationalstatus"
 msgstr "Statut operativo"
 
+msgid "ch.bfe.statistik-wasserkraftanlagen.hydropowerplantoperationalstatus_fr"
+msgstr "hydropowerplantoperationalstatus fr"
+
+msgid "ch.bfe.statistik-wasserkraftanlagen.hydropowerplantoperationalstatus_it"
+msgstr "hydropowerplantoperationalstatus it"
+
+msgid "ch.bfe.statistik-wasserkraftanlagen.hydropowerplanttype_de"
+msgstr "hydropowerplanttype de"
+
+msgid "ch.bfe.statistik-wasserkraftanlagen.hydropowerplanttype_fr"
+msgstr "hydropowerplanttype fr"
+
+msgid "ch.bfe.statistik-wasserkraftanlagen.hydropowerplanttype_it"
+msgstr "hydropowerplanttype it"
+
+msgid "ch.bfe.statistik-wasserkraftanlagen.location"
+msgstr "location"
+
 msgid "ch.bfe.statistik-wasserkraftanlagen.performancegeneratormaximum"
 msgstr "Potenza massima disponibile ai morsetti dei generatori:"
 
@@ -5384,17 +7550,95 @@ msgstr "Fabbisogno energetico delle pompe"
 msgid "ch.bfe.stauanlagen-bundesaufsicht"
 msgstr "Impianti di sbarramento"
 
+msgid "ch.bfe.stauanlagen-bundesaufsicht.baujahr"
+msgstr "baujahr"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.beginningofoperation"
+msgstr "beginningofoperation"
+
 msgid "ch.bfe.stauanlagen-bundesaufsicht.damname"
 msgstr "Nome"
 
 msgid "ch.bfe.stauanlagen-bundesaufsicht.damtype_de"
 msgstr "Tipo dell'opera di sbarramento"
 
+msgid "ch.bfe.stauanlagen-bundesaufsicht.damtype_en"
+msgstr "damtype en"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.damtype_fr"
+msgstr "damtype fr"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.facaim_de"
+msgstr "facaim de"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.facaim_en"
+msgstr "facaim en"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.facaim_fr"
+msgstr "facaim fr"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.facilityname"
+msgstr "facilityname"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.facility_stabil_id"
+msgstr "facility stabil id"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.has_picture"
+msgstr "has picture"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.impoundmentlevel"
+msgstr "impoundmentlevel"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.impoundmentvolume"
+msgstr "impoundmentvolume"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.reservoirname"
+msgstr "reservoirname"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.startsupervision"
+msgstr "startsupervision"
+
+msgid "ch.bfe.stauanlagen-bundesaufsicht.storagelevel"
+msgstr "storagelevel"
+
 msgid "ch.bfe.url"
 msgstr "http://www.bfe.admin.ch/index.html?lang=it"
 
 msgid "ch.bfe.windenergieanlagen"
 msgstr "Impianti eolici"
+
+msgid "ch.bfe.windenergieanlagen.fac_initial"
+msgstr "fac initial"
+
+msgid "ch.bfe.windenergieanlagen.fac_operator"
+msgstr "fac operator"
+
+msgid "ch.bfe.windenergieanlagen.fac_power"
+msgstr "fac power"
+
+msgid "ch.bfe.windenergieanlagen.fac_type_de"
+msgstr "fac type de"
+
+msgid "ch.bfe.windenergieanlagen.fac_type_fr"
+msgstr "fac type fr"
+
+msgid "ch.bfe.windenergieanlagen.fac_type_it"
+msgstr "fac type it"
+
+msgid "ch.bfe.windenergieanlagen.fac_website"
+msgstr "fac website"
+
+msgid "ch.bfe.windenergieanlagen.fac_x"
+msgstr "fac x"
+
+msgid "ch.bfe.windenergieanlagen.fac_xml_prod"
+msgstr "fac xml prod"
+
+msgid "ch.bfe.windenergieanlagen.fac_y"
+msgstr "fac y"
+
+msgid "ch.bfe.windenergieanlagen.turbines"
+msgstr "turbines"
 
 msgid "ch.bfe.windenergie-geschwindigkeit_h100"
 msgstr "Velocità vento a 100 m dal suolo"
@@ -5441,6 +7685,15 @@ msgstr "ASTAT 85 - 15 modes d'utilisation agrégés"
 msgid "ch.bfs.arealstatistik-1985-25"
 msgstr "ASTAT 85 - 25 modes d'utilisation agrégés"
 
+msgid "ch.bfs.arealstatistik-1985.id_arealstatistik_09"
+msgstr "id arealstatistik 09"
+
+msgid "ch.bfs.arealstatistik-1985.id_arealstatistik_85"
+msgstr "id arealstatistik 85"
+
+msgid "ch.bfs.arealstatistik-1985.id_arealstatistik_97"
+msgstr "id arealstatistik 97"
+
 msgid "ch.bfs.arealstatistik-1985-punkte"
 msgstr "ASTAT 85 - 74 catégories de base"
 
@@ -5456,6 +7709,15 @@ msgstr "ASTAT 97 - 15 modes d`utilisation agrégés"
 msgid "ch.bfs.arealstatistik-1997-25"
 msgstr "ASTAT 97 - 25 modes d`utilisation agrégés"
 
+msgid "ch.bfs.arealstatistik-1997.id_arealstatistik_09"
+msgstr "id arealstatistik 09"
+
+msgid "ch.bfs.arealstatistik-1997.id_arealstatistik_85"
+msgstr "id arealstatistik 85"
+
+msgid "ch.bfs.arealstatistik-1997.id_arealstatistik_97"
+msgstr "id arealstatistik 97"
+
 msgid "ch.bfs.arealstatistik-1997-punkte"
 msgstr "ASTAT 97 - 74 catégories de base"
 
@@ -5468,8 +7730,35 @@ msgstr "Stat. superficie 04/09 NOLC04"
 msgid "ch.bfs.arealstatistik-bodenbedeckung-1985"
 msgstr "Stat. superficie 79/85 NOLC04"
 
+msgid "ch.bfs.arealstatistik-bodenbedeckung-1985.id_arealstatistik_nolc_09"
+msgstr "id arealstatistik nolc 09"
+
+msgid "ch.bfs.arealstatistik-bodenbedeckung-1985.id_arealstatistik_nolc_85"
+msgstr "id arealstatistik nolc 85"
+
+msgid "ch.bfs.arealstatistik-bodenbedeckung-1985.id_arealstatistik_nolc_97"
+msgstr "id arealstatistik nolc 97"
+
 msgid "ch.bfs.arealstatistik-bodenbedeckung-1997"
 msgstr "Stat. superficie 92/97 NOAS04"
+
+msgid "ch.bfs.arealstatistik-bodenbedeckung-1997.id_arealstatistik_nolc_09"
+msgstr "id arealstatistik nolc 09"
+
+msgid "ch.bfs.arealstatistik-bodenbedeckung-1997.id_arealstatistik_nolc_85"
+msgstr "id arealstatistik nolc 85"
+
+msgid "ch.bfs.arealstatistik-bodenbedeckung-1997.id_arealstatistik_nolc_97"
+msgstr "id arealstatistik nolc 97"
+
+msgid "ch.bfs.arealstatistik-bodenbedeckung.id_arealstatistik_nolc_09"
+msgstr "id arealstatistik nolc 09"
+
+msgid "ch.bfs.arealstatistik-bodenbedeckung.id_arealstatistik_nolc_85"
+msgstr "id arealstatistik nolc 85"
+
+msgid "ch.bfs.arealstatistik-bodenbedeckung.id_arealstatistik_nolc_97"
+msgstr "id arealstatistik nolc 97"
 
 msgid "ch.bfs.arealstatistik-bodennutzung"
 msgstr "Stat. superficie 04/09 NOLU04"
@@ -5483,14 +7772,50 @@ msgstr "Stat. superficie 2004/09 NOLU04"
 msgid "ch.bfs.arealstatistik-bodennutzung-1985"
 msgstr "Stat. superficie 79/85 NOAS04"
 
+msgid "ch.bfs.arealstatistik-bodennutzung-1985.id_arealstatistik_nolu_09"
+msgstr "id arealstatistik nolu 09"
+
+msgid "ch.bfs.arealstatistik-bodennutzung-1985.id_arealstatistik_nolu_85"
+msgstr "id arealstatistik nolu 85"
+
+msgid "ch.bfs.arealstatistik-bodennutzung-1985.id_arealstatistik_nolu_97"
+msgstr "id arealstatistik nolu 97"
+
 msgid "ch.bfs.arealstatistik-bodennutzung-1997"
 msgstr "Stat. superficie 92/97 NOLU04"
+
+msgid "ch.bfs.arealstatistik-bodennutzung-1997.id_arealstatistik_nolu_09"
+msgstr "id arealstatistik nolu 09"
+
+msgid "ch.bfs.arealstatistik-bodennutzung-1997.id_arealstatistik_nolu_85"
+msgstr "id arealstatistik nolu 85"
+
+msgid "ch.bfs.arealstatistik-bodennutzung-1997.id_arealstatistik_nolu_97"
+msgstr "id arealstatistik nolu 97"
+
+msgid "ch.bfs.arealstatistik-bodennutzung.id_arealstatistik_nolu_09"
+msgstr "id arealstatistik nolu 09"
+
+msgid "ch.bfs.arealstatistik-bodennutzung.id_arealstatistik_nolu_85"
+msgstr "id arealstatistik nolu 85"
+
+msgid "ch.bfs.arealstatistik-bodennutzung.id_arealstatistik_nolu_97"
+msgstr "id arealstatistik nolu 97"
 
 msgid "ch.bfs.arealstatistik-bodennutzung-punkte"
 msgstr "Stat. superficie 2004/09 NOLU04"
 
 msgid "ch.bfs.arealstatistik-hintergrund"
 msgstr "Utilizzo semplificato del suolo"
+
+msgid "ch.bfs.arealstatistik.id_arealstatistik_09"
+msgstr "id arealstatistik 09"
+
+msgid "ch.bfs.arealstatistik.id_arealstatistik_85"
+msgstr "id arealstatistik 85"
+
+msgid "ch.bfs.arealstatistik.id_arealstatistik_97"
+msgstr "id arealstatistik 97"
 
 msgid "ch.bfs.arealstatistik-punkte"
 msgstr "ASTAT 09 - 04 Grundkategorien"
@@ -5519,6 +7844,9 @@ msgstr "Année"
 msgid "ch.bfs.gebaeude_wohnungs_register"
 msgstr "Registro degli edifici e delle abitazioni"
 
+msgid "ch.bfs.gebaeude_wohnungs_register.bgdi_created"
+msgstr "bgdi created"
+
 msgid "ch.bfs.gebaeude_wohnungs_register.canton_label"
 msgstr "Cantone"
 
@@ -5528,11 +7856,23 @@ msgstr "N°"
 msgid "ch.bfs.gebaeude_wohnungs_register.download"
 msgstr "Download"
 
+msgid "ch.bfs.gebaeude_wohnungs_register.dstrid"
+msgstr "dstrid"
+
 msgid "ch.bfs.gebaeude_wohnungs_register.egid"
 msgstr "EGID"
 
+msgid "ch.bfs.gebaeude_wohnungs_register.gdekt"
+msgstr "gdekt"
+
 msgid "ch.bfs.gebaeude_wohnungs_register.gdename"
 msgstr "Commune"
+
+msgid "ch.bfs.gebaeude_wohnungs_register.gdenr"
+msgstr "gdenr"
+
+msgid "ch.bfs.gebaeude_wohnungs_register.gstat"
+msgstr "gstat"
 
 msgid "ch.bfs.gebaeude_wohnungs_register.municipality_label"
 msgstr "Comune"
@@ -5543,6 +7883,9 @@ msgstr "Dettagli sull’edificio"
 msgid "ch.bfs.gebaeude_wohnungs_register.plz4"
 msgstr "NPA"
 
+msgid "ch.bfs.gebaeude_wohnungs_register.plz6"
+msgstr "plz6"
+
 msgid "ch.bfs.gebaeude_wohnungs_register.plzname"
 msgstr "Località"
 
@@ -5551,6 +7894,18 @@ msgstr "Registro degli edifici e delle abitazioni"
 
 msgid "ch.bfs.gebaeude_wohnungs_register.strname1"
 msgstr "Rue"
+
+msgid "ch.bfs.gebaeude_wohnungs_register.strname_de"
+msgstr "strname de"
+
+msgid "ch.bfs.gebaeude_wohnungs_register.strname_fr"
+msgstr "strname fr"
+
+msgid "ch.bfs.gebaeude_wohnungs_register.strname_it"
+msgstr "strname it"
+
+msgid "ch.bfs.gebaeude_wohnungs_register.strname_rm"
+msgstr "strname rm"
 
 msgid "ch.bfs.gebaeude_wohnungs_register.zip_canton"
 msgstr "Download cantone"
@@ -5648,29 +8003,122 @@ msgstr "Fabbisogno irriguo"
 msgid "ch.blw.bodeneignung-gruendigkeit"
 msgstr "Profondità"
 
+msgid "ch.blw.bodeneignung-gruendigkeit.eignungsei"
+msgstr "eignungsei"
+
+msgid "ch.blw.bodeneignung-gruendigkeit.farbe"
+msgstr "farbe"
+
+msgid "ch.blw.bodeneignung-gruendigkeit.symb_color"
+msgstr "symb color"
+
 msgid "ch.blw.bodeneignung-kulturland"
 msgstr "Idoneità: Terreni coltivi"
+
+msgid "ch.blw.bodeneignung-kulturland.eignungsei"
+msgstr "eignungsei"
+
+msgid "ch.blw.bodeneignung-kulturland.farbe"
+msgstr "farbe"
+
+msgid "ch.blw.bodeneignung-kulturland.symb_color"
+msgstr "symb color"
 
 msgid "ch.blw.bodeneignung-kulturtyp"
 msgstr "Idoneità: Tipologie di colture"
 
+msgid "ch.blw.bodeneignung-kulturtyp.eignungsei"
+msgstr "eignungsei"
+
+msgid "ch.blw.bodeneignung-kulturtyp.farbe"
+msgstr "farbe"
+
+msgid "ch.blw.bodeneignung-kulturtyp.symb_color"
+msgstr "symb color"
+
 msgid "ch.blw.bodeneignung-naehrstoffspeichervermoegen"
 msgstr "Stoccaggio di sostanze nutritive"
+
+msgid "ch.blw.bodeneignung-naehrstoffspeichervermoegen.eignungsei"
+msgstr "eignungsei"
+
+msgid "ch.blw.bodeneignung-naehrstoffspeichervermoegen.farbe"
+msgstr "farbe"
+
+msgid "ch.blw.bodeneignung-naehrstoffspeichervermoegen.symb_color"
+msgstr "symb color"
 
 msgid "ch.blw.bodeneignung-skelettgehalt"
 msgstr "Scheletro"
 
+msgid "ch.blw.bodeneignung-skelettgehalt.eignungsei"
+msgstr "eignungsei"
+
+msgid "ch.blw.bodeneignung-skelettgehalt.farbe"
+msgstr "farbe"
+
+msgid "ch.blw.bodeneignung-skelettgehalt.symb_color"
+msgstr "symb color"
+
 msgid "ch.blw.bodeneignung-vernaessung"
 msgstr "Saturazione idrica"
+
+msgid "ch.blw.bodeneignung-vernaessung.eignungsei"
+msgstr "eignungsei"
+
+msgid "ch.blw.bodeneignung-vernaessung.farbe"
+msgstr "farbe"
+
+msgid "ch.blw.bodeneignung-vernaessung.symb_color"
+msgstr "symb color"
 
 msgid "ch.blw.bodeneignung-wasserdurchlaessigkeit"
 msgstr "Permeabilità"
 
+msgid "ch.blw.bodeneignung-wasserdurchlaessigkeit.eignungsei"
+msgstr "eignungsei"
+
+msgid "ch.blw.bodeneignung-wasserdurchlaessigkeit.farbe"
+msgstr "farbe"
+
+msgid "ch.blw.bodeneignung-wasserdurchlaessigkeit.symb_color"
+msgstr "symb color"
+
 msgid "ch.blw.bodeneignung-wasserspeichervermoegen"
 msgstr "Capacità di stoccaggio idrico"
 
+msgid "ch.blw.bodeneignung-wasserspeichervermoegen.eignungsei"
+msgstr "eignungsei"
+
+msgid "ch.blw.bodeneignung-wasserspeichervermoegen.farbe"
+msgstr "farbe"
+
+msgid "ch.blw.bodeneignung-wasserspeichervermoegen.symb_color"
+msgstr "symb color"
+
 msgid "ch.blw.emapis-beizugsgebiet"
 msgstr "Comprensorio"
+
+msgid "ch.blw.emapis-beizugsgebiet.status_de"
+msgstr "status de"
+
+msgid "ch.blw.emapis-beizugsgebiet.status_fr"
+msgstr "status fr"
+
+msgid "ch.blw.emapis-beizugsgebiet.status_it"
+msgstr "status it"
+
+msgid "ch.blw.emapis-beizugsgebiet.typ"
+msgstr "typ"
+
+msgid "ch.blw.emapis-beizugsgebiet.typ_de"
+msgstr "typ de"
+
+msgid "ch.blw.emapis-beizugsgebiet.typ_fr"
+msgstr "typ fr"
+
+msgid "ch.blw.emapis-beizugsgebiet.typ_it"
+msgstr "typ it"
 
 msgid "ch.blw.emapis-bewaesserung"
 msgstr "Irrigazione"
@@ -5681,11 +8129,53 @@ msgstr "Approvvigionamento elettrico"
 msgid "ch.blw.emapis-entwaesserung"
 msgstr "Drenaggio, struttura del suolo"
 
+msgid "ch.blw.emapis-entwaesserung.status_de"
+msgstr "status de"
+
+msgid "ch.blw.emapis-entwaesserung.status_fr"
+msgstr "status fr"
+
+msgid "ch.blw.emapis-entwaesserung.status_it"
+msgstr "status it"
+
+msgid "ch.blw.emapis-entwaesserung.typ"
+msgstr "typ"
+
+msgid "ch.blw.emapis-entwaesserung.typ_de"
+msgstr "typ de"
+
+msgid "ch.blw.emapis-entwaesserung.typ_fr"
+msgstr "typ fr"
+
+msgid "ch.blw.emapis-entwaesserung.typ_it"
+msgstr "typ it"
+
 msgid "ch.blw.emapis.geschaeftsnummer"
 msgstr "Numero di riferimento"
 
 msgid "ch.blw.emapis-hochbau"
 msgstr "Edifici agricoli"
+
+msgid "ch.blw.emapis-hochbau.status_de"
+msgstr "status de"
+
+msgid "ch.blw.emapis-hochbau.status_fr"
+msgstr "status fr"
+
+msgid "ch.blw.emapis-hochbau.status_it"
+msgstr "status it"
+
+msgid "ch.blw.emapis-hochbau.typ"
+msgstr "typ"
+
+msgid "ch.blw.emapis-hochbau.typ_de"
+msgstr "typ de"
+
+msgid "ch.blw.emapis-hochbau.typ_fr"
+msgstr "typ fr"
+
+msgid "ch.blw.emapis-hochbau.typ_it"
+msgstr "typ it"
 
 msgid "ch.blw.emapis-milchleitung"
 msgstr "Lattodotto"
@@ -5693,8 +8183,50 @@ msgstr "Lattodotto"
 msgid "ch.blw.emapis-oekologie"
 msgstr "Ecologia"
 
+msgid "ch.blw.emapis-oekologie.status_de"
+msgstr "status de"
+
+msgid "ch.blw.emapis-oekologie.status_fr"
+msgstr "status fr"
+
+msgid "ch.blw.emapis-oekologie.status_it"
+msgstr "status it"
+
+msgid "ch.blw.emapis-oekologie.typ"
+msgstr "typ"
+
+msgid "ch.blw.emapis-oekologie.typ_de"
+msgstr "typ de"
+
+msgid "ch.blw.emapis-oekologie.typ_fr"
+msgstr "typ fr"
+
+msgid "ch.blw.emapis-oekologie.typ_it"
+msgstr "typ it"
+
 msgid "ch.blw.emapis-projektschwerpunkt"
 msgstr "Punto centrale del progetto"
+
+msgid "ch.blw.emapis-projektschwerpunkt.status_de"
+msgstr "status de"
+
+msgid "ch.blw.emapis-projektschwerpunkt.status_fr"
+msgstr "status fr"
+
+msgid "ch.blw.emapis-projektschwerpunkt.status_it"
+msgstr "status it"
+
+msgid "ch.blw.emapis-projektschwerpunkt.typ"
+msgstr "typ"
+
+msgid "ch.blw.emapis-projektschwerpunkt.typ_de"
+msgstr "typ de"
+
+msgid "ch.blw.emapis-projektschwerpunkt.typ_fr"
+msgstr "typ fr"
+
+msgid "ch.blw.emapis-projektschwerpunkt.typ_it"
+msgstr "typ it"
 
 msgid "ch.blw.emapis-seilbahnen"
 msgstr "Teleferiche"
@@ -5708,11 +8240,74 @@ msgstr "Elemento"
 msgid "ch.blw.emapis-wasserversorgung"
 msgstr "Acquedotto"
 
+msgid "ch.blw.emapis-wasserversorgung.status_de"
+msgstr "status de"
+
+msgid "ch.blw.emapis-wasserversorgung.status_fr"
+msgstr "status fr"
+
+msgid "ch.blw.emapis-wasserversorgung.status_it"
+msgstr "status it"
+
+msgid "ch.blw.emapis-wasserversorgung.typ"
+msgstr "typ"
+
+msgid "ch.blw.emapis-wasserversorgung.typ_de"
+msgstr "typ de"
+
+msgid "ch.blw.emapis-wasserversorgung.typ_fr"
+msgstr "typ fr"
+
+msgid "ch.blw.emapis-wasserversorgung.typ_it"
+msgstr "typ it"
+
 msgid "ch.blw.emapis-wegebau"
 msgstr "Costruzione di strade"
 
+msgid "ch.blw.emapis-wegebau.status_de"
+msgstr "status de"
+
+msgid "ch.blw.emapis-wegebau.status_fr"
+msgstr "status fr"
+
+msgid "ch.blw.emapis-wegebau.status_it"
+msgstr "status it"
+
+msgid "ch.blw.emapis-wegebau.typ"
+msgstr "typ"
+
+msgid "ch.blw.emapis-wegebau.typ_de"
+msgstr "typ de"
+
+msgid "ch.blw.emapis-wegebau.typ_fr"
+msgstr "typ fr"
+
+msgid "ch.blw.emapis-wegebau.typ_it"
+msgstr "typ it"
+
 msgid "ch.blw.emapis-zusammenfassung"
 msgstr "Sviluppo rurale"
+
+msgid "ch.blw.emapis-zusammenfassung.status_de"
+msgstr "status de"
+
+msgid "ch.blw.emapis-zusammenfassung.status_fr"
+msgstr "status fr"
+
+msgid "ch.blw.emapis-zusammenfassung.status_it"
+msgstr "status it"
+
+msgid "ch.blw.emapis-zusammenfassung.typ"
+msgstr "typ"
+
+msgid "ch.blw.emapis-zusammenfassung.typ_de"
+msgstr "typ de"
+
+msgid "ch.blw.emapis-zusammenfassung.typ_fr"
+msgstr "typ fr"
+
+msgid "ch.blw.emapis-zusammenfassung.typ_it"
+msgstr "typ it"
 
 msgid "ch.blw.erosion"
 msgstr "Rischio erosione qualitativo 1"
@@ -5744,26 +8339,74 @@ msgstr "Terreni in pendio e in forte pendenza"
 msgid "ch.blw.klimaeignung-futterbau"
 msgstr "Clima - Foraggicoltura"
 
+msgid "ch.blw.klimaeignung-futterbau.klimeig_be"
+msgstr "klimeig be"
+
+msgid "ch.blw.klimaeignung-futterbau.zone"
+msgstr "zone"
+
 msgid "ch.blw.klimaeignung-getreidebau"
 msgstr "Clima - Cerealicoltura"
+
+msgid "ch.blw.klimaeignung-getreidebau.klimeig_be"
+msgstr "klimeig be"
+
+msgid "ch.blw.klimaeignung-getreidebau.zone"
+msgstr "zone"
 
 msgid "ch.blw.klimaeignung-kartoffeln"
 msgstr "Clima - Patate"
 
+msgid "ch.blw.klimaeignung-kartoffeln.klimeig_be"
+msgstr "klimeig be"
+
+msgid "ch.blw.klimaeignung-kartoffeln.zone"
+msgstr "zone"
+
 msgid "ch.blw.klimaeignung-koernermais"
 msgstr "Clima - Mais da granella"
+
+msgid "ch.blw.klimaeignung-koernermais.klimeig_be"
+msgstr "klimeig be"
+
+msgid "ch.blw.klimaeignung-koernermais.zone"
+msgstr "zone"
 
 msgid "ch.blw.klimaeignung-kulturland"
 msgstr "Clima - Terreni coltivi"
 
+msgid "ch.blw.klimaeignung-kulturland.klimeig_be"
+msgstr "klimeig be"
+
+msgid "ch.blw.klimaeignung-kulturland.zone"
+msgstr "zone"
+
 msgid "ch.blw.klimaeignung-spezialkulturen"
 msgstr "Clima - Colture speciali"
+
+msgid "ch.blw.klimaeignung-spezialkulturen.klimeig_be"
+msgstr "klimeig be"
+
+msgid "ch.blw.klimaeignung-spezialkulturen.zone"
+msgstr "zone"
 
 msgid "ch.blw.klimaeignung-typ"
 msgstr "Clima - Visione d'insieme"
 
+msgid "ch.blw.klimaeignung-typ.klimeig_be"
+msgstr "klimeig be"
+
+msgid "ch.blw.klimaeignung-typ.zone"
+msgstr "zone"
+
 msgid "ch.blw.klimaeignung-zwischenfruchtbau"
 msgstr "Clima - Colture intercalari"
+
+msgid "ch.blw.klimaeignung-zwischenfruchtbau.klimeig_be"
+msgstr "klimeig be"
+
+msgid "ch.blw.klimaeignung-zwischenfruchtbau.zone"
+msgstr "zone"
 
 msgid "ch.blw.kt"
 msgstr "UFAG + cantone"
@@ -5773,6 +8416,12 @@ msgstr "Limiti delle zone agricole"
 
 msgid "ch.blw.niederschlagshaushalt"
 msgstr "Andamento delle precipitazioni"
+
+msgid "ch.blw.niederschlagshaushalt.klimeig_be"
+msgstr "klimeig be"
+
+msgid "ch.blw.niederschlagshaushalt.zone"
+msgstr "zone"
 
 msgid "ch.blw.steil_terrassenlagen_rebbau"
 msgstr "Vigneti in zone declive"
@@ -5963,6 +8612,9 @@ msgstr "Cantoni"
 msgid "ch.kantone.cadastralwebmap-farbe"
 msgstr "CadastralWebMap"
 
+msgid "ch.kantone.cadastralwebmap-farbe.ak"
+msgstr "ak"
+
 msgid "ch.kantone.hintergrund-farbe"
 msgstr "CadastralWebMap"
 
@@ -6152,6 +8804,9 @@ msgstr "http://www.pronatura.ch/it"
 msgid "ch.pronatura.waldreservate"
 msgstr "Pro Natura: Riserve forestali"
 
+msgid "ch.pronatura.waldreservate.gesflaeche"
+msgstr "gesflaeche"
+
 msgid "ch.pronatura.waldreservate.gisflaeche"
 msgstr "Superficie totale [ha]"
 
@@ -6224,26 +8879,80 @@ msgstr "al"
 msgid "ch.sem.sachplan-asyl_kraft"
 msgstr "PS Asilo"
 
+msgid "ch.sem.sachplan-asyl_kraft.bgdi_created"
+msgstr "bgdi created"
+
 msgid "ch.sem.sachplan-asyl_kraft.coordlevel_text_lang"
 msgstr "Stato di coordinamento"
+
+msgid "ch.sem.sachplan-asyl_kraft.description_text_de"
+msgstr "description text de"
+
+msgid "ch.sem.sachplan-asyl_kraft.description_text_fr"
+msgstr "description text fr"
+
+msgid "ch.sem.sachplan-asyl_kraft.description_text_it"
+msgstr "description text it"
 
 msgid "ch.sem.sachplan-asyl_kraft.description_text_lang"
 msgstr "Descrizione"
 
+msgid "ch.sem.sachplan-asyl_kraft.document_title"
+msgstr "document title"
+
 msgid "ch.sem.sachplan-asyl_kraft.document_web"
 msgstr "Informazioni supplementari"
+
+msgid "ch.sem.sachplan-asyl_kraft.fackind_text_de"
+msgstr "fackind text de"
+
+msgid "ch.sem.sachplan-asyl_kraft.fackind_text_fr"
+msgstr "fackind text fr"
+
+msgid "ch.sem.sachplan-asyl_kraft.fackind_text_it"
+msgstr "fackind text it"
 
 msgid "ch.sem.sachplan-asyl_kraft.fackind_text_lang"
 msgstr "Tipo d‘installazione"
 
+msgid "ch.sem.sachplan-asyl_kraft.facname_de"
+msgstr "facname de"
+
+msgid "ch.sem.sachplan-asyl_kraft.facname_fr"
+msgstr "facname fr"
+
+msgid "ch.sem.sachplan-asyl_kraft.facname_it"
+msgstr "facname it"
+
 msgid "ch.sem.sachplan-asyl_kraft.facname_lang"
 msgstr "Installazione"
+
+msgid "ch.sem.sachplan-asyl_kraft.facstatus_text_de"
+msgstr "facstatus text de"
+
+msgid "ch.sem.sachplan-asyl_kraft.facstatus_text_fr"
+msgstr "facstatus text fr"
+
+msgid "ch.sem.sachplan-asyl_kraft.facstatus_text_it"
+msgstr "facstatus text it"
 
 msgid "ch.sem.sachplan-asyl_kraft.facstatus_text_lang"
 msgstr "Stato dell‘installazione"
 
+msgid "ch.sem.sachplan-asyl_kraft.kindid"
+msgstr "kindid"
+
 msgid "ch.sem.sachplan-asyl_kraft.meastype_text_lang"
 msgstr "Tipo di misura"
+
+msgid "ch.sem.sachplan-asyl_kraft.objectname_de"
+msgstr "objectname de"
+
+msgid "ch.sem.sachplan-asyl_kraft.objectname_fr"
+msgstr "objectname fr"
+
+msgid "ch.sem.sachplan-asyl_kraft.objectname_it"
+msgstr "objectname it"
 
 msgid "ch.sem.sachplan-asyl_kraft.objectname_lang"
 msgstr "Oggetto preposto"
@@ -6253,6 +8962,9 @@ msgstr "Misura"
 
 msgid "ch.sem.sachplan-asyl_kraft.plstatus_text_lang"
 msgstr "Stato della pianificazione"
+
+msgid "ch.sem.sachplan-asyl_kraft.statusid"
+msgstr "statusid"
 
 msgid "ch.sem.sachplan-asyl_kraft.validfrom"
 msgstr "Data della delibera"
@@ -6268,6 +8980,9 @@ msgstr "Spessore dei sedimenti"
 
 msgid "ch.sgpk.maechtigkeit-lockergesteine.epaisseur"
 msgstr "Spessore dei sedimenti [m]"
+
+msgid "ch.sgpk.maechtigkeit-lockergesteine.maechtigkeit"
+msgstr "maechtigkeit"
 
 msgid "ch.swisstopo"
 msgstr "swisstopo"
@@ -6341,29 +9056,200 @@ msgstr "https://www.swisstopo.admin.ch/it/home.html"
 msgid "ch.swisstopo.digitales-hoehenmodell_25.metadata"
 msgstr "Divisione MDT25 Raster"
 
+msgid "ch.swisstopo.digitales-hoehenmodell_25.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.digitales-hoehenmodell_25.metadata.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.digitales-hoehenmodell_25.metadata.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.digitales-hoehenmodell_25.metadata.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.digitales-hoehenmodell_25.metadata.name_it"
+msgstr "name it"
+
 msgid "ch.swisstopo.digitales-hoehenmodell_25_reliefschattierung"
 msgstr "MDT25 ombreggiature del rilievo"
 
 msgid "ch.swisstopo.dreiecksvermaschung"
 msgstr "MN95 Magliatura triangolare"
 
+msgid "ch.swisstopo.dreiecksvermaschung.type"
+msgstr "type"
+
 msgid "ch.swisstopo.fixpunkte-agnes"
 msgstr "AGNES"
+
+msgid "ch.swisstopo.fixpunkte-agnes.bgdi_id"
+msgstr "bgdi id"
 
 msgid "ch.swisstopo.fixpunkte-hfp1"
 msgstr "Punti fissi altimetrici PFA1"
 
+msgid "ch.swisstopo.fixpunkte-hfp1.abschluss"
+msgstr "abschluss"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.bgdi_created_by"
+msgstr "bgdi created by"
+
 msgid "ch.swisstopo.fixpunkte-hfp1.bgdi_label"
 msgstr "Identifiant"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.bgdi_modified"
+msgstr "bgdi modified"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.bgdi_modified_by"
+msgstr "bgdi modified by"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.e95"
+msgstr "e95"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.fineltra"
+msgstr "fineltra"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.gid"
+msgstr "gid"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.h02"
+msgstr "h02"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.h95_ell"
+msgstr "h95 ell"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.h_gen_lv03"
+msgstr "h gen lv03"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.h_gen_lv95"
+msgstr "h gen lv95"
 
 msgid "ch.swisstopo.fixpunkte-hfp1.id"
 msgstr "Numero"
 
+msgid "ch.swisstopo.fixpunkte-hfp1.l_gen_lv03"
+msgstr "l gen lv03"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.l_gen_lv95"
+msgstr "l gen lv95"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.n95"
+msgstr "n95"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.nbident"
+msgstr "nbident"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.ordnung"
+msgstr "ordnung"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.signatur"
+msgstr "signatur"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.statuszus"
+msgstr "statuszus"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.url"
+msgstr "url"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.verwendung"
+msgstr "verwendung"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.x03"
+msgstr "x03"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.y03"
+msgstr "y03"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.zustaendig"
+msgstr "zustaendig"
+
+msgid "ch.swisstopo.fixpunkte-hfp1.zust_haupt"
+msgstr "zust haupt"
+
 msgid "ch.swisstopo.fixpunkte-hfp2"
 msgstr "Punti fissi altimetrici PFA2"
 
+msgid "ch.swisstopo.fixpunkte-hfp2.abschluss"
+msgstr "abschluss"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.bgdi_created_by"
+msgstr "bgdi created by"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.bgdi_modified"
+msgstr "bgdi modified"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.bgdi_modified_by"
+msgstr "bgdi modified by"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.e95"
+msgstr "e95"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.fineltra"
+msgstr "fineltra"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.gid"
+msgstr "gid"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.h02"
+msgstr "h02"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.h95_ell"
+msgstr "h95 ell"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.h_gen_lv03"
+msgstr "h gen lv03"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.h_gen_lv95"
+msgstr "h gen lv95"
+
 msgid "ch.swisstopo.fixpunkte-hfp2.id"
 msgstr "Numero"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.l_gen_lv03"
+msgstr "l gen lv03"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.l_gen_lv95"
+msgstr "l gen lv95"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.n95"
+msgstr "n95"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.nbident"
+msgstr "nbident"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.ordnung"
+msgstr "ordnung"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.signatur"
+msgstr "signatur"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.statuszus"
+msgstr "statuszus"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.url"
+msgstr "url"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.verwendung"
+msgstr "verwendung"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.x03"
+msgstr "x03"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.y03"
+msgstr "y03"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.zustaendig"
+msgstr "zustaendig"
+
+msgid "ch.swisstopo.fixpunkte-hfp2.zust_haupt"
+msgstr "zust haupt"
 
 msgid "ch.swisstopo.fixpunkte-hoehe"
 msgstr "Punti fissi altitudinali"
@@ -6374,14 +9260,62 @@ msgstr "Punti fissi planimetrici"
 msgid "ch.swisstopo.fixpunkte-lfp1"
 msgstr "Punti fissi planimetrici PFP1"
 
+msgid "ch.swisstopo.fixpunkte-lfp1.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.swisstopo.fixpunkte-lfp1.e95"
+msgstr "e95"
+
+msgid "ch.swisstopo.fixpunkte-lfp1.h02"
+msgstr "h02"
+
 msgid "ch.swisstopo.fixpunkte-lfp1.id"
 msgstr "Numero"
+
+msgid "ch.swisstopo.fixpunkte-lfp1.n95"
+msgstr "n95"
+
+msgid "ch.swisstopo.fixpunkte-lfp1.nbident"
+msgstr "nbident"
+
+msgid "ch.swisstopo.fixpunkte-lfp1.url"
+msgstr "url"
+
+msgid "ch.swisstopo.fixpunkte-lfp1.x03"
+msgstr "x03"
+
+msgid "ch.swisstopo.fixpunkte-lfp1.y03"
+msgstr "y03"
 
 msgid "ch.swisstopo.fixpunkte-lfp2"
 msgstr "Punti fissi planimetrici PFP2"
 
+msgid "ch.swisstopo.fixpunkte-lfp2.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.swisstopo.fixpunkte-lfp2.e95"
+msgstr "e95"
+
+msgid "ch.swisstopo.fixpunkte-lfp2.h02"
+msgstr "h02"
+
 msgid "ch.swisstopo.fixpunkte-lfp2.id"
 msgstr "Numero"
+
+msgid "ch.swisstopo.fixpunkte-lfp2.n95"
+msgstr "n95"
+
+msgid "ch.swisstopo.fixpunkte-lfp2.nbident"
+msgstr "nbident"
+
+msgid "ch.swisstopo.fixpunkte-lfp2.url"
+msgstr "url"
+
+msgid "ch.swisstopo.fixpunkte-lfp2.x03"
+msgstr "x03"
+
+msgid "ch.swisstopo.fixpunkte-lfp2.y03"
+msgstr "y03"
 
 msgid "ch.swisstopo.gas25-papierkarte.metadata"
 msgstr "Divisione atlante geologico 25 Stampa"
@@ -6407,11 +9341,53 @@ msgstr "Forages > 500 m"
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.auftraggeb_de"
 msgstr "Mandant"
 
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.auftraggeb_en"
+msgstr "auftraggeb en"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.auftraggeb_fr"
+msgstr "auftraggeb fr"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.auftraggeb_it"
+msgstr "auftraggeb it"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.auftraggeb_rm"
+msgstr "auftraggeb rm"
+
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.auskunft"
 msgstr "Renseignement complémentaire"
 
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.auskunft_de"
+msgstr "auskunft de"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.auskunft_en"
+msgstr "auskunft en"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.auskunft_fr"
+msgstr "auskunft fr"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.auskunft_it"
+msgstr "auskunft it"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.auskunft_rm"
+msgstr "auskunft rm"
+
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.bohrzweck"
 msgstr "But du forage"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.bohrzweck_de"
+msgstr "bohrzweck de"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.bohrzweck_en"
+msgstr "bohrzweck en"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.bohrzweck_fr"
+msgstr "bohrzweck fr"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.bohrzweck_it"
+msgstr "bohrzweck it"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.bohrzweck_rm"
+msgstr "bohrzweck rm"
 
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.download"
 msgstr "Téléchargement"
@@ -6419,14 +9395,59 @@ msgstr "Téléchargement"
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.enddate"
 msgstr "Date de fin du forage"
 
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.enddate_de"
+msgstr "enddate de"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.enddate_en"
+msgstr "enddate en"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.enddate_fr"
+msgstr "enddate fr"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.enddate_it"
+msgstr "enddate it"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.enddate_rm"
+msgstr "enddate rm"
+
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.height"
 msgstr "Altitude de référence (niveau du terrain) [m s.m.]"
 
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.inhalt"
 msgstr "Contenu de la documentation"
 
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.inhalt_de"
+msgstr "inhalt de"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.inhalt_en"
+msgstr "inhalt en"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.inhalt_fr"
+msgstr "inhalt fr"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.inhalt_it"
+msgstr "inhalt it"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.inhalt_rm"
+msgstr "inhalt rm"
+
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.kanton"
 msgstr "Canton"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.kanton_de"
+msgstr "kanton de"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.kanton_en"
+msgstr "kanton en"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.kanton_fr"
+msgstr "kanton fr"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.kanton_it"
+msgstr "kanton it"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.kanton_rm"
+msgstr "kanton rm"
 
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.koord_e"
 msgstr "Coordonnée E"
@@ -6437,17 +9458,77 @@ msgstr "Coordonnée N"
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.land"
 msgstr "Pays"
 
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.land_de"
+msgstr "land de"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.land_en"
+msgstr "land en"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.land_fr"
+msgstr "land fr"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.land_it"
+msgstr "land it"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.land_rm"
+msgstr "land rm"
+
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.name"
 msgstr "Nom"
 
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.rechtein"
 msgstr "Propriétaire des droits"
 
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.rechtein_de"
+msgstr "rechtein de"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.rechtein_en"
+msgstr "rechtein en"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.rechtein_fr"
+msgstr "rechtein fr"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.rechtein_it"
+msgstr "rechtein it"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.rechtein_rm"
+msgstr "rechtein rm"
+
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.startdate"
 msgstr "Date de début du forage"
 
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.startdate_de"
+msgstr "startdate de"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.startdate_en"
+msgstr "startdate en"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.startdate_fr"
+msgstr "startdate fr"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.startdate_it"
+msgstr "startdate it"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.startdate_rm"
+msgstr "startdate rm"
+
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.status"
 msgstr "Statut du forage"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.status_de"
+msgstr "status de"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.status_en"
+msgstr "status en"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.status_fr"
+msgstr "status fr"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.status_it"
+msgstr "status it"
+
+msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.status_rm"
+msgstr "status rm"
 
 msgid "ch.swisstopo.geologie-bohrungen_tiefer_500.tiefe_md"
 msgstr "Profondeur mesurée (MD) maxi-male depuis le niveau du terrain [m]"
@@ -6470,6 +9551,9 @@ msgstr "Ultimo mass. glaciale (carta) 500"
 msgid "ch.swisstopo.geologie-eiszeit-lgm-raster_papier.metadata"
 msgstr "Divisione ultimo max. glaciale 500 Stampa"
 
+msgid "ch.swisstopo.geologie-eiszeit-lgm-raster_papier.metadata.available"
+msgstr "available"
+
 msgid "ch.swisstopo.geologie-eiszeit-lgm-raster_papier.metadata.release"
 msgstr "Edizione"
 
@@ -6482,8 +9566,20 @@ msgstr "Carta geol. generale 200"
 msgid "ch.swisstopo.geologie-generalkarte-ggk200.metadata"
 msgstr "Divisione carta geologica generale 200 Raster"
 
+msgid "ch.swisstopo.geologie-generalkarte-ggk200.metadata.author"
+msgstr "author"
+
 msgid "ch.swisstopo.geologie-generalkarte-ggk200.metadata.autor"
 msgstr "Autori"
+
+msgid "ch.swisstopo.geologie-generalkarte-ggk200.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.geologie-generalkarte-ggk200.metadata.data"
+msgstr "data"
+
+msgid "ch.swisstopo.geologie-generalkarte-ggk200.metadata.isbn"
+msgstr "isbn"
 
 msgid "ch.swisstopo.geologie-generalkarte-ggk200.metadata.jahr"
 msgstr "L'anno di edizione"
@@ -6508,6 +9604,9 @@ msgstr "Numero"
 
 msgid "ch.swisstopo.geologie-generalkarte-ggk200.metadata.release"
 msgstr "Edizione"
+
+msgid "ch.swisstopo.geologie-generalkarte-ggk200.metadata.scale"
+msgstr "scale"
 
 msgid "ch.swisstopo.geologie-generalkarte-ggk200.metadata.titel"
 msgstr "Titolo"
@@ -6548,6 +9647,9 @@ msgstr "Edizione"
 msgid "ch.swisstopo.geologie-geocover"
 msgstr "GeoCover - dati vettoriali"
 
+msgid "ch.swisstopo.geologie-geocover.basisdatensatz"
+msgstr "basisdatensatz"
+
 msgid "ch.swisstopo.geologie-geocover.chrono"
 msgstr "Chrono (B-T)"
 
@@ -6566,6 +9668,45 @@ msgstr "Lien Strati.ch"
 msgid "ch.swisstopo.geologie-geocover.metadata"
 msgstr "Divisione GeoCover"
 
+msgid "ch.swisstopo.geologie-geocover.metadata.author"
+msgstr "author"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.base"
+msgstr "base"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.data"
+msgstr "data"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.isbn"
+msgstr "isbn"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.name_it"
+msgstr "name it"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.number"
+msgstr "number"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.release"
+msgstr "release"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.scale"
+msgstr "scale"
+
+msgid "ch.swisstopo.geologie-geocover.metadata.version"
+msgstr "version"
+
 msgid "ch.swisstopo.geologie-geocover.name"
 msgstr "Nome"
 
@@ -6575,11 +9716,20 @@ msgstr "Numero"
 msgid "ch.swisstopo.geologie-geocover.release"
 msgstr "Edizione"
 
+msgid "ch.swisstopo.geologie-geocover.spec_description"
+msgstr "spec description"
+
 msgid "ch.swisstopo.geologie-geodaesie-bouguer_anomalien"
 msgstr "Anomalia di Bouguer 500"
 
+msgid "ch.swisstopo.geologie-geodaesie-bouguer_anomalien.et_fromatt"
+msgstr "et fromatt"
+
 msgid "ch.swisstopo.geologie-geodaesie-bouguer_anomalien_papier.metadata"
 msgstr "Divisione anomalie di Bouguer 500 Stampa"
+
+msgid "ch.swisstopo.geologie-geodaesie-bouguer_anomalien_papier.metadata.available"
+msgstr "available"
 
 msgid "ch.swisstopo.geologie-geodaesie-bouguer_anomalien_papier.metadata.release"
 msgstr "Edizione"
@@ -6590,6 +9740,12 @@ msgstr "Il geoide"
 msgid "ch.swisstopo.geologie-geodaesie-isostatische_anomalien"
 msgstr "Anomalie isostatiche 500"
 
+msgid "ch.swisstopo.geologie-geodaesie-isostatische_anomalien.et_fromatt"
+msgstr "et fromatt"
+
+msgid "ch.swisstopo.geologie-geodaesie-isostatische_anomalien.fid"
+msgstr "fid"
+
 msgid "ch.swisstopo.geologie-geologische_einheiten-onegeology"
 msgstr "Geologia 1:500 000"
 
@@ -6599,17 +9755,44 @@ msgstr "ch.swisstopo.geologie-geologische_einheiten-onegeologyeurope"
 msgid "ch.swisstopo.geologie-geologische_karte"
 msgstr "Geologia 500"
 
+msgid "ch.swisstopo.geologie-geologische_karte.gid"
+msgstr "gid"
+
 msgid "ch.swisstopo.geologie-geologische_karte_papier.metadata"
 msgstr "Geologia 500 - stampata"
+
+msgid "ch.swisstopo.geologie-geologische_karte_papier.metadata.available"
+msgstr "available"
 
 msgid "ch.swisstopo.geologie-geologische_karte_papier.metadata.release"
 msgstr "Edizione"
 
+msgid "ch.swisstopo.geologie-geologische_karte.type_de"
+msgstr "type de"
+
+msgid "ch.swisstopo.geologie-geologische_karte.type_fr"
+msgstr "type fr"
+
 msgid "ch.swisstopo.geologie-geologischer_atlas"
 msgstr "Atlante geologico AG25"
 
+msgid "ch.swisstopo.geologie-geologischer_atlas.basisdatensatz"
+msgstr "basisdatensatz"
+
+msgid "ch.swisstopo.geologie-geologischer_atlas.description"
+msgstr "description"
+
 msgid "ch.swisstopo.geologie-geologischer_atlas.metadata"
 msgstr "Divisione atlante geologico 25 Raster"
+
+msgid "ch.swisstopo.geologie-geologischer_atlas.metadata.author"
+msgstr "author"
+
+msgid "ch.swisstopo.geologie-geologischer_atlas.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.geologie-geologischer_atlas.metadata.data"
+msgstr "data"
 
 msgid "ch.swisstopo.geologie-geologischer_atlas.metadata.name_de"
 msgstr "Nome"
@@ -6638,6 +9821,9 @@ msgstr "Numero"
 msgid "ch.swisstopo.geologie-geologischer_atlas_papier.metadata"
 msgstr "Divisione atlante geologico 25 Stampa"
 
+msgid "ch.swisstopo.geologie-geologischer_atlas_papier.metadata.available"
+msgstr "available"
+
 msgid "ch.swisstopo.geologie-geologischer_atlas_papier.metadata.name"
 msgstr "Nome"
 
@@ -6661,6 +9847,12 @@ msgstr "Edizione"
 
 msgid "ch.swisstopo.geologie-geologischer_atlas.release"
 msgstr "Edizione"
+
+msgid "ch.swisstopo.geologie-geologischer_atlas.spec_description"
+msgstr "spec description"
+
+msgid "ch.swisstopo.geologie-geologischer_atlas.url_legend"
+msgstr "url legend"
 
 msgid "ch.swisstopo.geologie-geologischer_atlas_vector.metadata"
 msgstr "Divisione atlante geologico 25 Vector"
@@ -6716,8 +9908,17 @@ msgstr "Géomorphologie, vue d´ensemble: forme superficielle"
 msgid "ch.swisstopo.geologie-geophysik-aeromagnetische_karte_jura"
 msgstr "Aeromagnetismo Altopiano/Giura 500"
 
+msgid "ch.swisstopo.geologie-geophysik-aeromagnetische_karte_jura.fid"
+msgstr "fid"
+
 msgid "ch.swisstopo.geologie-geophysik-aeromagnetische_karte_schweiz"
 msgstr "Aeromagnetismo 500"
+
+msgid "ch.swisstopo.geologie-geophysik-aeromagnetische_karte_schweiz.et_fromatt"
+msgstr "et fromatt"
+
+msgid "ch.swisstopo.geologie-geophysik-aeromagnetische_karte_schweiz.fid"
+msgstr "fid"
 
 msgid "ch.swisstopo.geologie-geophysik-deklination"
 msgstr "Declinazione 500"
@@ -6725,26 +9926,98 @@ msgstr "Declinazione 500"
 msgid "ch.swisstopo.geologie-geophysik-geothermie"
 msgstr "Densità di flusso termico 500"
 
+msgid "ch.swisstopo.geologie-geophysik-geothermie.contour"
+msgstr "contour"
+
+msgid "ch.swisstopo.geologie-geophysik-geothermie.fid"
+msgstr "fid"
+
 msgid "ch.swisstopo.geologie-geophysik-inklination"
 msgstr "Inclinazione 500"
 
 msgid "ch.swisstopo.geologie-geophysik-totalintensitaet"
 msgstr "Intensità campo magnetico 500"
 
+msgid "ch.swisstopo.geologie-geophysik-totalintensitaet.contour"
+msgstr "contour"
+
+msgid "ch.swisstopo.geologie-geophysik-totalintensitaet.fid"
+msgstr "fid"
+
 msgid "ch.swisstopo.geologie-geotechnik-gk200"
 msgstr "Carta geotecnica 200"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk200.file_name"
+msgstr "file name"
 
 msgid "ch.swisstopo.geologie-geotechnik-gk500-genese"
 msgstr "Origine delle rocce 500"
 
+msgid "ch.swisstopo.geologie-geotechnik-gk500-genese.bgdi_tooltip_color"
+msgstr "bgdi tooltip color"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-genese.genese_de"
+msgstr "genese de"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-genese.genese_en"
+msgstr "genese en"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-genese.genese_fr"
+msgstr "genese fr"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-genese.genese_it"
+msgstr "genese it"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-genese.genese_rm"
+msgstr "genese rm"
+
 msgid "ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung"
 msgstr "Classificazione delle rocce 500"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung.bgdi_tooltip_color"
+msgstr "bgdi tooltip color"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung.gestkl_de"
+msgstr "gestkl de"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung.gestkl_en"
+msgstr "gestkl en"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung.gestkl_fr"
+msgstr "gestkl fr"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung.gestkl_it"
+msgstr "gestkl it"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung.gestkl_rm"
+msgstr "gestkl rm"
 
 msgid "ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen"
 msgstr "Litologia (gruppi principali) 500"
 
+msgid "ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen.bgdi_tooltip_color"
+msgstr "bgdi tooltip color"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen.bgdi_tooltip_de"
+msgstr "bgdi tooltip de"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen.bgdi_tooltip_en"
+msgstr "bgdi tooltip en"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen.bgdi_tooltip_fr"
+msgstr "bgdi tooltip fr"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen.bgdi_tooltip_it"
+msgstr "bgdi tooltip it"
+
+msgid "ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen.bgdi_tooltip_rm"
+msgstr "bgdi tooltip rm"
+
 msgid "ch.swisstopo.geologie-geotechnik-mineralische_rohstoffe200"
 msgstr "Materie prime minerali 200"
+
+msgid "ch.swisstopo.geologie-geotechnik-mineralische_rohstoffe200.area_name"
+msgstr "area name"
 
 msgid "ch.swisstopo.geologie-geotechnik-steinbrueche_1915"
 msgstr "Cave 1915"
@@ -6788,8 +10061,20 @@ msgstr "Nome della fabbrica da quadrels"
 msgid "ch.swisstopo.geologie-geotope"
 msgstr "Geotopi svizzeri"
 
+msgid "ch.swisstopo.geologie-geotope.fix_id"
+msgstr "fix id"
+
+msgid "ch.swisstopo.geologie-geotope.nom"
+msgstr "nom"
+
+msgid "ch.swisstopo.geologie-geotope.nummer"
+msgstr "nummer"
+
 msgid "ch.swisstopo.geologie-geowege"
 msgstr "Sentieri geologici"
+
+msgid "ch.swisstopo.geologie-geowege.titel_2"
+msgstr "titel 2"
 
 msgid "ch.swisstopo.geologie-gisgeol-flaechen-1000to21000km2"
 msgstr "Documenti geologici (1000-21000km2)"
@@ -7019,6 +10304,9 @@ msgstr "Punti di misurazione gravim. 100"
 msgid "ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte.altitude"
 msgstr "Altitude [m]"
 
+msgid "ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte.bouguerano"
+msgstr "bouguerano"
+
 msgid "ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte.stationnam"
 msgstr "No de Point"
 
@@ -7037,8 +10325,14 @@ msgstr "Titolo"
 msgid "ch.swisstopo.geologie-gravimetrischer_atlas_papier.metadata"
 msgstr "Divisione atlante gravimetrico 100 Stampa"
 
+msgid "ch.swisstopo.geologie-gravimetrischer_atlas_papier.metadata.available"
+msgstr "available"
+
 msgid "ch.swisstopo.geologie-grundwasservorkommen_papier.metadata"
 msgstr "Divisione falde acquifere 500 Stampa"
+
+msgid "ch.swisstopo.geologie-grundwasservorkommen_papier.metadata.available"
+msgstr "available"
 
 msgid "ch.swisstopo.geologie-grundwasservorkommen_papier.metadata.release"
 msgstr "Edizione"
@@ -7046,11 +10340,26 @@ msgstr "Edizione"
 msgid "ch.swisstopo.geologie-grundwasservulnerabilitaet_papier.metadata"
 msgstr "Divisione Vulnerabilità acquiferi 500 Stampa"
 
+msgid "ch.swisstopo.geologie-grundwasservulnerabilitaet_papier.metadata.available"
+msgstr "available"
+
 msgid "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen"
 msgstr "Falde acquifere 500"
 
+msgid "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen.type_de"
+msgstr "type de"
+
+msgid "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen.type_fr"
+msgstr "type fr"
+
 msgid "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservulnerabilitaet"
 msgstr "Vulnerab. delle falde acquifere 500"
+
+msgid "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservulnerabilitaet.type_de"
+msgstr "type de"
+
+msgid "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservulnerabilitaet.type_fr"
+msgstr "type fr"
 
 msgid "ch.swisstopo.geologie-kartenskizzen-perimeter"
 msgstr "Croquis publiés"
@@ -7205,6 +10514,18 @@ msgstr "Matières premières de ciment"
 msgid "ch.swisstopo.geologie-spezialkarten_schweiz.metadata"
 msgstr "Divisione carte geologiche speciali Raster"
 
+msgid "ch.swisstopo.geologie-spezialkarten_schweiz.metadata.author"
+msgstr "author"
+
+msgid "ch.swisstopo.geologie-spezialkarten_schweiz.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.geologie-spezialkarten_schweiz.metadata.data"
+msgstr "data"
+
+msgid "ch.swisstopo.geologie-spezialkarten_schweiz.metadata.isbn"
+msgstr "isbn"
+
 msgid "ch.swisstopo.geologie-spezialkarten_schweiz.metadata.name_de"
 msgstr "Nome"
 
@@ -7223,8 +10544,14 @@ msgstr "Numero"
 msgid "ch.swisstopo.geologie-spezialkarten_schweiz.metadata.release"
 msgstr "Edizione"
 
+msgid "ch.swisstopo.geologie-spezialkarten_schweiz.metadata.scale"
+msgstr "scale"
+
 msgid "ch.swisstopo.geologie-spezialkarten_schweiz_papier.metadata"
 msgstr "Divisione carte geologiche speciali Stampa"
+
+msgid "ch.swisstopo.geologie-spezialkarten_schweiz_papier.metadata.available"
+msgstr "available"
 
 msgid "ch.swisstopo.geologie-spezialkarten_schweiz_papier.metadata.name"
 msgstr "Nome"
@@ -7250,6 +10577,12 @@ msgstr "Edizione"
 msgid "ch.swisstopo.geologie-spezialkarten_schweiz_vector.metadata"
 msgstr "Divisione carte geologiche speciali Vector"
 
+msgid "ch.swisstopo.geologie-spezialkarten_schweiz_vector.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.geologie-spezialkarten_schweiz_vector.metadata.data"
+msgstr "data"
+
 msgid "ch.swisstopo.geologie-spezialkarten_schweiz_vector.metadata.name_de"
 msgstr "Nome"
 
@@ -7274,11 +10607,23 @@ msgstr "Tettonica 1:500 000"
 msgid "ch.swisstopo.geologie-tektonische_karte"
 msgstr "Tettonica 500"
 
+msgid "ch.swisstopo.geologie-tektonische_karte.line_id"
+msgstr "line id"
+
 msgid "ch.swisstopo.geologie-tektonische_karte_papier.metadata"
 msgstr "Divisione carta tettonica 500 Stampa"
 
+msgid "ch.swisstopo.geologie-tektonische_karte_papier.metadata.available"
+msgstr "available"
+
 msgid "ch.swisstopo.geologie-tektonische_karte_papier.metadata.release"
 msgstr "Edizione"
+
+msgid "ch.swisstopo.geologie-tektonische_karte.type_de"
+msgstr "type de"
+
+msgid "ch.swisstopo.geologie-tektonische_karte.type_fr"
+msgstr "type fr"
 
 msgid "ch.swisstopo.geologie-tektonische_stoerungen-onegeology"
 msgstr "Tettonica 1:500 000"
@@ -7427,17 +10772,92 @@ msgstr "Coordonnée y (MN03) [m]"
 msgid "ch.swisstopo.hiks-dufour"
 msgstr "Carta Dufour Prima edizione"
 
+msgid "ch.swisstopo.hiks-dufour.bv_nummer"
+msgstr "bv nummer"
+
+msgid "ch.swisstopo.hiks-dufour.datenstand"
+msgstr "datenstand"
+
+msgid "ch.swisstopo.hiks-dufour.kbbez"
+msgstr "kbbez"
+
 msgid "ch.swisstopo.hiks-dufour.metadata"
 msgstr "Divisione carta Dufour Raster"
+
+msgid "ch.swisstopo.hiks-dufour.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.hiks-dufour.metadata.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.hiks-dufour.metadata.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.hiks-dufour.metadata.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.hiks-dufour.metadata.name_it"
+msgstr "name it"
+
+msgid "ch.swisstopo.hiks-dufour.metadata.number"
+msgstr "number"
+
+msgid "ch.swisstopo.hiks-dufour.metadata.scale"
+msgstr "scale"
 
 msgid "ch.swisstopo.hiks-siegfried"
 msgstr "Carta Siegfried Prima edizione"
 
+msgid "ch.swisstopo.hiks-siegfried.bv_nummer"
+msgstr "bv nummer"
+
+msgid "ch.swisstopo.hiks-siegfried.datenstand"
+msgstr "datenstand"
+
+msgid "ch.swisstopo.hiks-siegfried.kbbez"
+msgstr "kbbez"
+
 msgid "ch.swisstopo.hiks-siegfried-ta25.metadata"
 msgstr "Divisione carta Siegfried 25 Raster"
 
+msgid "ch.swisstopo.hiks-siegfried-ta25.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.hiks-siegfried-ta25.metadata.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.hiks-siegfried-ta25.metadata.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.hiks-siegfried-ta25.metadata.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.hiks-siegfried-ta25.metadata.name_it"
+msgstr "name it"
+
+msgid "ch.swisstopo.hiks-siegfried-ta25.metadata.number"
+msgstr "number"
+
 msgid "ch.swisstopo.hiks-siegfried-ta50.metadata"
 msgstr "Divisione carta Siegfried 50 Raster"
+
+msgid "ch.swisstopo.hiks-siegfried-ta50.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.hiks-siegfried-ta50.metadata.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.hiks-siegfried-ta50.metadata.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.hiks-siegfried-ta50.metadata.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.hiks-siegfried-ta50.metadata.name_it"
+msgstr "name it"
+
+msgid "ch.swisstopo.hiks-siegfried-ta50.metadata.number"
+msgstr "number"
 
 msgid "ch.swisstopo.icao-papierkarte.metadata"
 msgstr "Divisione carta aeronautica ICAO Stampa"
@@ -7451,6 +10871,21 @@ msgstr "Mosaico Landsat 25"
 msgid "ch.swisstopo.images-spot-5.metadata"
 msgstr "Divisione Spot Mosaic Raster"
 
+msgid "ch.swisstopo.images-spot-5.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.images-spot-5.metadata.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.images-spot-5.metadata.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.images-spot-5.metadata.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.images-spot-5.metadata.name_it"
+msgstr "name it"
+
 msgid "ch.swisstopo.images-spotimage"
 msgstr "ch.swisstopo.images-spotimage"
 
@@ -7459,6 +10894,9 @@ msgstr "SWISSIMAGE"
 
 msgid "ch.swisstopo.images-swissimage-dop10.metadata"
 msgstr "Divisione SWISSIMAGE 10 cm Raster"
+
+msgid "ch.swisstopo.images-swissimage-dop10.metadata.datenstand"
+msgstr "datenstand"
 
 msgid "ch.swisstopo.images-swissimage-dop10.metadata-kartenblatt"
 msgstr "Annéee de vol"
@@ -7469,8 +10907,14 @@ msgstr "Numéro de tuile"
 msgid "ch.swisstopo.images-swissimage.metadata"
 msgstr "Divisione SWISSIMAGE 25 cm Raster"
 
+msgid "ch.swisstopo.images-swissimage.metadata.available"
+msgstr "available"
+
 msgid "ch.swisstopo.images-swissimage.metadata.base"
 msgstr "Base"
+
+msgid "ch.swisstopo.images-swissimage.metadata.datenstand"
+msgstr "datenstand"
 
 msgid "ch.swisstopo.images-swissimage.metadata-kartenblatt"
 msgstr "Année de vol SWISSIMAGE"
@@ -7480,6 +10924,9 @@ msgstr "Nom de tuile SWISSIMAGE"
 
 msgid "ch.swisstopo.images-swissimage.metadata-kartenblatt_nummer"
 msgstr "Numéro de tuile SWISSIMAGE"
+
+msgid "ch.swisstopo.images-swissimage.metadata.lk25_name"
+msgstr "lk25 name"
 
 msgid "ch.swisstopo.images-swissimage.metadata.name_de"
 msgstr "Denominazione di foglio"
@@ -7492,6 +10939,9 @@ msgstr "Denominazione di foglio"
 
 msgid "ch.swisstopo.images-swissimage.metadata.name_it"
 msgstr "Denominazione di foglio"
+
+msgid "ch.swisstopo.images-swissimage.metadata.tileid"
+msgstr "tileid"
 
 msgid "ch.swisstopo.images-swissimage.metadata.version"
 msgstr "Versione"
@@ -7634,14 +11084,23 @@ msgstr "Altitude (NF02) [m]"
 msgid "ch.swisstopo.landesschwerenetz.label"
 msgstr "Label"
 
+msgid "ch.swisstopo.landesschwerenetz.label_tt"
+msgstr "label tt"
+
 msgid "ch.swisstopo.landesschwerenetz.lat_etrs"
 msgstr "Géographique latitude (WGS84) [°]"
 
 msgid "ch.swisstopo.landesschwerenetz.link_hfp_title"
 msgstr "Lien vers le PFA-protocole"
 
+msgid "ch.swisstopo.landesschwerenetz.link_hfp_url"
+msgstr "link hfp url"
+
 msgid "ch.swisstopo.landesschwerenetz.link_lfp_title"
 msgstr "Lien vers le PFP-protocole"
+
+msgid "ch.swisstopo.landesschwerenetz.link_lfp_url"
+msgstr "link lfp url"
 
 msgid "ch.swisstopo.landesschwerenetz.lon_etrs"
 msgstr "Géographique longitude (WGS84) [°]"
@@ -7856,8 +11315,56 @@ msgstr "Xi (ETRS89) [Secondes d‘arc]"
 msgid "ch.swisstopo.lubis-bildstreifen"
 msgstr "Striscie aeree swisstopo"
 
+msgid "ch.swisstopo.lubis-bildstreifen.area"
+msgstr "area"
+
+msgid "ch.swisstopo.lubis-bildstreifen.bgdi_flugjahr"
+msgstr "bgdi flugjahr"
+
+msgid "ch.swisstopo.lubis-bildstreifen.filmart"
+msgstr "filmart"
+
+msgid "ch.swisstopo.lubis-bildstreifen.firma"
+msgstr "firma"
+
+msgid "ch.swisstopo.lubis-bildstreifen.flugdatum"
+msgstr "flugdatum"
+
+msgid "ch.swisstopo.lubis-bildstreifen.goal"
+msgstr "goal"
+
+msgid "ch.swisstopo.lubis-bildstreifen.gsd"
+msgstr "gsd"
+
 msgid "ch.swisstopo.lubis-bildstreifen.id"
 msgstr "Linea di volo"
+
+msgid "ch.swisstopo.lubis-bildstreifen.objectid"
+msgstr "objectid"
+
+msgid "ch.swisstopo.lubis-bildstreifen.resolution"
+msgstr "resolution"
+
+msgid "ch.swisstopo.lubis-bildstreifen.source_georef"
+msgstr "source georef"
+
+msgid "ch.swisstopo.lubis-bildstreifen.toposhop_date"
+msgstr "toposhop date"
+
+msgid "ch.swisstopo.lubis-bildstreifen.toposhop_end_x"
+msgstr "toposhop end x"
+
+msgid "ch.swisstopo.lubis-bildstreifen.toposhop_end_y"
+msgstr "toposhop end y"
+
+msgid "ch.swisstopo.lubis-bildstreifen.toposhop_length"
+msgstr "toposhop length"
+
+msgid "ch.swisstopo.lubis-bildstreifen.toposhop_start_x"
+msgstr "toposhop start x"
+
+msgid "ch.swisstopo.lubis-bildstreifen.toposhop_start_y"
+msgstr "toposhop start y"
 
 msgid "ch.swisstopo.lubis-luftbilder"
 msgstr "Immagini aeree swisstopo"
@@ -7868,14 +11375,68 @@ msgstr "Immagini aeree privati"
 msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.bgdi_flugjahr"
 msgstr "Anno volo"
 
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.bgdi_imagemode"
+msgstr "bgdi imagemode"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.bildnummer"
+msgstr "bildnummer"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.contact"
+msgstr "contact"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.contact_email"
+msgstr "contact email"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.contact_web"
+msgstr "contact web"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.filename"
+msgstr "filename"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.filesize_mb"
+msgstr "filesize mb"
+
 msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.filmart"
 msgstr "Emulsione"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.firma"
+msgstr "firma"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.flugdatum"
+msgstr "flugdatum"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.flughoehe"
+msgstr "flughoehe"
 
 msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.id"
 msgstr "Numero immagine"
 
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.inventarnummer"
+msgstr "inventarnummer"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.massstab"
+msgstr "massstab"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.orientierung"
+msgstr "orientierung"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.originalsize"
+msgstr "originalsize"
+
 msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.ort"
 msgstr "Luogo"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.orthophoto"
+msgstr "orthophoto"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.rotation"
+msgstr "rotation"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.x"
+msgstr "x"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-firmen.y"
+msgstr "y"
 
 msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone"
 msgstr "Immagini aeree dei cantoni"
@@ -7883,32 +11444,203 @@ msgstr "Immagini aeree dei cantoni"
 msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.bgdi_flugjahr"
 msgstr "Anno volo"
 
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.bgdi_imagemode"
+msgstr "bgdi imagemode"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.bildnummer"
+msgstr "bildnummer"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.contact"
+msgstr "contact"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.contact_email"
+msgstr "contact email"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.contact_image_url"
+msgstr "contact image url"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.contact_web"
+msgstr "contact web"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.filename"
+msgstr "filename"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.filesize_mb"
+msgstr "filesize mb"
+
 msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.filmart"
 msgstr "Emulsione"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.firma"
+msgstr "firma"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.flugdatum"
+msgstr "flugdatum"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.flughoehe"
+msgstr "flughoehe"
 
 msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.id"
 msgstr "Numero immagine"
 
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.inventarnummer"
+msgstr "inventarnummer"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.massstab"
+msgstr "massstab"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.orientierung"
+msgstr "orientierung"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.originalsize"
+msgstr "originalsize"
+
 msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.ort"
 msgstr "Luogo"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.orthophoto"
+msgstr "orthophoto"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.rotation"
+msgstr "rotation"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.x"
+msgstr "x"
+
+msgid "ch.swisstopo.lubis-luftbilder-dritte-kantone.y"
+msgstr "y"
 
 msgid "ch.swisstopo.lubis-luftbilder_farbe"
 msgstr "Immagini aer. swisstopo colori"
 
+msgid "ch.swisstopo.lubis-luftbilder_farbe.bgdi_flugjahr"
+msgstr "bgdi flugjahr"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.bgdi_imagemode"
+msgstr "bgdi imagemode"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.bildnummer"
+msgstr "bildnummer"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.filename"
+msgstr "filename"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.filesize_mb"
+msgstr "filesize mb"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.filmart"
+msgstr "filmart"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.firma"
+msgstr "firma"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.flugdatum"
+msgstr "flugdatum"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.flughoehe"
+msgstr "flughoehe"
+
 msgid "ch.swisstopo.lubis-luftbilder_farbe.id"
 msgstr "Numero immagine"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.image_height"
+msgstr "image height"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.image_width"
+msgstr "image width"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.inventarnummer"
+msgstr "inventarnummer"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.massstab"
+msgstr "massstab"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.orientierung"
+msgstr "orientierung"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.originalsize"
+msgstr "originalsize"
 
 msgid "ch.swisstopo.lubis-luftbilder_farbe.ort"
 msgstr "Località"
 
+msgid "ch.swisstopo.lubis-luftbilder_farbe.orthophoto"
+msgstr "orthophoto"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.rotation"
+msgstr "rotation"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.x"
+msgstr "x"
+
+msgid "ch.swisstopo.lubis-luftbilder_farbe.y"
+msgstr "y"
+
 msgid "ch.swisstopo.lubis-luftbilder_infrarot"
 msgstr "Immagini aeree swisstopo IR"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.bgdi_flugjahr"
+msgstr "bgdi flugjahr"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.bgdi_imagemode"
+msgstr "bgdi imagemode"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.bildnummer"
+msgstr "bildnummer"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.filename"
+msgstr "filename"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.filesize_mb"
+msgstr "filesize mb"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.filmart"
+msgstr "filmart"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.firma"
+msgstr "firma"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.flugdatum"
+msgstr "flugdatum"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.flughoehe"
+msgstr "flughoehe"
 
 msgid "ch.swisstopo.lubis-luftbilder_infrarot.id"
 msgstr "Numero immagine"
 
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.image_height"
+msgstr "image height"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.image_width"
+msgstr "image width"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.inventarnummer"
+msgstr "inventarnummer"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.massstab"
+msgstr "massstab"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.orientierung"
+msgstr "orientierung"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.originalsize"
+msgstr "originalsize"
+
 msgid "ch.swisstopo.lubis-luftbilder_infrarot.ort"
 msgstr "Località"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.orthophoto"
+msgstr "orthophoto"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.rotation"
+msgstr "rotation"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.x"
+msgstr "x"
+
+msgid "ch.swisstopo.lubis-luftbilder_infrarot.y"
+msgstr "y"
 
 msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen"
 msgstr "Immagini aeree swisstopo obl."
@@ -7916,11 +11648,38 @@ msgstr "Immagini aeree swisstopo obl."
 msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.bgdi_flugjahr"
 msgstr "Data de volo"
 
+msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.contact"
+msgstr "contact"
+
+msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.contact_email"
+msgstr "contact email"
+
+msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.filename"
+msgstr "filename"
+
+msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.filesize_mb"
+msgstr "filesize mb"
+
+msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.flightdate"
+msgstr "flightdate"
+
 msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.id"
 msgstr "Numero immagine"
 
+msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.inventory_number"
+msgstr "inventory number"
+
 msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.medium_format"
 msgstr "Dimensione originale dell'immagine"
+
+msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.stereo_couple"
+msgstr "stereo couple"
+
+msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.x"
+msgstr "x"
+
+msgid "ch.swisstopo.lubis-luftbilder_schraegaufnahmen.y"
+msgstr "y"
 
 msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss"
 msgstr "Immagini aeree swisstopo b/n"
@@ -7928,14 +11687,65 @@ msgstr "Immagini aeree swisstopo b/n"
 msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.bgdi_flugjahr"
 msgstr "Anno volo"
 
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.bgdi_imagemode"
+msgstr "bgdi imagemode"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.bildnummer"
+msgstr "bildnummer"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.filename"
+msgstr "filename"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.filesize_mb"
+msgstr "filesize mb"
+
 msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.filmart"
 msgstr "Emulsione"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.firma"
+msgstr "firma"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.flugdatum"
+msgstr "flugdatum"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.flughoehe"
+msgstr "flughoehe"
 
 msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.id"
 msgstr "Numero immagine"
 
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.image_height"
+msgstr "image height"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.image_width"
+msgstr "image width"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.inventarnummer"
+msgstr "inventarnummer"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.massstab"
+msgstr "massstab"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.orientierung"
+msgstr "orientierung"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.originalsize"
+msgstr "originalsize"
+
 msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.ort"
 msgstr "Luogo"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.orthophoto"
+msgstr "orthophoto"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.rotation"
+msgstr "rotation"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.x"
+msgstr "x"
+
+msgid "ch.swisstopo.lubis-luftbilder_schwarzweiss.y"
+msgstr "y"
 
 msgid "ch.swisstopo.lubis-terrestrische_aufnahmen"
 msgstr "Riprese terrestri swisstopo"
@@ -7996,6 +11806,9 @@ msgstr "Carta nazionale 1:500'000 (colore)"
 
 msgid "ch.swisstopo.pixelkarte-farbe-pk500.noscale"
 msgstr "Carta nazionale 1:500'000 | CN500"
+
+msgid "ch.swisstopo.pixelkarte-farbe-pk500.noscale.available"
+msgstr "available"
 
 msgid "ch.swisstopo.pixelkarte-farbe-pk500.noscale.release"
 msgstr "Edizione"
@@ -8162,8 +11975,38 @@ msgstr "Edizione"
 msgid "ch.swisstopo.swissalti3d.metadata"
 msgstr "Divisione swissALTI3D Raster"
 
+msgid "ch.swisstopo.swissalti3d.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.swissalti3d.metadata.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.swissalti3d.metadata.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.swissalti3d.metadata.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.swissalti3d.metadata.name_it"
+msgstr "name it"
+
 msgid "ch.swisstopo.swissalti3d-reliefschattierung"
 msgstr "swissALTI3D Hillshade"
+
+msgid "ch.swisstopo.swissalti3d-reliefschattierung.available"
+msgstr "available"
+
+msgid "ch.swisstopo.swissalti3d-reliefschattierung.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.swissalti3d-reliefschattierung.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.swissalti3d-reliefschattierung.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.swissalti3d-reliefschattierung.name_it"
+msgstr "name it"
 
 msgid "ch.swisstopo.swissboundaries3d-bezirk-flaeche"
 msgstr "Frontiere comunali"
@@ -8195,11 +12038,17 @@ msgstr "Nome"
 msgid "ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill.id"
 msgstr "Numéro OFS"
 
+msgid "ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill.kanton"
+msgstr "kanton"
+
 msgid "ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill.kantonsgebiet"
 msgstr "Territorio cantonale"
 
 msgid "ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill.kommunanz"
 msgstr "Comunanza"
+
+msgid "ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill.objektart"
+msgstr "objektart"
 
 msgid "ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill.typ"
 msgstr "Tipo"
@@ -8237,11 +12086,29 @@ msgstr "Frontiere nazionali"
 msgid "ch.swisstopo.swissboundaries3d-land-flaeche.fill"
 msgstr "Frontiere nazionali"
 
+msgid "ch.swisstopo.swissboundaries3d-land-flaeche.fill.displayname"
+msgstr "displayname"
+
 msgid "ch.swisstopo.swissboundaries3d-land-grenze"
 msgstr "Frontiere nazionali"
 
 msgid "ch.swisstopo.swissbuildings3d_1.metadata"
 msgstr "Divisione swissBUILDINGS3D 1.0 Vector"
+
+msgid "ch.swisstopo.swissbuildings3d_1.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.swissbuildings3d_1.metadata.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.swissbuildings3d_1.metadata.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.swissbuildings3d_1.metadata.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.swissbuildings3d_1.metadata.name_it"
+msgstr "name it"
 
 msgid "ch.swisstopo.swissbuildings3d_2.metadata"
 msgstr "Divisione swissBUILDINGS3D 2.0 Vector"
@@ -8255,8 +12122,14 @@ msgstr "SWISSIMAGE"
 msgid "ch.swisstopo.swissimage-product"
 msgstr "SWISSIMAGE"
 
+msgid "ch.swisstopo.swissimage-product.available"
+msgstr "available"
+
 msgid "ch.swisstopo.swissimage-product.metadata"
 msgstr "Divisione SWISSIMAGE Viaggio tempo"
+
+msgid "ch.swisstopo.swissimage-product.metadata.bgdi_flugjahr"
+msgstr "bgdi flugjahr"
 
 msgid "ch.swisstopo.swissimage-product.metadata.colormode"
 msgstr "Modalità colore"
@@ -8269,6 +12142,18 @@ msgstr "Risoluzione al suolo"
 
 msgid "ch.swisstopo.swissimage-product.metadata.kbnum"
 msgstr "Numero di foglio"
+
+msgid "ch.swisstopo.swissimage-product.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.swissimage-product.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.swissimage-product.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.swissimage-product.name_it"
+msgstr "name it"
 
 msgid "ch.swisstopo.swiss-map-raster10.metadata"
 msgstr "Divisione carta nazionale 1:10'000 Raster"
@@ -8296,6 +12181,12 @@ msgstr "Divisione carta nazionale 500 Vettore"
 
 msgid "ch.swisstopo.swissnames3d"
 msgstr "Nomi geografici swissNAMES3D"
+
+msgid "ch.swisstopo.swissnames3d.namen_typ"
+msgstr "namen typ"
+
+msgid "ch.swisstopo.swissnames3d.objektklasse"
+msgstr "objektklasse"
 
 msgid "ch.swisstopo.swissnames3d_v02"
 msgstr "Nomi geografici swissNAMES3D"
@@ -8444,6 +12335,21 @@ msgstr "Carta swissTLM (colori)"
 msgid "ch.swisstopo.swisstlm3d-karte-farbe.3d"
 msgstr "Carta swissTLM per 3D (colori)"
 
+msgid "ch.swisstopo.swisstlm3d-karte-farbe.available"
+msgstr "available"
+
+msgid "ch.swisstopo.swisstlm3d-karte-farbe.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.swisstlm3d-karte-farbe.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.swisstlm3d-karte-farbe.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.swisstlm3d-karte-farbe.name_it"
+msgstr "name it"
+
 msgid "ch.swisstopo.swisstlm3d-karte-grau"
 msgstr "Carta swissTLM (grigio)"
 
@@ -8455,6 +12361,21 @@ msgstr "Modello topo. del paesaggio"
 
 msgid "ch.swisstopo.swisstlm3d.metadata"
 msgstr "Divisione swissTLM3D Vector"
+
+msgid "ch.swisstopo.swisstlm3d.metadata.available"
+msgstr "available"
+
+msgid "ch.swisstopo.swisstlm3d.metadata.name_de"
+msgstr "name de"
+
+msgid "ch.swisstopo.swisstlm3d.metadata.name_en"
+msgstr "name en"
+
+msgid "ch.swisstopo.swisstlm3d.metadata.name_fr"
+msgstr "name fr"
+
+msgid "ch.swisstopo.swisstlm3d.metadata.name_it"
+msgstr "name it"
 
 msgid "ch.swisstopo.swisstlm3d-strassen"
 msgstr "Strade e sentieri swissTLM3D"
@@ -8726,6 +12647,15 @@ msgstr "Scovia"
 msgid "ch.swisstopo.swisstlm3d-wanderwege"
 msgstr "Percorsi escursionistici"
 
+msgid "ch.swisstopo.swisstlm3d-wanderwege.bridgetype"
+msgstr "bridgetype"
+
+msgid "ch.swisstopo.swisstlm3d-wanderwege.hikingtype"
+msgstr "hikingtype"
+
+msgid "ch.swisstopo.swisstlm3d-wanderwege.tunneltype"
+msgstr "tunneltype"
+
 msgid "ch.swisstopo.tlm-swissboundaries"
 msgstr "swissBOUNDARIES3D"
 
@@ -8771,8 +12701,17 @@ msgstr "Misurazione Ufficiale Svizzera"
 msgid "ch.swisstopo-vd.amtliche-vermessung"
 msgstr "OpenData-MU"
 
+msgid "ch.swisstopo-vd.amtliche-vermessung.ak"
+msgstr "ak"
+
+msgid "ch.swisstopo-vd.amtliche-vermessung.bfsnr"
+msgstr "bfsnr"
+
 msgid "ch.swisstopo-vd.amtliche-vermessung.itf"
 msgstr "Download Interlis-File (Comune)"
+
+msgid "ch.swisstopo-vd.amtliche-vermessung.name"
+msgstr "name"
 
 msgid "ch.swisstopo-vd.amtliche-vermessung.noitf"
 msgstr "Interlis-File non disponibile"
@@ -8801,14 +12740,50 @@ msgstr "Preparazione del Shape-File"
 msgid "ch.swisstopo-vd.geometa-gemeinde"
 msgstr "Informazioni sul Comune"
 
+msgid "ch.swisstopo-vd.geometa-gemeinde.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.swisstopo-vd.geometa-gemeinde.fid"
+msgstr "fid"
+
 msgid "ch.swisstopo-vd.geometa-grundbuch"
 msgstr "Informazioni del registro fondiario"
+
+msgid "ch.swisstopo-vd.geometa-grundbuch.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.swisstopo-vd.geometa-grundbuch.fid"
+msgstr "fid"
+
+msgid "ch.swisstopo-vd.geometa-grundbuch.grundbuchfuehrung_f"
+msgstr "grundbuchfuehrung f"
+
+msgid "ch.swisstopo-vd.geometa-grundbuch.grundbuchfuehrung_i"
+msgstr "grundbuchfuehrung i"
 
 msgid "ch.swisstopo-vd.geometa-los"
 msgstr "Aree con lavori in corso"
 
+msgid "ch.swisstopo-vd.geometa-los.bgdi_created"
+msgstr "bgdi created"
+
+msgid "ch.swisstopo-vd.geometa-los.fid"
+msgstr "fid"
+
+msgid "ch.swisstopo-vd.geometa-los.taetigkeit_d"
+msgstr "taetigkeit d"
+
+msgid "ch.swisstopo-vd.geometa-los.taetigkeit_f"
+msgstr "taetigkeit f"
+
+msgid "ch.swisstopo-vd.geometa-los.taetigkeit_i"
+msgstr "taetigkeit i"
+
 msgid "ch.swisstopo-vd.geometa-nfgeom"
 msgstr "Geometra revisore"
+
+msgid "ch.swisstopo-vd.geometa-nfgeom.bgdi_created"
+msgstr "bgdi created"
 
 msgid "ch.swisstopo-vd.geometa-nfgeom.stellvertreter"
 msgstr "sostituto"
@@ -8831,6 +12806,9 @@ msgstr "Stato della misurazione ufficiale"
 msgid "ch.swisstopo-vd.ortschaftenverzeichnis_plz"
 msgstr "CAP e località"
 
+msgid "ch.swisstopo-vd.ortschaftenverzeichnis_plz.bgdi_created"
+msgstr "bgdi created"
+
 msgid "ch.swisstopo-vd.ortschaftenverzeichnis_plz.langtext"
 msgstr "Località"
 
@@ -8842,6 +12820,42 @@ msgstr "Zone di tensioni trascurabili"
 
 msgid "ch.swisstopo-vd.stand-oerebkataster"
 msgstr "Disponibilità del Catasto RDPP"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.adresszeile"
+msgstr "adresszeile"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.bfs_nr"
+msgstr "bfs nr"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.fid"
+msgstr "fid"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.firmenname"
+msgstr "firmenname"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.gemeindename"
+msgstr "gemeindename"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.oereb_status_de"
+msgstr "oereb status de"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.oereb_status_en"
+msgstr "oereb status en"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.oereb_status_fr"
+msgstr "oereb status fr"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.oereb_status_it"
+msgstr "oereb status it"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.oereb_status_rm"
+msgstr "oereb status rm"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.ort"
+msgstr "ort"
+
+msgid "ch.swisstopo-vd.stand-oerebkataster.plz"
+msgstr "plz"
 
 msgid "ch.swisstopo-vd.url"
 msgstr "http://www.cadastre.ch"
@@ -8858,8 +12872,14 @@ msgstr "Idrologia VECTOR200"
 msgid "ch.swisstopo.vec200-hydrography-dam"
 msgstr "Murs de barrage"
 
+msgid "ch.swisstopo.vec200-hydrography.exs"
+msgstr "exs"
+
 msgid "ch.swisstopo.vec200-hydrography-flowingwater"
 msgstr "Eaux courantes"
+
+msgid "ch.swisstopo.vec200-hydrography.hoc"
+msgstr "hoc"
 
 msgid "ch.swisstopo.vec200-hydrography-hydroinfo"
 msgstr "Points d’importance sur le cours d’eau"
@@ -8867,11 +12887,17 @@ msgstr "Points d’importance sur le cours d’eau"
 msgid "ch.swisstopo.vec200-hydrography-lake"
 msgstr "Lacs"
 
+msgid "ch.swisstopo.vec200-hydrography.name"
+msgstr "name"
+
 msgid "ch.swisstopo.vec200-hydrography-stagnantwater"
 msgstr "Eaux stagnantes"
 
 msgid "ch.swisstopo.vec200-landcover"
 msgstr "Copertura prim. suolo VECTOR200"
+
+msgid "ch.swisstopo.vec200-landcover.objval"
+msgstr "objval"
 
 msgid "ch.swisstopo.vec200-landcover-wald"
 msgstr "Superficie forestali"
@@ -8885,11 +12911,17 @@ msgstr "Localités sous forme ponctuelles avec le nombre d’habitants"
 msgid "ch.swisstopo.vec200-miscellaneous-geodpoint"
 msgstr "Altitudini VECTOR200"
 
+msgid "ch.swisstopo.vec200-miscellaneous.objname"
+msgstr "objname"
+
 msgid "ch.swisstopo.vec200-miscellaneous-physl"
 msgstr "Ruptures de pentes VECTOR200"
 
 msgid "ch.swisstopo.vec200-miscellaneous-poi"
 msgstr "Objets ponctuels marquants"
+
+msgid "ch.swisstopo.vec200-miscellaneous.ppi"
+msgstr "ppi"
 
 msgid "ch.swisstopo.vec200-miscellaneous-supply"
 msgstr "Lignes de haute tension et les pipelines"
@@ -8915,6 +12947,9 @@ msgstr "Noeuds routiers importants"
 msgid "ch.swisstopo.vec200-transportation-oeffentliche-verkehr"
 msgstr "Trasporti pubblici VECTOR200"
 
+msgid "ch.swisstopo.vec200-transportation-oeffentliche-verkehr.objval"
+msgstr "objval"
+
 msgid "ch.swisstopo.vec200-transportation-railway"
 msgstr "Chemins de fer, transport par câble"
 
@@ -8936,6 +12971,12 @@ msgstr "Bateau passagers"
 msgid "ch.swisstopo.vec200-transportation-strassennetz"
 msgstr "Rete stradale VECTOR200"
 
+msgid "ch.swisstopo.vec200-transportation-strassennetz.objname"
+msgstr "objname"
+
+msgid "ch.swisstopo.vec200-transportation-strassennetz.objval"
+msgstr "objval"
+
 msgid "ch.swisstopo.vec200-transportation-terminal"
 msgstr "Points d'accès aux réseaux de transport non routier"
 
@@ -8948,6 +12989,9 @@ msgstr "Superfici delimitate  VECTOR25"
 msgid "ch.swisstopo.vec25-einzelobjekte"
 msgstr "Oggetti isolati  VECTOR25"
 
+msgid "ch.swisstopo.vec25-einzelobjekte.length"
+msgstr "length"
+
 msgid "ch.swisstopo.vec25-einzelobjekte-linien"
 msgstr "Objets isolés lignes VECTOR25"
 
@@ -8959,6 +13003,9 @@ msgstr "Edifici  VECTOR25"
 
 msgid "ch.swisstopo.vec25-heckenbaeume"
 msgstr "Siepi e alberi isolati  VECTOR25"
+
+msgid "ch.swisstopo.vec25-heckenbaeume.length"
+msgstr "length"
 
 msgid "ch.swisstopo.vec25-heckenbaeume-linien"
 msgstr "Haies et arbres isolés points VECTOR25"
@@ -8975,17 +13022,47 @@ msgstr "Sentieri VECTROR25"
 msgid "ch.swisstopo.verschiebungsvektoren-tsp1"
 msgstr "MN95 Vettori di spostamento PAT1"
 
+msgid "ch.swisstopo.verschiebungsvektoren-tsp1.e_lv03"
+msgstr "e lv03"
+
+msgid "ch.swisstopo.verschiebungsvektoren-tsp1.e_lv95"
+msgstr "e lv95"
+
+msgid "ch.swisstopo.verschiebungsvektoren-tsp1.fid"
+msgstr "fid"
+
 msgid "ch.swisstopo.verschiebungsvektoren-tsp1.name"
 msgstr "Numero ufficiale di punto"
 
+msgid "ch.swisstopo.verschiebungsvektoren-tsp1.n_lv03"
+msgstr "n lv03"
+
+msgid "ch.swisstopo.verschiebungsvektoren-tsp1.n_lv95"
+msgstr "n lv95"
+
 msgid "ch.swisstopo.verschiebungsvektoren-tsp2"
 msgstr "MN95 Vettori di spostamento PAT2"
+
+msgid "ch.swisstopo.verschiebungsvektoren-tsp2.e_lv03"
+msgstr "e lv03"
+
+msgid "ch.swisstopo.verschiebungsvektoren-tsp2.e_lv95"
+msgstr "e lv95"
+
+msgid "ch.swisstopo.verschiebungsvektoren-tsp2.fid"
+msgstr "fid"
 
 msgid "ch.swisstopo.verschiebungsvektoren-tsp2.id"
 msgstr "Numero ufficiale di punto"
 
 msgid "ch.swisstopo.verschiebungsvektoren-tsp2.name"
 msgstr "Numero ufficiale di punto"
+
+msgid "ch.swisstopo.verschiebungsvektoren-tsp2.n_lv03"
+msgstr "n lv03"
+
+msgid "ch.swisstopo.verschiebungsvektoren-tsp2.n_lv95"
+msgstr "n lv95"
 
 msgid "ch.swisstopo.wanderkarte25-zus_papier.metadata"
 msgstr "Divisione carta escursioni 25 Stampa"
@@ -9088,6 +13165,33 @@ msgstr "Divisione carta escursioni 1:33'333 Stampa"
 
 msgid "ch.swisstopo.zeitreihen"
 msgstr "Viaggio nel tempo - Carte"
+
+msgid "ch.swisstopo.zeitreihen.array_release_years"
+msgstr "array release years"
+
+msgid "ch.swisstopo.zeitreihen.bgdi_order"
+msgstr "bgdi order"
+
+msgid "ch.swisstopo.zeitreihen.box2d"
+msgstr "box2d"
+
+msgid "ch.swisstopo.zeitreihen.bv_nummer"
+msgstr "bv nummer"
+
+msgid "ch.swisstopo.zeitreihen.kbbez"
+msgstr "kbbez"
+
+msgid "ch.swisstopo.zeitreihen.kbnum"
+msgstr "kbnum"
+
+msgid "ch.swisstopo.zeitreihen.produkt"
+msgstr "produkt"
+
+msgid "ch.swisstopo.zeitreihen.release_year"
+msgstr "release year"
+
+msgid "ch.swisstopo.zeitreihen.years"
+msgstr "years"
 
 msgid "ch.tamedia"
 msgstr "tamedia"
