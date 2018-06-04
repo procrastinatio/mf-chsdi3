@@ -1626,25 +1626,142 @@ msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis"
 msgstr "Hinweis"
 
 msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_0"
-msgstr "n.n."
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_0"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_116"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_116"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_125"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_125"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_135"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_135"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_138"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_138"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_14"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_14"
 
 msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_145"
-msgstr "Die Herde und die Herdenschutzhunde sind zwar während dem Sommer einige Tage auf dem Kaiseregg-Pass, jedoch ausschliesslich unter der Woche."
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_145"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_150"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_150"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_154"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_154"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_16"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_16"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_163"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_163"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_36"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_36"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_4"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_4"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_45"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_45"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_46"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_46"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_60"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_60"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_73"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_73"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_87"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_87"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_92"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hinweis_code_92"
 
 msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz"
 msgstr "Anwesenheit Schutzhunde"
 
 msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1000"
-msgstr "Während dem ganzen Jahr"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1000"
 
 msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1001"
-msgstr "In der Regel zwischen Anfang Juni und Mitte Oktober"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1001"
 
 msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1002"
-msgstr "In der Regel zwischen Anfang Juni und Mitte Oktober. Beachten Sie die aktuellen Präsenzangaben auf den Infotafeln vor Ort oder informieren Sie sich bei der genannten Kontaktstelle."
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1002"
 
-msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_145"
-msgstr "In der Regel zwischen Anfang Juni und Mitte Oktober. Beachten Sie die aktuellen Präsenzangaben auf den Infotafeln vor Ort oder kontaktieren Sie Schwarzsee Tourismus."
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1003"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1003"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1004"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1004"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1005"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1005"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1006"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1006"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1007"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1007"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1008"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1008"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1009"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1009"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1010"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1010"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1011"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1011"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1012"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1012"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1013"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1013"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1014"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1014"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1015"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1015"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1016"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1016"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1017"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1017"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1018"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1018"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1019"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1019"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1020"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1020"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1021"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1021"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1022"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1022"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1023"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1023"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1024"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1024"
+
+msgid "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1025"
+msgstr "ch.bafu.alpweiden-herdenschutzhunde.hundepraesenz_code_1025"
 
 msgid "ch.bafu.alpweiden-herdenschutzhunde.kontemail"
 msgstr "Kontakt E-Mail"
@@ -4245,7 +4362,7 @@ msgid "ch.bakom.mobilnetz-4g"
 msgstr "4G - LTE / LTE-A"
 
 msgid "ch.bakom.notruf"
-msgstr "per vischnanca"
+msgstr "Cloms d'urgenza per vischnanca"
 
 msgid "ch.bakom.notruf-112_festnetz"
 msgstr "112 Rait fixa"
