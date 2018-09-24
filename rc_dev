@@ -17,6 +17,7 @@ export PUBLIC_BUCKET_HOST=public.dev.bgdi.ch
 export ROBOTS_FILE=robots.txt
 export SERVER_PORT=6543
 export SPHINXHOST=service-sphinxsearch.dev.bgdi.ch
+export SPHINXHOST=10.220.4.170
 export VECTOR_BUCKET=bgdi-grid-based-data
 export WMSHOST=wms-bgdi.dev.bgdi.ch
 export WSGI_PROCESSES=1
