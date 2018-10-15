@@ -9975,7 +9975,7 @@ msgid "ch.swisstopo.vec200-hydrography-stagnantwater"
 msgstr "Eaux stagnantes"
 
 msgid "ch.swisstopo.vec200-landcover"
-msgstr "Couverture prim. sol VECTOR200"
+msgstr "Couverture prim. sol swissTLMRegio"
 
 msgid "ch.swisstopo.vec200-landcover-wald"
 msgstr "Surfaces boisées"

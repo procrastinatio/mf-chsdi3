@@ -9975,7 +9975,7 @@ msgid "ch.swisstopo.vec200-hydrography-stagnantwater"
 msgstr "Stehende Gewässer"
 
 msgid "ch.swisstopo.vec200-landcover"
-msgstr "Land cover VECTOR200"
+msgstr "Land cover swissTLMRegio"
 
 msgid "ch.swisstopo.vec200-landcover-wald"
 msgstr "Forested areas"

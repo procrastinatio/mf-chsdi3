@@ -9975,7 +9975,7 @@ msgid "ch.swisstopo.vec200-hydrography-stagnantwater"
 msgstr "Stehende Gewässer"
 
 msgid "ch.swisstopo.vec200-landcover"
-msgstr "Cuvrida dal terren VECTOR200"
+msgstr "Cuvrida dal terren swissTLMRegio"
 
 msgid "ch.swisstopo.vec200-landcover-wald"
 msgstr "Surfatschas da guaud"
