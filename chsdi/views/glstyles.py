@@ -3,23 +3,25 @@
 from pyramid.view import view_config, view_defaults
 
 from chsdi.lib.files_handler import FilesHandler
-from chsdi.lib.decorators import requires_authorization, validate_kml_input
+from chsdi.lib.decorators import requires_authorization, validate_glstyle_input
 
 
-@view_defaults(renderer='jsonp', route_name='files')
-class FileView(FilesHandler):
+@view_defaults(renderer='jsonp', route_name='glstyles')
+class GLStylesView(FilesHandler):
 
     def __init__(self, request):
-        self.dynamodb_table_name = 'geoadmin-file-storage'
+        self.dynamodb_table_name = 'vectortiles-styles-storage'
         self.bucket_key_name = 'geoadmin_file_storage_bucket'
         self.bucket_name = request.registry.settings['geoadmin_file_storage_bucket']
-        self.default_mime_type = 'application/vnd.google-earth.kml+xml'
-        self.default_route_name = 'files'
+        self.default_mime_type = 'application/json'
+        self.bucket_folder = 'glstyles'
+        self.bucket_file_extension = '.json'
+        self.default_route_name = 'glstyles'
         FilesHandler.__init__(self, request)
 
-    @view_config(route_name='files_collection', request_method='POST')
+    @view_config(route_name='glstyles_collection', request_method='POST')
     @requires_authorization()
-    @validate_kml_input()
+    @validate_glstyle_input()
     def create_file_view(self):
         return self.create_file()
 
@@ -29,7 +31,7 @@ class FileView(FilesHandler):
 
     @view_config(request_method='POST')
     @requires_authorization()
-    @validate_kml_input()
+    @validate_glstyle_input()
     def update_file_view(self):
         return self.update_file()
 
