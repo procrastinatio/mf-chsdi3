@@ -115,7 +115,7 @@ class FilesHandler(object):
 
         # Set up AWS DynamoDB and S3 handlers
         self.dynamodb_fileshandler = DynamoDBFilesHandler(
-            'geoadmin-file-storage', self.bucket_key_name)
+            self.dynamodb_table_name, self.bucket_key_name)
         self.s3_fileshandler = S3FilesHandler(self.bucket_name)
 
         # This mean that we suppose a file has already been created
