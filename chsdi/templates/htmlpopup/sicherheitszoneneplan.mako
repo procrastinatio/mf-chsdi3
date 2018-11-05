@@ -16,10 +16,10 @@
 <%def name="extended_info(c, lang)"> 
 
 <%
-    import datetime
+    import dateutil.parser as date_parser
     lang = lang if lang in ('fr','it') else 'de'
     format = 'formate_%s' % lang
-    date = datetime.datetime.strptime(c['attributes']['approval_date'].strip(), "%d-%m-%Y").strftime("%d.%m.%Y")
+    date = date_parser.parse(c['attributes']['approval_date']).strftime('%d.%m.%Y')
 %>
   <table>
     <tr><td class="cell-meta-small">${_('safety_zone')}</td><td class="cell-meta-big">${c['attributes']['zone_name']}</td></tr>
