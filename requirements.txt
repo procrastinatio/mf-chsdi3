@@ -5,7 +5,7 @@ boto==2.49.0
 configparser==3.5.0
 coverage==4.5.2
 decorator==4.3.0
-docutils==0.12
+docutils==0.14
 enum34==1.1.6
 esrijson==0.4
 flake8==3.0.4
