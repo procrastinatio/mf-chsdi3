@@ -47,7 +47,7 @@ repoze.lru==0.7
 requests==2.20.1
 Shapely==1.6.4.post2
 simplejson==3.16.0
-six==1.10.0
+six==1.11.0
 Sphinx==1.2.3
 sphinx-rtd-theme===0.1.6-ga3
 SQLAlchemy==1.0.14
