@@ -40,7 +40,7 @@ PyRSS2Gen==1.1
 pystache==0.5.4
 python-dateutil==2.7.5
 pytz==2018.7
-PyYAML==3.10
+PyYAML==3.13
 qrcode==4.0.4
 regex==2014.2.19
 repoze.lru==0.6
