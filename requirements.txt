@@ -4,7 +4,7 @@ beautifulsoup4==4.6.3
 boto==2.49.0
 configparser==3.5.0
 coverage==4.5.2
-decorator==3.4.0
+decorator==4.3.0
 docutils==0.12
 enum34==1.1.6
 esrijson==0.4
