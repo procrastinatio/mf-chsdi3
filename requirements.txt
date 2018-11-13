@@ -1,5 +1,5 @@
 autopep8==1.4.3
-Babel==0.9.6
+Babel==2.6.0
 beautifulsoup4==4.5.1
 boto==2.49.0
 configparser==3.5.0
