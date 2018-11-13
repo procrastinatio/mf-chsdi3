@@ -10,7 +10,7 @@ enum34==1.1.6
 esrijson==0.4
 flake8==3.6.0
 future==0.17.1
-gatilegrid==0.1.5
+gatilegrid==0.1.10
 GeoAlchemy2==0.3.0
 geojson==1.1.0
 hupper==1.0
