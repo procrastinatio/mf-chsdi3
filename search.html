@@ -1,0 +1,359 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Search &mdash; GeoAdmin API 3.0 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="GeoAdmin API 3.0 documentation" href="index.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="fa fa-home"> GeoAdmin API</a>
+        <!-- Here the searchbox is disabled since it is not very efficace -->
+        <!-- <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="#" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div> -->
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul>
+<li class="toctree-l1"><a class="reference internal" href="api/quickstart.html">API Quick start</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/quickstart.html#put-a-map-on-a-page">Put a map on a page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/quickstart.html#understanding-what-is-going-on">Understanding what is going on</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/quickstart.html#include-the-geoadmin-javascript-api">Include the GeoAdmin JavaScript API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/quickstart.html#div-to-contain-the-map">&lt;div&gt; to contain the map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/quickstart.html#javascript-to-create-a-simple-map-with-a-layer">JavaScript to create a simple map with a layer</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/examples.html">API Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/examples.html#js-api-examples">JS API examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/examples.html#openlayers-3-examples">OpenLayers 3 examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/examples.html#map-geo-admin-ch-iframe-examples">map.geo.admin.ch Iframe examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/examples.html#cesiumjs-examples">CesiumJS examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/examples.html#other-js-web-mapping-apis-integration">Other JS web mapping APIs integration</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/doc.html">API Doc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="services/sdiservices.html">API REST Services</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#layers-metadata">Layers Metadata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#layer-attributes">Layer Attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#legend-resource">Legend Resource</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#identify-features">Identify Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#find">Find</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#feature-resource">Feature Resource</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#htmlpopup-resource">Htmlpopup Resource</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#search">Search</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#height">Height</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#profile">Profile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#wmts">WMTS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#supported-projections">Supported projections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#cache-update">Cache Update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#terrain-service">Terrain Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#d-tiles">3D Tiles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#sparql-service">SPARQL Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services/sdiservices.html#atom-feed-open-search-download-service">Atom Feed / Open Search Download Service</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/faq/index.html">API FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/faq/index.html#general-information">General Information</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/status.html">API Uptime Status</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes/index.html">Release Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20181219-wednesday-january-23th-2019">Release 20181219 - Wednesday, January 23th 2019</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20181219-wednesday-december-19th-2018">Release 20181219 - Wednesday, December 19th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20181205-wednesday-december-5th-2018">Release 20181205 - Wednesday, December 5th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20181120-tuesday-november-20th-2018">Release 20181120 - Tuesday, November 20th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20181031-wednesday-october-31st-2018">Release 20181031 - Wednesday, October 31st 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20181017-wednesday-october-17th-2018">Release 20181017 - Wednesday, October 17th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180926-wednesday-september-26th-2018">Release 20180926 - Wednesday, September 26th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180829-wednesday-augutst-29th-2018">Release 20180829 - Wednesday, Augutst 29th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180718-wednesday-july-18th-2018">Release 20180718 - Wednesday, July 18th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180704-wednesday-july-4th-2018">Release 20180704 - Wednesday, July 4th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180627-wednesday-june-27th-2018">Release 20180627 - Wednesday, June 27th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180530-wednesday-mai-30th-2018">Release 20180530 - Wednesday, Mai 30th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180502-wednesday-mai-2nd-2018">Release 20180502 - Wednesday, Mai 2nd 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180418-wednesday-april-18th-2018">Release 20180418 - Wednesday, April 18th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180328-wednesday-march-28th-2018">Release 20180328 - Wednesday, March 28th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180312-monday-march-12th-2018">Release 20180312 - Monday, March 12th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180228-wednesday-february-28th-2018">Release 20180228 - Wednesday, February 28th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180207-wednesday-february-7th-2018">Release 20180207 - Wednesday, February 7th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20180124-wednesday-january-24th-2018">Release 20180124 - Wednesday, January 24th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20171220-wednesday-december-20th-2017">Release 20171220 - Wednesday, December 20th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20171206-wednesday-december-6th-2017">Release 20171206 - Wednesday, December 6th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20171122-wednesday-november-22th-2017">Release 20171122 - Wednesday, November 22th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20171025-wednesday-october-25th-2017">Release 20171025 - Wednesday, October 25th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20171011-wednesday-october-11th-2017">Release 20171011 - Wednesday, October 11th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170920-wednesday-september-20th-2017">Release 20170920 - Wednesday, September 20th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170830-wednesday-august-30th-2017">Release 20170830 - Wednesday, August 30th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170816-wednesday-august-16th-2017">Release 20170816 - Wednesday, August 16th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170726-wednesday-july-26th-2017">Release 20170726 - Wednesday, July 26th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170719-wednesday-july-19th-2017">Release 20170719 - Wednesday, July 19th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170705-wednesday-july-05th-2017">Release 20170705 - Wednesday, July 05th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170627-tuesday-june-27th-2017">Release 20170627 - Tuesday, June 27th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170613-tuesday-june-13th-2017">Release 20170613 - Tuesday, June 13th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170531-wednesday-may-31st-2017">Release 20170531 - Wednesday, May 31st 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170426-wednesday-april-26th-2017">Release 20170426 - Wednesday, April 26th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170412-wednesday-april-12th-2017">Release 20170412 - Wednesday, April 12th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170329-wednesday-march-29nd-2017">Release 20170329 - Wednesday, March 29nd 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170322-wednesday-march-22nd-2017">Release 20170322 - Wednesday, March 22nd 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170313-monday-march-13th-2017">Release 20170313 - Monday, March 13th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170301-wednesday-march-1st-2017">Release 20170301 - Wednesday, March 1st 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170222-wednesday-february-22nd-2017">Release 20170222 - Wednesday, February 22nd 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170201-wednesday-february-1st-2017">Release 20170201 - Wednesday, February 1st 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20170125-wednesday-january-25th-2017">Release 20170125 - Wednesday, January 25th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20161214-wednesday-december-14th-2016">Release 20161214 - Wednesday, December 14th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20161130-wednesday-november-30th-2016">Release 20161130 - Wednesday, November 30th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20161116-wednesday-november-16th-2016">Release 20161116 - Wednesday, November 16th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20161026-wednesday-october-26th-2016">Release 20161026 - Wednesday, October 26th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20161019-wednesday-october-19th-2016">Release 20161019 - Wednesday, October 19th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20161005-wednesday-october-5st-2016">Release 20161005 - Wednesday, October 5st 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160921-wednesday-september-21st-2016">Release 20160921 - Wednesday, September 21st 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160831-wednesday-august-31st-2016">Release 20160831 - Wednesday, August 31st 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160817-wednesday-august-17th-2016">Release 20160817 - Wednesday, August 17th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160803-wednesday-august-3rd-2016">Release 20160803 - Wednesday, August 3rd 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160713-wednesday-july-13th-2016">Release 20160713 - Wednesday, July 13th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160629-wednesday-june-29th-2016">Release 20160629 - Wednesday, June 29th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160615-wednesday-june-15th-2016">Release 20160615 - Wednesday, June 15th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160601-wednesday-june-1st-2016">Release 20160601 - Wednesday, June 1st 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160525-wednesday-may-25th-2016">Release 20160525 - Wednesday, May 25th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160511-wednesday-may-11th-2016">Release 20160511 - Wednesday, May 11th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160427-wednesday-april-27th-2016">Release 20160427 - Wednesday, April 27th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160413-wednesday-april-13th-2016">Release 20160413 - Wednesday, April 13th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160330-wednesday-march-30th-2016">Release 20160330 - Wednesday, March 30th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160316-wednesday-march-16th-2016">Release 20160316 - Wednesday, March 16th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160302-wednesday-march-2nd-2016">Release 20160302 - Wednesday, March 2nd 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160217-wednesday-february-17th-2016">Release 20160217 - Wednesday, February 17th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160210-wednesday-february-10th-2016">Release 20160210 - Wednesday, February 10th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160203-wednesday-february-3rd-2016">Release 20160203 - Wednesday, February 3rd 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160127-wednesday-january-27th-2016">Release 20160127 - Wednesday, January 27th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20160113-wednesday-january-13th-2016">Release 20160113 - Wednesday, January 13th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20151216-wednesday-november-16th-2015">Release 20151216 - Wednesday, November 16th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20151202-wednesday-december-2nd-2015">Release 20151202 - Wednesday, December 2nd 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20151125-wednesday-november-25th-2015">Release 20151125 - Wednesday, November 25th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20151111-wednesday-november-11th-2015">Release 20151111 - Wednesday, November 11th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20151104-wednesday-november-4th-2015">Release 20151104 - Wednesday, November 4th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20151021-wednesday-october-21st-2015">Release 20151021 - Wednesday, October 21st 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20151007-wednesday-october-7th-2015">Release 20151007 - Wednesday, October 7th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150923-wednesday-september-23rd-2015">Release 20150923 - Wednesday, September 23rd 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150825-wednesday-august-25th-2015">Release 20150825 - Wednesday, August 25th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150805-wednesday-august-5th-2015">Release 20150805 - Wednesday, August 5th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150722-wednesday-july-22th-2015">Release 20150722 - Wednesday, July 22th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150708-wednesday-july-8th-2015">Release 20150708 - Wednesday, July 8th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150617-wednesday-july-1st-2015">Release 20150617 - Wednesday, July 1st 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150617-wednesday-june-17th-2015">Release 20150617 - Wednesday, June 17th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150603-wednesday-june-3rd-2015">Release 20150603 - Wednesday, June 3rd 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150528-thursday-may-28th-2015">Release 20150528 - Thursday, May 28th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150520-wednesday-may-20th-2015">Release 20150520 - Wednesday, May 20th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150506-wednesday-may-6th-2015">Release 20150506 - Wednesday, May 6th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150422-wednesday-april-22nd-2015">Release 20150422 - Wednesday, April 22nd 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150415-wednesday-april-15th-2015">Release 20150415 - Wednesday, April 15th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150325-wednesday-march-25th-2015">Release 20150325 - Wednesday, March 25th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150312-thursday-march-12th-2015">Release 20150312 - Thursday, March 12th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150304-wednesday-march-4th-2015">Release 20150304 - Wednesday, March 4th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150211-wednesday-february-11th-2015">Release 20150211 - Wednesday, February 11th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150128-wednesday-january-28th-2015">Release 20150128 - Wednesday, January 28th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150114-wednesday-january-14th-2015">Release 20150114 - Wednesday, January 14th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20150107-wednesday-january-7th-2015">Release 20150107 - Wednesday, January 7th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20141223-tuesday-december-23th-2014">Release 20141223 - Tuesday, December 23th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20141218-thursday-december-18th-2014">Release 20141218 - Thursday, December 18th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20141126-wednesday-november-26th-2014">Release 20141126 - Wednesday, November 26th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20141112-thursday-november-12th-2014">Release 20141112 - Thursday, November 12th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20141030-thursday-october-30th-2014">Release 20141030 - Thursday, October 30th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20141015-wednesday-october-15th-2014">Release 20141015 - Wednesday, October 15th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20141001-wednesday-october-1st-2014">Release 20141001 - Wednesday, October 1st 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140925-thursday-september-25th-2014">Release 20140925 - Thursday, September 25th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140918-thursday-september-18th-2014">Release 20140918 - Thursday, September 18th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140908-monday-september-8th-2014">Release 20140908 - Monday, September 8th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140827-wednesday-august-27th-2014">Release 20140827 - Wednesday, August 27th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140820-wednesday-august-20th-2014">Release 20140820 - Wednesday, August 20th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140813-wednesday-august-13th-2014">Release 20140813 - Wednesday, August 13th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140730-wednesday-july-30th-2014">Release 20140730 - Wednesday, July 30th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140716-wednesday-july-16th-2014">Release 20140716 - Wednesday, July 16th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140702-wednesday-july-2nd-2014">Release 20140702 - Wednesday, July 2nd 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140625-wednesday-june-25th-2014">Release 20140625 - Wednesday, June 25th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140618-wednesday-june-18th-2014">Release 20140618 - Wednesday, June 18th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140611-wednesday-june-11th-2014">Release 20140611 - Wednesday, June 11th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140521-thursday-may-21st-2014">Release 20140521 -  Thursday, May 21st 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140508-thursday-may-8th-2014">Release 20140508 -  Thursday, May 8th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140430-wednesday-april-30th-2014">Release 20140430 -  Wednesday, April 30th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140423-wednesday-april-23th-2014">Release 20140423 -  Wednesday, April 23th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140409-wednesday-april-9th-2014">Release 20140409 -  Wednesday, April 9th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140319-wednesday-march-19th-2014">Release 20140319 -  Wednesday, March 19th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140306-thursday-march-6th-2014">Release 20140306 -  Thursday, March 6th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140220-thursday-february-20th-2014">Release 20140220 -  Thursday, February 20th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140213-thursday-february-13th-2014">Release 20140213 -  Thursday, February 13th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140129-wednesday-january-29th-2014">Release 20140129 -  Wednesday, January 29th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20140115-wednesday-january-15th-2014">Release 20140115 -  Wednesday, January 15th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes/index.html#release-20131218-wednesday-december-18th-2013">Release 20131218 -  Wednesday, December 18th 2013</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api/terms_of_use.html">Terms of use</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://www.geo.admin.ch/">About Geoadmin API</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html"><img src=" _static/logo_bund_20x20.png" style="width:30px; height:30px; border-radius:initial; position:relative; bottom:1px; left:8px;"></a>
+        <a href="index.html">GeoAdmin API</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li></li>
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <noscript>
+  <div id="fallback" class="admonition warning">
+    <p class="last">
+      Please activate JavaScript to enable the search
+      functionality.
+    </p>
+  </div>
+  </noscript>
+
+  
+  <div id="search-results">
+  
+  </div>
+
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+    </p>
+  </div>
+
+  For technical questions and suggestions <br> <a href="mailto:info@geo.admin.ch">Webmaster</a> | <a href="https://www.geo.admin.ch/en/about-swiss-geoportal/responsabilities-and-contacts.html">Terms and conditions</a>
+
+  <br>
+
+  <br>
+
+  <div style="font-size:12px;">
+  <a href="https://github.com/snide/sphinx_rtd_theme;">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+  </div>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'3.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script type="text/javascript" src="_static/searchtools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+  
+  <script type="text/javascript">
+    jQuery(function() { Search.loadIndex("searchindex.js"); });
+  </script>
+  
+  <script type="text/javascript" id="searchindexloader"></script>
+   
+
+
+</body>
+</html>

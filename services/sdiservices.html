@@ -1,0 +1,1972 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>API REST Services &mdash; GeoAdmin API 3.0 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="GeoAdmin API 3.0 documentation" href="../index.html"/>
+        <link rel="next" title="API FAQ" href="../api/faq/index.html"/>
+        <link rel="prev" title="API Doc" href="../api/doc.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="fa fa-home"> GeoAdmin API</a>
+        <!-- Here the searchbox is disabled since it is not very efficace -->
+        <!-- <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div> -->
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../api/quickstart.html">API Quick start</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../api/quickstart.html#put-a-map-on-a-page">Put a map on a page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/quickstart.html#understanding-what-is-going-on">Understanding what is going on</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/quickstart.html#include-the-geoadmin-javascript-api">Include the GeoAdmin JavaScript API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/quickstart.html#div-to-contain-the-map">&lt;div&gt; to contain the map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/quickstart.html#javascript-to-create-a-simple-map-with-a-layer">JavaScript to create a simple map with a layer</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api/examples.html">API Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../api/examples.html#js-api-examples">JS API examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/examples.html#openlayers-3-examples">OpenLayers 3 examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/examples.html#map-geo-admin-ch-iframe-examples">map.geo.admin.ch Iframe examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/examples.html#cesiumjs-examples">CesiumJS examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/examples.html#other-js-web-mapping-apis-integration">Other JS web mapping APIs integration</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api/doc.html">API Doc</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">API REST Services</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#layers-metadata">Layers Metadata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#layer-attributes">Layer Attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#legend-resource">Legend Resource</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#identify-features">Identify Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#find">Find</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#feature-resource">Feature Resource</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#htmlpopup-resource">Htmlpopup Resource</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#search">Search</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#height">Height</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#profile">Profile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wmts">WMTS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#supported-projections">Supported projections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cache-update">Cache Update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#terrain-service">Terrain Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#d-tiles">3D Tiles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sparql-service">SPARQL Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#atom-feed-open-search-download-service">Atom Feed / Open Search Download Service</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api/faq/index.html">API FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../api/faq/index.html#general-information">General Information</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api/status.html">API Uptime Status</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../releasenotes/index.html">Release Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20181219-wednesday-january-23th-2019">Release 20181219 - Wednesday, January 23th 2019</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20181219-wednesday-december-19th-2018">Release 20181219 - Wednesday, December 19th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20181205-wednesday-december-5th-2018">Release 20181205 - Wednesday, December 5th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20181120-tuesday-november-20th-2018">Release 20181120 - Tuesday, November 20th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20181031-wednesday-october-31st-2018">Release 20181031 - Wednesday, October 31st 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20181017-wednesday-october-17th-2018">Release 20181017 - Wednesday, October 17th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180926-wednesday-september-26th-2018">Release 20180926 - Wednesday, September 26th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180829-wednesday-augutst-29th-2018">Release 20180829 - Wednesday, Augutst 29th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180718-wednesday-july-18th-2018">Release 20180718 - Wednesday, July 18th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180704-wednesday-july-4th-2018">Release 20180704 - Wednesday, July 4th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180627-wednesday-june-27th-2018">Release 20180627 - Wednesday, June 27th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180530-wednesday-mai-30th-2018">Release 20180530 - Wednesday, Mai 30th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180502-wednesday-mai-2nd-2018">Release 20180502 - Wednesday, Mai 2nd 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180418-wednesday-april-18th-2018">Release 20180418 - Wednesday, April 18th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180328-wednesday-march-28th-2018">Release 20180328 - Wednesday, March 28th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180312-monday-march-12th-2018">Release 20180312 - Monday, March 12th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180228-wednesday-february-28th-2018">Release 20180228 - Wednesday, February 28th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180207-wednesday-february-7th-2018">Release 20180207 - Wednesday, February 7th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20180124-wednesday-january-24th-2018">Release 20180124 - Wednesday, January 24th 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20171220-wednesday-december-20th-2017">Release 20171220 - Wednesday, December 20th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20171206-wednesday-december-6th-2017">Release 20171206 - Wednesday, December 6th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20171122-wednesday-november-22th-2017">Release 20171122 - Wednesday, November 22th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20171025-wednesday-october-25th-2017">Release 20171025 - Wednesday, October 25th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20171011-wednesday-october-11th-2017">Release 20171011 - Wednesday, October 11th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170920-wednesday-september-20th-2017">Release 20170920 - Wednesday, September 20th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170830-wednesday-august-30th-2017">Release 20170830 - Wednesday, August 30th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170816-wednesday-august-16th-2017">Release 20170816 - Wednesday, August 16th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170726-wednesday-july-26th-2017">Release 20170726 - Wednesday, July 26th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170719-wednesday-july-19th-2017">Release 20170719 - Wednesday, July 19th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170705-wednesday-july-05th-2017">Release 20170705 - Wednesday, July 05th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170627-tuesday-june-27th-2017">Release 20170627 - Tuesday, June 27th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170613-tuesday-june-13th-2017">Release 20170613 - Tuesday, June 13th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170531-wednesday-may-31st-2017">Release 20170531 - Wednesday, May 31st 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170426-wednesday-april-26th-2017">Release 20170426 - Wednesday, April 26th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170412-wednesday-april-12th-2017">Release 20170412 - Wednesday, April 12th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170329-wednesday-march-29nd-2017">Release 20170329 - Wednesday, March 29nd 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170322-wednesday-march-22nd-2017">Release 20170322 - Wednesday, March 22nd 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170313-monday-march-13th-2017">Release 20170313 - Monday, March 13th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170301-wednesday-march-1st-2017">Release 20170301 - Wednesday, March 1st 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170222-wednesday-february-22nd-2017">Release 20170222 - Wednesday, February 22nd 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170201-wednesday-february-1st-2017">Release 20170201 - Wednesday, February 1st 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20170125-wednesday-january-25th-2017">Release 20170125 - Wednesday, January 25th 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20161214-wednesday-december-14th-2016">Release 20161214 - Wednesday, December 14th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20161130-wednesday-november-30th-2016">Release 20161130 - Wednesday, November 30th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20161116-wednesday-november-16th-2016">Release 20161116 - Wednesday, November 16th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20161026-wednesday-october-26th-2016">Release 20161026 - Wednesday, October 26th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20161019-wednesday-october-19th-2016">Release 20161019 - Wednesday, October 19th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20161005-wednesday-october-5st-2016">Release 20161005 - Wednesday, October 5st 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160921-wednesday-september-21st-2016">Release 20160921 - Wednesday, September 21st 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160831-wednesday-august-31st-2016">Release 20160831 - Wednesday, August 31st 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160817-wednesday-august-17th-2016">Release 20160817 - Wednesday, August 17th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160803-wednesday-august-3rd-2016">Release 20160803 - Wednesday, August 3rd 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160713-wednesday-july-13th-2016">Release 20160713 - Wednesday, July 13th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160629-wednesday-june-29th-2016">Release 20160629 - Wednesday, June 29th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160615-wednesday-june-15th-2016">Release 20160615 - Wednesday, June 15th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160601-wednesday-june-1st-2016">Release 20160601 - Wednesday, June 1st 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160525-wednesday-may-25th-2016">Release 20160525 - Wednesday, May 25th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160511-wednesday-may-11th-2016">Release 20160511 - Wednesday, May 11th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160427-wednesday-april-27th-2016">Release 20160427 - Wednesday, April 27th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160413-wednesday-april-13th-2016">Release 20160413 - Wednesday, April 13th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160330-wednesday-march-30th-2016">Release 20160330 - Wednesday, March 30th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160316-wednesday-march-16th-2016">Release 20160316 - Wednesday, March 16th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160302-wednesday-march-2nd-2016">Release 20160302 - Wednesday, March 2nd 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160217-wednesday-february-17th-2016">Release 20160217 - Wednesday, February 17th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160210-wednesday-february-10th-2016">Release 20160210 - Wednesday, February 10th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160203-wednesday-february-3rd-2016">Release 20160203 - Wednesday, February 3rd 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160127-wednesday-january-27th-2016">Release 20160127 - Wednesday, January 27th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20160113-wednesday-january-13th-2016">Release 20160113 - Wednesday, January 13th 2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20151216-wednesday-november-16th-2015">Release 20151216 - Wednesday, November 16th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20151202-wednesday-december-2nd-2015">Release 20151202 - Wednesday, December 2nd 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20151125-wednesday-november-25th-2015">Release 20151125 - Wednesday, November 25th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20151111-wednesday-november-11th-2015">Release 20151111 - Wednesday, November 11th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20151104-wednesday-november-4th-2015">Release 20151104 - Wednesday, November 4th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20151021-wednesday-october-21st-2015">Release 20151021 - Wednesday, October 21st 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20151007-wednesday-october-7th-2015">Release 20151007 - Wednesday, October 7th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150923-wednesday-september-23rd-2015">Release 20150923 - Wednesday, September 23rd 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150825-wednesday-august-25th-2015">Release 20150825 - Wednesday, August 25th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150805-wednesday-august-5th-2015">Release 20150805 - Wednesday, August 5th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150722-wednesday-july-22th-2015">Release 20150722 - Wednesday, July 22th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150708-wednesday-july-8th-2015">Release 20150708 - Wednesday, July 8th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150617-wednesday-july-1st-2015">Release 20150617 - Wednesday, July 1st 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150617-wednesday-june-17th-2015">Release 20150617 - Wednesday, June 17th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150603-wednesday-june-3rd-2015">Release 20150603 - Wednesday, June 3rd 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150528-thursday-may-28th-2015">Release 20150528 - Thursday, May 28th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150520-wednesday-may-20th-2015">Release 20150520 - Wednesday, May 20th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150506-wednesday-may-6th-2015">Release 20150506 - Wednesday, May 6th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150422-wednesday-april-22nd-2015">Release 20150422 - Wednesday, April 22nd 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150415-wednesday-april-15th-2015">Release 20150415 - Wednesday, April 15th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150325-wednesday-march-25th-2015">Release 20150325 - Wednesday, March 25th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150312-thursday-march-12th-2015">Release 20150312 - Thursday, March 12th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150304-wednesday-march-4th-2015">Release 20150304 - Wednesday, March 4th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150211-wednesday-february-11th-2015">Release 20150211 - Wednesday, February 11th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150128-wednesday-january-28th-2015">Release 20150128 - Wednesday, January 28th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150114-wednesday-january-14th-2015">Release 20150114 - Wednesday, January 14th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20150107-wednesday-january-7th-2015">Release 20150107 - Wednesday, January 7th 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20141223-tuesday-december-23th-2014">Release 20141223 - Tuesday, December 23th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20141218-thursday-december-18th-2014">Release 20141218 - Thursday, December 18th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20141126-wednesday-november-26th-2014">Release 20141126 - Wednesday, November 26th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20141112-thursday-november-12th-2014">Release 20141112 - Thursday, November 12th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20141030-thursday-october-30th-2014">Release 20141030 - Thursday, October 30th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20141015-wednesday-october-15th-2014">Release 20141015 - Wednesday, October 15th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20141001-wednesday-october-1st-2014">Release 20141001 - Wednesday, October 1st 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140925-thursday-september-25th-2014">Release 20140925 - Thursday, September 25th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140918-thursday-september-18th-2014">Release 20140918 - Thursday, September 18th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140908-monday-september-8th-2014">Release 20140908 - Monday, September 8th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140827-wednesday-august-27th-2014">Release 20140827 - Wednesday, August 27th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140820-wednesday-august-20th-2014">Release 20140820 - Wednesday, August 20th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140813-wednesday-august-13th-2014">Release 20140813 - Wednesday, August 13th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140730-wednesday-july-30th-2014">Release 20140730 - Wednesday, July 30th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140716-wednesday-july-16th-2014">Release 20140716 - Wednesday, July 16th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140702-wednesday-july-2nd-2014">Release 20140702 - Wednesday, July 2nd 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140625-wednesday-june-25th-2014">Release 20140625 - Wednesday, June 25th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140618-wednesday-june-18th-2014">Release 20140618 - Wednesday, June 18th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140611-wednesday-june-11th-2014">Release 20140611 - Wednesday, June 11th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140521-thursday-may-21st-2014">Release 20140521 -  Thursday, May 21st 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140508-thursday-may-8th-2014">Release 20140508 -  Thursday, May 8th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140430-wednesday-april-30th-2014">Release 20140430 -  Wednesday, April 30th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140423-wednesday-april-23th-2014">Release 20140423 -  Wednesday, April 23th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140409-wednesday-april-9th-2014">Release 20140409 -  Wednesday, April 9th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140319-wednesday-march-19th-2014">Release 20140319 -  Wednesday, March 19th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140306-thursday-march-6th-2014">Release 20140306 -  Thursday, March 6th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140220-thursday-february-20th-2014">Release 20140220 -  Thursday, February 20th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140213-thursday-february-13th-2014">Release 20140213 -  Thursday, February 13th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140129-wednesday-january-29th-2014">Release 20140129 -  Wednesday, January 29th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20140115-wednesday-january-15th-2014">Release 20140115 -  Wednesday, January 15th 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasenotes/index.html#release-20131218-wednesday-december-18th-2013">Release 20131218 -  Wednesday, December 18th 2013</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../api/terms_of_use.html">Terms of use</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://www.geo.admin.ch/">About Geoadmin API</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html"><img src=" ../_static/logo_bund_20x20.png" style="width:30px; height:30px; border-radius:initial; position:relative; bottom:1px; left:8px;"></a>
+        <a href="../index.html">GeoAdmin API</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>API REST Services</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="../_sources/services/sdiservices.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <head>
+  <link href="../_static/custom.css" rel="stylesheet" type="text/css" />
+  <script src="../examples/utils.js"></script>
+</head><div class="section" id="api-rest-services">
+<span id="rest-services"></span><h1>API REST Services<a class="headerlink" href="#api-rest-services" title="Permalink to this headline">¶</a></h1>
+<p>Most services are implementing or are heavily inspired by <a class="reference external" href="http://resources.arcgis.com/en/help/arcgis-rest-api/index.html#//02r300000054000000">ESRI GeoServices REST Specification</a>
+or by the <a class="reference external" href="http://opengeospatial.org">Open Geospatial Consortium (OGC)</a>.</p>
+<div class="section" id="layers-metadata">
+<span id="metadata-description"></span><h2>Layers Metadata<a class="headerlink" href="#layers-metadata" title="Permalink to this headline">¶</a></h2>
+<p>This service provides metadata for all the available layers in the GeoAdmin API.</p>
+<div class="section" id="url">
+<h3>URL<a class="headerlink" href="#url" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://api3.geo.admin.ch/rest/services/api/MapServer
+</pre></div>
+</div>
+</div>
+<div class="section" id="input-parameters">
+<h3>Input Parameters<a class="headerlink" href="#input-parameters" title="Permalink to this headline">¶</a></h3>
+<p>RESTFul interface is available.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>searchText (optional)</strong></td>
+<td>The text to search for in the layer description.</td>
+</tr>
+<tr class="row-odd"><td><strong>lang (optional)</strong></td>
+<td>The language. Supported values: de, fr, it , rm, en. Defaults to &#8220;de&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>sr (optional)</strong></td>
+<td>The spatial reference. Supported values: 21781 (LV03), 2056 (LV95). Defaults to &#8220;21781&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>callback (optional)</strong></td>
+<td>The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="response-syntax">
+<h3>Response syntax<a class="headerlink" href="#response-syntax" title="Permalink to this headline">¶</a></h3>
+<p>Here is an example of response.</p>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;layers&quot;</span><span class="o">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;Temperature monitoring stations&quot;</span><span class="p">,</span>
+      <span class="s2">&quot;fullName&quot;</span><span class="o">:</span> <span class="s2">&quot;Water temperature monitoring stations&quot;</span><span class="p">,</span>
+      <span class="s2">&quot;idGeoCat&quot;</span><span class="o">:</span> <span class="s2">&quot;4f10c35a-8fac-4000-ab6d-7a294284059a&quot;</span><span class="p">,</span>
+      <span class="s2">&quot;layerBodId&quot;</span><span class="o">:</span> <span class="s2">&quot;ch.bafu.hydrologie-wassertemperaturmessstationen&quot;</span><span class="p">,</span>
+      <span class="s2">&quot;attributes&quot;</span><span class="o">:</span> <span class="p">{</span>
+          <span class="s2">&quot;wmsUrlResource&quot;</span><span class="o">:</span> <span class="s2">&quot;http://wms.geo.admin.ch/?REQUEST=GetCapabilities&amp;SERVICE=WMS&amp;VERSION=1.0.0&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;scaleLimit&quot;</span><span class="o">:</span> <span class="s2">&quot;-&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;inspireUpperAbstract&quot;</span><span class="o">:</span> <span class="s2">&quot;Environnement, biology and geology | Space and population&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;inspireName&quot;</span><span class="o">:</span> <span class="s2">&quot;Environmental monitoring facilities | Human health and safety&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;urlDetails&quot;</span><span class="o">:</span> <span class="s2">&quot;http://www.bafu.admin.ch/hydrologie/01835/02122/index.html?lang=de&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;abstract&quot;</span><span class="o">:</span> <span class="s2">&quot;...&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;inspireAbstract&quot;</span><span class="o">:</span> <span class="s2">&quot;...&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;dataOwner&quot;</span><span class="o">:</span> <span class="s2">&quot;Federal Office for the Environment FOEN&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;wmsContactAbbreviation&quot;</span><span class="o">:</span> <span class="s2">&quot;swisstopo&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;maps&quot;</span><span class="o">:</span> <span class="s2">&quot;...&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;wmsContactName&quot;</span><span class="o">:</span> <span class="s2">&quot;Federal Office of Topography swisstopo&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;dataStatus&quot;</span><span class="o">:</span> <span class="s2">&quot;20130322&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;inspireUpperName&quot;</span><span class="o">:</span> <span class="s2">&quot;Environment biology and geology | Space and population&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;urlApplication&quot;</span><span class="o">:</span> <span class="s2">&quot;http://map.bafu.admin.ch&quot;</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">],</span>
+  <span class="s2">&quot;tileInfo&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;origin&quot;</span><span class="o">:</span> <span class="p">{</span>
+      <span class="s2">&quot;y&quot;</span><span class="o">:</span> <span class="mi">350000</span><span class="p">,</span>
+      <span class="s2">&quot;x&quot;</span><span class="o">:</span> <span class="mi">420000</span><span class="p">,</span>
+      <span class="s2">&quot;spatialReference&quot;</span><span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&quot;wkid&quot;</span><span class="o">:</span> <span class="mi">21781</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;rows&quot;</span><span class="o">:</span> <span class="mi">256</span><span class="p">,</span>
+    <span class="s2">&quot;format&quot;</span><span class="o">:</span> <span class="s2">&quot;PNG,JPEG&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;lods&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+          <span class="s2">&quot;height&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+          <span class="s2">&quot;width&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+          <span class="s2">&quot;scale&quot;</span><span class="o">:</span> <span class="mf">14285750.5715</span><span class="p">,</span>
+          <span class="s2">&quot;resolution&quot;</span><span class="o">:</span> <span class="mi">4000</span><span class="p">,</span>
+          <span class="s2">&quot;level&quot;</span><span class="o">:</span> <span class="mi">0</span>
+        <span class="p">},</span> <span class="p">...</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;height&quot;</span><span class="o">:</span> <span class="mi">12500</span><span class="p">,</span>
+            <span class="s2">&quot;width&quot;</span><span class="o">:</span> <span class="mi">18750</span><span class="p">,</span>
+            <span class="s2">&quot;scale&quot;</span><span class="o">:</span> <span class="mf">357.1425</span><span class="p">,</span>
+            <span class="s2">&quot;resolution&quot;</span><span class="o">:</span> <span class="mf">0.1</span><span class="p">,</span>
+            <span class="s2">&quot;level&quot;</span><span class="o">:</span> <span class="mi">28</span>
+        <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;spatialReference&quot;</span><span class="o">:</span> <span class="p">{</span>
+      <span class="s2">&quot;wkid&quot;</span><span class="o">:</span> <span class="mi">21781</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;cols&quot;</span><span class="o">:</span> <span class="mi">256</span><span class="p">,</span>
+    <span class="s2">&quot;dpi&quot;</span><span class="o">:</span> <span class="mi">96</span><span class="p">,</span>
+    <span class="s2">&quot;compressionQuality&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
+  <span class="p">},</span>
+  <span class="s2">&quot;description&quot;</span><span class="o">:</span> <span class="s2">&quot;Configuration for the map (topic) api&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;fullExtent&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;xmin&quot;</span><span class="o">:</span> <span class="mi">42000</span><span class="p">,</span>
+    <span class="s2">&quot;ymin&quot;</span><span class="o">:</span> <span class="mi">30000</span><span class="p">,</span>
+    <span class="s2">&quot;ymax&quot;</span><span class="o">:</span> <span class="mi">350000</span><span class="p">,</span>
+    <span class="s2">&quot;xmax&quot;</span><span class="o">:</span> <span class="mi">900000</span><span class="p">,</span>
+    <span class="s2">&quot;spatialReference&quot;</span><span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&quot;wkid&quot;</span><span class="o">:</span> <span class="mi">21781</span>
+    <span class="p">}</span>
+  <span class="p">},</span>
+  <span class="s2">&quot;units&quot;</span><span class="o">:</span> <span class="s2">&quot;esriMeters&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;initialExtent&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;xmin&quot;</span><span class="o">:</span> <span class="mi">458000</span><span class="p">,</span>
+    <span class="s2">&quot;ymin&quot;</span><span class="o">:</span> <span class="mi">76375</span><span class="p">,</span>
+    <span class="s2">&quot;ymax&quot;</span><span class="o">:</span> <span class="mi">289125</span><span class="p">,</span>
+    <span class="s2">&quot;xmax&quot;</span><span class="o">:</span> <span class="mi">862500</span><span class="p">,</span>
+    <span class="s2">&quot;spatialReference&quot;</span><span class="o">:</span> <span class="p">{</span>
+      <span class="s2">&quot;wkid&quot;</span><span class="o">:</span> <span class="mi">21781</span>
+    <span class="p">}</span>
+  <span class="p">},</span>
+  <span class="s2">&quot;spatialReference&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;wkid&quot;</span><span class="o">:</span> <span class="mi">21781</span>
+  <span class="p">},</span>
+  <span class="s2">&quot;capabilities&quot;</span><span class="o">:</span> <span class="s2">&quot;Map&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;copyrightText&quot;</span><span class="o">:</span> <span class="s2">&quot;Data api&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Here is a description of the data one can find in the above response.</p>
+<ul class="simple">
+<li><strong>layers</strong>: a list of object literals representing the layers<ul>
+<li><strong>name</strong>: the name of the layer (short name less than 30 characters)</li>
+<li><strong>fullName</strong>: the layer&#8217;s full name (not necessarily different from name)</li>
+<li><strong>idGeoCat</strong>: the associated metadata id in <a class="reference external" href="http://www.geocat.ch/geonetwork/srv/eng/geocat">GeoCat</a></li>
+<li><strong>layerBodId</strong>: the technical name or BOD id</li>
+</ul>
+</li>
+<li><strong>attributes</strong>: the metadata attributes associated to a given layer<ul>
+<li><strong>wmsResource</strong>: the WMS resource of the layer</li>
+<li><strong>scaleLimit</strong>: the scale at which the layer is valid</li>
+<li><strong>inspireUpperAbstract</strong>: the abstract of the <a class="reference external" href="https://www.geo.admin.ch/en/geo-information-switzerland/geodata-index-inspire.html">INSPIRE</a> category (first level)</li>
+<li><strong>inprireName</strong>: the name of the <a class="reference external" href="https://www.geo.admin.ch/en/geo-information-switzerland/geodata-index-inspire.html">INSPIRE</a> category</li>
+<li><strong>urlDetails</strong>: link to the official details page</li>
+<li><strong>bundCollectionNumber</strong>: the collection number</li>
+<li><strong>dataOwner</strong>: the data owner</li>
+<li><strong>inprieAbstract</strong>: the abstract of the <a class="reference external" href="https://www.geo.admin.ch/en/geo-information-switzerland/geodata-index-inspire.html">INSPIRE</a> category the layer belongs to</li>
+<li><strong>absctract</strong>: the layer absctract</li>
+<li><strong>wmsContactAbbreviation</strong>: the abbreviation contact for the WMS resource</li>
+<li><strong>downloadUrl</strong>: the link where the data can be downloaded</li>
+<li><strong>maps</strong>: the projects in which this layer is accessible</li>
+<li><strong>wmsContactName</strong>: the contact name for the WMS resource</li>
+<li><strong>dataStatus</strong>: the date of the latest data update</li>
+<li><strong>bundCollectionName</strong>: the collection name</li>
+<li><strong>inspireUpperName</strong>: the name of the <a class="reference external" href="https://www.geo.admin.ch/en/geo-information-switzerland/geodata-index-inspire.html">INSPIRE</a> category (first level)</li>
+<li><strong>urlApplication</strong>: the application where this layer is published</li>
+<li><strong>tileInfo</strong>: WMTS general information in json format. Note that this section is always identical and is not tied to a particular &#8220;map&#8221; like in ESRI specifications.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="examples">
+<h3>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>List all the layers available in the GeoAdmin API: <a class="reference external" href="../../../rest/services/api/MapServer">https://api3.geo.admin.ch/rest/services/api/MapServer</a></li>
+<li>List all the layers available in the GeoAdmin API where the word &#8220;wasser&#8221; is found in their description: <a class="reference external" href="../../../rest/services/api/MapServer?searchText=wasser">https://api3.geo.admin.ch/rest/services/api/MapServer?searchText=wasser</a></li>
+<li>Find a layer by <a class="reference external" href="http://www.geocat.ch/geonetwork/srv/eng/geocat">geocat ID</a>: <a class="reference external" href="../../../rest/services/api/MapServer?searchText=f198f6f6-8efa-4235-a55f-99767ea0206c">https://api3.geo.admin.ch/rest/services/api/MapServer?searchText=f198f6f6-8efa-4235-a55f-99767ea0206c</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="layer-attributes-description" />
+<div class="section" id="layer-attributes">
+<h2>Layer Attributes<a class="headerlink" href="#layer-attributes" title="Permalink to this headline">¶</a></h2>
+<p>This service is used to expose the attributes names that are specific to a layer. This service is especially useful when combined wit
+h the find service.</p>
+<div class="section" id="id4">
+<h3>URL<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://api3.geo.admin.ch/rest/services/api/MapServer/{layerBodId}
+</pre></div>
+</div>
+</div>
+<div class="section" id="id5">
+<h3>Input Parameters<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>RESTFul interface is available.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>lang (optional)</strong></td>
+<td>The language. Supported values: de, fr, it , rm, en. (Defaults to de if browser language
+does not match any of the possible values)</td>
+</tr>
+<tr class="row-odd"><td><strong>callback (optional)</strong></td>
+<td>The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<p>Get the all the available attributes names of the municipal boundaries: <a class="reference external" href="../../../rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill">https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill</a></p>
+</div>
+</div>
+<hr class="docutils" id="legend-description" />
+<div class="section" id="legend-resource">
+<h2>Legend Resource<a class="headerlink" href="#legend-resource" title="Permalink to this headline">¶</a></h2>
+<p>With a layer ID (or technical name), this service can be used to retrieve a legend.</p>
+<div class="section" id="id6">
+<h3>URL<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://api3.geo.admin.ch/rest/services/api/MapServer/{layerBodId}/legend
+</pre></div>
+</div>
+</div>
+<div class="section" id="id7">
+<h3>Input Parameters<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>No css styling is provided per default so that you can use your own.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>lang (optional)</strong></td>
+<td>The language. Supported values: de, fr, it , rm, en. (Defaults to de if browser language
+does not match any of the possible values)</td>
+</tr>
+<tr class="row-odd"><td><strong>callback (optional)</strong></td>
+<td>The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id8">
+<h3>Example<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Get the legend for ch.bafu.nabelstationen: <a class="reference external" href="../../../rest/services/api/MapServer/ch.bafu.nabelstationen/legend">https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.nabelstationen/legend</a></li>
+<li>Get the same legend using JSONP: <a class="reference external" href="../../../rest/services/api/MapServer/ch.bafu.nabelstationen/legend?callback=callback">https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.nabelstationen/legend?callback=callback</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="identify-description" />
+<div class="section" id="identify-features">
+<h2>Identify Features<a class="headerlink" href="#identify-features" title="Permalink to this headline">¶</a></h2>
+<p>This service can be used to discover features at a specific location. Here is a <a class="reference external" href="../../../api/faq/index.html#which-layers-have-a-tooltip">complete list of layers</a> for which this service is available.</p>
+<div class="section" id="id9">
+<h3>URL<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://api3.geo.admin.ch/rest/services/api/MapServer/identify
+</pre></div>
+</div>
+</div>
+<div class="section" id="id10">
+<h3>Input Parameters<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p>No more than 50 features can be retrieved per request.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>geometry (required)</strong></td>
+<td>The geometry to identify on. The geometry is specified by the geometry type.
+This parameter is specified as a separated list of coordinates. The simple syntax (comma
+separated list of coordinates) and the complex one can be used. (<a class="reference external" href="http://resources.arcgis.com/en/help/arcgis-rest-api/index.html#//02r3000000n1000000">ESRI syntax for
+geometries</a>)</td>
+</tr>
+<tr class="row-odd"><td><strong>geometryType (required)</strong></td>
+<td>The type of geometry to identify on. Supported values are:
+esriGeometryPoint or esriGeometryPolyline or esriGeometryPolygon or esriGeometryEnvelope.</td>
+</tr>
+<tr class="row-even"><td><strong>layers (optional)</strong></td>
+<td>The layers to perform the identify operation on. Per default query all the layers in the
+GeoAdmin API. Notation: all:&#8221;comma separated list of technical layer names&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>mapExtent (required)</strong></td>
+<td>The extent of the map. (minx, miny, maxx, maxy).</td>
+</tr>
+<tr class="row-even"><td><strong>imageDisplay (required)</strong></td>
+<td>The screen image display parameters (width, height, and dpi) of the map.
+The mapExtent and the imageDisplay parameters are used by the server to calculate the
+the distance on the map to search based on the tolerance in screen pixels.</td>
+</tr>
+<tr class="row-odd"><td><strong>tolerance (required)</strong></td>
+<td>The tolerance in pixels around the specified geometry. This parameter is used to create
+a buffer around the geometry. Therefore, a tolerance of 0 deactivates the buffer
+creation.</td>
+</tr>
+<tr class="row-even"><td><strong>returnGeometry (optional)</strong></td>
+<td>This parameter defines whether the geometry is returned or not. Default to &#8220;true&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>geometryFormat (optional)</strong></td>
+<td>Returned geometry format.
+Default to ESRI geometry format. Supported values are: &#8220;esrijson&#8221; or &#8220;geojson&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>offset (optional)</strong></td>
+<td>Offset for the first record (if more than 50 records)</td>
+</tr>
+<tr class="row-odd"><td><strong>sr (optional)</strong></td>
+<td>The spatial reference. Supported values: 21781 (LV03), 2056 (LV95). Defaults to &#8220;21781&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>lang (optional)</strong></td>
+<td>The language. Supported values: de, fr, it , rm, en. Defaults to &#8220;de&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>callback (optional)</strong></td>
+<td>The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id11">
+<h3>Examples<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Identify all the features belonging to ch.bafu.nabelstationen using a tolerance of 5 pixels around a point: <a class="reference external" href="../../../rest/services/all/MapServer/identify?geometry=678250,213000&amp;geometryFormat=geojson&amp;geometryType=esriGeometryPoint&amp;imageDisplay=1391,1070,96&amp;lang=fr&amp;layers=all:ch.bafu.nabelstationen&amp;mapExtent=312250,-77500,1007750,457500&amp;returnGeometry=true&amp;tolerance=5">https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=678250,213000&amp;geometryFormat=geojson&amp;geometryType=esriGeometryPoint&amp;imageDisplay=1391,1070,96&amp;lang=fr&amp;layers=all:ch.bafu.nabelstationen&amp;mapExtent=312250,-77500,1007750,457500&amp;returnGeometry=true&amp;tolerance=5</a></li>
+<li>Identify all the features belonging to ch.bfs.arealstatistik-1985 intersecting an enveloppe (or bounding box): <a class="reference external" href="../../../rest/services/api/MapServer/identify?geometryType=esriGeometryEnvelope&amp;geometry=548945.5,147956,549402,148103.5&amp;imageDisplay=500,600,96&amp;mapExtent=548945.5,147956,549402,148103.5&amp;tolerance=1&amp;layers=all:ch.bfs.arealstatistik-1985">https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometryType=esriGeometryEnvelope&amp;geometry=548945.5,147956,549402,148103.5&amp;imageDisplay=500,600,96&amp;mapExtent=548945.5,147956,549402,148103.5&amp;tolerance=1&amp;layers=all:ch.bfs.arealstatistik-1985</a></li>
+<li>Identify all the features belonging to ch.bafu.bundesinventare-bln a polyline: <a class="reference external" href="../../../rest/services/api/MapServer/identify?geometry={&quot;paths&quot;:[[[675000,245000],[660000,260000],[620000,250000]]]}&amp;geometryType=esriGeometryPolyline&amp;imageDisplay=500,600,96&amp;mapExtent=548945.5,147956,549402,148103.5&amp;tolerance=5&amp;layers=all:ch.bafu.bundesinventare-bln">https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometry={&#8220;paths&#8221;:[[[675000,245000],[660000,260000],[620000,250000]]]}&amp;geometryType=esriGeometryPolyline&amp;imageDisplay=500,600,96&amp;mapExtent=548945.5,147956,549402,148103.5&amp;tolerance=5&amp;layers=all:ch.bafu.bundesinventare-bln</a></li>
+<li>Identify all the features belonging to ch.bafu.bundesinventare-bln intersecting a polygon: <a class="reference external" href="../../../rest/services/api/MapServer/identify?geometry={&quot;rings&quot;:[[[675000,245000],[670000,255000],[680000,260000],[690000,255000],[685000,240000],[675000,245000]]]}&amp;geometryType=esriGeometryPolygon&amp;imageDisplay=500,600,96&amp;mapExtent=548945.5,147956,549402,148103.5&amp;tolerance=5&amp;layers=all:ch.bafu.bundesinventare-bln">https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometry={&#8220;rings&#8221;:[[[675000,245000],[670000,255000],[680000,260000],[690000,255000],[685000,240000],[675000,245000]]]}&amp;geometryType=esriGeometryPolygon&amp;imageDisplay=500,600,96&amp;mapExtent=548945.5,147956,549402,148103.5&amp;tolerance=5&amp;layers=all:ch.bafu.bundesinventare-bln</a></li>
+<li>Same request than above but returned geometry format is GeoJSON: <a class="reference external" href="../../../rest/services/api/MapServer/identify?geometryType=esriGeometryEnvelope&amp;geometry=548945.5,147956,549402,148103.5&amp;imageDisplay=500,600,96&amp;mapExtent=548945.5,147956,549402,148103.5&amp;tolerance=1&amp;layers=all:ch.bfs.arealstatistik-1985&amp;geometryFormat=geojson">https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometryType=esriGeometryEnvelope&amp;geometry=548945.5,147956,549402,148103.5&amp;imageDisplay=500,600,96&amp;mapExtent=548945.5,147956,549402,148103.5&amp;tolerance=1&amp;layers=all:ch.bfs.arealstatistik-1985&amp;geometryFormat=geojson</a></li>
+<li>Same request than above but geometry is not returned: <a class="reference external" href="../../../rest/services/api/MapServer/identify?geometryType=esriGeometryEnvelope&amp;geometry=548945.5,147956,549402,148103.5&amp;imageDisplay=500,600,96&amp;mapExtent=548945.5,147956,549402,148103.5&amp;tolerance=1&amp;layers=all:ch.bfs.arealstatistik-1985&amp;returnGeometry=false">https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometryType=esriGeometryEnvelope&amp;geometry=548945.5,147956,549402,148103.5&amp;imageDisplay=500,600,96&amp;mapExtent=548945.5,147956,549402,148103.5&amp;tolerance=1&amp;layers=all:ch.bfs.arealstatistik-1985&amp;returnGeometry=false</a></li>
+</ul>
+</div>
+<div class="section" id="examples-of-reverse-geocoding">
+<h3>Examples of Reverse Geocoding<a class="headerlink" href="#examples-of-reverse-geocoding" title="Permalink to this headline">¶</a></h3>
+<p>The service identify can be used for Reverse Geocoding operations. Here is a <a class="reference external" href="../../../api/faq/index.html#which-layers-are-available">list of all the available layers</a>.</p>
+<ul class="simple">
+<li>Perform an identify request to find the districts intersecting a given enveloppe geometry (no buffer): <a class="reference external" href="../../../rest/services/api/MapServer/identify?geometryType=esriGeometryEnvelope&amp;geometry=548945.5,147956,549402,148103.5&amp;imageDisplay=0,0,0&amp;mapExtent=0,0,0,0&amp;tolerance=0&amp;layers=all:ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill&amp;returnGeometry=false">https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometryType=esriGeometryEnvelope&amp;geometry=548945.5,147956,549402,148103.5&amp;imageDisplay=0,0,0&amp;mapExtent=0,0,0,0&amp;tolerance=0&amp;layers=all:ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill&amp;returnGeometry=false</a></li>
+<li>Perform an identify request to find the municipal boundaries and ZIP (PLZ or NPA) intersecting with a point (no buffer): <a class="reference external" href="../../../rest/services/api/MapServer/identify?geometryType=esriGeometryPoint&amp;geometry=548945.5,147956&amp;imageDisplay=0,0,0&amp;mapExtent=0,0,0,0&amp;tolerance=0&amp;layers=all:ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill,ch.swisstopo-vd.ortschaftenverzeichnis_plz&amp;returnGeometry=false">https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometryType=esriGeometryPoint&amp;geometry=548945.5,147956&amp;imageDisplay=0,0,0&amp;mapExtent=0,0,0,0&amp;tolerance=0&amp;layers=all:ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill,ch.swisstopo-vd.ortschaftenverzeichnis_plz&amp;returnGeometry=false</a></li>
+</ul>
+</div>
+<div class="section" id="simulate-a-search-radius">
+<h3>Simulate a search radius<a class="headerlink" href="#simulate-a-search-radius" title="Permalink to this headline">¶</a></h3>
+<p>Equation:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">SearchRadius</span> <span class="o">=</span> <span class="n">Max</span><span class="p">(</span><span class="n">MapWidthInMeters</span> <span class="o">/</span> <span class="n">ScreenWidthInPx</span><span class="p">,</span> <span class="n">MapHeightInMeters</span> <span class="o">/</span> <span class="n">ScreenHeightInPx</span><span class="p">)</span> <span class="o">*</span> <span class="n">toleranceInPx</span>
+</pre></div>
+</div>
+<p>For instance if one wants a radius of 5 meters:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">Max</span><span class="p">(</span><span class="mi">100</span> <span class="o">/</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span> <span class="o">/</span> <span class="mi">100</span><span class="p">)</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">=</span> <span class="mi">5</span>
+</pre></div>
+</div>
+<p>So you would set:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>mapExtent=0,0,100,100&amp;imageDisplay=100,100,100&amp;tolerance=5&amp;geometryType=esriGeometryPoint&amp;geometry=548945,147956 to perform an identify request with a search radius of 5 meters around a given point.
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" id="find-description" />
+<div class="section" id="find">
+<h2>Find<a class="headerlink" href="#find" title="Permalink to this headline">¶</a></h2>
+<p>This service is used to search the attributes of features. Each result include a feature ID, a layer ID, a layer name, a geometry (optionally) and attributes in the form of name-value pair.
+Here is a <a class="reference external" href="../../../api/faq/index.html#which-layers-have-a-tooltip">complete list of layers</a> for which this service is available.</p>
+<div class="section" id="id13">
+<h3>URL<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://api3.geo.admin.ch/rest/services/api/MapServer/find
+</pre></div>
+</div>
+</div>
+<div class="section" id="id14">
+<h3>Input Parameters<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<p>One layer, one search text and one attribute.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>layer (required)</strong></td>
+<td>A layer ID (only one layer at a time can be specified).</td>
+</tr>
+<tr class="row-odd"><td><strong>searchText (required)</strong></td>
+<td>The text to search for (one can use numerical values as well).</td>
+</tr>
+<tr class="row-even"><td><strong>searchField (required)</strong></td>
+<td>The name of the field to search (only one search field can be searched at a time).</td>
+</tr>
+<tr class="row-odd"><td><strong>contains (optional)</strong></td>
+<td>If false, the operation searches for an exact match of the searchText string. An exact
+match is case sensitive. Otherwise, it searches for a value that contains the searchText
+string provided. This search is not case sensitive. The default is true.</td>
+</tr>
+<tr class="row-even"><td><strong>geometryFormat (optional)</strong></td>
+<td>Returned geometry format.
+Default to ESRI geometry format. Supported values are: &#8220;esrijson&#8221; or &#8220;geojson&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>returnGeometry (optional)</strong></td>
+<td>This parameter defines whether the geometry is returned or not. Default to &#8220;true&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>sr (optional)</strong></td>
+<td>The spatial reference. Supported values: 21781 (LV03), 2056 (LV95). Defaults to &#8220;21781&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>lang (optional)</strong></td>
+<td>The language. Supported values: de, fr, it , rm, en. Defaults to &#8220;de&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>callback (optional)</strong></td>
+<td>The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id15">
+<h3>Examples<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Search for “Lavaux” in the field “bln_name” of the layer “ch.bafu.bundesinventare-bln” (infix match): <a class="reference external" href="../../../rest/services/api/MapServer/find?layer=ch.bafu.bundesinventare-bln&amp;searchText=Lavaux&amp;searchField=bln_name&amp;returnGeometry=false">https://api3.geo.admin.ch/rest/services/api/MapServer/find?layer=ch.bafu.bundesinventare-bln&amp;searchText=Lavaux&amp;searchField=bln_name&amp;returnGeometry=false</a></li>
+<li>Search for “12316” in the field “egid” of the layer “ch.bfs.gebaeude_wohnungs_register” (infix match): <a class="reference external" href="../../../rest/services/api/MapServer/find?layer=ch.bfs.gebaeude_wohnungs_register&amp;searchText=123164&amp;searchField=egid&amp;returnGeometry=false">https://api3.geo.admin.ch/rest/services/api/MapServer/find?layer=ch.bfs.gebaeude_wohnungs_register&amp;searchText=123164&amp;searchField=egid&amp;returnGeometry=false</a></li>
+<li>Search for “123164” in the field “egid” of the layer “ch.bfs.gebaeude_wohnungs_register” (exact match): <a class="reference external" href="../../../rest/services/api/MapServer/find?layer=ch.bfs.gebaeude_wohnungs_register&amp;searchText=1231641&amp;searchField=egid&amp;returnGeometry=false&amp;contains=false">https://api3.geo.admin.ch/rest/services/api/MapServer/find?layer=ch.bfs.gebaeude_wohnungs_register&amp;searchText=1231641&amp;searchField=egid&amp;returnGeometry=false&amp;contains=false</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="featureresource-description" />
+<div class="section" id="feature-resource">
+<h2>Feature Resource<a class="headerlink" href="#feature-resource" title="Permalink to this headline">¶</a></h2>
+<p>With an ID (or several in a comma separated list) and a layer ID (technical name), this service can be used to retrieve a feature resource.
+Here is a <a class="reference external" href="../../../api/faq/index.html#which-layers-have-a-tooltip">complete list of layers</a> for which this service is available.</p>
+<div class="section" id="id17">
+<h3>URL<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://api3.geo.admin.ch/rest/services/api/MapServer/{layerBodId}/{featureId},{featureId}
+</pre></div>
+</div>
+</div>
+<div class="section" id="id18">
+<h3>Input Parameters<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+<p>RESTFul interface is available.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>geometryFormat (optional)</strong></td>
+<td>Returned geometry format.
+Default to ESRI geometry format. Supported values are: &#8220;esrijson&#8221; or &#8220;geojson&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>returnGeometry (optional)</strong></td>
+<td>This parameter defines whether the geometry is returned or not. Default to &#8220;true&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>sr (optional)</strong></td>
+<td>The spatial reference. Supported values: 21781 (LV03), 2056 (LV95). Defaults to &#8220;21781&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>lang (optional)</strong></td>
+<td>The language. Supported values: de, fr, it , rm, en. Defaults to &#8220;de&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>callback (optional)</strong></td>
+<td>The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id19">
+<h3>Example<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Get the feature with the ID RIG belonging to ch.bafu.nabelstationen: <a class="reference external" href="../../../rest/services/api/MapServer/ch.bafu.nabelstationen/RIG">https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.nabelstationen/RIG</a></li>
+<li>Get several features with IDs RIG and LAU belonging to ch.bafu.bundesinventar-bln: <a class="reference external" href="../../../rest/services/api/MapServer/ch.bafu.nabelstationen/RIG,LAU">https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.nabelstationen/RIG,LAU</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="htmlpopup-description" />
+<div class="section" id="htmlpopup-resource">
+<h2>Htmlpopup Resource<a class="headerlink" href="#htmlpopup-resource" title="Permalink to this headline">¶</a></h2>
+<p>With an ID and a layer ID (technical name), this service can be used to retrieve an html popup. An html popup is an html formatted representation of the textual information about the feature.
+Here is a <a class="reference external" href="../../../api/faq/index.html#which-layers-have-a-tooltip">complete list of layers</a> for which this service is available.</p>
+<div class="section" id="id21">
+<h3>URL<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://api3.geo.admin.ch/rest/services/api/MapServer/{layerBodId}/{featureId}/htmlPopup
+</pre></div>
+</div>
+</div>
+<div class="section" id="id22">
+<h3>Input Parameters<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h3>
+<p>No css styling is provided per default so that you can use your own.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>lang (optional)</strong></td>
+<td>The language. Supported values: de, fr, it , rm, en. Defaults to &#8220;de&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>sr (optional)</strong></td>
+<td>The spatial reference. Supported values: 21781 (LV03), 2056 (LV95). Defaults to &#8220;21781&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>callback (optional)</strong></td>
+<td>The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id23">
+<h3>Example<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Get the html popup with the feature ID RIG belonging to layer ch.bafu.nabelstationen: <a class="reference external" href="../../../rest/services/api/MapServer/ch.bafu.nabelstationen/RIG/htmlPopup">https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.nabelstationen/RIG/htmlPopup</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="search-description" />
+<div class="section" id="search">
+<h2>Search<a class="headerlink" href="#search" title="Permalink to this headline">¶</a></h2>
+<p>The search service can be used to search for locations, layers or features.</p>
+<div class="section" id="id24">
+<h3>URL<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://api3.geo.admin.ch/rest/services/api/SearchServer
+</pre></div>
+</div>
+</div>
+<div class="section" id="description">
+<h3>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
+<p>The search service is separated in 3 various categories or types:</p>
+<ul class="simple">
+<li>The <strong>location search</strong> which is composed of the following geocoded locations:<ul>
+<li>Cantons, Cities and communes</li>
+<li>All names as printed on the national map (<a class="reference external" href="https://shop.swisstopo.admin.ch/de/products/landscape/names3D">SwissNames</a>)</li>
+<li>The districts</li>
+<li>The ZIP codes</li>
+<li>The addresses</li>
+<li>The cadastral parcels</li>
+</ul>
+</li>
+<li>The <strong>layer search</strong> wich enables the search of layers belonging to the GeoAdmin API.</li>
+<li>The <strong>feature search</strong> which is used to search through features descriptions. Note: you can also specify a bounding box to filter the features. (<a class="reference external" href="../../../api/faq/index.html#which-layers-are-searchable">Searchable layers</a>)</li>
+</ul>
+</div>
+<div class="section" id="id25">
+<h3>Input parameters<a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h3>
+<p>Only RESTFul interface is available.</p>
+<p><strong>Location Search</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="29%" />
+<col width="71%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>searchText (required/optional)</strong></td>
+<td>Must be provided if the <cite>bbox</cite> is not. The text to search for. Maximum of 10 words.</td>
+</tr>
+<tr class="row-odd"><td><strong>type (required)</strong></td>
+<td>The type of performed search. Specify <cite>locations</cite> to perform a location search.</td>
+</tr>
+<tr class="row-even"><td><strong>bbox (required/optional)</strong></td>
+<td>Must be provided if the <cite>searchText</cite> is not. A comma separated list of 4 coordinates
+representing the bounding box on which features should be filtered (SRID: 21781).</td>
+</tr>
+<tr class="row-odd"><td><strong>sortbbox (optional)</strong></td>
+<td>When <cite>bbox</cite> is specified and this parameter is &#8220;true&#8221;, then the ranking of the results is
+performed according to the distance between the locations and the center of the bounding
+box. Default to &#8220;true&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>returnGeometry (optional)</strong></td>
+<td>This parameter defines whether the geometry is returned or not. Default to &#8220;true&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>origins (optional)</strong></td>
+<td>A comma separated list of origins. Possible origins are:
+zipcode,gg25,district,kantone,gazetteer,address,parcel
+A description of the origins can be found hereunder. Per default all origins are used.</td>
+</tr>
+<tr class="row-even"><td><strong>limit (optional)</strong></td>
+<td>The maximum number of results to retrive per request (Max and default limit=50)</td>
+</tr>
+<tr class="row-odd"><td><strong>sr (optional)</strong></td>
+<td>The spatial reference. Supported values: 21781 (LV03), 2056 (LV95). Defaults to &#8220;21781&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>callback (optional)</strong></td>
+<td>The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Layer Search</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>searchText (required)</strong></td>
+<td>The text to search for. Maximum of 10 words allowed.</td>
+</tr>
+<tr class="row-odd"><td><strong>type (required)</strong></td>
+<td>The type of performed search. Specify <cite>layers</cite> to perform a layer search.</td>
+</tr>
+<tr class="row-even"><td><strong>lang (optional)</strong></td>
+<td>The language metadata. Supported values: de (default), fr, it, rm, en.</td>
+</tr>
+<tr class="row-odd"><td><strong>limit (optional)</strong></td>
+<td>The maximum number of results to retrive per request (Max and default limit=30)</td>
+</tr>
+<tr class="row-even"><td><strong>sr (optional)</strong></td>
+<td>The spatial reference. Supported values: 21781 (LV03), 2056 (LV95). Defaults to &#8220;21781&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>callback (optional)</strong></td>
+<td>The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Feature Search</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>searchText (required)</strong></td>
+<td>The text to search for (in features detail field). Maximum of 10 words allowed.</td>
+</tr>
+<tr class="row-odd"><td><strong>type (required)</strong></td>
+<td>The type of performed search. Specify <cite>featuresearch</cite> to perform a feature search.</td>
+</tr>
+<tr class="row-even"><td><strong>bbox (optional)</strong></td>
+<td>A comma separated list of 4 coordinates representing the bounding box according to which
+features should be ordered (SRID: 21781).</td>
+</tr>
+<tr class="row-odd"><td><strong>sortbbox (optional)</strong></td>
+<td>When <cite>bbox</cite> is specified and this parameter is &#8220;true&#8221;, then the ranking of the results is
+performed according to the distance between the locations and the center of the bounding
+box. Default to &#8220;true&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>features (required)</strong></td>
+<td>A comma separated list of technical layer names.</td>
+</tr>
+<tr class="row-odd"><td><strong>limit (optional)</strong></td>
+<td>The maximum number of results to retrive per request (Max and default limit=20)</td>
+</tr>
+<tr class="row-even"><td><strong>sr (optional)</strong></td>
+<td>The spatial reference. Supported values: 21781 (LV03), 2056 (LV95). Defaults to &#8220;21781&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>callback (optional)</strong></td>
+<td>The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id26">
+<h3>Response syntax<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h3>
+<p>The results are presented as a list of object literals. Here is an example of response for location search.</p>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="nx">results</span><span class="o">:</span> <span class="p">[</span>
+  <span class="p">{</span>
+    <span class="nx">id</span><span class="o">:</span> <span class="mi">206</span><span class="p">,</span>
+    <span class="nx">weight</span><span class="o">:</span> <span class="mi">12</span><span class="p">,</span>
+    <span class="nx">attrs</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">origin</span><span class="o">:</span> <span class="s2">&quot;gg25&quot;</span><span class="p">,</span>
+      <span class="nx">layerBodId</span><span class="o">:</span> <span class="s2">&quot;ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill&quot;</span><span class="p">,</span>
+      <span class="nx">featureId</span><span class="o">:</span> <span class="s2">&quot;351&quot;</span><span class="p">,</span>
+      <span class="nx">detail</span><span class="o">:</span> <span class="s2">&quot;bern be&quot;</span><span class="p">,</span>
+      <span class="nx">rank</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
+      <span class="nx">geom_st_box2d</span><span class="o">:</span> <span class="s2">&quot;BOX(589008 196443.046875,604334.3125 204343.5)&quot;</span><span class="p">,</span>
+      <span class="nx">num</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="nx">y</span><span class="o">:</span> <span class="mf">598637.3125</span><span class="p">,</span>
+      <span class="nx">x</span><span class="o">:</span> <span class="mf">200393.28125</span><span class="p">,</span>
+      <span class="nx">label</span><span class="o">:</span> <span class="s2">&quot;&lt;b&gt;Bern (BE)&lt;/b&gt;&quot;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Here is a description of the data one can find in the above response.</p>
+<ul class="simple">
+<li><strong>id</strong>: This is an internal value and therefore shouldn&#8217;t be used.</li>
+<li><strong>weight</strong>:  The <cite>weight</cite> is dynamically computed according to the <cite>searchText</cite> that is provided. It informs the user about how close an entry is to the provided <cite>searchText</cite>.</li>
+<li><strong>attrs</strong>: The attributes associated to a given entry.<ul>
+<li><strong>origin</strong>: This attribute refers to the type of data an entry stands for.</li>
+<li><strong>layerBodId</strong>: The id of the associated layer (if any)</li>
+<li><strong>featureId</strong>: If available the object&#8217;s Id can be combined with the <cite>layerBodId</cite> to collect more information about a feature.</li>
+<li><strong>detail</strong>: The search field</li>
+<li><strong>rank</strong>: A different <cite>rank</cite> is associated to each origin. Results are always ordered in ascending ranks.</li>
+<li><strong>geom_st_box2d</strong>: This attribute is in is in CH1903 / LV03 (EPSG:21781) reference system and represents the bounding box of the associated geometry.</li>
+<li><strong>num</strong>: This attribute is only valid for locations with <strong>address</strong> <cite>origin</cite>. It refers to the street number.</li>
+<li><strong>x and y</strong>: These attributes represent the coordinates of an entry. If an object&#8217;s entry is a line or a polygon, those coordinates will always be on the underlying geometry.</li>
+<li><strong>label</strong>: The html label for an entry.</li>
+</ul>
+</li>
+</ul>
+<p>Here is a list of possible origins sorted in ascending ranking order:</p>
+<ul class="simple">
+<li>zipcode (ch.swisstopo-vd.ortschaftenverzeichnis_plz)</li>
+<li>gg25 (ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill)</li>
+<li>district (ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill)</li>
+<li>kantone (ch.swisstopo.swissboundaries3d-kanton-flaeche.fill)</li>
+<li>gazetteer (ch.swisstopo.swissnames3d, ch.bav.haltestellen-oev)</li>
+<li>address (ch.bfs.gebaeude_wohnungs_register with EGID or use prefix &#8216;addresse&#8217;, &#8216;adresse&#8217;, &#8216;indirizzo&#8217;, &#8216;address&#8217; without EGID)</li>
+<li>parcel (use prefix &#8220;parcel&#8221;, &#8220;parzelle&#8221;, &#8220;parcelle&#8221; or &#8220;parcella&#8221; in your requests to filter out other origins)</li>
+</ul>
+<p>Prefix filtering cannot be combined with parameter <cite>origins</cite>.</p>
+</div>
+<div class="section" id="id27">
+<h3>Examples<a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Search for locations matching the word “wabern”: <a class="reference external" href="../../../rest/services/api/SearchServer?searchText=wabern&amp;type=locations">https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=wabern&amp;type=locations</a></li>
+<li>Search for locations of type &#8220;parcel&#8221; and &#8220;district&#8221; (the origins): <a class="reference external" href="../../../rest/services/api/SearchServer?searchText=bern&amp;origins=parcel,district&amp;type=locations">https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=bern&amp;origins=parcel,district&amp;type=locations</a></li>
+<li>Search for locations within a given map extent (the <cite>bbox</cite>): <a class="reference external" href="../../../rest/services/api/SearchServer?bbox=551306.5625,167918.328125,551754.125,168514.625&amp;type=locations">https://api3.geo.admin.ch/rest/services/api/SearchServer?bbox=551306.5625,167918.328125,551754.125,168514.625&amp;type=locations</a></li>
+<li>Search for layers in French matching the word “géoïde” in their description: <a class="reference external" href="../../../rest/services/api/SearchServer?searchText=géoïde&amp;type=layers&amp;lang=fr">https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=géoïde&amp;type=layers&amp;lang=fr</a></li>
+<li>Search for features matching word &#8220;433&#8221; in their description: <a class="reference external" href="../../../rest/services/api/SearchServer?features=ch.bafu.hydrologie-gewaesserzustandsmessstationen&amp;type=featuresearch&amp;searchText=433">https://api3.geo.admin.ch/rest/services/api/SearchServer?features=ch.bafu.hydrologie-gewaesserzustandsmessstationen&amp;type=featuresearch&amp;searchText=433</a></li>
+</ul>
+</div>
+<div class="section" id="example-of-feature-search-usage-with-other-services">
+<h3>Example of feature search usage with other services<a class="headerlink" href="#example-of-feature-search-usage-with-other-services" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>First: search for addresses using the feature search service: <a class="reference external" href="../../../rest/services/api/SearchServer?features=ch.bfs.gebaeude_wohnungs_register&amp;type=featuresearch&amp;searchText=isabelle">https://api3.geo.admin.ch/rest/services/api/SearchServer?features=ch.bfs.gebaeude_wohnungs_register&amp;type=featuresearch&amp;searchText=isabelle</a></li>
+<li>Then: use &#8220;feature_id&#8221; found in &#8220;attrs&#8221; to get detailed information about a feature: <a class="reference external" href="../../../rest/services/api/MapServer/ch.bfs.gebaeude_wohnungs_register/880711_0?returnGeometry=false">https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.gebaeude_wohnungs_register/880711_0?returnGeometry=false</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="height-description" />
+<div class="section" id="height">
+<h2>Height<a class="headerlink" href="#height" title="Permalink to this headline">¶</a></h2>
+<p>This service allows to obtain elevation information for a point.
+See <a class="reference external" href="https://shop.swisstopo.admin.ch/de/products/height_models/alti3D">Height models</a> for more details about data used by this service.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">This service is not freely accessible (fee required). <a class="reference external" href="mailto:geodata&#37;&#52;&#48;swisstopo&#46;ch">Please Contact us</a></p>
+</div>
+<div class="section" id="id28">
+<h3>URL<a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://api3.geo.admin.ch/rest/services/height
+</pre></div>
+</div>
+</div>
+<div class="section" id="id29">
+<h3>Input Parameters<a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h3>
+<p>RESTFul interface is available.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="26%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>easting (required)</strong></td>
+<td>The easting coordinate in LV03 (EPSG:21781) or LV95 (EPSG:2056)</td>
+</tr>
+<tr class="row-odd"><td><strong>northing (required)</strong></td>
+<td>The northing coordinate in LV03 (EPSG:21781) or LV95 (EPSG:2056)</td>
+</tr>
+<tr class="row-even"><td><strong>elevation_model (optional)</strong></td>
+<td>The elevation model. Three elevation models are available DTM25, DTM2 (swissALTI3D)
+and COMB (a combination of DTM25 and DTM2). Default to &#8220;DTM25&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>sr(optional)</strong></td>
+<td>The reference system to use (EPSG code). Valid values are 2056 (for LV95) and 21781
+(for )LV03). If not given, trying to guess which one to use.</td>
+</tr>
+<tr class="row-even"><td><strong>callback (optional)</strong></td>
+<td>The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id30">
+<h3>Examples<a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="../../../rest/services/height?easting=2600000&amp;northing=1200000">https://api3.geo.admin.ch/rest/services/height?easting=2600000&amp;northing=1200000</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="profile-description" />
+<div class="section" id="profile">
+<h2>Profile<a class="headerlink" href="#profile" title="Permalink to this headline">¶</a></h2>
+<p>This service allows to obtain elevation information for a polyline in CSV format.
+See <a class="reference external" href="https://shop.swisstopo.admin.ch/de/products/height_models/alti3D">Height models</a> for more details about data used by this service.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">This service is not freely accessible (fee required).** <a class="reference external" href="mailto:geodata&#37;&#52;&#48;swisstopo&#46;ch">Please Contact us</a></p>
+</div>
+<div class="section" id="id33">
+<h3>URL<a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://api3.geo.admin.ch/rest/services/profile.json (for json format)
+https://api3.geo.admin.ch/rest/services/profile.csv  (for a csv)
+</pre></div>
+</div>
+</div>
+<div class="section" id="id34">
+<h3>Input Parameters<a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h3>
+<p>RESTFul interface is available.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameters</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>geom (required)</strong></td>
+<td>A GeoJSON representation of a polyline (type = LineString). The LineString should not
+have more than 6&#8216;000 coordinates.</td>
+</tr>
+<tr class="row-odd"><td><strong>sr (optional)</strong></td>
+<td>The reference system to use (EPSG code). Valid value are 2056 (for LV95) and 21781 (for
+LV03). Strongly advised to set one, but if not given, trying to guess which one to use.</td>
+</tr>
+<tr class="row-even"><td><strong>elevation_models (optional)</strong></td>
+<td>A comma separated list of elevation models. Three elevation models are available DTM25,
+DTM2 (swissALTI3D) and COMB (a combination of DTM25 and DTM2).  Default to &#8220;DTM25&#8221;.</td>
+</tr>
+<tr class="row-odd"><td><strong>nb_points (optional)</strong></td>
+<td>The number of points used for the polyline segmentation. Default &#8220;200&#8221;.</td>
+</tr>
+<tr class="row-even"><td><strong>offset (optional)</strong></td>
+<td>The offset value (INTEGER) in order to use the <a class="reference external" href="http://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average">exponential moving algorithm</a> . For a given
+value the offset value specify the number of values before and after used to calculate
+the average.</td>
+</tr>
+<tr class="row-odd"><td><strong>callback (optional)</strong></td>
+<td>Only available for <strong>profile.json</strong>. The name of the callback function.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id35">
+<h3>Example<a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>A profile in JSON: <a class="reference external" href="../../../rest/services/profile.json?geom={&quot;type&quot;%3A&quot;LineString&quot;%2C&quot;coordinates&quot;%3A[[2550050%2C1206550]%2C[2556950%2C1204150]%2C[2561050%2C1207950]]}">https://api3.geo.admin.ch/rest/services/profile.json?geom={&#8220;type&#8221;%3A&#8221;LineString&#8221;%2C&#8221;coordinates&#8221;%3A[[2550050%2C1206550]%2C[2556950%2C1204150]%2C[2561050%2C1207950]]}&amp;sr=2056</a></li>
+<li>A profile in CSV: <a class="reference external" href="../../../rest/services/profile.csv?geom={&quot;type&quot;%3A&quot;LineString&quot;%2C&quot;coordinates&quot;%3A[[2550050%2C1206550]%2C[2556950%2C1204150]%2C[2561050%2C1207950]]}">https://api3.geo.admin.ch/rest/services/profile.csv?geom={&#8220;type&#8221;%3A&#8221;LineString&#8221;%2C&#8221;coordinates&#8221;%3A[[2550050%2C1206550]%2C[2556950%2C1204150]%2C[2561050%2C1207950]]}&amp;sr=2056</a></li>
+</ul>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="wmts">
+<span id="wmts-description"></span><h2>WMTS<a class="headerlink" href="#wmts" title="Permalink to this headline">¶</a></h2>
+<p>A RESTFul implementation of the <a class="reference external" href="http://www.opengeospatial.org/standards/wmts">WMTS</a> <a class="reference external" href="http://www.opengeospatial.org/">OGC</a> standard.
+For detailed information, see <a class="reference external" href="http://www.opengeospatial.org/standards/wmts">WMTS OGC standard</a></p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">In order to have access to the WMTS, you require to register to <a class="reference external" href="https://www.geo.admin.ch/de/geo-dienstleistungen/geodienste/darstellungsdienste-webmapping-webgis-anwendungen/programmierschnittstelle-api/anmeldung.html">swisstopo web access - Inscription form</a> (in German),
+even if most layers are free to use. See <a class="reference internal" href="../api/faq/index.html#available-layers"><em>Which layers are available ?</em></a> for a list of all available layers.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Only the RESTFul request encoding to <cite>GetTile</cite> is implemented, not the <cite>GetLegend</cite> and <cite>GetFeatureInfo</cite>. No KVP and SOAP request encoding is supported.</p>
+</div>
+<div class="section" id="getcapabilities">
+<h3>GetCapabilities<a class="headerlink" href="#getcapabilities" title="Permalink to this headline">¶</a></h3>
+<p>The GetCapabilites document provides informations about the service, along with layer description, both in german and french.</p>
+<p><a class="reference external" href="https://wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml">https://wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml</a></p>
+<p><a class="reference external" href="https://wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml?lang=fr">https://wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml?lang=fr</a></p>
+</div>
+<div class="section" id="gettile">
+<h3>GetTile<a class="headerlink" href="#gettile" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>&lt;Scheme&gt;://&lt;ServerName&gt;/&lt;ProtocoleVersion&gt;/&lt;LayerName&gt;/&lt;Stylename&gt;/&lt;Time&gt;/&lt;TileMatrixSet&gt;/&lt;TileSetId&gt;/&lt;TileRow&gt;/&lt;TileCol&gt;.&lt;FormatExtension&gt;
+</pre></div>
+</div>
+<p>with the following parameters:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="5%" />
+<col width="7%" />
+<col width="88%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameter</th>
+<th class="head">Example</th>
+<th class="head">Explanation</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Scheme</td>
+<td>http or https</td>
+<td>The scheme type</td>
+</tr>
+<tr class="row-odd"><td>ServerName</td>
+<td>wmts[0-9].geo.admin.ch</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Version</td>
+<td>1.0.0</td>
+<td>WMTS protocol version</td>
+</tr>
+<tr class="row-odd"><td>Layername</td>
+<td>ch.bfs.arealstatistik-1997</td>
+<td>See the WMTS <a class="reference external" href="//wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml">GetCapabilities</a> document.</td>
+</tr>
+<tr class="row-even"><td>StyleName</td>
+<td>default</td>
+<td>Only <strong>default</strong> is supported.</td>
+</tr>
+<tr class="row-odd"><td>Time</td>
+<td>2010, 2010-01</td>
+<td>Date of tile generation in (ISO-8601) or logical value like <strong>current</strong>. A list of available values is provided in the <a class="reference external" href="//wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml">GetCapabilities</a> document under the &lt;Dimension&gt; tag. We recommend to use the value under the &lt;Default&gt; tag. Note that these values might change frequently - <strong>check for updates regularly</strong>.</td>
+</tr>
+<tr class="row-even"><td>TileMatrixSet</td>
+<td>2056  (constant)</td>
+<td>EPSG code for LV03/CH1903</td>
+</tr>
+<tr class="row-odd"><td>TileSetId</td>
+<td>22</td>
+<td>Zoom level (see below)</td>
+</tr>
+<tr class="row-even"><td>TileRow</td>
+<td>236</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>TileCol</td>
+<td>284</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>FormatExtension</td>
+<td>png</td>
+<td>Mostly png, except for some raster layer (pixelkarte and swissimage)</td>
+</tr>
+</tbody>
+</table>
+<p>The <em>&lt;TileMatrixSet&gt;</em> <strong>21781</strong> is as follow defined:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>MinX              420000
+MaxX              900000
+MinY               30000
+MaxY              350000
+TileWidth            256
+</pre></div>
+</div>
+<p>With the <em>&lt;tileOrigin&gt;</em> in the top left corner of the bounding box.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="13%" />
+<col width="8%" />
+<col width="8%" />
+<col width="10%" />
+<col width="7%" />
+<col width="7%" />
+<col width="13%" />
+<col width="34%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Resolution [m]</th>
+<th class="head">Zoomlevel</th>
+<th class="head">Map zoom</th>
+<th class="head">Tile width m</th>
+<th class="head">Tiles X</th>
+<th class="head">Tiles Y</th>
+<th class="head">Tiles</th>
+<th class="head">Approx. scale at 96 dpi per zoom level</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>4000</td>
+<td>0</td>
+<td>&nbsp;</td>
+<td>1024000</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>3750</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>960000</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>3500</td>
+<td>2</td>
+<td>&nbsp;</td>
+<td>896000</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>3250</td>
+<td>3</td>
+<td>&nbsp;</td>
+<td>832000</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>3000</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>768000</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>2750</td>
+<td>5</td>
+<td>&nbsp;</td>
+<td>704000</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>2500</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>640000</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>2250</td>
+<td>7</td>
+<td>&nbsp;</td>
+<td>576000</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>2000</td>
+<td>8</td>
+<td>&nbsp;</td>
+<td>512000</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>1750</td>
+<td>9</td>
+<td>&nbsp;</td>
+<td>448000</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>1500</td>
+<td>10</td>
+<td>&nbsp;</td>
+<td>384000</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>1250</td>
+<td>11</td>
+<td>&nbsp;</td>
+<td>320000</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>1000</td>
+<td>12</td>
+<td>&nbsp;</td>
+<td>256000</td>
+<td>2</td>
+<td>2</td>
+<td>4</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>750</td>
+<td>13</td>
+<td>&nbsp;</td>
+<td>192000</td>
+<td>3</td>
+<td>2</td>
+<td>6</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>650</td>
+<td>14</td>
+<td>0</td>
+<td>166400</td>
+<td>3</td>
+<td>2</td>
+<td>6</td>
+<td>1 : 2&#8216;456&#8216;694</td>
+</tr>
+<tr class="row-odd"><td>500</td>
+<td>15</td>
+<td>1</td>
+<td>128000</td>
+<td>4</td>
+<td>3</td>
+<td>12</td>
+<td>1 : 1&#8216;889&#8216;765</td>
+</tr>
+<tr class="row-even"><td>250</td>
+<td>16</td>
+<td>2</td>
+<td>64000</td>
+<td>8</td>
+<td>5</td>
+<td>40</td>
+<td>1 : 944&#8216;882</td>
+</tr>
+<tr class="row-odd"><td>100</td>
+<td>17</td>
+<td>3</td>
+<td>25600</td>
+<td>19</td>
+<td>13</td>
+<td>247</td>
+<td>1 : 377&#8216;953</td>
+</tr>
+<tr class="row-even"><td>50</td>
+<td>18</td>
+<td>4</td>
+<td>12800</td>
+<td>38</td>
+<td>25</td>
+<td>950</td>
+<td>1 : 188&#8216;976</td>
+</tr>
+<tr class="row-odd"><td>20</td>
+<td>19</td>
+<td>5</td>
+<td>5120</td>
+<td>94</td>
+<td>63</td>
+<td>5&#8216;922</td>
+<td>1 : 75&#8216;591</td>
+</tr>
+<tr class="row-even"><td>10</td>
+<td>20</td>
+<td>6</td>
+<td>2560</td>
+<td>188</td>
+<td>125</td>
+<td>23&#8216;500</td>
+<td>1 : 37&#8216;795</td>
+</tr>
+<tr class="row-odd"><td>5</td>
+<td>21</td>
+<td>7</td>
+<td>1280</td>
+<td>375</td>
+<td>250</td>
+<td>93&#8216;750</td>
+<td>1 : 18&#8216;898</td>
+</tr>
+<tr class="row-even"><td>2.5</td>
+<td>22</td>
+<td>8</td>
+<td>640</td>
+<td>750</td>
+<td>500</td>
+<td>375&#8216;000</td>
+<td>1 : 9&#8216;449</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>23</td>
+<td>9</td>
+<td>512</td>
+<td>938</td>
+<td>625</td>
+<td>586&#8216;250</td>
+<td>1 : 7&#8216;559</td>
+</tr>
+<tr class="row-even"><td>1.5</td>
+<td>24</td>
+<td>&nbsp;</td>
+<td>384</td>
+<td>1250</td>
+<td>834</td>
+<td>1&#8216;042&#8216;500</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>1</td>
+<td>25</td>
+<td>10</td>
+<td>256</td>
+<td>1875</td>
+<td>1250</td>
+<td>2&#8216;343&#8216;750</td>
+<td>1 : 3&#8216;780</td>
+</tr>
+<tr class="row-even"><td>0.5</td>
+<td>26</td>
+<td>11</td>
+<td>128</td>
+<td>3750</td>
+<td>2500</td>
+<td>9&#8216;375&#8216;000</td>
+<td>1 : 1&#8216;890</td>
+</tr>
+<tr class="row-odd"><td>0.25</td>
+<td>27</td>
+<td>12</td>
+<td>64</td>
+<td>7500</td>
+<td>5000</td>
+<td>37&#8216;500&#8216;000</td>
+<td>1 : 945</td>
+</tr>
+<tr class="row-even"><td>0.1</td>
+<td>28</td>
+<td>13</td>
+<td>25.6</td>
+<td>18750</td>
+<td>12500</td>
+<td>234&#8216;375&#8216;000</td>
+<td>1 : 378</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes</strong></p>
+<ol class="arabic simple">
+<li>The projection for the tiles is <strong>LV95</strong> (EPSG:2056). Other projection are supported, see further down.</li>
+<li>The tiles are generated on-the-fly and stored in a cache (hundreds of requests per second)</li>
+<li>The zoom level 24 (resolution 1.5m) has been generated, but is not currently used in the API.</li>
+<li>The zoom levels 27 and 28 (resolution 0.25m and 0.1m) are only available for a few layers,
+e.g. swissimage or cadastral web map. For the others layers it is only a client zoom (tiles are stretched).</li>
+<li>You <strong>have</strong> to use the <cite>&lt;ResourceURL&gt;</cite> to construct the <cite>GetTile</cite> request.</li>
+<li><strong>Axis order</strong>: for historical reasons, EPSG:21781 WMTS tiles use the
+non-standard <strong>row/col</strong> order, while all other projections use the usual <strong>col/row</strong> order.
+However, most desktop GIS allow you to either use the advertized order or to override it.</li>
+<li>The tiles of a given layer might be updated <strong>withtout</strong> resulting in a new &lt;Time&gt; dimension in the GetCapabilities dimension. In case your application is caching tiles locally, you need to invalidate your local cache for this layer. To check the latest change of any layer, use the <a class="reference internal" href="#cache-update">Cache Update</a> service.</li>
+</ol>
+</div>
+<div class="section" id="result">
+<h3>Result<a class="headerlink" href="#result" title="Permalink to this headline">¶</a></h3>
+<p>A tile.</p>
+<p><a class="reference external" href="http://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/20110401/21781/20/58/70.jpeg">http://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/20110401/21781/20/58/70.jpeg</a></p>
+<p>or <a class="reference external" href="https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/20110401/21781/20/58/70.jpeg">https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/20110401/21781/20/58/70.jpeg</a></p>
+</div>
+</div>
+<div class="section" id="supported-projections">
+<h2>Supported projections<a class="headerlink" href="#supported-projections" title="Permalink to this headline">¶</a></h2>
+<p>Four projections are supported. The same tiles are offered in four other <em>tilematrixsets/projection</em>.</p>
+<ul>
+<li><dl class="first docutils">
+<dt>LV95/CH1903+ (EPSG:2056)</dt>
+<dd><p class="first last"><a class="reference external" href="https://wmts.geo.admin.ch/EPSG/2056/1.0.0/WMTSCapabilities.xml">https://wmts.geo.admin.ch/EPSG/2056/1.0.0/WMTSCapabilities.xml</a></p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>LV03/CH1903 (EPSG:21781)</dt>
+<dd><p class="first last"><a class="reference external" href="https://wmts.geo.admin.ch/EPSG/21781/1.0.0/WMTSCapabilities.xml">https://wmts.geo.admin.ch/EPSG/21781/1.0.0/WMTSCapabilities.xml</a></p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Plate-Carrée WGS1984 (EPSG:4326)</dt>
+<dd><p class="first last"><a class="reference external" href="https://wmts.geo.admin.ch/EPSG/4326/1.0.0/WMTSCapabilities.xml">https://wmts.geo.admin.ch/EPSG/4326/1.0.0/WMTSCapabilities.xml</a></p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>WGS84/Pseudo-Mercator (EPSG:3857, as used in OSM, Bing, Google Map)</dt>
+<dd><p class="first last"><a class="reference external" href="https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml">https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml</a></p>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Note:</p>
+<ul class="simple">
+<li>Partly due to a limitation of the WTMS 1.0.0 recommendations, each <em>projection</em> has its own <em>GetCapabilities</em> document.</li>
+<li>The same access restrictions apply as above.</li>
+<li>The same <cite>timestamps</cite> are available in all projection. New <cite>timestamp</cite> are added to the former ones.</li>
+<li>The layer <em>ch.kantone.cadastralwebmap-farbe</em> uses a WMS service as its source.</li>
+<li>Note that all layers are available at all scales. You have to check for which <strong>tileMatrixSets</strong> a particuliar layer is defined. Your WMTS client may either stretch the
+tiles from the last available level or display nothing.</li>
+</ul>
+<div class="section" id="id39">
+<h3>Example<a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>At tile: <a class="reference external" href="https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/9/266/180.jpeg">https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/9/266/180.jpeg</a></li>
+</ul>
+<img src="https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/9/266/180.jpeg" /><ul class="simple">
+<li>An OpenLayers3 application using the <a class="reference external" href="http://codepen.io/geoadmin/pen/pyzwwL?editors=0010">pseudo-Mercator projection</a></li>
+<li>An OpenLayers3 example showing the <a class="reference external" href="http://codepen.io/geoadmin/pen/xVKLdV?editors=0010">Cadastralwebmap as WMTS</a></li>
+<li>Switzerland is now adopting the new <a class="reference external" href="http://codepen.io/geoadmin/pen/GZKEam?editors=0010">LV95 frame</a>.</li>
+<li>All <a class="reference external" href="http://codepen.io/geoadmin/pen/MyYYXR?editors=0010">available layers as WMTS</a>.</li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="cacheupdate-description" />
+<div class="section" id="cache-update">
+<h2>Cache Update<a class="headerlink" href="#cache-update" title="Permalink to this headline">¶</a></h2>
+<p>As noted in the <a class="reference internal" href="#wmts-description"><em>WMTS</em></a> service, the Tiles of a given &lt;Time&gt; dimension might be updated for technical reasons. If you are caching Tiles locally, this might result in your cache being outdated. Use the Cache Update service to query the Date of the last update for a given layer. If your cache is older than the returned Date, you have to clear your local cache.</p>
+<div class="section" id="id40">
+<h3>URL<a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://api3.geo.admin.ch/rest/services/api/MapServer/{layerBodId}/cacheUpdate
+</pre></div>
+</div>
+</div>
+<div class="section" id="id41">
+<h3>Example<a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>The the latest Cache Update for SwissImage Product: <a class="reference external" href="../../../rest/services/api/MapServer/ch.swisstopo.swissimage-product/cacheUpdate">https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissimage-product/cacheUpdate</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="terrain-service-description" />
+<div class="section" id="terrain-service">
+<h2>Terrain Service<a class="headerlink" href="#terrain-service" title="Permalink to this headline">¶</a></h2>
+<p>A RESTFul implementation of &#8220;<a class="reference external" href="http://cesiumjs.org/">Cesium</a>&#8221; <a class="reference external" href="https://github.com/AnalyticalGraphicsInc/quantized-mesh">Quantized Mesh</a> terrain service.
+Terrain tiles are served according to the <a class="reference external" href="http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification">Tile Map Service (TMS)</a> layout and global-geodetic profile.
+In order to access the terrain tiles, you require to fill a <a class="reference external" href="https://www.geo.admin.ch/de/geo-dienstleistungen/geodienste/darstellungsdienste-webmapping-webgis-anwendungen/programmierschnittstelle-api/anmeldung.html">swisstopo web access - Inscription form</a> (in German).</p>
+<div class="section" id="id42">
+<h3>URL<a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://terrain0.geo.admin.ch">https://terrain0.geo.admin.ch</a></li>
+<li><a class="reference external" href="https://terrain1.geo.admin.ch">https://terrain1.geo.admin.ch</a></li>
+<li><a class="reference external" href="https://terrain2.geo.admin.ch">https://terrain2.geo.admin.ch</a></li>
+<li><a class="reference external" href="https://terrain3.geo.admin.ch">https://terrain3.geo.admin.ch</a></li>
+<li><a class="reference external" href="https://terrain4.geo.admin.ch">https://terrain4.geo.admin.ch</a></li>
+</ul>
+</div>
+<div class="section" id="metadata-service">
+<h3>Metadata Service<a class="headerlink" href="#metadata-service" title="Permalink to this headline">¶</a></h3>
+<p>The <cite>layer.json</cite> file determines which terrain tiles are available.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://3d.geo.admin.ch/1.0.0/ch.swisstopo.terrain.3d/default/20160115/4326/layer.json">https://3d.geo.admin.ch/1.0.0/ch.swisstopo.terrain.3d/default/20160115/4326/layer.json</a></li>
+</ul>
+</div>
+<div class="section" id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h3>
+<p>A request is in the form:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://&lt;ServerName&gt;/&lt;ProtocoleVersion&gt;/ch.swisstopo.terrain.3d/&lt;Stylename&gt;/&lt;Time&gt;/&lt;TileMatrixSetId&gt;/&lt;Zoom&gt;/&lt;X&gt;/&lt;Y&gt;.&lt;FormatExtension&gt;
+</pre></div>
+</div>
+<p>with the following parameters:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="27%" />
+<col width="58%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parameter</th>
+<th class="head">Example</th>
+<th class="head">Explanation</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>ServerName</td>
+<td>terrain[0-5].geo.admin.ch</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Version</td>
+<td>1.0.0</td>
+<td>The terrain service protocol version</td>
+</tr>
+<tr class="row-even"><td>Layername</td>
+<td>ch.swisstopo.terrain.3d (constant)</td>
+<td>The name of the terrain layer. (only one terrain layer is available)</td>
+</tr>
+<tr class="row-odd"><td>StyleName</td>
+<td>default</td>
+<td>mostly constant</td>
+</tr>
+<tr class="row-even"><td>Time</td>
+<td>2015311201</td>
+<td>Date of tile generation in (ISO-8601).</td>
+</tr>
+<tr class="row-odd"><td>TileMatrixSet</td>
+<td>4326 (constant)</td>
+<td>EPSG code for WGS84</td>
+</tr>
+<tr class="row-even"><td>TileSetId</td>
+<td>12</td>
+<td>Zoom level (see below)</td>
+</tr>
+<tr class="row-odd"><td>X</td>
+<td>4309</td>
+<td>The longitue index</td>
+</tr>
+<tr class="row-even"><td>Y</td>
+<td>3111</td>
+<td>The latitude index</td>
+</tr>
+<tr class="row-odd"><td>FormatExtension</td>
+<td>terrain</td>
+<td>The file extension (a gzipped binary terrain file)</td>
+</tr>
+</tbody>
+</table>
+<p>The <em>&lt;TileMatrixSet&gt;</em> <strong>4326</strong> is defined as follow:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>MinX              5.013926957923385
+MaxX              11.477436312994008
+MinY              45.35600133779394
+MaxY              48.27502358353741
+TileWidth         256
+</pre></div>
+</div>
+<p>With the <em>&lt;tileOrigin&gt;</em> in the bottom left corner of the bounding box.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="39%" />
+<col width="11%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Resoultion [m/pixel at equator]</th>
+<th class="head">Zoomlevel</th>
+<th class="head">Availability</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>78271.80469</td>
+<td>0</td>
+<td>[-180, -90, 90, 180]</td>
+</tr>
+<tr class="row-odd"><td>39135.90234</td>
+<td>1</td>
+<td>[-180, -90, 90, 180]</td>
+</tr>
+<tr class="row-even"><td>19567.95117</td>
+<td>2</td>
+<td>[-180, -90, 90, 180]</td>
+</tr>
+<tr class="row-odd"><td>9783.975586</td>
+<td>3</td>
+<td>[-180, -90, 90, 180]</td>
+</tr>
+<tr class="row-even"><td>4891.987793</td>
+<td>4</td>
+<td>[-180, -90, 90, 180]</td>
+</tr>
+<tr class="row-odd"><td>2445.993896</td>
+<td>5</td>
+<td>[-180, -90, 90, 180]</td>
+</tr>
+<tr class="row-even"><td>1222.996948</td>
+<td>6</td>
+<td>[-180, -90, 90, 180]</td>
+</tr>
+<tr class="row-odd"><td>611.4984741</td>
+<td>7</td>
+<td>[-180, -90, 90, 180]</td>
+</tr>
+<tr class="row-even"><td>305.749237</td>
+<td>8</td>
+<td>Ranges as defined in the layer.json file</td>
+</tr>
+<tr class="row-odd"><td>152.8746185</td>
+<td>9</td>
+<td>Ranges as defined in the layer.json file</td>
+</tr>
+<tr class="row-even"><td>76.43730927</td>
+<td>10</td>
+<td>Ranges as defined in the layer.json file</td>
+</tr>
+<tr class="row-odd"><td>38.21865463</td>
+<td>11</td>
+<td>Ranges as defined in the layer.json file</td>
+</tr>
+<tr class="row-even"><td>19.10932732</td>
+<td>12</td>
+<td>Ranges as defined in the layer.json file</td>
+</tr>
+<tr class="row-odd"><td>9.554663658</td>
+<td>13</td>
+<td>Ranges as defined in the layer.json file</td>
+</tr>
+<tr class="row-even"><td>4.777331829</td>
+<td>14</td>
+<td>Ranges as defined in the layer.json file</td>
+</tr>
+<tr class="row-odd"><td>2.388665915</td>
+<td>15</td>
+<td>Ranges as defined in the layer.json file</td>
+</tr>
+<tr class="row-even"><td>1.194332957</td>
+<td>16</td>
+<td>Ranges as defined in the layer.json file</td>
+</tr>
+<tr class="row-odd"><td>0.597166479</td>
+<td>17</td>
+<td>Ranges as defined in the layer.json file</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id43">
+<h3>Example<a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>A <a class="reference external" href="https://terrain2.geo.admin.ch/1.0.0/ch.swisstopo.terrain.3d/default/20160115/4326/12/4309/3111.terrain">Terrain tile</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="tiles3d-description" />
+<div class="section" id="d-tiles">
+<h2>3D Tiles<a class="headerlink" href="#d-tiles" title="Permalink to this headline">¶</a></h2>
+<p>A RESTFul implementation of &#8220;<a class="reference external" href="http://cesiumjs.org/">Cesium</a>&#8221; <a class="reference external" href="https://github.com/AnalyticalGraphicsInc/3d-tiles">3D Tiles specification</a>.
+In order to access the 3D tiles, you require a <a class="reference external" href="https://www.geo.admin.ch/de/geo-dienstleistungen/geodienste/darstellungsdienste-webmapping-webgis-anwendungen/programmierschnittstelle-api/anmeldung.html">swisstopo web access - Inscription form</a> .</p>
+<div class="section" id="id45">
+<h3>URL<a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://vectortiles0.geo.admin.ch/3d-tiles/">https://vectortiles0.geo.admin.ch/3d-tiles/</a></li>
+<li><a class="reference external" href="https://vectortiles1.geo.admin.ch/3d-tiles/">https://vectortiles1.geo.admin.ch/3d-tiles/</a></li>
+<li><a class="reference external" href="https://vectortiles2.geo.admin.ch/3d-tiles/">https://vectortiles2.geo.admin.ch/3d-tiles/</a></li>
+<li><a class="reference external" href="https://vectortiles3.geo.admin.ch/3d-tiles/">https://vectortiles3.geo.admin.ch/3d-tiles/</a></li>
+<li><a class="reference external" href="https://vectortiles4.geo.admin.ch/3d-tiles/">https://vectortiles4.geo.admin.ch/3d-tiles/</a></li>
+</ul>
+</div>
+<div class="section" id="id46">
+<h3>Metadata Service<a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h3>
+<p>The <cite>tileset.json</cite> file describes the available set of tiles. In order to use this service, you must currently use a fork of CesiumJS, <a class="reference external" href="https://github.com/AnalyticalGraphicsInc/cesium/tree/3d-tiles">the 3d-tiles branch</a>. Stay informed and have a look at the current <a class="reference external" href="https://github.com/AnalyticalGraphicsInc/cesium/issues/3241">RoadMap for 3D Tiles</a>.</p>
+<p>Currently, 3 technical layers (ch.swisstopo.swisstlm3d.3d, ch.swisstopo.swissnames3d.3d, ch.swisstopo.vegetation.3d) are available and they contains all available 3D objects. Additional layers will be available in the future. Partial 3D buildings model coverage can be vizsualised <a class="reference external" href="https://s.geo.admin.ch/70fb32e692">here</a>.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://vectortiles0.geo.admin.ch/3d-tiles/ch.swisstopo.swisstlm3d.3d/20170425/tileset.json">https://vectortiles0.geo.admin.ch/3d-tiles/ch.swisstopo.swisstlm3d.3d/20170425/tileset.json</a></li>
+<li><a class="reference external" href="https://vectortiles0.geo.admin.ch/3d-tiles/ch.swisstopo.swissnames3d.3d/20170814/tileset.json">https://vectortiles0.geo.admin.ch/3d-tiles/ch.swisstopo.swissnames3d.3d/20170814/tileset.json</a></li>
+<li><a class="reference external" href="https://vectortiles0.geo.admin.ch/3d-tiles/ch.swisstopo.vegetation.3d/20170630/tileset.json">https://vectortiles0.geo.admin.ch/3d-tiles/ch.swisstopo.vegetation.3d/20170630/tileset.json</a></li>
+</ul>
+</div>
+<div class="section" id="id47">
+<h3>Example<a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>A <a class="reference external" href="https://vectortiles0.geo.admin.ch/3d-tiles/ch.swisstopo.swisstlm3d.3d/20170425/8/41/41.b3dm?v=1.0">3D tile</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="sparql-description" />
+<div class="section" id="sparql-service">
+<h2>SPARQL Service<a class="headerlink" href="#sparql-service" title="Permalink to this headline">¶</a></h2>
+<p>This service enables the connection of geodata from different sources as Linked Data. It uses the open query language <a class="reference external" href="https://www.w3.org/TR/sparql11-overview/">SPARQL</a>.</p>
+<div class="section" id="id48">
+<h3>URL<a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://sparql.geo.admin.ch/sparql
+https://ld.geo.admin.ch/sparql/ (YASGUI)
+</pre></div>
+</div>
+</div>
+<div class="section" id="available-datasets">
+<h3>Available datasets<a class="headerlink" href="#available-datasets" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://ld.geo.admin.ch/data/swissBOUNDARIES3D">swissBOUNDARIES3D</a></li>
+<li><a class="reference external" href="https://ld.geo.admin.ch/data/PublicTransportStops">Public transport stops</a></li>
+</ul>
+</div>
+<div class="section" id="id49">
+<h3>Examples<a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://tinyurl.com/hxzfqel">Get the top five most populated municipalities in 2016</a></li>
+<li><a class="reference external" href="https://tinyurl.com/jjtk9a5">Get the 2016 version of the administrative units at coordinate (lon,lat) 7.43, 46.95</a></li>
+<li><a class="reference external" href="https://tinyurl.com/jghhphw">Get all the districts by canton number and year</a></li>
+<li><a class="reference external" href="https://tinyurl.com/hvw2zhq">Get all the versions of a resource by URI</a></li>
+<li><a class="reference external" href="https://tinyurl.com/jqkkwrv">Get the corresponding resource in Wikidata and GeoNames (Municipality)</a></li>
+<li><a class="reference external" href="https://tinyurl.com/z42lts9">Get the Wikipedia abstract (Municipality)</a></li>
+<li><a class="reference external" href="https://tinyurl.com/yah7tbwd">Get the five highest stops</a></li>
+<li><a class="reference external" href="https://tinyurl.com/yauhxk6x">Get stops above 3000 meters</a></li>
+<li><a class="reference external" href="https://tinyurl.com/ycu5gly6">Get stops with means of transportation = Rack railway, boat</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" id="inspireatomfeed" />
+<div class="section" id="atom-feed-open-search-download-service">
+<h2>Atom Feed / Open Search Download Service<a class="headerlink" href="#atom-feed-open-search-download-service" title="Permalink to this headline">¶</a></h2>
+<p>This service enables the download of datasets conforming to the <a class="reference external" href="https://inspire.ec.europa.eu/data-specifications/2892">INSPIRE Data Specifications</a>. It is implemented as an Atom Feed / Open Search service according to the <a class="reference external" href="https://inspire.ec.europa.eu/sites/default/files/documents/network-services/technical_guidance_download_services_v3.1.pdf">Technical Guidance for the implementation of INSPIRE Download Services</a>.</p>
+<div class="section" id="id50">
+<h3>URL<a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span></span>https://atom.geo.admin.ch/inspire/service.xml - Service Feed
+https://atom.geo.admin.ch/inspire/search/opensearchdescription.xml - Open Search Description Document
+https://atom.geo.admin.ch/inspire/search?q={} - Search Interface
+</pre></div>
+</div>
+</div>
+<div class="section" id="id51">
+<h3>Available datasets<a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/fc2c80e5-fc87-415a-ac05-b2520957d155">Administrative units</a></li>
+<li><a class="reference external" href="https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/e81d4df0-52c8-4258-a38b-96f6761c976b">Geographical Names</a></li>
+</ul>
+</div>
+<div class="section" id="id52">
+<h3>Examples<a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://atom.geo.admin.ch/inspire/search?spatial_dataset_identifier_code=e81d4df0-52c8-4258-a38b-96f6761c976b&amp;spatial_dataset_identifier_namespace=http://www.swisstopo.ch/">Get a Dataset Feed (Describe Spatial Data Set Operation)</a> (code and namespace to be found in the Open Search Description Document)</li>
+<li><a class="reference external" href="https://atom.geo.admin.ch/inspire/search?spatial_dataset_identifier_code=e81d4df0-52c8-4258-a38b-96f6761c976b&amp;spatial_dataset_identifier_namespace=http://www.swisstopo.ch/&amp;crs=http://www.opengis.net/def/crs/EPSG/0/3857">Get a dataset (Get Spatial Data Set Operation)</a> (code, namespace and crs to be found in the Open Search Description Document)</li>
+<li><a class="reference external" href="https://atom.geo.admin.ch/inspire/search?q=inspire">Search for all available downloads</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../api/faq/index.html" class="btn btn-neutral float-right" title="API FAQ"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../api/doc.html" class="btn btn-neutral" title="API Doc"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+    </p>
+  </div>
+
+  For technical questions and suggestions <br> <a href="mailto:info@geo.admin.ch">Webmaster</a> | <a href="https://www.geo.admin.ch/en/about-swiss-geoportal/responsabilities-and-contacts.html">Terms and conditions</a>
+
+  <br>
+
+  <br>
+
+  <div style="font-size:12px;">
+  <a href="https://github.com/snide/sphinx_rtd_theme;">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+  </div>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'3.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
